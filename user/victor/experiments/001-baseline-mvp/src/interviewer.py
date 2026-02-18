@@ -269,15 +269,25 @@ Now generate your next response. Output the JSON object as specified in the Outp
         score_mapping = {
             "q01_sadness": "Sadness",
             "q02_pessimism": "Pessimism",
+            "q03_past_failure": "Past failure",
             "q04_anhedonia": "Loss of pleasure",
             "q05_guilt": "Guilty feelings",
+            "q06_punishment": "Punishment feelings",
             "q07_self_dislike": "Self-dislike",
+            "q08_self_criticalness": "Self-criticalness",
             "q09_suicidal_thoughts": "Suicidal thoughts or wishes",
+            "q10_crying": "Crying",
+            "q11_agitation": "Agitation",
             "q12_loss_of_interest": "Loss of interest in others",
             "q13_indecisiveness": "Indecisiveness",
+            "q14_worthlessness": "Worthlessness",
             "q15_energy": "Loss of energy",
             "q16_sleep": "Changes in sleeping pattern",
+            "q17_irritability": "Irritability",
             "q18_appetite": "Changes in appetite",
+            "q19_concentration": "Concentration difficulty",
+            "q20_fatigue": "Tiredness or fatigue",
+            "q21_sex": "Loss of interest in sex",
         }
         
         # Build full 21-item score array
@@ -443,7 +453,7 @@ if __name__ == "__main__":
     print("Testing Interviewer with mock persona...")
     
     interviewer = Interviewer(
-        provider="anthropic",
+        provider="openai",
         max_turns=10,
     )
     
@@ -456,6 +466,11 @@ if __name__ == "__main__":
     
     print("\nConversation log format:")
     print(json.dumps(result.to_conversation_log(), indent=2))
-    
+
     print("\nResult format:")
     print(json.dumps(result.to_result_entry(), indent=2))
+
+    print("\n--- DEBUG: Last turn ---")
+    last_turn = result.turns[-1]
+    print(f"Assessment snapshot:\n{json.dumps(last_turn.assessment_snapshot, indent=2)}")
+    print(f"\nRaw LLM output:\n{last_turn.raw_llm_output}")
