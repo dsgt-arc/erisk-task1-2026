@@ -1,22 +1,25 @@
 [project]
 name = "001-baseline-mvp"
-version = "0.1.0"
+version = "0.2.0"
 description = "Baseline MVP for eRisk 2026 Task 1: Conversational Depression Detection"
 authors = [
     { name = "Victor Gong", email = "vgong7@gatech.edu" },
 ]
 requires-python = ">=3.10"
 dependencies = [
-    # LLM APIs
+    # LLM APIs (interviewer)
     "openai>=1.0.0",
     "anthropic>=0.20.0",
 
-    # Machine Learning (for mention detection)
-    "scikit-learn>=1.3.0",
+    # Local LLM (persona)
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "accelerate>=0.27.0",
+    "peft>=0.10.0",
+    "bitsandbytes>=0.43.0",
 
     # Data handling
     "numpy>=1.24.0",
-    "pandas>=2.0.0",
 
     # Utilities
     "tqdm>=4.65.0",
@@ -30,6 +33,7 @@ dev = [
     "jupyter>=1.0.0",
     "matplotlib>=3.7.0",
     "seaborn>=0.12.0",
+    "pandas>=2.0.0",
 ]
 
 [build-system]
