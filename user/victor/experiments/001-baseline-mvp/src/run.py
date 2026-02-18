@@ -17,7 +17,7 @@ from typing import List, Optional, Dict
 from datetime import datetime
 
 # Local imports
-import persona
+from persona import Persona
 from interviewer import Interviewer, InterviewResult, run_interview
 import submission
 
@@ -70,10 +70,12 @@ def interview_persona(
     _log(f"Starting interview with Persona {persona_id}")
     _log(f"{'='*60}")
 
-    persona.load_persona(persona_id)
+    p = Persona()
+    _log(f"Persona {persona_id} loaded.")
 
-    def query_fn(message: str, history: List[Dict[str, str]]) -> str:
-        return persona.chat(message, history)
+    def query_fn(message: str, _history: List[Dict[str, str]]) -> str:
+        messages = p.chat(message)
+        return messages[-1]["content"]
 
     return run_interview(
         interviewer=interviewer,
@@ -236,14 +238,6 @@ def main():
         help="Mark this as a manual/human-assisted run",
     )
     parser.add_argument(
-        "--device", type=str, default="auto",
-        help="Device for persona model (auto, cuda, cpu)",
-    )
-    parser.add_argument(
-        "--no-4bit", action="store_true",
-        help="Disable 4-bit quantization for persona model",
-    )
-    parser.add_argument(
         "--quiet", action="store_true",
         help="Suppress verbose output",
     )
@@ -263,8 +257,6 @@ def main():
     print(f"  Manual run: {args.manual}")
     print()
 
-    # Configure modules
-    persona.configure(device=args.device, load_in_4bit=not args.no_4bit)
     interviewer = Interviewer(
         provider=args.provider,
         model=args.model,
