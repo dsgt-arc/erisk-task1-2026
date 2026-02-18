@@ -13,7 +13,7 @@ import anthropic
 
 def chat_openai(
     prompt: str,
-    model: str = "gpt-4o",
+    model: str = "gpt-5-mini",
     temperature: float = 0.0,
     max_tokens: int = 1000,
     system_prompt: Optional[str] = None,
@@ -44,8 +44,8 @@ def chat_openai(
     response = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=temperature,
-        max_tokens=max_tokens,
+        #temperature=temperature,
+        #max_tokens=max_tokens,
     )
     
     return response.choices[0].message.content.strip()
