@@ -79,14 +79,15 @@ class Persona:
         return self.messages
 
 
-test_persona = Persona()
+if __name__ == "__main__":
+    test_persona = Persona()
 
-while True:
-    user_input = input("Doctor: ")
-    if user_input.lower() == 'quit':
-        break
+    while True:
+        user_input = input("Doctor: ")
+        if user_input.lower() == 'quit':
+            break
 
-    test_persona.chat(user_input)
+        test_persona.chat(user_input)
 
 
 
