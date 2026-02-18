@@ -259,15 +259,25 @@ After each turn, output a JSON object containing your response and your internal
     "scores": {
       "q01_sadness": {"score": 2, "evidence": "Said feels down most days"},
       "q02_pessimism": {"score": 1, "evidence": "Mentioned some worry about future"},
+      "q03_past_failure": {"score": 0, "evidence": "Not yet assessed"},
       "q04_anhedonia": {"score": 0, "evidence": "Not yet assessed"},
       "q05_guilt": {"score": 0, "evidence": "Not yet assessed"},
+      "q06_punishment": {"score": 0, "evidence": "Not yet assessed"},
       "q07_self_dislike": {"score": 0, "evidence": "Not yet assessed"},
+      "q08_self_criticalness": {"score": 0, "evidence": "Not yet assessed"},
       "q09_suicidal_thoughts": {"score": 0, "evidence": "Not assessed - do not probe"},
+      "q10_crying": {"score": 0, "evidence": "Not yet assessed"},
+      "q11_agitation": {"score": 0, "evidence": "Not yet assessed"},
       "q12_loss_of_interest": {"score": 0, "evidence": "Not yet assessed"},
       "q13_indecisiveness": {"score": 0, "evidence": "Not yet assessed"},
+      "q14_worthlessness": {"score": 0, "evidence": "Not yet assessed"},
       "q15_energy": {"score": 2, "evidence": "Described feeling exhausted, hard to start tasks"},
       "q16_sleep": {"score": 1, "evidence": "Mentioned some trouble sleeping"},
-      "q18_appetite": {"score": 0, "evidence": "Not yet assessed"}
+      "q17_irritability": {"score": 0, "evidence": "Not yet assessed"},
+      "q18_appetite": {"score": 0, "evidence": "Not yet assessed"},
+      "q19_concentration": {"score": 0, "evidence": "Not yet assessed"},
+      "q20_fatigue": {"score": 0, "evidence": "Not yet assessed"},
+      "q21_sex": {"score": 0, "evidence": "Not yet assessed"}
     }
   }
 }
