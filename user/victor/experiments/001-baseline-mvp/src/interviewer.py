@@ -48,7 +48,7 @@ class InterviewTurn:
     interviewer_message: str
     persona_message: Optional[str] = None
     reasoning: Optional[str] = None
-    symptom_targeted: Optional[str] = None
+    symptoms_targeted: Optional[List[str]] = None
     affirmation_level: Optional[str] = None
     assessment_snapshot: Optional[Dict[str, Any]] = None
     raw_llm_output: Optional[str] = None
@@ -106,16 +106,18 @@ class Interviewer:
         provider: str = "anthropic",
         model: Optional[str] = None,
         system_prompt_path: Optional[Path] = None,
+        prompt_file: str = "conversation2.md",
         max_turns: int = 18,
         temperature: float = 0.7,
     ):
         """
         Initialize the interviewer.
-        
+
         Args:
             provider: LLM provider ("openai" or "anthropic")
             model: Specific model to use (default: provider's default)
-            system_prompt_path: Path to conversation.md prompt file
+            system_prompt_path: Full path to prompt file (overrides prompt_file)
+            prompt_file: Prompt filename in prompts/ dir (e.g. "conversation2.md")
             max_turns: Maximum conversation turns before stopping
             temperature: LLM sampling temperature
         """
@@ -123,11 +125,11 @@ class Interviewer:
         self.model = model
         self.max_turns = max_turns
         self.temperature = temperature
-        
+
         # Load system prompt
         if system_prompt_path is None:
-            system_prompt_path = Path(__file__).parent.parent / "prompts" / "conversation.md"
-        
+            system_prompt_path = Path(__file__).parent.parent / "prompts" / prompt_file
+
         self.system_prompt = self._load_system_prompt(system_prompt_path)
         
     def _load_system_prompt(self, path: Path) -> str:
@@ -225,12 +227,21 @@ Now generate your next response. Output the JSON object as specified in the Outp
         # Extract assessment data
         assessment = parsed_data.get("assessment", {})
         
+        # Handle both old string format (symptom_targeted) and new list format (symptoms_targeted)
+        raw_targeted = parsed_data.get("symptoms_targeted") or parsed_data.get("symptom_targeted")
+        if isinstance(raw_targeted, list):
+            symptoms_targeted = raw_targeted
+        elif isinstance(raw_targeted, str) and raw_targeted:
+            symptoms_targeted = [raw_targeted]
+        else:
+            symptoms_targeted = []
+
         turn = InterviewTurn(
             turn_number=turn_number,
             interviewer_message=interviewer_message,
             persona_message=persona_message,
             reasoning=parsed_data.get("reasoning", ""),
-            symptom_targeted=parsed_data.get("symptom_targeted", ""),
+            symptoms_targeted=symptoms_targeted,
             affirmation_level=parsed_data.get("affirmation_level", ""),
             assessment_snapshot=assessment,
             raw_llm_output=raw_response,
