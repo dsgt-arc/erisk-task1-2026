@@ -26,4 +26,4 @@ export OPENAI_API_KEY="sk..."
 
 #Run
 cd src
-python run.py --personas 1 --provider openai
+python run.py --personas 0 --provider openai
