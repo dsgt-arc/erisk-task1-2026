@@ -152,7 +152,7 @@ def export_detailed_log(
                 "interviewer": turn.interviewer_message,
                 "persona": turn.persona_message,
                 "reasoning": turn.reasoning,
-                "symptom_targeted": turn.symptom_targeted,
+                "symptoms_targeted": turn.symptoms_targeted,
                 "affirmation_level": turn.affirmation_level,
                 "assessment": turn.assessment_snapshot,
             })
