@@ -17,8 +17,8 @@ class Persona:
         # 2. Load Base Model (Force float16 for compatibility)
         self.base_model = AutoModelForCausalLM.from_pretrained(
             BASE_MODEL_ID,
-            torch_dtype=torch.float16,
-            device_map="auto",
+            dtype=torch.float16,
+            device_map={"": 0},
         )
 
         # 3. Load the Patient Adapter
