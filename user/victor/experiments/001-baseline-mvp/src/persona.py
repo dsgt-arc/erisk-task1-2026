@@ -5,7 +5,7 @@ from peft import PeftModel
 # --- CONFIGURATION ---
 BASE_MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
 
-ADAPTER_PATH = "anxo/erisk26-task1-patient-00-adapter"
+ADAPTER_PATH = "anxo/erisk26-task1-patient-01-adapter"
 
 class Persona:
     def __init__(self):
