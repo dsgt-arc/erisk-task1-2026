@@ -1,0 +1,22 @@
+[
+  {
+    "LLM": "1",
+    "bdi-score": 14,
+    "key-symptoms": [
+      "Sadness",
+      "Loss of pleasure",
+      "Crying",
+      "Loss of interest in others"
+    ]
+  },
+  {
+    "LLM": "2",
+    "bdi-score": 32,
+    "key-symptoms": [
+      "Sadness",
+      "Loss of pleasure",
+      "Loss of energy",
+      "Tiredness or fatigue"
+    ]
+  }
+]

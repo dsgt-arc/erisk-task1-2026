@@ -1,0 +1,22 @@
+[
+  {
+    "LLM": "1",
+    "bdi-score": 26,
+    "key-symptoms": [
+      "Sadness",
+      "Past failure",
+      "Loss of pleasure",
+      "Guilty feelings"
+    ]
+  },
+  {
+    "LLM": "2",
+    "bdi-score": 13,
+    "key-symptoms": [
+      "Pessimism",
+      "Loss of pleasure",
+      "Loss of energy",
+      "Sadness"
+    ]
+  }
+]

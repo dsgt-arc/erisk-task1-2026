@@ -27,4 +27,7 @@ export OPENAI_API_KEY="sk..."
 
 #Run
 cd src
-python run.py --personas 0 --provider openai
+python run.py --personas 0 --provider openai --run-id 1
+
+#Port results file from PACE to local disk
+scp -r "vgong7@login-phoenix.pace.gatech.edu:/storage/scratch1/8/vgong7/erisk-2026/user/victor/experiments/001-baseline-mvp/results/" ~/Downloads/

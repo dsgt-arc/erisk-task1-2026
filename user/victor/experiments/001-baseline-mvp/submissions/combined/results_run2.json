@@ -1,0 +1,22 @@
+[
+  {
+    "LLM": "1",
+    "bdi-score": 21,
+    "key-symptoms": [
+      "Past failure",
+      "Loss of pleasure",
+      "Guilty feelings",
+      "Self-criticalness"
+    ]
+  },
+  {
+    "LLM": "2",
+    "bdi-score": 8,
+    "key-symptoms": [
+      "Loss of energy",
+      "Concentration difficulty",
+      "Tiredness or fatigue",
+      "Loss of pleasure"
+    ]
+  }
+]

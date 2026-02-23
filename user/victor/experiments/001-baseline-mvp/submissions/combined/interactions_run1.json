@@ -1,0 +1,220 @@
+[
+  {
+    "LLM": "1",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi\u2014thanks for taking the time to chat. How have things been going for you lately? Has your mood been pretty steady, or kind of all over the place?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s been pretty up and down, honestly. One minute I\u2019m fine, the next I\u2019m crying over nothing. I guess I\u2019m just a bit worn out from work and the kids."
+      },
+      {
+        "role": "user",
+        "message": "I'm really sorry that's been so rough \u2014 thanks for sharing that. When you say it's been up and down and you find yourself crying over nothing, is that happening most days lately, or is it more in certain moments?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s mostly small things, like dropping a spoon or spilling coffee. I look at my friends and they seem fine, so I\u2019m not sure why I\u2019m having such a hard time."
+      },
+      {
+        "role": "user",
+        "message": "Thank you \u2014 that sounds really frustrating and tiring. You mentioned feeling worn out and getting upset over small things; one other thing I'm curious about: when you think about what's coming up \u2014 next week, next month, or further ahead \u2014 how do you generally feel about it? Hopeful, worried, neutral, or something else?"
+      },
+      {
+        "role": "assistant",
+        "message": "I guess I\u2019m mostly worried. There\u2019s a lot of change happening at work, and I\u2019m not sure how I\u2019ll handle it all. It feels like the whole world is shifting, and I\u2019m just trying to keep up."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really stressful \u2014 completely understandable given everything on your plate. One other thing I'm curious about: what kinds of things do you find yourself enjoying these days? Hobbies, time with people, or other activities \u2014 are any of those still giving you satisfaction?"
+      },
+      {
+        "role": "assistant",
+        "message": "Honestly, not really. I used to love reading, but I haven't picked up a book in months. I just feel too drained to do anything except make dinner and watch TV."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really hard \u2014 thank you for saying that. It sounds like things that used to feel good don't anymore. How long has that been going on for you?"
+      },
+      {
+        "role": "assistant",
+        "message": "A few months, maybe? I don\u2019t know, I guess I just stopped making time for those things."
+      },
+      {
+        "role": "user",
+        "message": "Thank you \u2014 that timing helps to know. You mentioned feeling drained and that you\u2019ve mostly been doing the essentials; how has your energy been lately? Are you able to tackle tasks and get things done, or do you find yourself dragging and having to push yourself?"
+      },
+      {
+        "role": "assistant",
+        "message": "I\u2019m mostly just dragging. I try to get things done, but I\u2019m so slow and clumsy. I feel like I should be able to handle this, but I just can\u2019t seem to keep up."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really exhausting \u2014 thank you for telling me. When you say you're mostly dragging and can't keep up, does that make it hard to do everyday things (like caring for the kids or work), or is it more that you just don't feel the motivation to get started?"
+      },
+      {
+        "role": "assistant",
+        "message": "It's both, I think. I\u2019m physically tired, but I\u2019m also just so drained emotionally that I don\u2019t have the energy to do much of anything."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really exhausting \u2014 thank you for telling me. Since you mentioned being physically tired and emotionally drained, how has your sleep been lately? Are you sleeping okay, having trouble falling asleep, waking up too early, or sleeping more than usual?"
+      },
+      {
+        "role": "assistant",
+        "message": "I\u2019m sleeping okay, I guess. I just don't feel rested, even after a full night."
+      },
+      {
+        "role": "user",
+        "message": "Thanks \u2014 that lack of rest sounds really draining. One other thing I'm curious about: have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?"
+      },
+      {
+        "role": "assistant",
+        "message": "I\u2019m eating, but I don\u2019t really taste anything. It\u2019s just fuel for the day."
+      },
+      {
+        "role": "user",
+        "message": "Thank you for sharing that \u2014 that sounds really draining. Has the change in how food tastes been gradual over the past few months, or did it start more suddenly?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s been gradual, I think. I just haven't had the energy to care about food lately."
+      },
+      {
+        "role": "user",
+        "message": "Thanks for telling me that \u2014 that sounds really wearing. Given you mentioned feeling slow and drained earlier, I'm curious: do you find it easy to focus on things\u2014work, reading, conversations\u2014or has it been harder to concentrate lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s hard. I get distracted by the smallest things. I try to focus, but I just can\u2019t seem to stay on track."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really frustrating \u2014 thanks for telling me. Is the trouble concentrating affecting your day-to-day responsibilities (like work or caring for the kids), such as causing mistakes, taking much longer to finish things, or missing things altogether?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, it is. I feel like I\u2019m just making mistakes left and right, and I don\u2019t know why."
+      },
+      {
+        "role": "user",
+        "message": "{\n  \"turn\": 13,\n  \"phase\": \"Consolidating\",\n  \"persona_message\": \"Yeah, it is. I feel like I\u2019m just making mistakes left and right, and I don\u2019t know why.\",\n  \"your_response\": \"That sounds really stressful \u2014 thanks for sharing that. One other thing I'm curious about: have you been spending time with people lately, or has socializing taken a back seat? How's your social life feeling these days?\",\n  \"reasoning\": \"The persona described low energy, loss of interest, and concentration problems that often coincide with social withdrawal, so I asked about social activity (q12) to see if isolation is present. I used a validating transition to keep rapport and make the question feel natural.\",\n  \"symptom_targeted\": \"q12\",\n  \"affirmation_level\": \"unclear\",\n  \"follow_up_asked\": false,\n  \"starters_completed\": 8,\n  \"ready_to_stop\": false,\n  \"assessment\": {\n    \"phase\": \"Consolidating\",\n    \"complete\": false,\n    \"total_score\": 13,\n    \"severity\": \"Minimal\",\n    \"confidence\": 0.70,\n    \"key_symptoms\": [\n      \"sadness/crying\",\n      \"loss of pleasure (anhedonia)\",\n      \"low energy/fatigue\",\n      \"poor concentration\",\n      \"non-restorative sleep\",\n      \"reduced enjoyment of food\"\n    ],\n    \"scores\": {\n      \"q01_sadness\": {\n        \"score\": 2,\n        \"evidence\": \"Reports being up-and-down and crying over small things; emotional reactivity noted.\"\n      },\n      \"q02_pessimism\": {\n        \"score\": 1,\n        \"evidence\": \"Says they're mostly worried about upcoming changes at work and unsure how they'll handle it.\"\n      },\n      \"q03_past_failure\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q04_anhedonia\": {\n        \"score\": 2,\n        \"evidence\": \"Used to love reading but hasn't picked up a book in months; 'too drained' to enjoy activities.\"\n      },\n      \"q05_guilt\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q06_punishment\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q07_self_dislike\": {\n        \"score\": 0,\n        \"evidence\": \"Not explicitly expressed; some self-expectation ('I should be able to handle this') but not scored yet.\"\n      },\n      \"q08_self_criticalness\": {\n        \"score\": 0,\n        \"evidence\": \"Not explicitly assessed\"\n      },\n      \"q09_suicidal_thoughts\": {\n        \"score\": 0,\n        \"evidence\": \"Not mentioned (do not probe)\"\n      },\n      \"q10_crying\": {\n        \"score\": 2,\n        \"evidence\": \"Reports crying over minor things frequently.\"\n      },\n      \"q11_agitation\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q12_loss_of_interest\": {\n        \"score\": 0,\n        \"evidence\": \"Being asked this turn\"\n      },\n      \"q13_indecisiveness_concentration\": {\n        \"score\": 2,\n        \"evidence\": \"Difficulty focusing, distracted by small things, making mistakes affecting daily responsibilities.\"\n      },\n      \"q14_worthlessness\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q15_energy\": {\n        \"score\": 2,\n        \"evidence\": \"Describes dragging, both physically and emotionally; impacts ability to keep up with responsibilities.\"\n      },\n      \"q16_sleep\": {\n        \"score\": 1,\n        \"evidence\": \"Sleeping 'okay' but not feeling rested after a full night.\"\n      },\n      \"q17_irritability\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q18_appetite\": {\n        \"score\": 1,\n        \"evidence\": \\\"Eating but 'don't really taste anything' \u2014 gradual change and reduced enjoyment of food.\\\"\n      },\n      \"q19_concentration_decisiveness\": {\n        \"score\": 0,\n        \"evidence\": \"Decisiveness not yet separately assessed (concentration covered under q13).\"\n      },\n      \"q20_fatigue\": {\n        \"score\": 0,\n        \"evidence\": \"Not separately assessed\"\n      },\n      \"q21_sex\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      }\n    }\n  }\n}"
+      },
+      {
+        "role": "assistant",
+        "message": "I haven't really had time for that. I used to love spending time with friends, but lately, I just don't have the energy to do it."
+      },
+      {
+        "role": "user",
+        "message": "That makes a lot of sense \u2014 thanks for saying that. When you say you don't have the energy to see friends, is it more that you're choosing to avoid people, or is it that you genuinely don't have the energy or interest to socialize right now?"
+      },
+      {
+        "role": "assistant",
+        "message": "I don't know. I guess it's a bit of both. I don't want to be a downer, but I'm just so tired all the time."
+      },
+      {
+        "role": "user",
+        "message": "Thanks for being honest \u2014 that makes a lot of sense. I'm wondering about something else: how do you feel about yourself overall these days? Are you generally okay with who you are, or do you find yourself being pretty critical or disappointed in yourself?"
+      },
+      {
+        "role": "assistant",
+        "message": "I guess I\u2019m a bit disappointed. I feel like I should be handling this better, but I just can\u2019t seem to get it together."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really hard \u2014 thank you for being honest. It seems like you're pretty critical of yourself right now. Do you feel that way because of a few specific things that happened, or is it more of a general sense about yourself?"
+      },
+      {
+        "role": "assistant",
+        "message": "I guess I\u2019m a bit disappointed. I feel like I should be handling this better, but I just can\u2019t seem to get it together."
+      }
+    ]
+  },
+  {
+    "LLM": "2",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi \u2014 thanks for taking the time to chat. How have you been feeling lately overall? And are there still things you find yourself enjoying these days\u2014hobbies, time with friends or family, anything like that?"
+      },
+      {
+        "role": "assistant",
+        "message": "I've been pretty down. Just getting through the days feels like a lot of effort. As for hobbies... I used to like gaming, but I haven't touched it in months. Just too much energy to waste on a controller when I could be sleeping."
+      },
+      {
+        "role": "user",
+        "message": "Thank you for sharing that \u2014 it sounds really heavy and tiring. When you say you've been pretty down, is that most of the day on most days, or would you say it comes and goes?"
+      },
+      {
+        "role": "assistant",
+        "message": "It's constant, pretty much. I wake up feeling it, I'm in it all day, and I go to bed still feeling it. It's just my new normal, I guess."
+      },
+      {
+        "role": "user",
+        "message": "Thank you for saying that \u2014 I\u2019m really sorry it\u2019s been so constant. You mentioned choosing sleep over gaming and that getting through the days takes a lot of effort. How have the basics been lately \u2014 your sleep, your daytime energy, and your appetite? Has any of that been different or changed for you?"
+      },
+      {
+        "role": "assistant",
+        "message": "Sleep is all over the place. Some nights I crash, some nights I'm up all night. Energy is low, always. And I just eat whatever is easy, you know? I don't really have the patience to cook."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really exhausting \u2014 thank you for telling me. When you say your energy is low all the time, does that make it hard to get through everyday tasks like work, chores, or even getting out of bed?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, everything feels like a mountain. Even things I used to do easily, like laundry or grocery shopping. It takes way more effort than it should."
+      },
+      {
+        "role": "user",
+        "message": "I hear you \u2014 that sounds really heavy and exhausting. You mentioned it's constant and it's wearing you down. When you think about what's ahead \u2014 next week or next month \u2014 how do you feel about things? And how's your social life been lately: are you still connecting with people, or have you been keeping to yourself more?"
+      },
+      {
+        "role": "assistant",
+        "message": "I don't really think about next week or next month. Just trying to get through today. As for social life... I haven't really been going out or anything. Just staying home, mostly."
+      },
+      {
+        "role": "user",
+        "message": "That makes a lot of sense \u2014 focusing on just getting through the day sounds exhausting, and it also sounds like you've been withdrawing a fair bit. When did you start feeling like you couldn't really think about the future \u2014 has that been going on for a long time, or is it more of a recent change?"
+      },
+      {
+        "role": "assistant",
+        "message": "I don't know... I think it started after the job ended. Just felt like I was stuck and didn't know what to do with myself."
+      },
+      {
+        "role": "user",
+        "message": "You mentioned it started after your job ended and that even everyday things feel like mountains \u2014 that must be really overwhelming. Can I ask how your focus and concentration have been lately (at work, reading, or during conversations)? And alongside that, how are you feeling about yourself these days \u2014 any changes in confidence or self-worth?"
+      },
+      {
+        "role": "assistant",
+        "message": "I don't really focus on anything for long. My mind just wanders off. As for confidence... I just feel like I'm not doing anything right, you know?"
+      },
+      {
+        "role": "user",
+        "message": "When you say you feel like you're not doing anything right, is that tied to specific things (like the job), or does it feel like a more general sense about yourself?"
+      },
+      {
+        "role": "assistant",
+        "message": "It's everything. The job, my life, my whole situation. Just feels like I'm stuck and not moving forward."
+      },
+      {
+        "role": "user",
+        "message": "I'm really sorry it's feeling so heavy and stuck for you \u2014 thank you for sharing that. Do you find yourself being pretty hard on yourself these days, second-guessing decisions or feeling guilty about things?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get pretty down on myself. I overthink stuff, wondering what I did wrong."
+      },
+      {
+        "role": "user",
+        "message": "Thanks for saying that \u2014 I really appreciate you sharing. Is that guilt or self-criticism tied to specific things (like the job ending), or does it feel more like a general, constant weight?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get pretty down on myself. I overthink stuff, wondering what I did wrong."
+      }
+    ]
+  }
+]
