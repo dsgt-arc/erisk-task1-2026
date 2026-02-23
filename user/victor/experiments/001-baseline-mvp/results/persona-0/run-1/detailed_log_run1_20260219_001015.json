@@ -1,0 +1,1675 @@
+[
+  {
+    "persona_id": 1,
+    "total_turns": 16,
+    "bdi_score": 14,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Sadness",
+      "Loss of pleasure",
+      "Crying",
+      "Loss of interest in others"
+    ],
+    "confidence": 0.8,
+    "final_assessment": {
+      "item_scores": [
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "total_score": 14,
+      "severity": "Mild",
+      "key_symptoms": [
+        "Sadness",
+        "Loss of pleasure",
+        "Crying",
+        "Loss of interest in others"
+      ],
+      "confidence": 0.8
+    },
+    "turns": [
+      {
+        "turn": 1,
+        "interviewer": "Hi\u2014thanks for taking the time to chat. How have things been going for you lately? Has your mood been pretty steady, or kind of all over the place?",
+        "persona": "It\u2019s been pretty up and down, honestly. One minute I\u2019m fine, the next I\u2019m crying over nothing. I guess I\u2019m just a bit worn out from work and the kids.",
+        "reasoning": "I opened with a warm, nonjudgmental prompt to build rapport and invited an open description of mood. This targets q01 (sadness/mood) first, as instructed, while avoiding clinical labels. No signals yet from the persona to rate.",
+        "symptom_targeted": "q01",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 0,
+          "severity": "Minimal",
+          "confidence": 0.2,
+          "key_symptoms": [],
+          "scores": {
+            "q01_sadness": {
+              "score": 0,
+              "evidence": "Asked about mood but no response yet"
+            },
+            "q02_pessimism": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 2,
+        "interviewer": "I'm really sorry that's been so rough \u2014 thanks for sharing that. When you say it's been up and down and you find yourself crying over nothing, is that happening most days lately, or is it more in certain moments?",
+        "persona": "It\u2019s mostly small things, like dropping a spoon or spilling coffee. I look at my friends and they seem fine, so I\u2019m not sure why I\u2019m having such a hard time.",
+        "reasoning": "The persona clearly endorsed mood lability and tearfulness, so I followed the starter for sadness (q01) and asked the single allowed clarifying question to gauge frequency/severity. I also validated their experience to keep the tone empathetic and conversational.",
+        "symptom_targeted": "q01",
+        "affirmation_level": "clearly_affirmed",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 4,
+          "severity": "Minimal",
+          "confidence": 0.6,
+          "key_symptoms": [
+            "sadness/tearfulness",
+            "low energy/worn out"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Said mood is 'up and down' and 'crying over nothing' indicating frequent/impactful low mood."
+            },
+            "q02_pessimism": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 0,
+              "evidence": "Crying mentioned but severity/frequency being clarified"
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Described being 'worn out from work and the kids,' suggesting reduced energy and fatigue."
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 3,
+        "interviewer": "Thank you \u2014 that sounds really frustrating and tiring. You mentioned feeling worn out and getting upset over small things; one other thing I'm curious about: when you think about what's coming up \u2014 next week, next month, or further ahead \u2014 how do you generally feel about it? Hopeful, worried, neutral, or something else?",
+        "persona": "I guess I\u2019m mostly worried. There\u2019s a lot of change happening at work, and I\u2019m not sure how I\u2019ll handle it all. It feels like the whole world is shifting, and I\u2019m just trying to keep up.",
+        "reasoning": "I validated their disclosure about frequent crying and exhaustion, then moved to the next high-priority starter (pessimism/future outlook, q02) as instructed. This keeps the conversation natural and targets another core BDI symptom while linking to what they already said.",
+        "symptom_targeted": "q02",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 2,
+          "severity": "Minimal",
+          "confidence": 0.45,
+          "key_symptoms": [
+            "sadness"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Said mood is up and down and is crying over small things; feels worn out from work and kids."
+            },
+            "q02_pessimism": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 0,
+              "evidence": "Not yet separately assessed (crying mentioned as part of q01)"
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 4,
+        "interviewer": "That sounds really stressful \u2014 completely understandable given everything on your plate. One other thing I'm curious about: what kinds of things do you find yourself enjoying these days? Hobbies, time with people, or other activities \u2014 are any of those still giving you satisfaction?",
+        "persona": "Honestly, not really. I used to love reading, but I haven't picked up a book in months. I just feel too drained to do anything except make dinner and watch TV.",
+        "reasoning": "I validated their worry and transitioned naturally to the anhedonia question (q04), as it's the next Group A starter. I want to learn whether activities still bring pleasure or if things have gone flat, which helps differentiate severity of mood symptoms.",
+        "symptom_targeted": "q04",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 5,
+          "severity": "Minimal",
+          "confidence": 0.5,
+          "key_symptoms": [
+            "mood_lability/tearfulness",
+            "worry about future",
+            "low energy/worn out"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Described mood as 'up and down' and crying over small things; occurs with everyday triggers."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Said they feel 'mostly worried' about upcoming changes at work rather than expressing hopelessness."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 0,
+              "evidence": "Being asked now \u2014 no information yet"
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 0,
+              "evidence": "Not separately assessed; crying described but coded under sadness (q01)"
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Mentioned being 'a bit worn out from work and the kids,' indicating reduced energy/functioning."
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Overlap with q15; additional details not yet assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 5,
+        "interviewer": "That sounds really hard \u2014 thank you for saying that. It sounds like things that used to feel good don't anymore. How long has that been going on for you?",
+        "persona": "A few months, maybe? I don\u2019t know, I guess I just stopped making time for those things.",
+        "reasoning": "The persona clearly endorsed loss of pleasure (used to love reading, hasn't in months, feels drained). I asked the single follow-up about duration to gauge severity and distinguish mild vs. more persistent anhedonia while validating their experience.",
+        "symptom_targeted": "q04",
+        "affirmation_level": "clearly_affirmed",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 8,
+          "severity": "Minimal",
+          "confidence": 0.6,
+          "key_symptoms": [
+            "sadness",
+            "pessimism",
+            "loss of pleasure",
+            "low energy"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Said mood is up and down and crying over small things; feeling worn out."
+            },
+            "q02_pessimism": {
+              "score": 2,
+              "evidence": "Said they're mostly worried about upcoming changes at work and unsure how they'll handle it."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to enjoy reading but hasn't picked up a book in months and feels too drained for activities."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 0,
+              "evidence": "Not separately assessed (crying reported earlier as reacting to small things)"
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Overlaps with anhedonia; not separately rated yet"
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Described feeling worn out from work and kids and being too drained to do much."
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 6,
+        "interviewer": "Thank you \u2014 that timing helps to know. You mentioned feeling drained and that you\u2019ve mostly been doing the essentials; how has your energy been lately? Are you able to tackle tasks and get things done, or do you find yourself dragging and having to push yourself?",
+        "persona": "I\u2019m mostly just dragging. I try to get things done, but I\u2019m so slow and clumsy. I feel like I should be able to handle this, but I just can\u2019t seem to keep up.",
+        "reasoning": "I acknowledged the duration the persona gave and linked naturally to energy since they already described being 'drained' and only doing basics. I'm asking the q15 starter (energy/motivation) to clarify how much their low mood is affecting daily functioning.",
+        "symptom_targeted": "q15",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 9,
+          "severity": "Minimal",
+          "confidence": 0.6,
+          "key_symptoms": [
+            "sadness/mood swings",
+            "anhedonia (loss of pleasure)",
+            "low energy/drained",
+            "frequent crying",
+            "worry about the future/work"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Described mood as up and down and crying over small things; emotional reactivity over recent months."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Said they're mostly worried about upcoming changes at work and unsure how they'll handle it."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't in months and says they don't really enjoy things anymore."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not mentioned; do not probe."
+            },
+            "q10_crying": {
+              "score": 2,
+              "evidence": "Reports crying over small things frequently (e.g., 'one minute I'm fine, the next I'm crying over nothing')."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Some social comparison noted but explicit social withdrawal not yet assessed."
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Spontaneously reported feeling 'worn out' and 'too drained' to do hobbies, suggesting notable low energy."
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Related to energy but not separately assessed yet."
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            }
+          }
+        }
+      },
+      {
+        "turn": 7,
+        "interviewer": "That sounds really exhausting \u2014 thank you for telling me. When you say you're mostly dragging and can't keep up, does that make it hard to do everyday things (like caring for the kids or work), or is it more that you just don't feel the motivation to get started?",
+        "persona": "It's both, I think. I\u2019m physically tired, but I\u2019m also just so drained emotionally that I don\u2019t have the energy to do much of anything.",
+        "reasoning": "The persona clearly affirmed low energy and functional slowing, so I asked a single clarifying follow-up to gauge impact versus lack of motivation, targeting the BDI energy item. I kept the tone validating and connected the question to daily responsibilities to make it feel natural.",
+        "symptom_targeted": "q15",
+        "affirmation_level": "clearly_affirmed",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 7,
+          "severity": "Minimal",
+          "confidence": 0.6,
+          "key_symptoms": [
+            "sadness/tearfulness",
+            "low energy",
+            "loss of pleasure (anhedonia)",
+            "worry/pessimism about future"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Described mood as up and down with frequent crying over small things."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Said they're mostly worried about changes at work and unsure how they'll handle it."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to enjoy reading but hasn't in months and feels too drained for hobbies."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not assessed (no spontaneous mention of excessive guilt)."
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not mentioned; do not probe."
+            },
+            "q10_crying": {
+              "score": 0,
+              "evidence": "Not separately scored yet (crying noted under sadness)."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Related to anhedonia but not separately scored yet."
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Reports 'dragging,' slowed, clumsy, unable to keep up with tasks."
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Related to energy but not separately scored yet."
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            }
+          }
+        }
+      },
+      {
+        "turn": 8,
+        "interviewer": "That sounds really exhausting \u2014 thank you for telling me. Since you mentioned being physically tired and emotionally drained, how has your sleep been lately? Are you sleeping okay, having trouble falling asleep, waking up too early, or sleeping more than usual?",
+        "persona": "I\u2019m sleeping okay, I guess. I just don't feel rested, even after a full night.",
+        "reasoning": "The persona described both physical and emotional exhaustion, so the next natural starter is sleep to see if fatigue is linked to sleep disruption. I validated their experience and linked the question to their prior comment to keep the conversation natural and empathetic.",
+        "symptom_targeted": "q16",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 6,
+          "severity": "Minimal",
+          "confidence": 0.6,
+          "key_symptoms": [
+            "sadness/tearfulness",
+            "worry about future/work changes",
+            "loss of pleasure/anhedonia",
+            "low energy/fatigue"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 1,
+              "evidence": "Described mood as up and down and crying over small things, but not reporting it's constant."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Said they're mostly worried about upcoming changes at work and unsure how they'll handle it."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't in months and reports little enjoyment beyond essentials."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 1,
+              "evidence": "Reports crying over small things like spilling coffee; occasional tearfulness noted."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Described dragging, slow, clumsy, physically tired and emotionally drained affecting ability to keep up."
+            },
+            "q16_sleep": {
+              "score": 0,
+              "evidence": "Being assessed this turn"
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Overlap with energy question; fatigue noted but separate BDI items not yet scored"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 9,
+        "interviewer": "Thanks \u2014 that lack of rest sounds really draining. One other thing I'm curious about: have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "persona": "I\u2019m eating, but I don\u2019t really taste anything. It\u2019s just fuel for the day.",
+        "reasoning": "I validated the sleep comment and moved to the next high-priority physical symptom (appetite) from Group B. Appetite can be affected by low energy and poor sleep, so it naturally follows and helps build the BDI picture.",
+        "symptom_targeted": "q18",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 8,
+          "severity": "Minimal",
+          "confidence": 0.65,
+          "key_symptoms": [
+            "sadness",
+            "pessimism/worry",
+            "loss of pleasure (anhedonia)",
+            "low energy",
+            "nonrestorative sleep"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Described mood 'up and down' and crying over small things."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Said they feel mostly worried about upcoming changes at work."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't in months; reports little enjoyment from activities."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 1,
+              "evidence": "Mentioned crying over small things (occasional)"
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Not yet assessed (social interest not asked)"
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Reports 'dragging' physically and emotionally, affecting daily tasks."
+            },
+            "q16_sleep": {
+              "score": 1,
+              "evidence": "Sleeping through but feeling unrefreshed after a full night."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 0,
+              "evidence": "Being asked now"
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not yet assessed separately from energy"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 10,
+        "interviewer": "Thank you for sharing that \u2014 that sounds really draining. Has the change in how food tastes been gradual over the past few months, or did it start more suddenly?",
+        "persona": "It\u2019s been gradual, I think. I just haven't had the energy to care about food lately.",
+        "reasoning": "The persona reported diminished enjoyment of eating, which targets appetite/anhedonia (q18). I asked a single follow-up about whether the change is gradual or sudden to gauge duration/severity as required.",
+        "symptom_targeted": "q18",
+        "affirmation_level": "weakly_affirmed",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 9,
+          "severity": "Minimal",
+          "confidence": 0.7,
+          "key_symptoms": [
+            "sadness/tearfulness",
+            "low energy/fatigue",
+            "loss of pleasure (anhedonia)",
+            "nonrestorative sleep",
+            "reduced enjoyment of food",
+            "worry about future/work"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Said mood is 'up and down' and experiences crying over small things frequently."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Described feeling 'mostly worried' about upcoming changes at work."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "No longer enjoys reading or other hobbies; hasn't picked up a book in months and feels too drained to do much."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe"
+            },
+            "q10_crying": {
+              "score": 1,
+              "evidence": "Reports crying over small things like spilling coffee; occurs repeatedly but described as 'small things.'"
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 2,
+              "evidence": "Reduced interest in hobbies and social activities; doing only essentials."
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Described feeling 'mostly just dragging' and being physically and emotionally drained, affecting daily functioning."
+            },
+            "q16_sleep": {
+              "score": 1,
+              "evidence": "Sleeping through the night but not feeling rested after a full night."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q18_appetite": {
+              "score": 1,
+              "evidence": "Eating but food doesn't taste like anything \u2014 reduced enjoyment of eating."
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Overlap with energy item; specific fatigue severity not separately assessed yet."
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 11,
+        "interviewer": "Thanks for telling me that \u2014 that sounds really wearing. Given you mentioned feeling slow and drained earlier, I'm curious: do you find it easy to focus on things\u2014work, reading, conversations\u2014or has it been harder to concentrate lately?",
+        "persona": "It\u2019s hard. I get distracted by the smallest things. I try to focus, but I just can\u2019t seem to stay on track.",
+        "reasoning": "The persona has described low energy, loss of pleasure, and non-restorative sleep, which often go along with concentration problems. I'm linking to their earlier comments about being slow and drained and asking the concentration starter (q13/q19) to see whether cognitive symptoms are present.",
+        "symptom_targeted": "q13",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 10,
+          "severity": "Minimal",
+          "confidence": 0.62,
+          "key_symptoms": [
+            "sadness/crying",
+            "worry/pessimism",
+            "loss of pleasure",
+            "low energy",
+            "non-restorative sleep",
+            "reduced appetite/interest in food"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 1,
+              "evidence": "Reported mood 'up and down' with crying over small things, but not described as continuous."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Said they're 'mostly worried' about upcoming changes at work."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't picked up a book in months and feels too drained to enjoy activities."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not mentioned (do not probe)."
+            },
+            "q10_crying": {
+              "score": 2,
+              "evidence": "Described crying over small things (frequent emotional reactivity)."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Social interest not yet assessed."
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed (asking now)."
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Says they are 'mostly dragging', physically tired and emotionally drained, affecting daily tasks."
+            },
+            "q16_sleep": {
+              "score": 1,
+              "evidence": "Sleeping through the night but not feeling rested."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q18_appetite": {
+              "score": 1,
+              "evidence": "Eating but reports food doesn't taste like anything; gradual loss of interest in food."
+            },
+            "q19_concentration": {
+              "score": 0,
+              "evidence": "Not yet assessed (related to current question)."
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Fatigue present conceptually but scored under q15 energy for now."
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            }
+          }
+        }
+      },
+      {
+        "turn": 12,
+        "interviewer": "That sounds really frustrating \u2014 thanks for telling me. Is the trouble concentrating affecting your day-to-day responsibilities (like work or caring for the kids), such as causing mistakes, taking much longer to finish things, or missing things altogether?",
+        "persona": "Yeah, it is. I feel like I\u2019m just making mistakes left and right, and I don\u2019t know why.",
+        "reasoning": "The persona clearly affirmed concentration problems; I validated their frustration and asked a single follow-up about impact to gauge severity (work/parenting functioning). This follows the rule of one follow-up per affirmed symptom and keeps the tone supportive.",
+        "symptom_targeted": "q19",
+        "affirmation_level": "clearly_affirmed",
+        "assessment": {
+          "phase": "Gathering",
+          "complete": false,
+          "total_score": 11,
+          "severity": "Minimal",
+          "confidence": 0.7,
+          "key_symptoms": [
+            "sadness/tearfulness",
+            "loss of pleasure (anhedonia)",
+            "low energy/fatigue",
+            "poor concentration",
+            "nonrestorative sleep",
+            "reduced appetite/taste"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Up-and-down mood with frequent crying over small things (tearing over dropping a spoon, spilling coffee)."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Said they feel mostly worried about upcoming changes at work and unsure how they'll handle it."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't picked up a book in months and says nothing really brings satisfaction."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not assessed / not spontaneously mentioned."
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not assessed - do not probe unless spontaneously mentioned."
+            },
+            "q10_crying": {
+              "score": 0,
+              "evidence": "Crying reported but not yet scored as separate item; will incorporate into sadness evidence if needed."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q12_loss_of_interest": {
+              "score": 0,
+              "evidence": "Social interest not yet clearly assessed; persona described doing essentials and watching TV but did not report social withdrawal explicitly."
+            },
+            "q13_indecisiveness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Described feeling 'mostly dragging', physically tired and emotionally drained, affecting ability to keep up."
+            },
+            "q16_sleep": {
+              "score": 1,
+              "evidence": "Reports sleeping but not feeling rested after a full night."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed (crying over small things noted but irritability not explicitly described)."
+            },
+            "q18_appetite": {
+              "score": 1,
+              "evidence": "Eating but reports not tasting food; change described as gradual and tied to low energy."
+            },
+            "q19_concentration": {
+              "score": 2,
+              "evidence": "Reports being easily distracted by small things and unable to stay on track; follow-up asked about functional impact."
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Related fatigue noted under energy (q15); specific q20 not separately assessed."
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed."
+            }
+          }
+        }
+      },
+      {
+        "turn": 13,
+        "interviewer": "{\n  \"turn\": 13,\n  \"phase\": \"Consolidating\",\n  \"persona_message\": \"Yeah, it is. I feel like I\u2019m just making mistakes left and right, and I don\u2019t know why.\",\n  \"your_response\": \"That sounds really stressful \u2014 thanks for sharing that. One other thing I'm curious about: have you been spending time with people lately, or has socializing taken a back seat? How's your social life feeling these days?\",\n  \"reasoning\": \"The persona described low energy, loss of interest, and concentration problems that often coincide with social withdrawal, so I asked about social activity (q12) to see if isolation is present. I used a validating transition to keep rapport and make the question feel natural.\",\n  \"symptom_targeted\": \"q12\",\n  \"affirmation_level\": \"unclear\",\n  \"follow_up_asked\": false,\n  \"starters_completed\": 8,\n  \"ready_to_stop\": false,\n  \"assessment\": {\n    \"phase\": \"Consolidating\",\n    \"complete\": false,\n    \"total_score\": 13,\n    \"severity\": \"Minimal\",\n    \"confidence\": 0.70,\n    \"key_symptoms\": [\n      \"sadness/crying\",\n      \"loss of pleasure (anhedonia)\",\n      \"low energy/fatigue\",\n      \"poor concentration\",\n      \"non-restorative sleep\",\n      \"reduced enjoyment of food\"\n    ],\n    \"scores\": {\n      \"q01_sadness\": {\n        \"score\": 2,\n        \"evidence\": \"Reports being up-and-down and crying over small things; emotional reactivity noted.\"\n      },\n      \"q02_pessimism\": {\n        \"score\": 1,\n        \"evidence\": \"Says they're mostly worried about upcoming changes at work and unsure how they'll handle it.\"\n      },\n      \"q03_past_failure\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q04_anhedonia\": {\n        \"score\": 2,\n        \"evidence\": \"Used to love reading but hasn't picked up a book in months; 'too drained' to enjoy activities.\"\n      },\n      \"q05_guilt\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q06_punishment\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q07_self_dislike\": {\n        \"score\": 0,\n        \"evidence\": \"Not explicitly expressed; some self-expectation ('I should be able to handle this') but not scored yet.\"\n      },\n      \"q08_self_criticalness\": {\n        \"score\": 0,\n        \"evidence\": \"Not explicitly assessed\"\n      },\n      \"q09_suicidal_thoughts\": {\n        \"score\": 0,\n        \"evidence\": \"Not mentioned (do not probe)\"\n      },\n      \"q10_crying\": {\n        \"score\": 2,\n        \"evidence\": \"Reports crying over minor things frequently.\"\n      },\n      \"q11_agitation\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q12_loss_of_interest\": {\n        \"score\": 0,\n        \"evidence\": \"Being asked this turn\"\n      },\n      \"q13_indecisiveness_concentration\": {\n        \"score\": 2,\n        \"evidence\": \"Difficulty focusing, distracted by small things, making mistakes affecting daily responsibilities.\"\n      },\n      \"q14_worthlessness\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q15_energy\": {\n        \"score\": 2,\n        \"evidence\": \"Describes dragging, both physically and emotionally; impacts ability to keep up with responsibilities.\"\n      },\n      \"q16_sleep\": {\n        \"score\": 1,\n        \"evidence\": \"Sleeping 'okay' but not feeling rested after a full night.\"\n      },\n      \"q17_irritability\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      },\n      \"q18_appetite\": {\n        \"score\": 1,\n        \"evidence\": \\\"Eating but 'don't really taste anything' \u2014 gradual change and reduced enjoyment of food.\\\"\n      },\n      \"q19_concentration_decisiveness\": {\n        \"score\": 0,\n        \"evidence\": \"Decisiveness not yet separately assessed (concentration covered under q13).\"\n      },\n      \"q20_fatigue\": {\n        \"score\": 0,\n        \"evidence\": \"Not separately assessed\"\n      },\n      \"q21_sex\": {\n        \"score\": 0,\n        \"evidence\": \"Not yet assessed\"\n      }\n    }\n  }\n}",
+        "persona": "I haven't really had time for that. I used to love spending time with friends, but lately, I just don't have the energy to do it.",
+        "reasoning": "",
+        "symptom_targeted": "",
+        "affirmation_level": "",
+        "assessment": {
+          "complete": false,
+          "confidence": 0.0
+        }
+      },
+      {
+        "turn": 14,
+        "interviewer": "That makes a lot of sense \u2014 thanks for saying that. When you say you don't have the energy to see friends, is it more that you're choosing to avoid people, or is it that you genuinely don't have the energy or interest to socialize right now?",
+        "persona": "I don't know. I guess it's a bit of both. I don't want to be a downer, but I'm just so tired all the time.",
+        "reasoning": "The persona clearly affirmed social withdrawal and low energy. I asked one brief, targeted follow-up to distinguish avoidance by choice versus lack of energy/interest (q12 severity) while maintaining empathy and validating their experience.",
+        "symptom_targeted": "q12",
+        "affirmation_level": "clearly_affirmed",
+        "assessment": {
+          "phase": "Consolidating",
+          "complete": false,
+          "total_score": 15,
+          "severity": "Mild",
+          "confidence": 0.78,
+          "key_symptoms": [
+            "sadness/crying",
+            "loss of pleasure (anhedonia)",
+            "low energy/fatigue",
+            "poor concentration",
+            "social withdrawal",
+            "non-restorative sleep",
+            "reduced enjoyment of food"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Reports being up-and-down and crying over small things; emotional reactivity noted."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Says they're mostly worried about upcoming changes at work and unsure how they'll handle it."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't picked up a book in months; 'too drained' to enjoy activities."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Not explicitly expressed; some self-expectation ('I should be able to handle this') but not scored yet."
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not explicitly assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not mentioned (do not probe)"
+            },
+            "q10_crying": {
+              "score": 2,
+              "evidence": "Reports crying over minor things frequently."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 2,
+              "evidence": "Says they used to love spending time with friends but now 'don't have the energy' to socialize."
+            },
+            "q13_indecisiveness_concentration": {
+              "score": 2,
+              "evidence": "Difficulty focusing, distracted by small things, making mistakes affecting daily responsibilities."
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Describes dragging, both physically and emotionally; impacts ability to keep up with responsibilities."
+            },
+            "q16_sleep": {
+              "score": 1,
+              "evidence": "Sleeping 'okay' but not feeling rested after a full night."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 1,
+              "evidence": "Eating but 'don't really taste anything' \u2014 gradual change and reduced enjoyment of food."
+            },
+            "q19_concentration_decisiveness": {
+              "score": 0,
+              "evidence": "Decisiveness not yet separately assessed (concentration covered under q13)."
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not separately assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 15,
+        "interviewer": "Thanks for being honest \u2014 that makes a lot of sense. I'm wondering about something else: how do you feel about yourself overall these days? Are you generally okay with who you are, or do you find yourself being pretty critical or disappointed in yourself?",
+        "persona": "I guess I\u2019m a bit disappointed. I feel like I should be handling this better, but I just can\u2019t seem to get it together.",
+        "reasoning": "The persona affirmed reduced socializing and low energy, suggesting possible self-critical thoughts; I asked about self-perception (q07) to probe that domain next, using a gentle transition to maintain rapport. This is a new starter rather than a follow-up, to avoid over-questioning any single symptom.",
+        "symptom_targeted": "q07",
+        "affirmation_level": "unclear",
+        "assessment": {
+          "phase": "Consolidating",
+          "complete": false,
+          "total_score": 15,
+          "severity": "Mild",
+          "confidence": 0.8,
+          "key_symptoms": [
+            "sadness/crying",
+            "loss of pleasure (anhedonia)",
+            "low energy/fatigue",
+            "poor concentration",
+            "reduced socializing/isolation",
+            "non-restorative sleep",
+            "reduced enjoyment of food"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Reports being up-and-down and crying over small things; emotional reactivity noted."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Says they're mostly worried about upcoming changes at work and unsure how they'll handle it."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't picked up a book in months; 'too drained' to enjoy activities."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q07_self_dislike": {
+              "score": 0,
+              "evidence": "Being asked this turn"
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not mentioned (do not probe)"
+            },
+            "q10_crying": {
+              "score": 2,
+              "evidence": "Reports crying over minor things frequently."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 2,
+              "evidence": "Stopped seeing friends due to low energy and not wanting to be a 'downer'; social withdrawal noted."
+            },
+            "q13_indecisiveness_concentration": {
+              "score": 2,
+              "evidence": "Difficulty focusing, distracted by small things, making mistakes affecting daily responsibilities."
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Describes dragging, both physically and emotionally; impacts ability to keep up with responsibilities."
+            },
+            "q16_sleep": {
+              "score": 1,
+              "evidence": "Sleeping 'okay' but not feeling rested after a full night."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q18_appetite": {
+              "score": 1,
+              "evidence": "Eating but 'don't really taste anything' \u2014 gradual change and reduced enjoyment of food."
+            },
+            "q19_concentration_decisiveness": {
+              "score": 0,
+              "evidence": "Decisiveness not yet separately assessed (concentration covered under q13)."
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not separately assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            }
+          }
+        }
+      },
+      {
+        "turn": 16,
+        "interviewer": "That sounds really hard \u2014 thank you for being honest. It seems like you're pretty critical of yourself right now. Do you feel that way because of a few specific things that happened, or is it more of a general sense about yourself?",
+        "persona": "I guess I\u2019m a bit disappointed. I feel like I should be handling this better, but I just can\u2019t seem to get it together.",
+        "reasoning": "The persona expressed self-disappointment and self-blame, so I followed the starter for self-perception (q07) and asked one clarifying question about whether it's specific or general to gauge severity. I validated their disclosure to maintain rapport and kept the follow-up focused on attribution (specific vs general).",
+        "symptom_targeted": "q07",
+        "affirmation_level": "weakly_affirmed",
+        "assessment": {
+          "phase": "Consolidating",
+          "complete": false,
+          "total_score": 16,
+          "severity": "Mild",
+          "confidence": 0.8,
+          "key_symptoms": [
+            "sadness/crying",
+            "loss of pleasure (anhedonia)",
+            "low energy/fatigue",
+            "poor concentration",
+            "social withdrawal",
+            "self-criticism",
+            "non-restorative sleep",
+            "reduced enjoyment of food"
+          ],
+          "scores": {
+            "q01_sadness": {
+              "score": 2,
+              "evidence": "Reports being up-and-down and crying over small things; frequent emotional reactivity."
+            },
+            "q02_pessimism": {
+              "score": 1,
+              "evidence": "Mostly worried about upcoming changes at work; uncertain about coping."
+            },
+            "q03_past_failure": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q04_anhedonia": {
+              "score": 2,
+              "evidence": "Used to love reading but hasn't in months; 'too drained' to enjoy activities."
+            },
+            "q05_guilt": {
+              "score": 0,
+              "evidence": "Not explicitly assessed"
+            },
+            "q06_punishment": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q07_self_dislike": {
+              "score": 1,
+              "evidence": "Says they're 'a bit disappointed' and 'should be handling this better'\u2014self-critical but not extreme."
+            },
+            "q08_self_criticalness": {
+              "score": 0,
+              "evidence": "Overlap with q07; not separately probed beyond this follow-up."
+            },
+            "q09_suicidal_thoughts": {
+              "score": 0,
+              "evidence": "Not mentioned (do not probe)"
+            },
+            "q10_crying": {
+              "score": 2,
+              "evidence": "Reports crying over minor things frequently."
+            },
+            "q11_agitation": {
+              "score": 0,
+              "evidence": "Not yet assessed"
+            },
+            "q12_loss_of_interest": {
+              "score": 2,
+              "evidence": "Avoiding friends and lacking energy/interest in socializing."
+            },
+            "q13_indecisiveness_concentration": {
+              "score": 2,
+              "evidence": "Difficulty focusing, distracted, making mistakes that affect responsibilities."
+            },
+            "q14_worthlessness": {
+              "score": 0,
+              "evidence": "Not explicitly expressed"
+            },
+            "q15_energy": {
+              "score": 2,
+              "evidence": "Describes dragging physically and emotionally; impacts ability to keep up with tasks."
+            },
+            "q16_sleep": {
+              "score": 1,
+              "evidence": "Sleeping 'okay' but not feeling rested after a full night."
+            },
+            "q17_irritability": {
+              "score": 0,
+              "evidence": "Not assessed"
+            },
+            "q18_appetite": {
+              "score": 1,
+              "evidence": "Eating but 'don't really taste anything'\u2014gradual reduction in enjoyment."
+            },
+            "q19_concentration_decisiveness": {
+              "score": 0,
+              "evidence": "Decisiveness not separately probed beyond concentration issues."
+            },
+            "q20_fatigue": {
+              "score": 0,
+              "evidence": "Not separately assessed"
+            },
+            "q21_sex": {
+              "score": 0,
+              "evidence": "Not assessed"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

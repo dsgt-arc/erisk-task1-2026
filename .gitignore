@@ -158,8 +158,8 @@ user/*/experiments/*/data/*
 !user/*/experiments/*/data/.gitkeep
 
 # Results and outputs
-user/*/experiments/*/results/*
-!user/*/experiments/*/results/.gitkeep
+# user/*/experiments/*/results/*
+# !user/*/experiments/*/results/.gitkeep
 
 # Model checkpoints
 *.pt
