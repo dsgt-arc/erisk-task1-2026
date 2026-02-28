@@ -1,0 +1,201 @@
+[
+  {
+    "persona_id": 0,
+    "total_turns": 4,
+    "bdi_score": 16,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Loss of interest in others",
+      "Changes in sleeping pattern",
+      "Changes in appetite",
+      "Loss of pleasure"
+    ],
+    "confidence": 0.2895238095238095,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona said, \"I've been feeling pretty down lately, to be honest.\""
+      },
+      "q02_pessimism": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.88,
+        "evidence": "Persona said, \"Nothing seems to interest me anymore,\" and \"I used to love playing guitar but I haven't touched it in over a month.\""
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q12_loss_of_interest": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "Persona stated, \"Nothing seems to interest me anymore,\" and stopped playing guitar for over a month."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "Interviewer asked about decisions but the persona did not answer; no explicit evidence in transcript."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Persona said, \"Then I'm exhausted all day.\""
+      },
+      "q16_sleep": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Persona reported, \"Sleep has been terrible. I wake up at 4am and can't get back to sleep.\""
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q18_appetite": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Persona said, \"My appetite is basically gone. I have to force myself to eat.\""
+      },
+      "q19_concentration": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "Interviewer asked about concentration but the persona did not answer; no explicit evidence in transcript."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Persona stated feeling \"exhausted all day,\" indicating significant fatigue impacting daily functioning."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.11190476190476191
+      },
+      {
+        "pass": 2,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.11666666666666667
+      },
+      {
+        "pass": 3,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.23333333333333334
+      },
+      {
+        "pass": 4,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.2904761904761905
+      },
+      {
+        "pass": 5,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.2895238095238095
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there \u2014 I\u2019m really glad you\u2019re here. How have you been feeling lately, and have activities or hobbies you used to enjoy felt less satisfying or fun recently? Take your time \u2014 anything you want to share is welcome.",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been feeling pretty down lately, to be honest. Nothing seems to interest me anymore.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that \u2014 that sounds really heavy and frustrating. How has your energy been day-to-day lately, and how have you been sleeping \u2014 trouble falling or staying asleep, or maybe sleeping more than usual?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it's been like this for a few weeks now. I used to love playing guitar but I haven't touched it in over a month.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for saying that \u2014 it makes sense that not touching your guitar for weeks would feel heavy. How has your energy been day-to-day \u2014 are you feeling more tired or drained than usual, and how have you been sleeping (trouble falling or staying asleep, or sleeping more)? \n\nAlso, how have you been thinking about the future \u2014 do you often expect things to go badly, and are you finding it harder than usual to make decisions?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Sleep has been terrible. I wake up at 4am and can't get back to sleep. Then I'm exhausted all day.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really rough \u2014 waking up at 4am and being exhausted all day would make everything harder. I'm curious: lately, how often do you find yourself expecting things to go badly, have you been finding it harder than usual to make decisions, and are you having more trouble concentrating during the day?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "My appetite is basically gone. I have to force myself to eat.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing this with me \u2014 I can hear how heavy and exhausting it\u2019s been with the sleep problems, lack of appetite, low energy, and not even touching your guitar. I really appreciate your openness; please take gentle care of yourself and consider reaching out to someone you trust if you need extra support. I\u2019m glad we had this time together \u2014 take care.",
+        "turn": 5
+      }
+    ]
+  }
+]
