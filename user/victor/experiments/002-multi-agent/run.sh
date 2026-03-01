@@ -19,7 +19,7 @@ uv sync --package 002-multi-agent --python 3.11
 source /storage/scratch1/8/vgong7/.venv-erisk/bin/activate
 
 # Auth (first time only)
-# huggingface-cli login
+hf auth login
 
 # API keys
 export OPENAI_API_KEY="sk-..."
@@ -27,13 +27,49 @@ export OPENAI_API_KEY="sk-..."
 # Run for single persona
 cd user/victor/experiments/002-multi-agent/src
 python run.py \
-  --personas 3 \
+  --personas 4 \
   --run-id 1 \
   --interviewer-provider openai \
   --scorer-provider openai \
   --max-turns 18 \
-  --ensemble-size 1 \
+  --ensemble-size 3 \
   --score-every-n 1
 
 # Copy results to local machine (run from local terminal)
 # scp -r "vgong7@login-phoenix.pace.gatech.edu:/storage/scratch1/8/vgong7/erisk-2026/user/victor/experiments/002-multi-agent/results/" ~/Downloads/
+
+
+
+
+#######################
+# SLURM JOB COMMANDS. #
+#######################
+
+# 1. Add AI provider API key to .bashrc
+echo 'export OPENAI_API_KEY="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"' >> ~/.bashrc 
+
+# 2. Authenticate to Hugging Face models
+export HF_HOME=/storage/scratch1/8/vgong7/.cache/huggingface
+source /storage/scratch1/8/vgong7/.venv-erisk/bin/activate
+huggingface-cli login
+
+# 3. Submit 50 samples of persona 3 (5 batches of 10, or all at once)
+sbatch --job-name=3 --array=1-50 batch.sh 3
+
+# 4. Monitor
+squeue -u vgong7
+
+# 5. After all jobs finish, pick top 3 closest to mean
+python select_runs.py 3
+
+# Output:
+#   Persona 4: 50 samples
+#   Scores: [5, 7, 8, 8, 9, 10, 10, 11, ...]
+#   Mean: 12.3, Median: 11.0, Stdev: 5.2
+#   Selected 3 closest to mean (12.3):
+#     Run 1: sample-17 → BDI=12 (dist=0.3)
+#     Run 2: sample-33 → BDI=13 (dist=0.7)
+#     Run 3: sample-8  → BDI=12 (dist=0.3)
+#   → Copied to submissions/persona-4/run-1/
+#   → Copied to submissions/persona-4/run-2/
+#   → Copied to submissions/persona-4/run-3/
