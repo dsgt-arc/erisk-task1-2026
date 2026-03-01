@@ -34,12 +34,13 @@ mkdir -p "$OUTPUT_DIR"
 
 echo "=== Persona $PERSONA_ID, Sample $SAMPLE_ID ==="
 
+# Run interview pipeline (ensemble-size = 1 for cost-saving)
 python run.py \
   --personas $PERSONA_ID \
   --run-id 1 \
   --interviewer-provider openai \
   --scorer-provider openai \
   --max-turns 18 \
-  --ensemble-size 3 \
+  --ensemble-size 1 \
   --score-every-n 1 \
   --output-dir "$OUTPUT_DIR"

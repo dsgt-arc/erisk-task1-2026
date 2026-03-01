@@ -53,14 +53,17 @@ export HF_HOME=/storage/scratch1/8/vgong7/.cache/huggingface
 source /storage/scratch1/8/vgong7/.venv-erisk/bin/activate
 huggingface-cli login
 
-# 3. Submit 50 samples of persona 3 (5 batches of 10, or all at once)
-sbatch --job-name=3 --array=1-50 batch.sh 3
+# 3. Submit 30 samples for Persona 3 (3 batches of 10, or all at once)
+sbatch --job-name=3 --array=1-30 batch.sh 3
 
 # 4. Monitor
 squeue -u vgong7
 
 # 5. After all jobs finish, pick top 3 closest to mean
 python select_runs.py 3
+
+# NOTE TO SELF!! PUSH SELECT_RUNS TO GIT AND PULL BEFORE RUNNING
+###### ALERT!!!! ######
 
 # Output:
 #   Persona 4: 50 samples
@@ -70,6 +73,6 @@ python select_runs.py 3
 #     Run 1: sample-17 → BDI=12 (dist=0.3)
 #     Run 2: sample-33 → BDI=13 (dist=0.7)
 #     Run 3: sample-8  → BDI=12 (dist=0.3)
-#   → Copied to submissions/persona-4/run-1/
-#   → Copied to submissions/persona-4/run-2/
-#   → Copied to submissions/persona-4/run-3/
+#   → Copied to submissions/persona-3/run-1/
+#   → Copied to submissions/persona-3/run-2/
+#   → Copied to submissions/persona-3/run-3/
