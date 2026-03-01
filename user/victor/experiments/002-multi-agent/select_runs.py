@@ -1,5 +1,5 @@
 """
-Select the 3 runs closest to the mean BDI-II score from a batch of samples.
+Select the 3 runs closest to the median BDI-II score from a batch of samples.
 
 Usage:
     python select_runs.py <persona_id>
@@ -58,13 +58,13 @@ def main():
     print(f"  Range: {min(scores)} - {max(scores)}")
     print()
 
-    # Rank by distance from mean
-    ranked = sorted(samples, key=lambda s: abs(s["score"] - mean))
+    # Rank by distance from median (robust to outliers)
+    ranked = sorted(samples, key=lambda s: abs(s["score"] - median))
     selected = ranked[:args.top]
 
-    print(f"Selected {args.top} closest to mean ({mean:.1f}):")
+    print(f"Selected {args.top} closest to median ({median:.1f}):")
     for i, s in enumerate(selected):
-        dist = abs(s["score"] - mean)
+        dist = abs(s["score"] - median)
         print(f"  Run {i+1}: {s['name']} → BDI={s['score']} (dist={dist:.1f})")
 
     # Copy to submissions directory
