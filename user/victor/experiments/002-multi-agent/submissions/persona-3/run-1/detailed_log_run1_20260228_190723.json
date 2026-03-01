@@ -1,0 +1,265 @@
+[
+  {
+    "persona_id": 3,
+    "total_turns": 8,
+    "bdi_score": 8,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Past failure",
+      "Self-criticalness",
+      "Agitation",
+      "Loss of energy"
+    ],
+    "confidence": 0.6952380952380953,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "When asked about feeling sad the persona responded, 'Not really, no.'"
+      },
+      "q02_pessimism": {
+        "score": 0,
+        "confidence": 0.85,
+        "evidence": "Persona denied negativity/pessimism when asked and described the issue as 'just work stress. Nothing major.'"
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Persona said, 'I just feel like I'm not doing as well as I should, but I know I\u2019m trying my best,' indicating some self-perceived shortcomings but not pervasive failure."
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona stated, 'No, I still enjoy seeing friends and family.'"
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "When asked about feeling guilty the persona replied, 'Not really. I just feel tired. I know I'm doing my best.'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona denied being hard on themself and noted trying their best: 'I don't think I'm actually hard on myself... I know I\u2019m trying my best.'"
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.4,
+        "evidence": "Ambiguous \u2014 persona says 'I just feel like I'm not doing as well as I should' but also 'I don't think I'm actually hard on myself,' suggesting mild increase in self-critical thoughts."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona did not report increased tearfulness; they described being 'a bit snappy' and feeling like they 'want to scream' rather than crying."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Persona reported increased restlessness/irritability: 'I might get a little snappy with my family sometimes' and 'I'll be sitting at my desk and just feel like I want to scream.'"
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona said, 'No, I still enjoy seeing friends and family.'"
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona explicitly stated, 'No, I'm fine with decisions.'"
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona expressed performance-related concern ('not doing as well as I should') but did not express feelings of worthlessness and emphasized 'I know I'm doing my best.'"
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona repeatedly described low energy/tiredness: 'It's been okay. Just a bit tired, you know?' and 'Just trying to keep my energy up.'"
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Persona reported sleep disruption: 'I just wake up a lot in the middle of the night and then I have trouble going back to sleep.'"
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona said they are 'a bit snappier than usual' and 'I might get a little snappy with my family sometimes.'"
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona reported increased eating: 'And yeah, I\u2019ve been eating a bit more, I guess. Just trying to keep my energy up.'"
+      },
+      "q19_concentration": {
+        "score": 0,
+        "confidence": 0.7,
+        "evidence": "No direct report of concentration problems; when asked about decisions/concentration the persona said they were fine ('No, I'm fine with decisions' and described just being tired)."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona repeatedly described fatigue: 'Just a bit tired... I'm just tired, you know?' and 'feeling wiped' (paraphrase from discussion)."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.1380952380952381
+      },
+      {
+        "pass": 2,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.30000000000000004
+      },
+      {
+        "pass": 3,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.35238095238095235
+      },
+      {
+        "pass": 4,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.42619047619047623
+      },
+      {
+        "pass": 5,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.4904761904761906
+      },
+      {
+        "pass": 6,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.5476190476190477
+      },
+      {
+        "pass": 7,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.6714285714285716
+      },
+      {
+        "pass": 8,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.6952380952380953
+      },
+      {
+        "pass": 9,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.6952380952380953
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi \u2014 it\u2019s really good to meet you. How have you been feeling lately, and have the things you usually enjoy still been feeling enjoyable to you? I\u2019m here to listen.",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been okay. Just a bit tired, you know? I think it\u2019s just work stress. Nothing major.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2014 feeling tired from work stress can really wear you down. I'm curious: have you been feeling sad or down lately, and have you noticed feeling more negative or pessimistic about things or the future?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Not really, no. I mean, I might get a little snappy with my family sometimes, but it\u2019s just the tiredness. I know I\u2019m being a bit annoying, and I apologize.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you \u2014 being tired from work would definitely make you more irritable, and it\u2019s understandable you\u2019d feel that way. How has your sleep been lately \u2014 are you sleeping more or less, or having trouble falling or staying asleep? And have you noticed any changes in your appetite or eating habits during this time?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019ve been sleeping okay, I think. I just wake up a lot in the middle of the night and then I have trouble going back to sleep. And yeah, I\u2019ve been eating a bit more, I guess. Just trying to keep my energy up.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing \u2014 waking up in the night and feeling wiped can really wear you down. I\u2019m curious: have the things you usually enjoy started to feel less pleasurable or has being around friends or family felt less interesting lately, and have you also been having more trouble concentrating or keeping your attention at work or on tasks?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "No, I still enjoy seeing friends and family. It\u2019s just work that\u2019s been a bit of a grind lately. I get there and I\u2019m like, 'Okay, let\u2019s just get this done.'",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2014 a draining job and broken sleep would really take a toll. I'm wondering: have you been having more trouble making everyday decisions lately, and have you noticed feeling more tearful, restless or on edge, or being harder on yourself than usual?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I don\u2019t know if I'm being more hard on myself, but I feel a bit snappier than usual. Like, I'll be sitting at my desk and just feel like I want to scream, but I just take a deep breath and calm down.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really frustrating \u2014 feeling snappier and like you want to scream would wear anyone down. When you say you might be hard on yourself, have you noticed thinking things like you\u2019re not good enough or not liking yourself, and has that made everyday choices feel harder or left you more likely to feel tearful?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I don't think I'm actually hard on myself. It's just work stuff that's frustrating. I just feel like I'm not doing as well as I should, but I know I\u2019m trying my best.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes a lot of sense \u2014 feeling like you\u2019re not doing as well as you should while still trying your best sounds really tiring. I'm curious: have you been having more trouble making everyday decisions, noticed it's harder to concentrate at work, or felt more tearful or more critical of yourself lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "No, I'm fine with decisions. It's just the job. I'm just tired, you know?",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you \u2014 that sounds really tiring. You mentioned apologizing and feeling like you\u2019re not doing as well as you should; do you find yourself feeling guilty or blaming yourself about work or how you act with family, and if so, how often does that come up \u2014 now and then, most days, or only in certain situations?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Not really. I just feel tired. I know I'm doing my best.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being open and sharing how things have been \u2014 I really appreciate it. It sounds exhausting juggling work stress and broken sleep while still doing your best, and that takes a lot. Take care of yourself, I hope you get some rest, and I\u2019m glad we had a chance to talk.",
+        "turn": 9
+      }
+    ]
+  }
+]

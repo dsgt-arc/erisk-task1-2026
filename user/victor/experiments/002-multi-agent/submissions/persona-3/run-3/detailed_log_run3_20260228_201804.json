@@ -1,0 +1,249 @@
+[
+  {
+    "persona_id": 3,
+    "total_turns": 7,
+    "bdi_score": 30,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Past failure",
+      "Loss of pleasure",
+      "Guilty feelings",
+      "Self-dislike"
+    ],
+    "confidence": 0.7571428571428572,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Persona said they have been 'feeling down more often' and 'I cry a lot more than I used to' and that feeling like a failure happens 'three or four times a week.'"
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Expresses discouragement about returning to her former self: \"I just want to get my energy back so I can be the person I used to be,\" but no outright hopelessness about the future."
+      },
+      "q03_past_failure": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "States \"I get these moments where I just think I'm a total failure\" and \"I just feel like I'm a failure,\" reflecting pervasive failure self-appraisal."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Persona reports 'I used to love hiking, but even that feels like a chore right now,' indicating markedly reduced pleasure from previously enjoyed activities."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"The guilt happens pretty often, but it\u2019s mostly just me beating myself up over being tired all the time,\" suggesting frequent guilt/self-blame."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Persona repeatedly expresses negative self-evaluations ('I feel like I'm a failure' and 'I feel like I should be stronger than this'), consistent with being disappointed in themselves."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Persona reports 'beating myself up' and frequent self-blame ('I just think I'm a total failure'), indicating notable self-criticism."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona: 'I cry a lot more than I used to. ... It happens pretty often, maybe three or four times a week.'"
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "\"I get really short-tempered with my friends and family. I just want to scream sometimes,\" indicating increased restlessness/agitation."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "\"I used to love hiking, but even that feels like a chore\" and she mainly \"watch[es] TV until I'm tired,\" suggesting substantial loss of interest."
+      },
+      "q13_indecisiveness": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Interviewer asked about decision-making; Persona noted 'my brain feels foggy all the time, so it\u2019s hard to focus on stuff,' implying some increased difficulty making decisions."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Frequent statements of feeling like a failure ('I just feel like I'm a failure') imply feelings of worthlessness compared to others/self-expectations."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Persona: 'I'm just tired a lot... I just want to get my energy back so I can be the person I used to be.' 'I just don't have the energy to cook.'"
+      },
+      "q16_sleep": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "\"I'm sleeping okay,\" explicitly stating no change in sleep pattern."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Persona reports 'I get really short-tempered with my friends and family' and 'I just want to scream sometimes,' indicating marked irritability."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Persona reports 'I'm definitely eating way more junk food than I should' and 'I just don't have the energy to cook,' indicating a substantial change/increase in eating."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "\"My brain feels foggy all the time, so it\u2019s hard to focus on stuff,\" showing substantial concentration difficulties."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Persona states 'I'm just tired a lot' and indicates lack of energy prevents regular activities ('I don't have the energy to cook')."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.15476190476190477
+      },
+      {
+        "pass": 2,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.38095238095238093
+      },
+      {
+        "pass": 3,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.5095238095238096
+      },
+      {
+        "pass": 4,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.6952380952380954
+      },
+      {
+        "pass": 5,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.7023809523809524
+      },
+      {
+        "pass": 6,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.7523809523809526
+      },
+      {
+        "pass": 7,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.7285714285714286
+      },
+      {
+        "pass": 8,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.7571428571428572
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi \u2014 I\u2019m really glad you\u2019re here. How have you been feeling lately, and are there any activities or small things you\u2019ve still been enjoying or looking forward to these days?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I mean, I'm just tired a lot, to be honest. I used to love hiking, but even that feels like a chore right now.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining \u2014 it makes sense that even things you loved feel like a chore right now. Have you also been feeling down more often or noticed your outlook becoming more negative or pessimistic lately?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get these moments where I just think I'm a total failure, which is super annoying. I just want to get my energy back so I can be the person I used to be.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I\u2019m really sorry it\u2019s been so exhausting \u2014 that sounds really frustrating. Since you\u2019ve been so tired, how have your sleep and appetite been lately \u2014 are you sleeping more or less than usual or having trouble falling or staying asleep, and has your appetite changed at all? Also, have you been finding it harder to make everyday decisions or to focus on things when you try to do them?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I'm sleeping okay, but I'm definitely eating way more junk food than I should. I just don't have the energy to cook. And yeah, my brain feels foggy all the time, so it\u2019s hard to focus on stuff.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I\u2019m really sorry you\u2019ve been feeling so drained and foggy \u2014 that sounds really tough. Have you noticed yourself crying more than usual or feeling restless or on edge lately, and do feelings of guilt or blaming yourself come up? When you say it\u2019s hard to make everyday decisions, how often would you say that happens \u2014 most days, a few times a week, or only occasionally?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I cry a lot more than I used to. It's embarrassing, but I just feel like I'm a failure. It happens pretty often, maybe three or four times a week.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really painful \u2014 crying several times a week and feeling like a failure would wear anyone down. I\u2019m curious, have you been feeling restless or on edge lately, or more easily irritated or snapping at people, and when those feelings of guilt or self-blame come up, how often would you say that happens \u2014 daily, a few times a week, or less often?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I get really short-tempered with my friends and family. I just want to scream sometimes. The guilt happens pretty often, but it\u2019s mostly just me beating myself up over being tired all the time.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really overwhelming \u2014 being short-tempered and hard on yourself would wear anyone down. Have you been able to talk with friends or family about how you\u2019re feeling, and when you do, how do they usually respond?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I talk to my sister sometimes. She tells me I\u2019m being dramatic, but she says I look tired and I should take a break. It helps a bit, but I feel like I should be stronger than this.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really hurtful \u2014 being dismissed like that when you\u2019re already worn out would sting. Do you have anyone else you feel comfortable talking to, or any small routines or things that help you feel a bit better when you\u2019re having a rough day?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "No one else I trust. I just try to push through it and watch TV until I\u2019m tired enough to sleep.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being open and sharing all of that \u2014 I really appreciate it. It sounds like you\u2019ve been carrying a lot and doing your best, so try to be gentle with yourself and allow some rest when you can. Take care, and I\u2019m glad we had the chance to talk.",
+        "turn": 8
+      }
+    ]
+  }
+]
