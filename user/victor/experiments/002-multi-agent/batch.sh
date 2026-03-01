@@ -23,7 +23,6 @@ export HF_HOME=/storage/scratch1/8/vgong7/.cache/huggingface
 export UV_CACHE_DIR=/storage/scratch1/8/vgong7/.cache/uv
 export UV_PYTHON_INSTALL_DIR=/storage/scratch1/8/vgong7/.local/share/uv/python
 export UV_PROJECT_ENVIRONMENT="/storage/scratch1/8/vgong7/.venv-erisk"
-export OPENAI_API_KEY="sk-..."
 
 source /storage/scratch1/8/vgong7/.venv-erisk/bin/activate
 
