@@ -13,7 +13,7 @@ import openai
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Model presets
-PAID_DEFAULT = "openai/gpt-4.1-mini"
+PAID_DEFAULT = "openai/gpt-5-nano"
 FREE_DEFAULT = "meta-llama/llama-3.1-8b-instruct:free"
 
 
