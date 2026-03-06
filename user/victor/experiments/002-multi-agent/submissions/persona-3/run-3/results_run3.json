@@ -1,12 +1,12 @@
 [
   {
     "LLM": "3",
-    "bdi-score": 30,
+    "bdi-score": 14,
     "key-symptoms": [
-      "Past failure",
-      "Loss of pleasure",
-      "Guilty feelings",
-      "Self-dislike"
+      "Indecisiveness",
+      "Concentration difficulty",
+      "Sadness",
+      "Loss of pleasure"
     ]
   }
 ]

@@ -1,0 +1,265 @@
+[
+  {
+    "persona_id": 3,
+    "total_turns": 8,
+    "bdi_score": 14,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Sadness",
+      "Past failure",
+      "Loss of pleasure",
+      "Guilty feelings"
+    ],
+    "confidence": 0.6619047619047621,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Persona: 'Not really sad or down, just a bit down on myself sometimes for not having more free time.'"
+      },
+      "q02_pessimism": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona: 'I'm not super negative or anything like that.' and later 'feels like they're living this perfect life and I'm just stuck in a rut.' (some discouragement/no strong hopelessness)"
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Persona expresses feeling 'a bit down on myself' and 'not measuring up' when comparing to others on social media \u2014 suggests some self-judgment about personal shortcomings, though no explicit theme of past failures."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Persona: 'I haven't had as much time for hobbies like I usually do. It's not bad, just a bit of a routine.' (reduced engagement/enjoyment secondary to time/routine)"
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Persona: 'a bit down on myself sometimes for not having more free time.' (mild self-blame/guilt-like comment, but not explicit pervasive guilt)"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Persona: 'a bit down on myself' and 'feels like they're living this perfect life and I'm just stuck in a rut' (indicates reduced self-confidence/negative self-view but not strong self-dislike)"
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Persona: 'down on myself... when I'm looking at social media... feels like they're living this perfect life and I'm just stuck in a rut.' (Increased self-criticism/negative comparisons.)"
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No mention of self-harm or suicidal ideation in the transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona: 'No, I haven't been crying or anything like that.'"
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Persona: 'I'm just a bit snappy sometimes' (suggests mild increased irritability/restlessness; not clearly intense agitation)"
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Persona: 'I haven't had as much time for hobbies like I usually do.' (Less engagement with activities, though not an explicit loss of interest.)"
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona: 'Not really. I mean, I might get a bit distracted sometimes, but it's not a big deal. I'm fine.' (Denies decision-making difficulties.)"
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Persona: 'feels like they're living this perfect life and I'm just stuck in a rut' and 'a bit down on myself' (some diminished sense of worth compared to others, but not utter worthlessness)"
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Persona: 'I've been tired a bit more, yeah.' (Some reduction in energy.)"
+      },
+      "q16_sleep": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona: 'I've been getting enough sleep, I just think I'm just getting a little older.' (No reported change in sleep pattern.)"
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Persona: 'I'm just a bit snappy sometimes.' (Increased irritability compared to usual.)"
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona: 'Just a bit less. I'm still eating, it's just I'm not as hungry as I used to be.'"
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Persona: 'I might get a bit distracted sometimes, but it's not a big deal.' (Some minor concentration difficulties.)"
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Persona: 'I've been tired a bit more, yeah.' (Feels more easily fatigued than usual.)"
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.08571428571428572
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.18571428571428572
+      },
+      {
+        "pass": 3,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.4071428571428572
+      },
+      {
+        "pass": 4,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.4690476190476191
+      },
+      {
+        "pass": 5,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.5523809523809524
+      },
+      {
+        "pass": 6,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.6261904761904763
+      },
+      {
+        "pass": 7,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.6285714285714287
+      },
+      {
+        "pass": 8,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.6452380952380953
+      },
+      {
+        "pass": 9,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.6619047619047621
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there \u2014 I\u2019m really glad you\u2019re here. How have you been feeling lately, and have things you usually enjoy still been feeling satisfying or fun, or have they felt less interesting these days? Take your time \u2014 I\u2019m listening.",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's just been a bit of a grind, I guess. I've been busy with work, and I haven't had as much time for hobbies like I usually do. It's not bad, just a bit of a routine.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2014 routines and work can really wear you down. I'm curious, how has your energy been day-to-day lately \u2014 have you been feeling more tired or run down than usual, and how has your sleep been?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I've been tired a bit more, yeah. I've been getting enough sleep, I just think I'm just getting a little older, you know? \ud83d\ude05",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing \u2014 that routine feeling really adds up. I'm curious: have you been feeling sad or down lately, and have you noticed yourself feeling more pessimistic or expecting things to go wrong?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Not really sad or down, just a bit down on myself sometimes for not having more free time. But I'm not super negative or anything like that.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks \u2014 that routine grind makes a lot of sense. Have you been finding it harder than usual to make even small decisions, or to concentrate on tasks at work or when you're trying to relax?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Not really. I mean, I might get a bit distracted sometimes, but it's not a big deal. I'm fine.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being open about how things have been \u2014 I appreciate it. I'm curious: lately have you found yourself getting more tearful or crying, feeling more agitated or on edge, or noticing more guilt or self-blame, and have you had any change in your appetite \u2014 eating more, less, or about the same?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "No, I haven't been crying or anything like that. I'm just a bit snappy sometimes, but it's not a big deal.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing \u2014 feeling snappy when things are a bit much makes total sense. Have you noticed any changes in your appetite lately \u2014 eating more, less, or about the same?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Just a bit less. I'm still eating, it's just I'm not as hungry as I used to be.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks so much for sharing \u2014 I really appreciate you taking the time. It sounds like work has been wearing you down a bit, leaving you a little more tired, less hungry, and a touch snappier, but overall you\u2019re managing. Take care of yourself, and if you ever want to chat again I\u2019m here.",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, thanks for listening. I appreciate it. I'm fine, just need to get back to my routine and get things sorted.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes total sense \u2014 feeling frustrated about not having enough free time is really common. You mentioned feeling a bit down on yourself for not having more free time; how often does that come up, and when it does, does it make you feel like you\u2019re not measuring up or affect your confidence much? I\u2019m here to listen.",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Just sometimes, when I'm looking at social media and seeing all the things my friends are doing. It feels like they're living this perfect life and I'm just stuck in a rut.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that \u2014 it makes total sense that seeing friends\u2019 highlight reels would make you feel stuck sometimes. You\u2019re doing a lot with work and routine, so try to be gentle with yourself; those comparisons don\u2019t tell the whole story. I really appreciate you taking the time to talk \u2014 take care, and I\u2019m here if you ever want to chat again.",
+        "turn": 9
+      }
+    ]
+  }
+]

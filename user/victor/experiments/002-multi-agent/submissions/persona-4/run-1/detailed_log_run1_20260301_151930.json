@@ -1,0 +1,265 @@
+[
+  {
+    "persona_id": 4,
+    "total_turns": 8,
+    "bdi_score": 29,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Sadness",
+      "Loss of pleasure",
+      "Guilty feelings",
+      "Self-dislike"
+    ],
+    "confidence": 0.6785714285714286,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "\"It\u2019s every day, mostly after I wake up. I just feel like I\u2019m stuck in neutral and can\u2019t get the engine going.\""
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "\"I guess I worry about wasting my life if I don\u2019t get out of this funk soon, but I don't know how to get the momentum back.\""
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "\"I just feel like I\u2019m failing at adulting and that I should be better by now.\""
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"they feel like a chore. I used to love going out with friends, but now it feels like I\u2019m just doing it because I feel guilty for staying at home.\""
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"I\u2019m just doing it because I feel guilty for staying at home.\" and \"I feel like I should be over this by now, and I\u2019m just wasting time being lazy.\""
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "\"I\u2019m pretty hard on myself... I feel like I should be over this by now, and I\u2019m just wasting time being lazy.\""
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"I\u2019m pretty hard on myself... I feel like I should be over this by now\" and \"that constant self-criticism sounds incredibly painful.\""
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "\"Yeah, I do. It usually happens when I\u2019m alone, late at night.\""
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "\"When I\u2019m feeling overwhelmed, I usually get a bit snappy with people. I know it\u2019s not their fault, but I just can\u2019t seem to regulate my emotions.\""
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"they feel like a chore. I used to love going out with friends, but now it feels like I\u2019m just doing it because I feel guilty for staying at home.\""
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "\"decisions feel like a huge effort. I just get overwhelmed by the thought of doing anything, even if it\u2019s just ordering groceries.\""
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "\"I just feel like I\u2019m failing at adulting and that I should be better by now.\""
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"I\u2019m just really tired and can\u2019t seem to switch off, even when I\u2019m doing nothing.\" and \"I\u2019m just really tired and can\u2019t seem to switch off... I\u2019m wiped out and stuck.\""
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"I wake up a lot, mostly because I can\u2019t switch off.\""
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "\"When I\u2019m feeling overwhelmed, I usually get a bit snappy with people.\""
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "\"I\u2019m eating more, mostly just grabbing stuff because I don\u2019t have the energy to cook.\""
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "\"conversations are hard because I feel like I\u2019m just going through the motions... It\u2019s hard to keep my mind on anything.\""
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "\"I\u2019m just really tired... it makes sense that everything would feel heavier when you\u2019re that tired... I\u2019m trying to push through it, but it feels like I\u2019m just pretending to be awake.\""
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.32857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.3547619047619047
+      },
+      {
+        "pass": 3,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.3904761904761904
+      },
+      {
+        "pass": 4,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.6000000000000001
+      },
+      {
+        "pass": 5,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.661904761904762
+      },
+      {
+        "pass": 6,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.6452380952380953
+      },
+      {
+        "pass": 7,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.6333333333333334
+      },
+      {
+        "pass": 8,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.7071428571428572
+      },
+      {
+        "pass": 9,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.6785714285714286
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi \u2014 thanks for being here. How have you been feeling lately, and have activities you usually enjoy been feeling less enjoyable or interesting than before?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, they feel like a chore. I used to love going out with friends, but now it feels like I\u2019m just doing it because I feel guilty for staying at home. I\u2019m just really tired and can\u2019t seem to switch off, even when I\u2019m doing nothing.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting \u2014 it makes sense that everything would feel heavier when you\u2019re that tired. How often have you been feeling sad or down lately, and do you find yourself feeling more pessimistic about how things will turn out?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s every day, mostly after I wake up. I just feel like I\u2019m stuck in neutral and can\u2019t get the engine going. I guess I worry about wasting my life if I don\u2019t get out of this funk soon, but I don't know how to get the momentum back.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough \u2014 I\u2019m sorry you\u2019ve been feeling so stuck. Have you been finding it harder to make even small decisions lately, and how much is trouble concentrating getting in the way of everyday tasks or conversations?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, decisions feel like a huge effort. I just get overwhelmed by the thought of doing anything, even if it\u2019s just ordering groceries. And conversations are hard because I feel like I\u2019m just going through the motions. I\u2019m trying to push through it, but it feels like I\u2019m just pretending to be awake.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy \u2014 it makes sense you\u2019d feel wiped out and stuck. I\u2019m curious how that\u2019s affecting everyday things: has your appetite changed (eating more, less, or about the same), and do you find yourself being particularly hard on or disliking yourself or feeling like crying or being close to tears?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m eating more, mostly just grabbing stuff because I don\u2019t have the energy to cook. And yeah, I\u2019m pretty hard on myself. I feel like I should be over this by now, and I\u2019m just wasting time being lazy. It\u2019s frustrating because I know I can\u2019t just snap out of it, but I don't know what else to do.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting and frustrating \u2014 it makes sense you'd be hard on yourself when everything feels like a struggle. Can you tell me how your sleep's been lately \u2014 falling asleep, staying asleep, or waking up earlier than you want \u2014 and when you\u2019re feeling overwhelmed do you find yourself getting restless or snappy with people, or more likely to feel tearful or cry?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I wake up a lot, mostly because I can\u2019t switch off. And when I\u2019m feeling overwhelmed, I usually get a bit snappy with people. I know it\u2019s not their fault, but I just can\u2019t seem to regulate my emotions.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough \u2014 thank you for sharing how hard it\u2019s been. When you\u2019re feeling snappy or overwhelmed, do you have people you lean on or small things you do that help even a little, or do you mostly try to deal with it on your own?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I mostly try to handle it myself because I don't want to be a burden. But I know I should probably talk to someone or try to find a routine that helps me chill out more.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tiring \u2014 thank you for sharing that. I\u2019m wondering: do you find yourself getting tearful or actually crying, and if so how often does that happen and are there particular times or situations that tend to trigger it?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I do. It usually happens when I\u2019m alone, late at night. I just feel like I\u2019m failing at adulting and that I should be better by now.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really painful \u2014 feeling like you\u2019re failing and crying alone at night would be so heavy. How often do those thoughts that you\u2019re not good enough or that you\u2019re failing come up \u2014 most days, several times a day, or only sometimes?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Most days. It\u2019s just a constant background noise.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being so open \u2014 I really appreciate you sharing how heavy and exhausting this has been. Waking up feeling stuck, crying alone at night, and that constant self-criticism sounds incredibly painful, and it makes sense you\u2019d feel worn out. You deserve patience and kindness from yourself, and it might help to lean on someone you trust or share a bit of this with them when you can. Thank you again for talking with me \u2014 take care and be gentle with yourself.",
+        "turn": 9
+      }
+    ]
+  }
+]

@@ -4,79 +4,71 @@
     "conversation": [
       {
         "role": "user",
-        "message": "Hi \u2014 it\u2019s good to meet you. I\u2019m curious: how have you been feeling overall lately, and are activities or hobbies you used to enjoy still feeling pleasurable, or have they started to feel less appealing?"
+        "message": "Hi there \u2014 I\u2019m really glad you\u2019re here. How have you been feeling lately, and have things you usually enjoy still been feeling satisfying or fun, or have they felt less interesting these days? Take your time \u2014 I\u2019m listening."
       },
       {
         "role": "assistant",
-        "message": "I've been a bit tired, yeah. I think it's just the usual thing, you know? But I'm trying to push through it. I still love painting, just takes me a bit longer to finish a piece than it used to."
+        "message": "It's just been a bit of a grind, I guess. I've been busy with work, and I haven't had as much time for hobbies like I usually do. It's not bad, just a bit of a routine."
       },
       {
         "role": "user",
-        "message": "That makes sense \u2014 it sounds tiring to keep pushing through and still finish your paintings. I'm curious: have you been feeling sad or down lately, or noticing more pessimistic thoughts about things or the future?"
+        "message": "That makes sense \u2014 routines and work can really wear you down. I'm curious, how has your energy been day-to-day lately \u2014 have you been feeling more tired or run down than usual, and how has your sleep been?"
       },
       {
         "role": "assistant",
-        "message": "Not really. I mean, I have my moments where I'm like, 'What's the point?' but it passes. I just have to remind myself that I'm just tired, not losing my mind."
+        "message": "I've been tired a bit more, yeah. I've been getting enough sleep, I just think I'm just getting a little older, you know? \ud83d\ude05"
       },
       {
         "role": "user",
-        "message": "Thanks for saying that \u2014 it sounds exhausting to keep pushing through. Have you noticed any changes in your sleep or appetite lately, like sleeping more or less than usual or eating more or less than you typically do?"
+        "message": "Thanks for sharing \u2014 that routine feeling really adds up. I'm curious: have you been feeling sad or down lately, and have you noticed yourself feeling more pessimistic or expecting things to go wrong?"
       },
       {
         "role": "assistant",
-        "message": "I sleep pretty well, but I have eaten a lot more junk food than usual, I think. I just want something easy, you know?"
+        "message": "Not really sad or down, just a bit down on myself sometimes for not having more free time. But I'm not super negative or anything like that."
       },
       {
         "role": "user",
-        "message": "That sounds really draining \u2014 trying to keep going while feeling worn out makes a lot of sense. I'm curious: have you found yourself being harder on or blaming yourself lately, or feeling less fond of who you are? And have decisions felt tougher than usual, even small ones like what to eat or which part of a painting to work on?"
+        "message": "Thanks \u2014 that routine grind makes a lot of sense. Have you been finding it harder than usual to make even small decisions, or to concentrate on tasks at work or when you're trying to relax?"
       },
       {
         "role": "assistant",
-        "message": "Definitely harder on myself. I keep thinking I'm not doing enough or fast enough. It's annoying, but I know it's just me being tired."
+        "message": "Not really. I mean, I might get a bit distracted sometimes, but it's not a big deal. I'm fine."
       },
       {
         "role": "user",
-        "message": "Thanks for sharing that \u2014 it makes sense that feeling tired and being hard on yourself would be really frustrating. You mentioned decisions feeling tougher; how often do you find it hard to make even small choices, and have you noticed being more irritable or restless, or wanting to cry more than you used to?"
+        "message": "Thanks for being open about how things have been \u2014 I appreciate it. I'm curious: lately have you found yourself getting more tearful or crying, feeling more agitated or on edge, or noticing more guilt or self-blame, and have you had any change in your appetite \u2014 eating more, less, or about the same?"
       },
       {
         "role": "assistant",
-        "message": "Not really irritable, but I do get a bit snappy sometimes. Just because I'm tired. It\u2019s not a big deal."
+        "message": "No, I haven't been crying or anything like that. I'm just a bit snappy sometimes, but it's not a big deal."
       },
       {
         "role": "user",
-        "message": "That sounds really frustrating \u2014 feeling tired and hard on yourself would make things tougher. You mentioned decisions feeling harder: how often do you find it difficult to make even small choices, and when that happens do you tend to blame yourself or feel more tearful? Also, how's your concentration when you're painting \u2014 are you able to focus or does your mind drift a lot?"
+        "message": "Thanks for sharing \u2014 feeling snappy when things are a bit much makes total sense. Have you noticed any changes in your appetite lately \u2014 eating more, less, or about the same?"
       },
       {
         "role": "assistant",
-        "message": "Maybe a few times a week I'll struggle with a decision. I just get annoyed with myself for a second, but I move on."
+        "message": "Just a bit less. I'm still eating, it's just I'm not as hungry as I used to be."
       },
       {
         "role": "user",
-        "message": "Thanks for sharing \u2014 that sounds really tiring and frustrating. You said you\u2019ve been harder on yourself lately \u2014 when that happens, do you ever feel like you deserve the criticism or like you\u2019re not good enough, and how often does that come up? Also, when you\u2019re painting, how often does your mind drift or do you struggle to concentrate?"
+        "message": "Thanks so much for sharing \u2014 I really appreciate you taking the time. It sounds like work has been wearing you down a bit, leaving you a little more tired, less hungry, and a touch snappier, but overall you\u2019re managing. Take care of yourself, and if you ever want to chat again I\u2019m here."
       },
       {
         "role": "assistant",
-        "message": "Sometimes I feel like I'm not good enough, but I know that's just tiredness. My mind usually drifts when I'm doing repetitive things like painting backgrounds."
+        "message": "Yeah, thanks for listening. I appreciate it. I'm fine, just need to get back to my routine and get things sorted."
       },
       {
         "role": "user",
-        "message": "Thanks for sharing \u2014 that makes a lot of sense. When you get those thoughts that you\u2019re not good enough, do you also feel guilty or like you deserve the criticism, and do those moments make you feel tearful or like crying? How often would you say that happens?"
+        "message": "That makes total sense \u2014 feeling frustrated about not having enough free time is really common. You mentioned feeling a bit down on yourself for not having more free time; how often does that come up, and when it does, does it make you feel like you\u2019re not measuring up or affect your confidence much? I\u2019m here to listen."
       },
       {
         "role": "assistant",
-        "message": "Not really guilty, just a bit annoyed with myself. It happens maybe once a week."
+        "message": "Just sometimes, when I'm looking at social media and seeing all the things my friends are doing. It feels like they're living this perfect life and I'm just stuck in a rut."
       },
       {
         "role": "user",
-        "message": "That makes sense \u2014 reaching for easy junk food when you're tired sounds really normal. When you say you've been eating a lot more, how often is that happening \u2014 every day, most days, or just occasionally?"
-      },
-      {
-        "role": "assistant",
-        "message": "Most days. I just need something quick."
-      },
-      {
-        "role": "user",
-        "message": "Thank you so much for being open and sharing how things have been \u2014 I really appreciate hearing about the tiredness, your painting, and how you\u2019ve been managing. It sounds like you\u2019re doing your best while feeling worn out, and I hope you get some rest and a few moments that feel easier. Take care, and thanks again \u2014 it was good talking with you."
+        "message": "Thank you for sharing that \u2014 it makes total sense that seeing friends\u2019 highlight reels would make you feel stuck sometimes. You\u2019re doing a lot with work and routine, so try to be gentle with yourself; those comparisons don\u2019t tell the whole story. I really appreciate you taking the time to talk \u2014 take care, and I\u2019m here if you ever want to chat again."
       }
     ]
   }

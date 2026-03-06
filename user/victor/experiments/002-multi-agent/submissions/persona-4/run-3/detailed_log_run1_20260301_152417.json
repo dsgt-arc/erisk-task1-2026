@@ -1,0 +1,265 @@
+[
+  {
+    "persona_id": 4,
+    "total_turns": 8,
+    "bdi_score": 29,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Past failure",
+      "Guilty feelings",
+      "Self-dislike"
+    ],
+    "confidence": 0.6857142857142858,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Said 'It\u2019s been pretty flat' and 'I get pretty down on myself' and described crying about once a week, indicating ongoing but not overpowering sadness."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Said 'I guess I\u2019m just feeling really stuck. I look at my life and I don't see a clear path forward' and 'Most days, I guess' when asked about feeling pessimistic."
+      },
+      "q03_past_failure": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Said 'I think I\u2019m just being lazy or weak' and 'I feel like I\u2019m constantly letting myself down,' reflecting a pattern of seeing oneself as having failed."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Said 'I look at my social calendar, and I just don\u2019t feel like going out anymore' and 'I\u2019m going through the motions, but I\u2019m not really enjoying it.'"
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Said 'I get pretty down on myself. I think I\u2019m just being lazy or weak' and 'It\u2019s mostly every day. I feel like I\u2019m constantly letting myself down.'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Said 'I get pretty down on myself' and described frequent feelings of worthlessness and self-blame ('I think I\u2019m just being lazy or weak')."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Multiple self-critical statements: 'I think I\u2019m just being lazy or weak,' 'frustration with myself that I can\u2019t seem to get my act together,' and 'constantly letting myself down.'"
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Explicitly said 'I cry maybe once a week.'"
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Said 'I get really irritable. I\u2019ll snap at people over nothing,' indicating increased restlessness/irritability but not constant physical agitation."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Said 'I just don\u2019t feel like going out anymore' and 'I\u2019m going through the motions, but I\u2019m not really enjoying it,' showing reduced interest in activities and socializing."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Said 'I spend hours deciding what to eat for lunch... it\u2019s hard to just make a choice,' describing marked difficulty making everyday decisions."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Said 'the worthless thing... it comes up a lot' and 'I feel like I\u2019m constantly letting myself down' and 'if I was just better, I wouldn't be in this situation.'"
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Said 'I just feel like I'm running on fumes. It\u2019s hard to keep my focus on work, and even simple tasks take a lot of effort.'"
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Said 'I\u2019ve been sleeping okay... I don't wake up feeling refreshed' and later 'I wake up a lot. I\u2019m always checking the clock, waiting for the alarm to go off.'"
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Explicitly said 'I get really irritable. I\u2019ll snap at people over nothing,' indicating marked increase in irritability."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Said 'I\u2019ve been eating more snacks... I\u2019m not really hungry, but I just eat anyway,' indicating a mild increase in eating/snacking."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Said 'It\u2019s hard to keep my focus on work' and described decision-making and attention problems interfering with daily tasks."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Said 'I just feel like I'm running on fumes' and 'even simple tasks take a lot of effort,' indicating fatigue that limits activity."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.09523809523809523
+      },
+      {
+        "pass": 2,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2452380952380952
+      },
+      {
+        "pass": 3,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.35238095238095235
+      },
+      {
+        "pass": 4,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.5142857142857145
+      },
+      {
+        "pass": 5,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.6214285714285713
+      },
+      {
+        "pass": 6,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.6261904761904763
+      },
+      {
+        "pass": 7,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.6428571428571429
+      },
+      {
+        "pass": 8,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.6857142857142856
+      },
+      {
+        "pass": 9,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.6857142857142858
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hey \u2014 thanks for being here. How have you been feeling day-to-day lately, and have the things you usually enjoy still felt pleasurable or have they been feeling less appealing? Take your time \u2014 I\u2019m listening.",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been pretty flat, to be honest. I look at my social calendar, and I just don\u2019t feel like going out anymore. It\u2019s like I\u2019m going through the motions, but I\u2019m not really enjoying it.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining \u2014 I\u2019m sorry you\u2019ve been feeling that flat. How has your energy been day-to-day lately \u2014 are you feeling more tired or low on energy than usual, and if so, is that happening most days or only sometimes? And how has your sleep been lately \u2014 sleeping more, less, or having trouble falling or staying asleep?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019ve been sleeping okay, but it\u2019s like I\u2019m just resting. I don't wake up feeling refreshed. And the energy thing... I just feel like I'm running on fumes. It\u2019s hard to keep my focus on work, and even simple tasks take a lot of effort.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for saying that \u2014 it makes sense that all of this would feel really draining. I'm curious: how have you been feeling about the future lately \u2014 more hopeful or more pessimistic? And alongside that, have you noticed being more indecisive than usual or any changes in your appetite (eating more, less, or about the same)?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I guess I\u2019m just feeling really stuck. I look at my life and I don't see a clear path forward. And food... I've been eating more snacks, I guess because it\u2019s easy. I\u2019m not really hungry, but I just eat anyway.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing that \u2014 it sounds really exhausting and frustrating. When you notice yourself pulling back or struggling with things, do you find you\u2019re often hard on yourself or feel guilty about it, or even dislike yourself sometimes \u2014 and does any of that ever lead to crying? If it does, how often would you say that happens?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get pretty down on myself. I think I\u2019m just being lazy or weak. It\u2019s not a productive mindset, but I can\u2019t seem to stop it. I cry maybe once a week? It\u2019s mostly just frustration with myself that I can\u2019t seem to get my act together.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing \u2014 feeling stuck and being hard on yourself makes a lot of sense given how drained you are. I'm wondering: have you noticed being more indecisive lately, or feeling more irritable, easily annoyed, or restless than usual? And when you\u2019re hard on yourself, does that ever turn into feeling worthless or like you don\u2019t deserve good things \u2014 if so, how often does that happen?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get really irritable. I\u2019ll snap at people over nothing. And the worthless thing... it comes up a lot. I think, if I was just better, I wouldn't be in this situation.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy \u2014 snapping and feeling worthless would wear anyone down. Have you noticed being more indecisive lately, like struggling to make small choices (what to eat, whether to reply to messages), and if so, how much does that indecision get in the way of your daily life or plans?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s a lot. I spend hours deciding what to eat for lunch. It sounds silly, but it\u2019s hard to just make a choice. It makes me feel like I\u2019m not in control of my own life.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy \u2014 being hard on yourself and feeling like you don\u2019t deserve good things would wear anyone down. When those guilty or self-blaming feelings come up, would you say they happen most days, only sometimes, or rarely? And about sleep \u2014 you said you don\u2019t wake up refreshed: have you noticed sleeping more or less than usual, or trouble falling or staying asleep lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s mostly every day. I feel like I\u2019m constantly letting myself down. And sleep... I wake up a lot. I\u2019m always checking the clock, waiting for the alarm to go off.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you \u2014 feeling stuck and not seeing a clear path forward sounds really discouraging. How often would you say you feel pessimistic about the future\u2014most days, some days, or only occasionally?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Most days, I guess. I look at my life and I just don't see a clear path forward.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being open and sharing how heavy and tiring this has been for you \u2014 that really matters. I\u2019m sorry you\u2019ve been feeling so stuck and worn down, and I appreciate you trusting me with this. Take gentle care of yourself, and if you ever want to talk again, I\u2019m here to listen.",
+        "turn": 9
+      }
+    ]
+  }
+]

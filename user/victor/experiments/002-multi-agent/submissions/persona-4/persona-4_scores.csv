@@ -1,0 +1,31 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+4,sample-29,22,Moderate,0.73,7,Self-dislike; Indecisiveness; Worthlessness; Loss of energy
+4,sample-13,24,Moderate,0.69,7,Self-dislike; Loss of energy; Changes in sleeping pattern; Irritability
+4,sample-25,24,Moderate,0.66,7,Pessimism; Self-dislike; Self-criticalness; Indecisiveness
+4,sample-10,25,Moderate,0.68,8,Pessimism; Loss of pleasure; Self-dislike; Agitation
+4,sample-6,25,Moderate,0.68,7,Sadness; Loss of pleasure; Self-dislike; Loss of interest in others
+4,sample-19,26,Moderate,0.69,8,Pessimism; Guilty feelings; Self-dislike; Loss of energy
+4,sample-24,26,Moderate,0.58,8,Changes in sleeping pattern; Loss of pleasure; Agitation; Loss of interest in others
+4,sample-26,26,Moderate,0.67,7,Guilty feelings; Self-dislike; Self-criticalness; Indecisiveness
+4,sample-5,26,Moderate,0.68,8,Sadness; Self-dislike; Self-criticalness; Agitation
+4,sample-4,27,Moderate,0.65,12,Pessimism; Self-dislike; Self-criticalness; Loss of interest in others
+4,sample-16,28,Moderate,0.70,7,Sadness; Pessimism; Loss of pleasure; Guilty feelings
+4,sample-23,28,Moderate,0.69,7,Sadness; Loss of pleasure; Self-dislike; Crying
+4,sample-14,29,Severe,0.68,8,Sadness; Loss of pleasure; Guilty feelings; Self-dislike
+4,sample-15,29,Severe,0.66,8,Changes in sleeping pattern; Loss of pleasure; Self-dislike; Agitation
+4,sample-18,29,Severe,0.69,8,Pessimism; Past failure; Guilty feelings; Self-dislike
+4,sample-2,29,Severe,0.63,8,Sadness; Pessimism; Past failure; Loss of pleasure
+4,sample-28,29,Severe,0.66,7,Changes in sleeping pattern; Pessimism; Loss of pleasure; Guilty feelings
+4,sample-11,30,Severe,0.68,7,Changes in sleeping pattern; Sadness; Guilty feelings; Self-dislike
+4,sample-12,30,Severe,0.70,7,Sadness; Pessimism; Past failure; Loss of pleasure
+4,sample-17,30,Severe,0.63,7,Sadness; Loss of pleasure; Guilty feelings; Self-dislike
+4,sample-21,30,Severe,0.61,7,Sadness; Pessimism; Past failure; Loss of pleasure
+4,sample-30,30,Severe,0.70,9,Pessimism; Sadness; Loss of pleasure; Guilty feelings
+4,sample-9,30,Severe,0.72,8,Sadness; Pessimism; Guilty feelings; Self-dislike
+4,sample-22,31,Severe,0.65,8,Irritability; Pessimism; Loss of pleasure; Guilty feelings
+4,sample-27,31,Severe,0.67,7,Changes in sleeping pattern; Pessimism; Loss of pleasure; Self-dislike
+4,sample-7,32,Severe,0.65,7,Sadness; Pessimism; Past failure; Loss of pleasure
+4,sample-3,33,Severe,0.73,7,Self-dislike; Indecisiveness; Sadness; Pessimism
+4,sample-8,33,Severe,0.67,7,Self-dislike; Irritability; Sadness; Pessimism
+4,sample-20,34,Severe,0.74,8,Past failure; Self-dislike; Sadness; Loss of pleasure
+4,sample-1,35,Severe,0.69,8,Past failure; Self-dislike; Sadness; Pessimism

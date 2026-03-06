@@ -1,0 +1,265 @@
+[
+  {
+    "persona_id": 3,
+    "total_turns": 8,
+    "bdi_score": 14,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Indecisiveness",
+      "Concentration difficulty",
+      "Sadness",
+      "Loss of pleasure"
+    ],
+    "confidence": 0.6238095238095239,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Says 'I get a bit tearful sometimes' and 'everything's just been a chore lately,' but also 'I've been good' \u2014 occasional sadness/tearfulness rather than pervasive sadness."
+      },
+      "q02_pessimism": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona explicitly said 'No, I'm good on the optimism front.'"
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Interviewer: 'have activities you usually enjoy... felt less enjoyable?' Persona: 'Yeah, everything's just been a chore lately.' Indicates decreased enjoyment."
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona says 'I know I'm not a bad person,' and does not express guilt over actions \u2014 no statements of feeling guilty."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona denies negative global self-view: 'I know I'm not a bad person.' No statements of self-dislike."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.4,
+        "evidence": "Persona acknowledges behavior: 'I've definitely been snapping at people more than I should,' which may reflect some self-critical awareness, but they do not explicitly say they are more critical of themselves."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Persona stated 'I get a bit tearful sometimes,' indicating increased crying compared to usual."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Persona reported 'I've definitely been snapping at people more than I should' and 'it's hard to keep my cool sometimes,' consistent with increased agitation."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Persona said 'everything's just been a chore lately,' implying reduced interest in people/activities."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "When asked about making everyday choices persona: 'Like, every day? I just have to remind myself to stay focused,' and earlier 'How often... do you find it difficult to make everyday choices?... Every day, I guess.' Indicates substantial increased difficulty."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "No statements of worthlessness; persona affirms 'I know I'm not a bad person.'"
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Multiple statements of being tired: 'I'm just tired,' 'Work has been crazy... Just need a bit of a break.' Functioning is maintained, suggesting reduced energy rather than incapacitation."
+      },
+      "q16_sleep": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Persona said 'Sleep's been fine, mostly' and only mentioned planning to 'try to get some sleep soon,' suggesting no clear sleep change."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "'I've definitely been snapping at people more than I should' and 'it's hard to keep my cool sometimes' \u2014 increased irritability."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Persona: 'I've just been having trouble eating some nights, so I'm trying to get that sorted.' Indicates some decreased appetite."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Persona: 'Every day, I guess. Just little things, like losing my train of thought mid-sentence... I just have to remind myself to stay focused.' Daily, noticeable concentration problems."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Consistent self-report of tiredness: 'I'm just tired,' 'being busy and tired all the time would wear anyone down' \u2014 increased fatigue but still functioning."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.20952380952380953
+      },
+      {
+        "pass": 2,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.3142857142857143
+      },
+      {
+        "pass": 3,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.5976190476190477
+      },
+      {
+        "pass": 4,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.6190476190476192
+      },
+      {
+        "pass": 5,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.6142857142857143
+      },
+      {
+        "pass": 6,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.6761904761904762
+      },
+      {
+        "pass": 7,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.6285714285714287
+      },
+      {
+        "pass": 8,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.6761904761904763
+      },
+      {
+        "pass": 9,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.6238095238095239
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi \u2014 it\u2019s really nice to meet you. Thanks for taking a moment to chat; how have you been feeling lately, and have you still been enjoying the things you usually like to do?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been good. Just busy, you know? Work has been crazy, but I've been keeping up. Just need a bit of a break, maybe a weekend away.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2014 work can really drain you, and a weekend away sounds like a good idea. How have your sleep and appetite been lately, and have you found yourself feeling more pessimistic about things or the future?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Sleep's been fine, mostly. I've just been having trouble eating some nights, so I'm trying to get that sorted. No, I'm good on the optimism front. I'm just tired, that's all.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds exhausting \u2014 being busy and tired all the time would wear anyone down. Have you found it harder than usual to make everyday decisions or to concentrate at work or home, and have you been feeling more self-critical or guilty about things not going as planned?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I've definitely been snapping at people more than I should. I know I'm just stressed, but it's hard to keep my cool sometimes.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really stressful \u2014 no wonder you\u2019re feeling worn down. Have you been having more trouble than usual making everyday decisions or staying focused at work or home, and have you found yourself getting tearful or feeling like you\u2019re not good enough lately?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I get a bit tearful sometimes, but it's just stress. I know I'm not a bad person, I'm just tired.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough \u2014 being tired and on edge would make anyone feel off. How often lately have you been having trouble concentrating or staying focused, and is it getting in the way of your work or daily tasks?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Every day, I guess. Just little things, like losing my train of thought mid-sentence. It's annoying, but I'm working on it.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2014 being tired and distracted would definitely make decision-making harder. How often lately do you find it difficult to make everyday choices, even small ones like what to eat or what to do next?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Like, every day? I just have to remind myself to stay focused, you know?",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks so much for sharing \u2014 I really appreciate you taking the time. It sounds like you\u2019ve been juggling a lot, and that makes perfect sense. I hope you get some time to rest and look after yourself; I\u2019m here if you ever want to chat again. Take care.",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, thanks. I'll try to get some sleep soon. Appreciate the chat, it's been helpful to talk about it.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you \u2014 being tired and stretched thin would make everything feel harder. I'm curious: have activities you usually enjoy, like hobbies, time with friends, or stuff you normally look forward to, felt less enjoyable or interesting lately?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, everything's just been a chore lately. I'm hoping things pick up soon.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being open and honest \u2014 I really appreciate you sharing what\u2019s been going on. It sounds like you\u2019ve been carrying a lot and that things feel like a bit of a chore right now; I hope you get that weekend away and some much-needed rest. I\u2019m glad the chat was helpful, and if you ever want to talk again I\u2019m here. Take care.",
+        "turn": 9
+      }
+    ]
+  }
+]

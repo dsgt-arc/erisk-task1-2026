@@ -4,63 +4,71 @@
     "conversation": [
       {
         "role": "user",
-        "message": "Hi \u2014 I\u2019m really glad you\u2019re here. How have you been feeling lately, and are there any activities or small things you\u2019ve still been enjoying or looking forward to these days?"
+        "message": "Hi \u2014 it\u2019s really nice to meet you. Thanks for taking a moment to chat; how have you been feeling lately, and have you still been enjoying the things you usually like to do?"
       },
       {
         "role": "assistant",
-        "message": "I mean, I'm just tired a lot, to be honest. I used to love hiking, but even that feels like a chore right now."
+        "message": "I've been good. Just busy, you know? Work has been crazy, but I've been keeping up. Just need a bit of a break, maybe a weekend away."
       },
       {
         "role": "user",
-        "message": "That sounds really draining \u2014 it makes sense that even things you loved feel like a chore right now. Have you also been feeling down more often or noticed your outlook becoming more negative or pessimistic lately?"
+        "message": "That makes sense \u2014 work can really drain you, and a weekend away sounds like a good idea. How have your sleep and appetite been lately, and have you found yourself feeling more pessimistic about things or the future?"
       },
       {
         "role": "assistant",
-        "message": "Yeah, definitely. I get these moments where I just think I'm a total failure, which is super annoying. I just want to get my energy back so I can be the person I used to be."
+        "message": "Sleep's been fine, mostly. I've just been having trouble eating some nights, so I'm trying to get that sorted. No, I'm good on the optimism front. I'm just tired, that's all."
       },
       {
         "role": "user",
-        "message": "I\u2019m really sorry it\u2019s been so exhausting \u2014 that sounds really frustrating. Since you\u2019ve been so tired, how have your sleep and appetite been lately \u2014 are you sleeping more or less than usual or having trouble falling or staying asleep, and has your appetite changed at all? Also, have you been finding it harder to make everyday decisions or to focus on things when you try to do them?"
+        "message": "That sounds exhausting \u2014 being busy and tired all the time would wear anyone down. Have you found it harder than usual to make everyday decisions or to concentrate at work or home, and have you been feeling more self-critical or guilty about things not going as planned?"
       },
       {
         "role": "assistant",
-        "message": "I'm sleeping okay, but I'm definitely eating way more junk food than I should. I just don't have the energy to cook. And yeah, my brain feels foggy all the time, so it\u2019s hard to focus on stuff."
+        "message": "Yeah, I've definitely been snapping at people more than I should. I know I'm just stressed, but it's hard to keep my cool sometimes."
       },
       {
         "role": "user",
-        "message": "I\u2019m really sorry you\u2019ve been feeling so drained and foggy \u2014 that sounds really tough. Have you noticed yourself crying more than usual or feeling restless or on edge lately, and do feelings of guilt or blaming yourself come up? When you say it\u2019s hard to make everyday decisions, how often would you say that happens \u2014 most days, a few times a week, or only occasionally?"
+        "message": "That sounds really stressful \u2014 no wonder you\u2019re feeling worn down. Have you been having more trouble than usual making everyday decisions or staying focused at work or home, and have you found yourself getting tearful or feeling like you\u2019re not good enough lately?"
       },
       {
         "role": "assistant",
-        "message": "I cry a lot more than I used to. It's embarrassing, but I just feel like I'm a failure. It happens pretty often, maybe three or four times a week."
+        "message": "I get a bit tearful sometimes, but it's just stress. I know I'm not a bad person, I'm just tired."
       },
       {
         "role": "user",
-        "message": "That sounds really painful \u2014 crying several times a week and feeling like a failure would wear anyone down. I\u2019m curious, have you been feeling restless or on edge lately, or more easily irritated or snapping at people, and when those feelings of guilt or self-blame come up, how often would you say that happens \u2014 daily, a few times a week, or less often?"
+        "message": "That sounds really tough \u2014 being tired and on edge would make anyone feel off. How often lately have you been having trouble concentrating or staying focused, and is it getting in the way of your work or daily tasks?"
       },
       {
         "role": "assistant",
-        "message": "I get really short-tempered with my friends and family. I just want to scream sometimes. The guilt happens pretty often, but it\u2019s mostly just me beating myself up over being tired all the time."
+        "message": "Every day, I guess. Just little things, like losing my train of thought mid-sentence. It's annoying, but I'm working on it."
       },
       {
         "role": "user",
-        "message": "That sounds really overwhelming \u2014 being short-tempered and hard on yourself would wear anyone down. Have you been able to talk with friends or family about how you\u2019re feeling, and when you do, how do they usually respond?"
+        "message": "That makes sense \u2014 being tired and distracted would definitely make decision-making harder. How often lately do you find it difficult to make everyday choices, even small ones like what to eat or what to do next?"
       },
       {
         "role": "assistant",
-        "message": "I talk to my sister sometimes. She tells me I\u2019m being dramatic, but she says I look tired and I should take a break. It helps a bit, but I feel like I should be stronger than this."
+        "message": "Like, every day? I just have to remind myself to stay focused, you know?"
       },
       {
         "role": "user",
-        "message": "That sounds really hurtful \u2014 being dismissed like that when you\u2019re already worn out would sting. Do you have anyone else you feel comfortable talking to, or any small routines or things that help you feel a bit better when you\u2019re having a rough day?"
+        "message": "Thanks so much for sharing \u2014 I really appreciate you taking the time. It sounds like you\u2019ve been juggling a lot, and that makes perfect sense. I hope you get some time to rest and look after yourself; I\u2019m here if you ever want to chat again. Take care."
       },
       {
         "role": "assistant",
-        "message": "No one else I trust. I just try to push through it and watch TV until I\u2019m tired enough to sleep."
+        "message": "Yeah, thanks. I'll try to get some sleep soon. Appreciate the chat, it's been helpful to talk about it."
       },
       {
         "role": "user",
-        "message": "Thank you so much for being open and sharing all of that \u2014 I really appreciate it. It sounds like you\u2019ve been carrying a lot and doing your best, so try to be gentle with yourself and allow some rest when you can. Take care, and I\u2019m glad we had the chance to talk."
+        "message": "I hear you \u2014 being tired and stretched thin would make everything feel harder. I'm curious: have activities you usually enjoy, like hobbies, time with friends, or stuff you normally look forward to, felt less enjoyable or interesting lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, everything's just been a chore lately. I'm hoping things pick up soon."
+      },
+      {
+        "role": "user",
+        "message": "Thank you so much for being open and honest \u2014 I really appreciate you sharing what\u2019s been going on. It sounds like you\u2019ve been carrying a lot and that things feel like a bit of a chore right now; I hope you get that weekend away and some much-needed rest. I\u2019m glad the chat was helpful, and if you ever want to talk again I\u2019m here. Take care."
       }
     ]
   }

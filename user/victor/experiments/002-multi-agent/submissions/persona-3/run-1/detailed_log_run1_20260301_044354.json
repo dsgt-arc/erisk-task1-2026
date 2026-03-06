@@ -1,0 +1,249 @@
+[
+  {
+    "persona_id": 3,
+    "total_turns": 7,
+    "bdi_score": 14,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Crying",
+      "Loss of energy",
+      "Tiredness or fatigue",
+      "Sadness"
+    ],
+    "confidence": 0.7500000000000001,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Said \u201cIt\u2019s been tough. Just feeling a bit drained\u201d and later \u201cI cry a lot. I just get overwhelmed and it just comes out,\u201d indicating frequent sadness but not saying they are sad all the time."
+      },
+      "q02_pessimism": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona said \u201cI don\u2019t know what the future holds, but I try to stay positive,\u201d which does not reflect discouragement about the future."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Said \u201cEven things I love, like painting, feel like a chore lately,\u201d indicating decreased enjoyment compared to before."
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "\"I don't really blame myself. I just think, 'I'm tired, I'll get it tomorrow.' I try not to dwell on it too much.\""
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.85,
+        "evidence": "Persona indicates trying to do their best and does not express self-dislike: \"I know I\u2019m doing the best I can.\""
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Persona reported \u201cI do second-guess myself a lot,\u201d indicating increased self-criticism relative to before."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No mention of self-harm or suicidal ideation in the transcript."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Persona stated plainly \u201cYeah, I cry a lot. I just get overwhelmed and it just comes out,\u201d suggesting frequent crying (more than just more than usual)."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "No report of restlessness or being wound up; persona describes being tired and collapsing on the couch rather than agitated."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "\"Even things I love, like painting, feel like a chore lately,\" and interviewer prompt about activities being less rewarding which persona affirmed."
+      },
+      "q13_indecisiveness": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Persona said \u201cI do second-guess myself a lot,\u201d and interview asked about difficulty making everyday decisions and they endorsed second-guessing."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona does not express feelings of worthlessness and states \"I know I\u2019m doing the best I can.\""
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "\"Just feeling a bit drained, like I\u2019m running on fumes all the time... I get tired really fast, and it\u2019s hard to focus. I get up, get the kids to school, and then I just collapse on the couch.\""
+      },
+      "q16_sleep": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona stated \u201cI've been sleeping okay, I think,\u201d indicating no reported change in sleep pattern."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona reported \u201cI get a little snappy sometimes. I hate it, but it just happens,\u201d showing increased irritability."
+      },
+      "q18_appetite": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Persona said \u201cI haven\u2019t really noticed any changes in my appetite.\u201d"
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "Persona said \u201cit\u2019s hard to focus\u201d and \u201cI just feel like I\u2019m stuck in neutral most days,\u201d indicating reduced concentration compared to usual."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Reported \u201crunning on fumes all the time,\u201d \u201cI get tired really fast,\u201d and collapsing on the couch after getting the kids to school, suggesting fatigue that limits many activities."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.18095238095238095
+      },
+      {
+        "pass": 2,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.28809523809523807
+      },
+      {
+        "pass": 3,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.30714285714285716
+      },
+      {
+        "pass": 4,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.580952380952381
+      },
+      {
+        "pass": 5,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.711904761904762
+      },
+      {
+        "pass": 6,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.6404761904761906
+      },
+      {
+        "pass": 7,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.6952380952380954
+      },
+      {
+        "pass": 8,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.7500000000000001
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi \u2014 it\u2019s really nice to meet you, and thanks for being here. How have you been feeling lately, and have there been things you usually enjoy that feel different or less rewarding than before? Feel free to share whatever feels comfortable.",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? It\u2019s been tough. Just feeling a bit drained, like I\u2019m running on fumes all the time. Even things I love, like painting, feel like a chore lately.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough \u2014 I\u2019m sorry you\u2019ve been feeling so drained. You mentioned things you enjoy feel like chores; how have the basics been lately \u2014 your sleep and your appetite? Have you been sleeping more or less than usual, or noticed any changes in how much or when you\u2019re eating?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I've been sleeping okay, I think. It\u2019s just the days that feel long, you know? I get up, get the kids to school, and then I just collapse on the couch.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for telling me \u2014 that sounds really exhausting, especially getting the kids off in the mornings and then collapsing on the couch. Have you noticed any changes in your appetite lately, like eating more or less than usual, and have you been finding it harder to make everyday decisions or to concentrate on things like painting or reading?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I haven\u2019t really noticed any changes in my appetite. It\u2019s just the energy. I get tired really fast, and it\u2019s hard to focus. I just feel like I\u2019m stuck in neutral most days.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That really sounds draining \u2014 having to keep going for the kids and then feeling wiped out makes a lot of sense. When you think about the days ahead, do you feel hopeful or more like things probably won\u2019t change, and do you notice yourself second-guessing small decisions or avoiding choices because it feels hard? Also, do you ever find yourself feeling guilty or being hard on yourself about not doing as much as you\u2019d like or how you\u2019re handling things?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I don\u2019t know what the future holds, but I try to stay positive. I do second-guess myself a lot, but I know I\u2019m doing the best I can. I don\u2019t want to be one of those parents who is always stressed, so I try to just roll with it.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting, and it makes sense you\u2019d be worn down from trying to keep everything together. Have you noticed yourself getting more tearful or feeling more easily irritated or short with people lately, and if so, how often does that happen?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get a little snappy sometimes. I hate it, but it just happens. I try to apologize and move on.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy \u2014 feeling wiped out, second-guessing, and apologizing all the time would wear anyone down. Do you find yourself feeling sad or down most days or only sometimes, and when that happens do you tend to blame yourself or feel like you\u2019re not good enough?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I don't really blame myself. I just think, 'I'm tired, I'll get it tomorrow.' I try not to dwell on it too much.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing that \u2014 it makes a lot of sense given how exhausted and stretched thin you sound. You mentioned being snappy and apologizing; I\u2019m curious \u2014 have you been feeling more tearful or finding yourself crying lately, and if so, how often does that tend to happen?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I cry a lot. I just get overwhelmed and it just comes out. It\u2019s embarrassing, but I just try to own it and move on.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing this with me \u2014 I really appreciate your openness. It makes perfect sense that you\u2019d feel overwhelmed and tearful given how much you\u2019re carrying while looking after the kids, and it takes a lot of strength to keep going. You did really well to talk about it; take care of yourself, and if you ever want to chat again, I\u2019m here to listen.",
+        "turn": 8
+      }
+    ]
+  }
+]

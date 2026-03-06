@@ -1,0 +1,31 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+3,sample-27,4,Minimal,0.70,7,Guilty feelings; Self-criticalness; Loss of energy; Tiredness or fatigue
+3,sample-28,4,Minimal,0.70,8,Agitation; Loss of energy; Irritability; Tiredness or fatigue
+3,sample-11,5,Minimal,0.70,7,Crying; Agitation; Loss of energy; Irritability
+3,sample-8,7,Minimal,0.65,7,Loss of pleasure; Loss of interest in others; Loss of energy; Changes in sleeping pattern
+3,sample-13,8,Minimal,0.73,7,Self-criticalness; Agitation; Indecisiveness; Loss of energy
+3,sample-23,8,Minimal,0.73,9,Self-dislike; Self-criticalness; Agitation; Worthlessness
+3,sample-5,8,Minimal,0.74,7,Loss of pleasure; Agitation; Loss of interest in others; Loss of energy
+3,sample-12,9,Minimal,0.68,8,Changes in sleeping pattern; Loss of pleasure; Loss of interest in others; Loss of energy
+3,sample-9,9,Minimal,0.70,7,Loss of pleasure; Self-criticalness; Crying; Agitation
+3,sample-1,10,Minimal,0.72,8,Past failure; Guilty feelings; Self-criticalness; Agitation
+3,sample-19,10,Minimal,0.63,8,Sadness; Self-criticalness; Crying; Agitation
+3,sample-10,11,Minimal,0.71,7,Pessimism; Loss of pleasure; Agitation; Loss of interest in others
+3,sample-26,11,Minimal,0.76,7,Past failure; Loss of pleasure; Guilty feelings; Self-criticalness
+3,sample-17,14,Mild,0.75,7,Crying; Loss of energy; Tiredness or fatigue; Sadness
+3,sample-25,14,Mild,0.66,8,Sadness; Past failure; Loss of pleasure; Guilty feelings
+3,sample-6,14,Mild,0.62,8,Indecisiveness; Concentration difficulty; Sadness; Loss of pleasure
+3,sample-16,15,Mild,0.62,8,Sadness; Pessimism; Loss of pleasure; Guilty feelings
+3,sample-18,15,Mild,0.81,8,Self-criticalness; Pessimism; Past failure; Guilty feelings
+3,sample-20,15,Mild,0.53,9,Sadness; Loss of pleasure; Guilty feelings; Self-dislike
+3,sample-24,15,Mild,0.66,9,Past failure; Loss of pleasure; Guilty feelings; Self-dislike
+3,sample-4,15,Mild,0.80,9,Loss of energy; Tiredness or fatigue; Loss of pleasure; Guilty feelings
+3,sample-21,16,Mild,0.74,10,Indecisiveness; Sadness; Past failure; Loss of pleasure
+3,sample-7,16,Mild,0.65,8,Indecisiveness; Sadness; Pessimism; Guilty feelings
+3,sample-14,17,Mild,0.71,9,Sadness; Pessimism; Past failure; Loss of pleasure
+3,sample-15,18,Mild,0.67,7,Concentration difficulty; Sadness; Pessimism; Past failure
+3,sample-2,19,Mild,0.72,8,Self-criticalness; Indecisiveness; Sadness; Past failure
+3,sample-3,20,Moderate,0.66,8,Pessimism; Self-dislike; Sadness; Past failure
+3,sample-22,25,Moderate,0.69,7,Pessimism; Guilty feelings; Self-criticalness; Indecisiveness
+3,sample-30,26,Moderate,0.65,7,Self-dislike; Sadness; Pessimism; Crying
+3,sample-29,34,Severe,0.74,7,Past failure; Self-dislike; Sadness; Pessimism

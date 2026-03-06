@@ -1,12 +1,12 @@
 [
   {
     "LLM": "3",
-    "bdi-score": 8,
+    "bdi-score": 14,
     "key-symptoms": [
-      "Past failure",
-      "Self-criticalness",
-      "Agitation",
-      "Loss of energy"
+      "Crying",
+      "Loss of energy",
+      "Tiredness or fatigue",
+      "Sadness"
     ]
   }
 ]
