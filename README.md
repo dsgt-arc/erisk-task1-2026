@@ -4,10 +4,11 @@ Mental health risk detection on the Internet for the CLEF eRisk 2026 competition
 ## Approaches
 **Task 1: Conversational Depression Detection**
 
-Adaptive interview system:
-- Semi-structured question policy (prioritize high-risk symptoms)
-- LLM-based symptom detection for adaptive follow-ups
-- Zero-shot scoring via clinical prompt engineering
+Multi-agent interview system (interviewer + scorer + orchestrator) that conducts adaptive BDI-II depression screening conversations with LLM-simulated personas. Routes through OpenRouter for model flexibility.
+
+- `001-baseline-mvp` — Single-LLM interview + scoring baseline
+- `002-multi-agent` — Three-agent architecture, GPT-5-mini via direct OpenAI API
+- `003-open-source` — OpenRouter migration, free model support, Weaver aggregation research
 
 **Task 2: Contextualised Early Detection of Depression**
 
