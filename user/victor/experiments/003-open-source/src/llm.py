@@ -1,8 +1,7 @@
 """
-LLM chat via OpenRouter API.
-
-Uses the OpenAI SDK with OpenRouter's base URL to access any model
-(OpenAI, Anthropic, Meta, Google, Mistral, etc.) through a single endpoint.
+LLM chat with dual routing:
+- Paid models (gpt-5-nano) → direct OpenAI API
+- Free/open-source models → OpenRouter API
 """
 
 import os
@@ -13,8 +12,13 @@ import openai
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Model presets
-PAID_DEFAULT = "openai/gpt-5-nano"
+PAID_DEFAULT = "gpt-5-nano"
 FREE_DEFAULT = "nvidia/nemotron-3-nano-30b-a3b:free"
+
+
+def _is_openrouter_model(model: str) -> bool:
+    """Models with a '/' are OpenRouter-style (provider/model)."""
+    return "/" in model
 
 
 def chat(
@@ -26,11 +30,13 @@ def chat(
     messages: Optional[List[Dict[str, str]]] = None,
 ) -> str:
     """
-    Chat with any model via OpenRouter.
+    Chat with any model. Routes automatically:
+    - Models with '/' (e.g. nvidia/nemotron:free) → OpenRouter
+    - Models without '/' (e.g. gpt-5-nano) → direct OpenAI
 
     Args:
         prompt: User message (ignored if messages provided)
-        model: OpenRouter model string (e.g. "openai/gpt-4.1-mini")
+        model: Model name
         temperature: Sampling temperature
         max_tokens: Maximum response tokens
         system_prompt: Optional system prompt
@@ -39,10 +45,15 @@ def chat(
     Returns:
         Model response text
     """
-    client = openai.OpenAI(
-        base_url=OPENROUTER_BASE_URL,
-        api_key=os.getenv("OPENROUTER_API_KEY"),
-    )
+    if _is_openrouter_model(model):
+        client = openai.OpenAI(
+            base_url=OPENROUTER_BASE_URL,
+            api_key=os.getenv("OPENROUTER_API_KEY"),
+        )
+    else:
+        client = openai.OpenAI(
+            api_key=os.getenv("OPENAI_API_KEY"),
+        )
 
     if messages is None:
         messages = []
