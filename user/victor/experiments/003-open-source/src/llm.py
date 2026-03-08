@@ -70,6 +70,12 @@ def chat(
         kwargs["temperature"] = temperature
         kwargs["max_tokens"] = max_tokens
 
-    response = client.chat.completions.create(**kwargs)
+    #Check for empty response when using open-source models (they return None sometimes)
+    for attempt in range(3):
+        response = client.chat.completions.create(**kwargs)
+        content = response.choices[0].message.content
+        if content and content.strip():
+            return content.strip()
+        print(f"  [LLM returned empty response, retry {attempt + 1}/3]")
 
-    return response.choices[0].message.content.strip()
+    raise RuntimeError(f"Model {model} returned empty content after 3 retries")
