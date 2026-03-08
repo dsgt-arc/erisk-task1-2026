@@ -3,7 +3,9 @@ Select the 3 runs closest to the median BDI-II score from a batch of samples.
 
 Usage:
     python select_runs.py <persona_id>
-    python select_runs.py 4           # analyze persona 4 samples
+    python select_runs.py 4           # analyze persona 4 (paid only)
+    python select_runs.py 4 --free    # analyze persona 4 (free only)
+    python select_runs.py 4 --mix     # pool paid + free, pick best 3
     python select_runs.py 4 --top 3   # pick top 3 (default)
     python select_runs.py 4 --csv     # export scores to CSV
 """
@@ -16,8 +18,10 @@ import statistics
 from pathlib import Path
 
 
-def collect_samples(samples_dir: Path):
+def collect_samples(samples_dir: Path, tier_label: str = ""):
     """Collect all sample scores from a persona's samples directory."""
+    if not samples_dir.exists():
+        return []
     samples = []
     for sample_dir in sorted(samples_dir.iterdir()):
         results_file = sample_dir / "results_run1.json"
@@ -28,7 +32,8 @@ def collect_samples(samples_dir: Path):
         if not data:
             continue
 
-        entry = {"dir": sample_dir, "score": data[0]["bdi-score"], "name": sample_dir.name}
+        label = f"{tier_label}/{sample_dir.name}" if tier_label else sample_dir.name
+        entry = {"dir": sample_dir, "score": data[0]["bdi-score"], "name": label, "tier": tier_label}
 
         # Pull key symptoms if available
         entry["key_symptoms"] = data[0].get("key-symptoms", [])
@@ -94,8 +99,11 @@ def main():
     parser = argparse.ArgumentParser(description="Select best runs from samples")
     parser.add_argument("persona_id", type=int, help="Persona ID")
     parser.add_argument("--top", type=int, default=3, help="Number of runs to select")
-    parser.add_argument("--free", action="store_true",
-                        help="Use samples-free directory (default: samples-paid)")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--free", action="store_true",
+                      help="Use samples-free directory (default: samples-paid)")
+    mode.add_argument("--mix", action="store_true",
+                      help="Pool paid + free samples, pick best across both")
     parser.add_argument("--samples-dir", type=Path, default=None,
                         help="Samples directory (default: results/samples-{paid|free}/persona-{id})")
     parser.add_argument("--output-dir", type=Path, default=None,
@@ -104,14 +112,25 @@ def main():
                         help="Export all scores to CSV")
     args = parser.parse_args()
 
-    tier = "samples-free" if args.free else "samples-paid"
-    if args.samples_dir is None:
-        args.samples_dir = Path(__file__).parent / "results" / tier / f"persona-{args.persona_id}"
-    if args.output_dir is None:
-        args.output_dir = Path(__file__).parent / "submissions" / tier / f"persona-{args.persona_id}"
+    results_root = Path(__file__).parent / "results"
+    pid = f"persona-{args.persona_id}"
 
-    # Collect all sample scores
-    samples = collect_samples(args.samples_dir)
+    if args.mix:
+        samples = (
+            collect_samples(results_root / "samples-paid" / pid, "paid")
+            + collect_samples(results_root / "samples-free" / pid, "free")
+        )
+        if args.output_dir is None:
+            args.output_dir = Path(__file__).parent / "submissions" / "samples-mix" / pid
+    elif args.samples_dir:
+        samples = collect_samples(args.samples_dir)
+        if args.output_dir is None:
+            args.output_dir = Path(__file__).parent / "submissions" / pid
+    else:
+        tier = "samples-free" if args.free else "samples-paid"
+        samples = collect_samples(results_root / tier / pid, tier.split("-")[1])
+        if args.output_dir is None:
+            args.output_dir = Path(__file__).parent / "submissions" / tier / pid
 
     if not samples:
         print(f"No samples found in {args.samples_dir}")
@@ -146,7 +165,8 @@ def main():
     print(f"Selected {args.top} closest to median ({median:.1f}):")
     for i, s in enumerate(selected):
         dist = abs(s["score"] - median)
-        print(f"  Run {i+1}: {s['name']} → BDI={s['score']} (dist={dist:.1f})")
+        tier_tag = f" [{s['tier']}]" if s.get("tier") else ""
+        print(f"  Run {i+1}: {s['name']} → BDI={s['score']} (dist={dist:.1f}){tier_tag}")
 
     # Copy to submissions directory
     args.output_dir.mkdir(parents=True, exist_ok=True)
