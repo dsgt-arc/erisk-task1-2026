@@ -13,7 +13,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Model presets
 PAID_DEFAULT = "gpt-5-nano"
-FREE_DEFAULT = "nvidia/nemotron-3-nano-30b-a3b:free"
+FREE_DEFAULT = "google/gemma-3-27b-it:free"
 
 
 def _is_openrouter_model(model: str) -> bool:
@@ -70,7 +70,7 @@ def chat(
         kwargs["temperature"] = temperature
         kwargs["max_tokens"] = max_tokens
 
-    #Check for empty response when using open-source models (they return None sometimes)
+    # Check for empty responses for open-source models (they return None sometimes)
     for attempt in range(3):
         response = client.chat.completions.create(**kwargs)
         content = response.choices[0].message.content
