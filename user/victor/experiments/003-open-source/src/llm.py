@@ -14,7 +14,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Model presets
 PAID_DEFAULT = "openai/gpt-5-nano"
-FREE_DEFAULT = "meta-llama/llama-3.1-8b-instruct:free"
+FREE_DEFAULT = "nvidia/nemotron-3-nano-30b-a3b:free"
 
 
 def chat(
