@@ -1,7 +1,7 @@
 """
 LLM chat with dual routing:
 - Paid models (gpt-5-nano) → direct OpenAI API
-- Free/open-source models → OpenRouter API
+- Free models (gemini:*) → Google AI Studio (free, generous limits)
 """
 
 import os
@@ -9,16 +9,18 @@ from typing import Optional, List, Dict
 
 import openai
 
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+GOOGLE_AI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 # Model presets
 PAID_DEFAULT = "gpt-5-nano"
-FREE_DEFAULT = "google/gemma-3-12b-it:free"
+FREE_DEFAULT = "gemini:gemma-3-27b-it"
+
+# Google AI Studio prefix
+GOOGLE_PREFIX = "gemini:"
 
 
-def _is_openrouter_model(model: str) -> bool:
-    """Models with a '/' are OpenRouter-style (provider/model)."""
-    return "/" in model
+def _is_google_model(model: str) -> bool:
+    return model.startswith(GOOGLE_PREFIX)
 
 
 def chat(
@@ -31,8 +33,8 @@ def chat(
 ) -> str:
     """
     Chat with any model. Routes automatically:
-    - Models with '/' (e.g. nvidia/nemotron:free) → OpenRouter
-    - Models without '/' (e.g. gpt-5-nano) → direct OpenAI
+    - Models with 'gemini:' prefix (e.g. gemini:gemma-3-27b-it) → Google AI Studio (free)
+    - All other models (e.g. gpt-5-nano) → direct OpenAI API
 
     Args:
         prompt: User message (ignored if messages provided)
@@ -45,15 +47,17 @@ def chat(
     Returns:
         Model response text
     """
-    if _is_openrouter_model(model):
+    if _is_google_model(model):
         client = openai.OpenAI(
-            base_url=OPENROUTER_BASE_URL,
-            api_key=os.getenv("OPENROUTER_API_KEY"),
+            base_url=GOOGLE_AI_BASE_URL,
+            api_key=os.getenv("GOOGLE_AI_API_KEY"),
         )
+        api_model = model[len(GOOGLE_PREFIX):]  # strip "gemini:" prefix
     else:
         client = openai.OpenAI(
             api_key=os.getenv("OPENAI_API_KEY"),
         )
+        api_model = model
 
     if messages is None:
         messages = []
@@ -62,11 +66,11 @@ def chat(
         messages.append({"role": "user", "content": prompt})
 
     kwargs = {
-        "model": model,
+        "model": api_model,
         "messages": messages,
     }
-    # OpenRouter models support temperature/max_tokens; direct OpenAI gpt-5-nano does not
-    if _is_openrouter_model(model):
+    # gpt-5-nano does not support temperature/max_tokens
+    if _is_google_model(model):
         kwargs["temperature"] = temperature
         kwargs["max_tokens"] = max_tokens
 
