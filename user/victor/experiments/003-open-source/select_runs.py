@@ -15,6 +15,7 @@ import csv
 import json
 import shutil
 import statistics
+from collections import Counter
 from pathlib import Path
 
 
@@ -158,15 +159,42 @@ def main():
         export_csv(samples, args.persona_id, csv_path)
         print()
 
-    # Rank by distance from median (robust to outliers)
-    ranked = sorted(samples, key=lambda s: abs(s["score"] - median))
+    # Symptom consensus: find the 4 most commonly reported symptoms across all samples
+    symptom_counts = Counter()
+    for s in samples:
+        for sym in s.get("key_symptoms", []):
+            symptom_counts[sym] += 1
+    consensus_symptoms = [sym for sym, _ in symptom_counts.most_common(4)]
+
+    if consensus_symptoms:
+        print("  Symptom consensus (top 4):")
+        for sym in consensus_symptoms:
+            freq = symptom_counts[sym]
+            pct = freq / len(samples) * 100
+            print(f"    {sym}: {freq}/{len(samples)} ({pct:.0f}%)")
+        print()
+
+    # Combined ranking: score distance (normalized) + symptom overlap
+    # Lower = better
+    score_range = max(scores) - min(scores) if max(scores) != min(scores) else 1
+    for s in samples:
+        score_dist = abs(s["score"] - median) / score_range  # 0-1
+        overlap = len(set(s.get("key_symptoms", [])[:4]) & set(consensus_symptoms))
+        symptom_penalty = 1.0 - (overlap / 4.0) if consensus_symptoms else 0.0  # 0-1
+        s["rank_score"] = 0.6 * score_dist + 0.4 * symptom_penalty
+
+    ranked = sorted(samples, key=lambda s: s["rank_score"])
     selected = ranked[:args.top]
 
-    print(f"Selected {args.top} closest to median ({median:.1f}):")
+    print(f"Selected {args.top} (median proximity 60% + symptom consensus 40%):")
     for i, s in enumerate(selected):
         dist = abs(s["score"] - median)
+        overlap = len(set(s.get("key_symptoms", [])[:4]) & set(consensus_symptoms))
         tier_tag = f" [{s['tier']}]" if s.get("tier") else ""
-        print(f"  Run {i+1}: {s['name']} → BDI={s['score']} (dist={dist:.1f}){tier_tag}")
+        syms = ", ".join(s.get("key_symptoms", [])[:4]) or "-"
+        print(f"  Run {i+1}: {s['name']} → BDI={s['score']} (dist={dist:.1f}, "
+              f"symptoms={overlap}/4){tier_tag}")
+        print(f"         {syms}")
 
     # Copy to submissions directory
     args.output_dir.mkdir(parents=True, exist_ok=True)
