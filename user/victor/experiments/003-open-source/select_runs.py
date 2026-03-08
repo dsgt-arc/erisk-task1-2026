@@ -94,18 +94,21 @@ def main():
     parser = argparse.ArgumentParser(description="Select best runs from samples")
     parser.add_argument("persona_id", type=int, help="Persona ID")
     parser.add_argument("--top", type=int, default=3, help="Number of runs to select")
+    parser.add_argument("--free", action="store_true",
+                        help="Use samples-free directory (default: samples-paid)")
     parser.add_argument("--samples-dir", type=Path, default=None,
-                        help="Samples directory (default: results/samples/persona-{id})")
+                        help="Samples directory (default: results/samples-{paid|free}/persona-{id})")
     parser.add_argument("--output-dir", type=Path, default=None,
                         help="Output directory for selected runs")
     parser.add_argument("--csv", action="store_true",
                         help="Export all scores to CSV")
     args = parser.parse_args()
 
+    tier = "samples-free" if args.free else "samples-paid"
     if args.samples_dir is None:
-        args.samples_dir = Path(__file__).parent / "results" / "samples" / f"persona-{args.persona_id}"
+        args.samples_dir = Path(__file__).parent / "results" / tier / f"persona-{args.persona_id}"
     if args.output_dir is None:
-        args.output_dir = Path(__file__).parent / "submissions" / f"persona-{args.persona_id}"
+        args.output_dir = Path(__file__).parent / "submissions" / tier / f"persona-{args.persona_id}"
 
     # Collect all sample scores
     samples = collect_samples(args.samples_dir)
