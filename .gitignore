@@ -218,6 +218,3 @@ service-account.json
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
-
-#Slurm jobs
-*.sh
