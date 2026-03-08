@@ -59,18 +59,30 @@ def chat(
         )
         api_model = model
 
+    google = _is_google_model(model)
+
     if messages is None:
         messages = []
         if system_prompt:
-            messages.append({"role": "system", "content": system_prompt})
+            # Gemma models don't support system role; prepend to user message
+            if google:
+                prompt = f"{system_prompt}\n\n{prompt}"
+            else:
+                messages.append({"role": "system", "content": system_prompt})
         messages.append({"role": "user", "content": prompt})
+    elif google:
+        # Strip system messages from pre-built message lists (no system role for Gemma 3)
+        messages = [
+            {"role": "user" if m["role"] == "system" else m["role"], "content": m["content"]}
+            for m in messages
+        ]
 
     kwargs = {
         "model": api_model,
         "messages": messages,
     }
     # gpt-5-nano does not support temperature/max_tokens
-    if _is_google_model(model):
+    if google:
         kwargs["temperature"] = temperature
         kwargs["max_tokens"] = max_tokens
 
