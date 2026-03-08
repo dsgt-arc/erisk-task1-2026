@@ -194,10 +194,10 @@ def main():
     verbose = not args.quiet
 
     # Resolve model selection: explicit flag > --free > paid default
+    # --free only affects interviewer; scorer stays paid for reliable JSON output
     from llm import PAID_DEFAULT, FREE_DEFAULT
-    default_model = FREE_DEFAULT if args.free else PAID_DEFAULT
-    interviewer_model = args.interviewer_model or default_model
-    scorer_model = args.scorer_model or default_model
+    interviewer_model = args.interviewer_model or (FREE_DEFAULT if args.free else PAID_DEFAULT)
+    scorer_model = args.scorer_model or PAID_DEFAULT
 
     print("\n" + "=" * 60)
     print("eRisk 2026 Task 1: Open-Source Depression Detection")
