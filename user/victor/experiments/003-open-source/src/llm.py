@@ -61,11 +61,15 @@ def chat(
             messages.append({"role": "system", "content": system_prompt})
         messages.append({"role": "user", "content": prompt})
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=messages,
-        temperature=temperature,
-        max_tokens=max_tokens,
-    )
+    kwargs = {
+        "model": model,
+        "messages": messages,
+    }
+    # OpenRouter models support temperature/max_tokens; direct OpenAI gpt-5-nano does not
+    if _is_openrouter_model(model):
+        kwargs["temperature"] = temperature
+        kwargs["max_tokens"] = max_tokens
+
+    response = client.chat.completions.create(**kwargs)
 
     return response.choices[0].message.content.strip()
