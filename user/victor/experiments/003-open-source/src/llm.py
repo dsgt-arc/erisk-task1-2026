@@ -5,6 +5,7 @@ LLM chat with dual routing:
 """
 
 import os
+import time
 from typing import Optional, List, Dict
 
 import openai
@@ -89,11 +90,25 @@ def chat(
         kwargs["temperature"] = temperature
         kwargs["max_tokens"] = max_tokens
 
-    for attempt in range(3):
-        response = client.chat.completions.create(**kwargs)
-        content = response.choices[0].message.content
-        if content and content.strip():
-            return content.strip()
-        print(f"  [LLM returned empty response, retry {attempt + 1}/3]")
+    # Exponential backoff for free model rate limits
+    max_retries = 5
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(**kwargs)
+            content = response.choices[0].message.content
+            if content and content.strip():
+                return content.strip()
+            print(f"  [LLM returned empty response, retry {attempt + 1}/{max_retries}]")
+        except openai.RateLimitError as e:
+            wait = min(2 ** attempt * 5, 60)  # 5s, 10s, 20s, 40s, 60s
+            print(f"  [Rate limited, waiting {wait}s before retry {attempt + 1}/{max_retries}]")
+            time.sleep(wait)
+        except openai.APIError as e:
+            if attempt < max_retries - 1:
+                wait = 2 ** attempt * 2
+                print(f"  [API error: {e}, retrying in {wait}s ({attempt + 1}/{max_retries})]")
+                time.sleep(wait)
+            else:
+                raise
 
-    raise RuntimeError(f"Model {model} returned empty content after 3 retries")
+    raise RuntimeError(f"Model {model} failed after {max_retries} retries")
