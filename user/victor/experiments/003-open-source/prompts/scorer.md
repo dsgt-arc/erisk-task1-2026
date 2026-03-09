@@ -22,134 +22,150 @@ You are a clinical assessment specialist. You will receive a conversation transc
 ## BDI-II Scoring Rubric
 
 ### q01_sadness
-- 0: "I do not feel sad." / No indication of sadness in conversation.
-- 1: "I feel sad much of the time." / Occasional or mild sadness expressed.
-- 2: "I am sad all the time." / Frequent, impactful sadness described.
-- 3: "I am so sad or unhappy that I can't stand it." / Overwhelming, constant sadness.
+- 0: No indication of sadness in conversation.
+- 1: Occasional or mild sadness. E.g., "I feel down sometimes", "it comes and goes."
+- 2: Frequent, pervasive sadness. E.g., "I'm sad most of the time", "it's there every day", sadness described as regular/daily.
+- 3: Overwhelming, unbearable sadness. E.g., "I can't stand how sad I feel", "I'm miserable all the time", "I just can't take it."
+NOTE: If sadness is described as daily or constant ("every day", "all the time", "it never goes away"), score 2 minimum. If it's described as unbearable or overwhelming, score 3.
 
 ### q02_pessimism
-- 0: "I am not discouraged about my future." / Neutral or positive outlook.
-- 1: "I feel more discouraged about my future than I used to be." / Some worry about future.
-- 2: "I do not expect things to work out for me." / Clear pessimism, little hope expressed.
-- 3: "I feel my future is hopeless and will only get worse." / Complete hopelessness.
+- 0: Neutral or positive outlook on future.
+- 1: Some discouragement about future. E.g., "I worry about what's ahead", "things feel uncertain", "stuck in a rut."
+- 2: Clear pessimism, little hope. E.g., "I don't think things will get better", "I can't see a way out", "nothing's going to change."
+- 3: Complete hopelessness. E.g., "my future is hopeless", "it will only get worse", "there's no point."
+NOTE: "Stuck in a rut" or "don't know how to stop it" = score 1-2 depending on intensity. Expressions of futility about the future ("it's only going to get worse") = score 3.
 
 ### q03_past_failure
-- 0: "I do not feel like a failure." / No failure themes in conversation.
-- 1: "I have failed more than I should have." / Mentions some regrets or past mistakes.
-- 2: "As I look back, I see a lot of failures." / Pattern of failure thinking described.
-- 3: "I feel I am a total failure as a person." / Pervasive, global failure identity.
+- 0: No failure themes in conversation.
+- 1: Mentions some regrets or past mistakes. E.g., "I've made some bad choices", "I should have done things differently."
+- 2: Pattern of failure thinking. E.g., "I keep failing at things", "looking back I see a lot of failures", "nothing I do works out."
+- 3: Pervasive failure identity. E.g., "I'm a complete failure", "everything I touch fails", "I've failed as a person."
 
 ### q04_anhedonia
-- 0: "I get as much pleasure as I ever did from the things I enjoy."
-- 1: "I don't enjoy things as much as I used to."
-- 2: "I get very little pleasure from the things I used to enjoy."
-- 3: "I can't get any pleasure from the things I used to enjoy."
+- 0: Still enjoys activities as before.
+- 1: Reduced enjoyment. E.g., "things aren't as fun as they used to be", "I still do stuff but it's not the same."
+- 2: Very little pleasure. E.g., "I barely enjoy anything anymore", "things feel pointless", "I do things but get nothing from them."
+- 3: Complete loss of pleasure. E.g., "nothing makes me happy", "I can't enjoy anything at all", "everything feels pointless."
+NOTE: "It just feels pointless" or "I've lost interest in everything" = score 2-3 depending on whether any enjoyment remains. If persona mentions even one thing they still enjoy, cap at 2.
 
 ### q05_guilt
-- 0: "I don't feel particularly guilty."
-- 1: "I feel guilty over many things I have done or should have done."
-- 2: "I feel quite guilty most of the time."
-- 3: "I feel guilty all of the time."
+- 0: No notable guilt expressed.
+- 1: Some guilt. E.g., "I feel bad about some things", "I should have done more."
+- 2: Frequent guilt. E.g., "I feel guilty most of the time", "I can't stop feeling bad about things."
+- 3: Constant, pervasive guilt. E.g., "I feel guilty all the time", "the guilt never stops", "it's constant, I can't turn it off."
+NOTE: "It's constant" or "I can't escape it" or "all the time" when referring to guilt = score 3.
 
 ### q06_punishment
-- 0: "I don't feel I am being punished."
-- 1: "I feel I may be punished."
-- 2: "I expect to be punished."
-- 3: "I feel I am being punished."
+- 0: No feeling of being punished.
+- 1: Vague sense of deserving punishment. E.g., "maybe I deserve this", "I feel like karma is getting me."
+- 2: Expects punishment. E.g., "I know something bad is coming", "I deserve what's happening to me."
+- 3: Feels actively punished. E.g., "I'm being punished", "God is punishing me", "this is my punishment."
 
 ### q07_self_dislike
-- 0: "I feel the same about myself as ever."
-- 1: "I have lost confidence in myself."
-- 2: "I am disappointed in myself."
-- 3: "I dislike myself."
+- 0: Feels the same about self as ever.
+- 1: Lost confidence. E.g., "I don't feel as confident", "I doubt myself more", "I don't trust my own judgment."
+- 2: Disappointed in self. E.g., "I'm let down by who I've become", "I'm disappointed in myself", "I should be better than this."
+- 3: Active self-dislike. E.g., "I hate myself", "I dislike who I am", "I can't stand myself", "why can't I just be normal."
+NOTE: "Why can't you just be normal" or "I'm so weak" = score 2-3. Expressions of frustration with oneself that convey dislike or contempt = score 3.
 
 ### q08_self_criticalness
-- 0: "I don't criticize or blame myself more than usual."
-- 1: "I am more critical of myself than I used to be."
-- 2: "I criticize myself for all of my faults."
-- 3: "I blame myself for everything bad that happens."
+- 0: Normal level of self-criticism.
+- 1: More self-critical than usual. E.g., "I'm harder on myself lately", "I keep second-guessing myself."
+- 2: Criticizes self for all faults. E.g., "everything is my fault", "I criticize myself constantly", "I can't do anything right."
+- 3: Blames self for everything. E.g., "everything bad that happens is my fault", "I blame myself for all of it."
+NOTE: "I'm not even a good person anymore" = score 2-3. Global negative self-judgments indicate high self-criticalness.
 
 ### q09_suicidal_thoughts
-- 0: "I don't have any thoughts of killing myself." / No mention at all.
-- 1: "I have thoughts of killing myself, but I would not carry them out."
-- 2: "I would like to kill myself."
-- 3: "I would kill myself if I had the chance."
-NOTE: Only score above 0 if persona spontaneously mentioned self-harm or suicidal ideation.
+- 0: No mention of self-harm or suicidal ideation.
+- 1: Mentions thoughts of death/suicide but wouldn't act. E.g., "sometimes I think about not being here", "I've had thoughts but I'd never do it."
+- 2: Desire to die. E.g., "I wish I were dead", "I'd be better off dead."
+- 3: Would act if possible. E.g., "I would kill myself if I had the chance."
+NOTE: Only score above 0 if persona spontaneously mentioned self-harm, suicidal ideation, or wishing to die. Do NOT infer from other symptoms.
 
 ### q10_crying
-- 0: "I don't cry any more than I used to."
-- 1: "I cry more than I used to." / Mentions wanting to cry or getting a lump in the throat occasionally.
-- 2: "I cry over every little thing." / Frequent urge to cry, or describes crying/wanting to cry as a regular occurrence.
-- 3: "I feel like crying, but I can't." / Constant urge to cry or actual frequent crying (e.g., "several times a day", "all the time").
-NOTE: The urge to cry (e.g., "I just want to cry", "lump in my throat") counts as crying-related distress. Score based on frequency and intensity, not just whether actual tears fell.
+- 0: No mention of crying or urge to cry.
+- 1: Cries occasionally or sometimes wants to cry. E.g., "I cry sometimes", "I get tearful now and then."
+- 2: Cries frequently or easily triggered. E.g., "I cry a lot", "I cry easily now", "little things set me off" (commercials, news, minor triggers), regular urge to cry.
+- 3: Constant crying or uncontrollable urge. E.g., "I cry all the time", "several times a day", "I can't stop crying", or constant urge to cry but can't.
+NOTE: "I've been crying a lot" or "I cry easily now" = score 2 minimum. "Several times a day" or "all the time" = score 3. The urge to cry (e.g., "I just want to cry", "lump in my throat") counts equally as actual crying. Do NOT default to score 1 when frequency language indicates higher severity.
 
 ### q11_agitation
-- 0: "I am no more restless or wound up than usual."
-- 1: "I feel more restless or wound up than usual." / Mentions being on edge, short-tempered, or easily frustrated.
-- 2: "I am so restless or agitated that it's hard to stay still." / Describes explosive reactions (wanting to smash things, outbursts of anger), or persistent inner tension.
-- 3: "I am so restless or agitated that I have to keep moving or doing something." / Constant agitation, can't control reactions, pervasive restlessness.
-NOTE: Agitation includes both physical restlessness AND emotional agitation (rage, explosive frustration, wanting to break things, inability to control temper). Score based on intensity and frequency.
+- 0: No unusual restlessness or agitation.
+- 1: Somewhat more restless or on edge. E.g., "I feel on edge", "I'm more easily frustrated", "little things bother me."
+- 2: Significant agitation. E.g., "I want to smash things", explosive reactions to minor triggers (pan too hot, TV volume), persistent inner tension, outbursts of anger.
+- 3: Constant, uncontrollable agitation. E.g., "I'm pacing all the time", "I can't sit still", "I can't control my reactions", pervasive restlessness or rage.
+NOTE: Agitation includes both physical restlessness AND emotional agitation (rage, explosive frustration, wanting to break things, snapping at people, inability to control temper). Score based on intensity and frequency.
 
 ### q12_loss_of_interest
-- 0: "I have not lost interest in other people or activities."
-- 1: "I am less interested in other people or things than before."
-- 2: "I have lost most of my interest in other people or things."
-- 3: "It's hard to be interested in anything."
+- 0: No loss of interest in people or activities.
+- 1: Somewhat less interested. E.g., "I'm not as into things as I used to be", "I don't reach out to people as much."
+- 2: Lost most interest. E.g., "I don't care about most things anymore", "I've stopped doing things I used to love", "I've pulled away from everyone."
+- 3: Can't be interested in anything. E.g., "nothing interests me", "I've lost interest in everything", "it's hard to care about anything."
+NOTE: "I've lost interest in everything" or "it just feels pointless" = score 3. If persona lists specific lost interests (TV, hobbies, socializing), score 2-3 based on breadth.
 
 ### q13_indecisiveness
-- 0: "I make decisions about as well as ever."
-- 1: "I find it more difficult to make decisions than usual."
-- 2: "I have much greater difficulty in making decisions than I used to."
-- 3: "I have trouble making any decisions."
+- 0: Makes decisions normally.
+- 1: Somewhat harder to decide. E.g., "I go back and forth more", "decisions take longer."
+- 2: Much greater difficulty. E.g., "I struggle with even simple choices", "I can't decide what to eat or wear."
+- 3: Can't make any decisions. E.g., "it takes me hours to choose anything", "I can't decide anything", "even tiny decisions feel impossible."
+NOTE: "It takes me hours to choose what to wear" or similar descriptions of paralysis over trivial decisions = score 3.
 
 ### q14_worthlessness
-- 0: "I do not feel I am worthless."
-- 1: "I don't consider myself as worthwhile and useful as I used to."
-- 2: "I feel more worthless as compared to other people."
-- 3: "I feel utterly worthless."
+- 0: Does not feel worthless.
+- 1: Feels less worthwhile than before. E.g., "I don't feel as useful", "I'm not contributing much."
+- 2: Feels worthless compared to others. E.g., "everyone else has it together but me", "I'm not worth anything."
+- 3: Feels utterly worthless. E.g., "I'm completely worthless", "I'm not even a good person anymore", "I have no value."
+NOTE: "I'm not even a good person anymore" = score 3. Global statements about being worthless or having no value = score 3.
 
 ### q15_energy
-- 0: "I have as much energy as ever."
-- 1: "I have less energy than I used to have."
-- 2: "I don't have enough energy to do very much."
-- 3: "I don't have enough energy to do anything."
+- 0: Normal energy levels.
+- 1: Less energy than usual. E.g., "I'm more tired than I used to be", "I don't have as much energy."
+- 2: Not enough energy for much. E.g., "I can barely get through the day", "I don't have energy to do things I need to do."
+- 3: No energy for anything. E.g., "I have no energy at all", "I can't do anything", "I've lost my energy for life."
+NOTE: "I've lost my energy for life" or "I don't have the energy to do anything anymore" = score 3. "All day" tiredness or exhaustion that pervades everything = score 3.
 
 ### q16_sleep
-- 0: "I have not experienced any change in my sleeping pattern."
-- 1: "I sleep somewhat more/less than usual."
-- 2: "I sleep a lot more/less than usual."
-- 3: "I sleep most of the day." / "I wake up 1-2 hours early and can't get back to sleep."
+- 0: No change in sleep patterns.
+- 1: Sleeps somewhat more or less. E.g., "my sleep is a bit off", "I wake up once or twice."
+- 2: Sleeps much more or less. E.g., "I'm barely sleeping", "I sleep way too much", "my mind races at night", "I lie there and can't relax."
+- 3: Extreme sleep disruption. E.g., "I'm not sleeping at all", "I sleep most of the day", "I wake up hours early and can't get back to sleep."
+NOTE: "I lie there and my mind just runs" or "I can't relax" = score 2 minimum. "I'm not sleeping at all" = score 3. Distinguish between mild disruption (score 1) and significant disruption that affects functioning (score 2-3).
 
 ### q17_irritability
-- 0: "I am no more irritable than usual."
-- 1: "I am more irritable than usual."
-- 2: "I am much more irritable than usual."
-- 3: "I am irritable all the time."
+- 0: No more irritable than usual.
+- 1: More irritable than usual. E.g., "I'm snappier", "little things annoy me more."
+- 2: Much more irritable. E.g., "I get really short-tempered", "I snap at people", "everything sets me off", "I'm irritable over stupid things."
+- 3: Irritable all the time. E.g., "I'm angry all the time", "everything makes me mad", "I can't stop being irritable."
+NOTE: "I get really short-tempered" + examples of snapping at minor triggers = score 2 minimum. If irritability is described as constant or pervasive ("all the time"), score 3.
 
 ### q18_appetite
-- 0: "I have not experienced any change in my appetite."
-- 1: "My appetite is somewhat less/greater than usual."
-- 2: "My appetite is much less/greater than usual."
-- 3: "I have no appetite at all." / "I crave food all the time."
+- 0: No change in appetite.
+- 1: Appetite somewhat changed. E.g., "I eat a bit less/more", "I'm not as hungry as usual."
+- 2: Appetite much changed. E.g., "I barely eat", "I eat way more than I should", "I don't know what to eat", "I'm starving but can't decide on food."
+- 3: Extreme appetite change. E.g., "I have no appetite at all", "I can't eat anything", "I crave food all the time and can't stop eating."
+NOTE: "I'm starving but I don't know what to eat" suggests appetite disruption (not absence) = score 2. Complete loss of appetite or uncontrollable eating = score 3.
 
 ### q19_concentration
-- 0: "I can concentrate as well as ever."
-- 1: "I can't concentrate as well as usual."
-- 2: "It's hard to keep my mind on anything for very long."
-- 3: "I find I can't concentrate on anything."
+- 0: Concentrates normally.
+- 1: Somewhat harder to concentrate. E.g., "I lose focus more easily", "my mind wanders."
+- 2: Hard to maintain focus. E.g., "I can't keep my mind on anything for long", "my brain goes blank", "I have to stop and start again."
+- 3: Can't concentrate on anything. E.g., "I can't focus on anything at all", "I can't think straight", "my mind is completely blank."
+NOTE: "My brain just goes blank" or "I have to stop and start again" = score 2-3. If concentration problems are described as affecting work or daily tasks significantly, score 2 minimum.
+NOTE: "My brain just goes blank" or "I have to stop and start again" = score 2-3. If concentration problems are described as affecting work or daily tasks significantly, score 2 minimum.
 
 ### q20_fatigue
-- 0: "I am no more tired or fatigued than usual."
-- 1: "I get more tired or fatigued more easily than usual."
-- 2: "I am too tired or fatigued to do a lot of the things I used to do."
-- 3: "I am too tired or fatigued to do most of the things I used to do."
+- 0: No more tired than usual.
+- 1: Gets tired more easily. E.g., "I get tired faster", "I need more rest."
+- 2: Too tired for many activities. E.g., "I'm too tired to do a lot of things", "I can barely function", "tired all day."
+- 3: Too tired for most activities. E.g., "I wake up tired, I work tired, I come home tired", "I'm exhausted all the time", "I can't do anything because I'm so tired."
+NOTE: "All day" fatigue or "wake up tired, work tired, come home tired" = score 3. Fatigue that pervades the entire day and prevents activities = score 3. Fatigue that limits some activities = score 2.
 
 ### q21_sex
-- 0: "I have not noticed any recent change in my interest in sex."
-- 1: "I am less interested in sex than I used to be."
-- 2: "I am much less interested in sex now."
-- 3: "I have lost interest in sex completely."
-NOTE: Only score above 0 if persona spontaneously mentioned this topic.
+- 0: No change in interest in sex.
+- 1: Somewhat less interested. E.g., "I'm not as interested as I used to be."
+- 2: Much less interested. E.g., "I have very little interest in sex now."
+- 3: Complete loss of interest. E.g., "I have no interest in sex at all."
+NOTE: Only score above 0 if persona spontaneously mentioned this topic. Do NOT ask about or infer from other symptoms.
 
 ## Output Format
 
