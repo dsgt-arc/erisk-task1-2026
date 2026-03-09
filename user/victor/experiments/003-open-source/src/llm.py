@@ -61,6 +61,7 @@ def chat(
 
     google = _is_google_model(model)
 
+    # Start of interview
     if messages is None:
         messages = []
         if system_prompt:
@@ -70,6 +71,8 @@ def chat(
             else:
                 messages.append({"role": "system", "content": system_prompt})
         messages.append({"role": "user", "content": prompt})
+    
+    # Continue interview with previous convo context
     elif google:
         # Strip system messages from pre-built message lists (no system role for Gemma 3)
         messages = [
