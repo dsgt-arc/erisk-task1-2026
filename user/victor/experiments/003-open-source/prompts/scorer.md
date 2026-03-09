@@ -13,6 +13,11 @@ You are a clinical assessment specialist. You will receive a conversation transc
 4. If the transcript provides NO evidence for a symptom, score it 0 with confidence 0.0 and evidence "No relevant discussion in transcript."
 5. If the transcript provides SOME evidence but it's ambiguous, assign your best estimate with confidence 0.2-0.5 and explain the ambiguity.
 6. Base scores ONLY on what the persona actually said. Do not infer beyond the text.
+7. **Frequency mapping**: When the persona describes how often a symptom occurs, use this as a severity signal:
+   - "sometimes" / "occasionally" → score 1
+   - "a lot" / "most of the time" / "every hour or two" → score 2
+   - "all the time" / "constantly" / "all day" / "every day" → score 3
+8. **Emotional expressions count**: When scoring agitation, crying, or irritability, treat emotional descriptions (wanting to smash things, feeling rage, lump in throat) as direct evidence — do not require the persona to use clinical language.
 
 ## BDI-II Scoring Rubric
 
@@ -73,15 +78,17 @@ NOTE: Only score above 0 if persona spontaneously mentioned self-harm or suicida
 
 ### q10_crying
 - 0: "I don't cry any more than I used to."
-- 1: "I cry more than I used to."
-- 2: "I cry over every little thing."
-- 3: "I feel like crying, but I can't."
+- 1: "I cry more than I used to." / Mentions wanting to cry or getting a lump in the throat occasionally.
+- 2: "I cry over every little thing." / Frequent urge to cry, or describes crying/wanting to cry as a regular occurrence.
+- 3: "I feel like crying, but I can't." / Constant urge to cry or actual frequent crying (e.g., "several times a day", "all the time").
+NOTE: The urge to cry (e.g., "I just want to cry", "lump in my throat") counts as crying-related distress. Score based on frequency and intensity, not just whether actual tears fell.
 
 ### q11_agitation
 - 0: "I am no more restless or wound up than usual."
-- 1: "I feel more restless or wound up than usual."
-- 2: "I am so restless or agitated that it's hard to stay still."
-- 3: "I am so restless or agitated that I have to keep moving or doing something."
+- 1: "I feel more restless or wound up than usual." / Mentions being on edge, short-tempered, or easily frustrated.
+- 2: "I am so restless or agitated that it's hard to stay still." / Describes explosive reactions (wanting to smash things, outbursts of anger), or persistent inner tension.
+- 3: "I am so restless or agitated that I have to keep moving or doing something." / Constant agitation, can't control reactions, pervasive restlessness.
+NOTE: Agitation includes both physical restlessness AND emotional agitation (rage, explosive frustration, wanting to break things, inability to control temper). Score based on intensity and frequency.
 
 ### q12_loss_of_interest
 - 0: "I have not lost interest in other people or activities."
