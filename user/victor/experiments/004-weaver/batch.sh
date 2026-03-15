@@ -27,7 +27,7 @@ export UV_PROJECT_ENVIRONMENT="/storage/scratch1/8/vgong7/.venv-erisk"
 
 source /storage/scratch1/8/vgong7/.venv-erisk/bin/activate
 
-cd ~/scratch/erisk-2026/user/victor/experiments/003-open-source/src
+cd ~/scratch/erisk-2026/user/victor/experiments/004-weaver/src
 
 SAMPLE_ID=$SLURM_ARRAY_TASK_ID
 
