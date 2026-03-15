@@ -1,0 +1,47 @@
+[project]
+name = "004-weaver"
+version = "0.1.0"
+description = "Weaver Run Selection + Dialogue Tree for eRisk 2026 Task 1"
+authors = [
+    { name = "Victor Gong", email = "vgong7@gatech.edu" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    # LLM API (via OpenRouter)
+    "openai>=1.0.0",
+
+    # Local LLM (persona)
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "accelerate>=0.27.0",
+    "peft>=0.10.0",
+    "bitsandbytes>=0.43.0",
+
+    # Data handling
+    "numpy>=1.24.0",
+
+    # Dialogue tree
+    "rank-bm25>=0.2.2",
+    "pyyaml>=6.0",
+
+    # Utilities
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.1.0",
+    "ipython>=8.0.0",
+    "jupyter>=1.0.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "pandas>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
