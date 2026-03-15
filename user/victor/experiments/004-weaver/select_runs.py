@@ -18,6 +18,7 @@ Usage:
 import argparse
 import csv
 import json
+import re
 import shutil
 import statistics
 import sys
@@ -308,9 +309,10 @@ def main():
         shutil.copytree(s["dir"], dest)
 
         # Rename files to match run ID
-        for old_file in dest.glob("*_run1.*"):
-            new_name = old_file.name.replace("_run1", f"_run{run_id}")
-            old_file.rename(dest / new_name)
+        for old_file in dest.glob("*_run*.*"):
+            new_name = re.sub(r"_run\d+", f"_run{run_id}", old_file.name)
+            if new_name != old_file.name:
+                old_file.rename(dest / new_name)
 
         print(f"  → Copied to {dest}")
 
