@@ -26,7 +26,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from models import BDI_SYMPTOM_IDS, SYMPTOM_ID_TO_NAME, SymptomScore
+from models import BDI_SYMPTOM_IDS, SYMPTOM_ID_TO_NAME, ScorerOutput, SymptomScore
 from weaver import WeaverAggregator
 
 
