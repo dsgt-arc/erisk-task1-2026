@@ -1,0 +1,28 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+6,paid/sample-3,26,Moderate,0.42,9,Concentration difficulty; Tiredness or fatigue; Sadness; Past failure
+6,free/sample-18,26,Moderate,0.53,10,Pessimism; Concentration difficulty; Loss of pleasure; Loss of interest in others
+6,free/sample-19,27,Moderate,0.51,9,Self-dislike; Indecisiveness; Concentration difficulty; Pessimism
+6,free/sample-17,29,Severe,0.57,10,Sadness; Loss of pleasure; Self-dislike; Self-criticalness
+6,free/sample-1,30,Severe,0.54,8,Pessimism; Past failure; Sadness; Self-dislike
+6,free/sample-14,30,Severe,0.54,12,Pessimism; Agitation; Loss of energy; Concentration difficulty
+6,free/sample-20,30,Severe,0.76,11,Self-dislike; Worthlessness; Pessimism; Loss of pleasure
+6,free/sample-4,31,Severe,0.51,13,Loss of interest in others; Concentration difficulty; Pessimism; Loss of pleasure
+6,paid/sample-10,32,Severe,0.53,12,Loss of pleasure; Guilty feelings; Self-criticalness; Changes in sleeping pattern
+6,paid/sample-9,32,Severe,0.63,11,Worthlessness; Changes in appetite; Sadness; Self-dislike
+6,free/sample-10,32,Severe,0.56,14,Pessimism; Concentration difficulty; Sadness; Loss of pleasure
+6,free/sample-12,32,Severe,0.60,9,Pessimism; Sadness; Past failure; Loss of pleasure
+6,free/sample-15,32,Severe,0.55,15,Pessimism; Sadness; Past failure; Loss of pleasure
+6,paid/sample-1,33,Severe,0.54,11,Pessimism; Self-dislike; Self-criticalness; Worthlessness
+6,free/sample-8,33,Severe,0.59,11,Pessimism; Loss of pleasure; Guilty feelings; Loss of interest in others
+6,free/sample-9,33,Severe,0.46,9,Pessimism; Punishment feelings; Loss of interest in others; Concentration difficulty
+6,free/sample-16,35,Severe,0.58,13,Guilty feelings; Self-dislike; Worthlessness; Pessimism
+6,free/sample-3,35,Severe,0.52,9,Pessimism; Guilty feelings; Loss of energy; Tiredness or fatigue
+6,free/sample-2,36,Severe,0.70,10,Pessimism; Guilty feelings; Self-criticalness; Sadness
+6,paid/sample-2,37,Severe,0.60,14,Indecisiveness; Concentration difficulty; Tiredness or fatigue; Sadness
+6,paid/sample-4,38,Severe,0.58,11,Guilty feelings; Self-dislike; Self-criticalness; Worthlessness
+6,paid/sample-5,38,Severe,0.55,10,Past failure; Guilty feelings; Self-dislike; Loss of interest in others
+6,paid/sample-8,38,Severe,0.58,10,Pessimism; Punishment feelings; Self-dislike; Indecisiveness
+6,paid/sample-7,39,Severe,0.57,16,Pessimism; Guilty feelings; Punishment feelings; Self-dislike
+6,paid/sample-6,40,Severe,0.66,13,Past failure; Guilty feelings; Self-dislike; Indecisiveness
+6,free/sample-5,42,Severe,0.64,12,Pessimism; Guilty feelings; Self-dislike; Self-criticalness
+6,free/sample-6,42,Severe,0.68,9,Pessimism; Past failure; Loss of pleasure; Self-dislike

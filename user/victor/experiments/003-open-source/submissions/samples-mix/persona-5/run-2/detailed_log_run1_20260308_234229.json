@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 5,
+    "total_turns": 9,
+    "bdi_score": 38,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Agitation",
+      "Indecisiveness",
+      "Worthlessness"
+    ],
+    "confidence": 0.5166666666666666,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Yeah, it\u2019s mostly just feeling empty, I suppose. I used to love going to the park, but now it just feels like a chore. I don't want to leave the flat, so I just stay in."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.55,
+        "evidence": "As for making decisions, I just freeze. I don't know what to do with my life right now, so I just sit there."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I used to love going to the park, but now it just feels like a chore. I don't want to leave the flat"
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "Until I go to bed, usually. Sometimes I wake up in the middle of the night and I'm still thinking about it. It never stops."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "I don't know who I am anymore."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I get angry with myself for being so weak."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation in transcript"
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Yeah, I cry. I cry about nothing. It\u2019s just... I don't know who I am anymore. It happens a lot, probably every other day. It lasts until I'm too exhausted to keep crying, then I just go to bed."
+      },
+      "q11_agitation": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "Just... everything. People talking too loudly, the TV too loud, the washing machine running. It all feels like it\u2019s too much. It lasts until I just shut down. It happens all day, every day. I don't know how to stop it."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I used to love going to the park, but now it just feels like a chore."
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.6,
+        "evidence": "I just freeze. I don't know what to do with my life right now, so I just sit there. I'll sit there for an hour trying to decide what to wear, and then I just give up and put on whatever is nearest."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "It's a constant voice in my head, saying I'm useless."
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "Honestly, I haven't really had much energy for anything. I've just been sitting on the couch, watching TV. I don't even have the motivation to cook a simple meal. It\u2019s just... exhausting."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I wake up in the middle of the night, my heart racing."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Just... everything. It lasts until I just shut down. The noise, the people... it all just makes me want to scream."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "food... I don't even want to think about it. It's just too much effort."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I'll sit there for an hour trying to decide what to wear, and then I just give up..."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "Honestly, I haven't really had much energy for anything. I've just been sitting on the couch, watching TV. It\u2019s exhausting."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.05952380952380952
+      },
+      {
+        "pass": 2,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.19047619047619047
+      },
+      {
+        "pass": 3,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.34285714285714286
+      },
+      {
+        "pass": 4,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.42380952380952375
+      },
+      {
+        "pass": 5,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.4738095238095238
+      },
+      {
+        "pass": 6,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.4880952380952382
+      },
+      {
+        "pass": 7,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5214285714285715
+      },
+      {
+        "pass": 8,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.569047619047619
+      },
+      {
+        "pass": 9,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5380952380952382
+      },
+      {
+        "pass": 10,
+        "total_score": 38,
+        "severity": "Severe",
+        "mean_confidence": 0.5166666666666666
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, mood-wise and in terms of your energy? What have you been able to enjoy or look forward to recently?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly, I haven't really had much energy for anything. I've just been sitting on the couch, watching TV. I don't even have the motivation to cook a simple meal. It\u2019s just... exhausting.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting\u2014thank you for sharing that with me. In the past couple of weeks, have you been feeling sad or down most days, noticed less pleasure in activities you usually enjoy, or less interest in spending time with others?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s mostly just feeling empty, I suppose. I used to love going to the park, but now it just feels like a chore. I don't want to leave the flat, so I just stay in.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tiring to deal with. Have you noticed any changes in your sleep or appetite, and have you been feeling more pessimistic about things or finding it harder to make decisions lately?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I wake up in the middle of the night, my heart racing. And food... I don't even want to think about it. It's just too much effort. As for making decisions, I just freeze. I don't know what to do with my life right now, so I just sit there.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting. When you\u2019re trying to concentrate or decide what to do and you feel stuck, does that tend to bring up more self-criticism or guilt? How often does concentration feel hard for you, and how long does it usually last?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get angry with myself for being so weak. It lasts for hours, I think. I'll sit there for an hour trying to decide what to wear, and then I just give up and put on whatever is nearest.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. When these moments come up, do you notice you cry more easily, feel agitated or irritable, or think you're not worth much? If so, how often does this happen and how long does it last?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I cry. I cry about nothing. It\u2019s just... I don't know who I am anymore. It happens a lot, probably every other day. It lasts until I'm too exhausted to keep crying, then I just go to bed.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough to deal with. When you notice agitation or irritability, what usually triggers it, and how long does it tend to last?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Just... everything. People talking too loudly, the TV too loud, the washing machine running. It all feels like it\u2019s too much. It lasts until I just shut down.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting\u2014thank you for sharing that. When those moments of agitation or irritability come up, how often do they happen and how long do they last? Do you notice any particular triggers, like noises or crowds, and has this started affecting your sleep or how you relate to people around you?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "It happens all day, every day. I don't know how to stop it. The noise, the people... it all just makes me want to scream. I've stopped leaving the flat because I don't want to deal with anyone.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy. When those self-critical thoughts or feelings of not being worth much show up, how often do they come and how long do they usually last?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "They're always there. I don't know how to make them stop. It's just a constant voice in my head, saying I'm useless.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy and exhausting to deal with. When those guilty feelings or self-judgment show up, how long do they typically last?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Until I go to bed, usually. Sometimes I wake up in the middle of the night and I'm still thinking about it. It never stops.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being open and sharing with me today. I really appreciate your honesty and the effort it took to talk through what you\u2019ve been dealing with. Take good care of yourself, and if you ever want to chat again, I\u2019m here.",
+        "turn": 10
+      }
+    ]
+  }
+]

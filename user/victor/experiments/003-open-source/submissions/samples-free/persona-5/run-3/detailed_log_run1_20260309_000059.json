@@ -1,0 +1,297 @@
+[
+  {
+    "persona_id": 5,
+    "total_turns": 10,
+    "bdi_score": 41,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Self-dislike",
+      "Indecisiveness",
+      "Worthlessness"
+    ],
+    "confidence": 0.6500000000000001,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Yeah, it\u2019s been sad. I think it\u2019s just the realization that I\u2019m not who I used to be. I look in the mirror and I don't recognize myself anymore. I used to be strong, you know? And now... I just feel weak."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Bleak. I don't see a way out of this. I just feel stuck, and it's hard to see a light at the end of the tunnel."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Yeah, it's hard. I used to love cooking, but now I can't even stand for five minutes without needing to sit down."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "All the time. I look at myself in the mirror and I think, 'You used to be so capable, what happened to you?' It's like I've let myself go. I am furious with myself."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I just feel weak. I'm furious with myself."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Why can't you just get it together? I am."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Little things set me off. A noise, a phone call, someone talking too loud... I snap at people over nothing."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Yeah, it's hard. I used to love cooking, but now I can't even stand for five minutes without needing to sit down."
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "What to wear... I stand there for ten minutes just staring at the clothes. I used to know exactly what to put on. Now, I just feel blank. It\u2019s like my brain has stopped working."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I look in the mirror and I don't recognize myself anymore. I used to be strong... It\u2019s like I've let myself go."
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I'm exhausted all the time. I wake up in the morning and I'm already running on empty. I try to get up and get moving, but it's like I'm wading through mud."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Sleep? Forget it. I can't get more than three or four hours a night."
+      },
+      "q17_irritability": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Yeah, all the time. Little things set me off. A noise, a phone call, someone talking too loud... I snap at people over nothing."
+      },
+      "q18_appetite": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Food? I've lost my appetite completely. I look at a plate and I just can't eat it."
+      },
+      "q19_concentration": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "It's like my brain has stopped working. I stand there for ten minutes just staring at the clothes."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I'm exhausted all the time. I wake up in the morning and I'm already running on empty. It\u2019s like I'm wading through mud."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.02857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.09523809523809523
+      },
+      {
+        "pass": 3,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.13333333333333333
+      },
+      {
+        "pass": 4,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.1952380952380952
+      },
+      {
+        "pass": 5,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.27142857142857146
+      },
+      {
+        "pass": 6,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.35714285714285715
+      },
+      {
+        "pass": 7,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.40476190476190477
+      },
+      {
+        "pass": 8,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.43238095238095237
+      },
+      {
+        "pass": 9,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.5738095238095239
+      },
+      {
+        "pass": 10,
+        "total_score": 39,
+        "severity": "Severe",
+        "mean_confidence": 0.7952380952380954
+      },
+      {
+        "pass": 11,
+        "total_score": 41,
+        "severity": "Severe",
+        "mean_confidence": 0.6500000000000001
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly, it's been tough. My knee has been acting up a lot, and I can't do the things I used to. It's frustrating. I just feel like I'm losing my grip on everything.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really frustrating \u2013 dealing with pain on top of feeling like things are slipping away must be incredibly difficult. You mentioned feeling like you're losing your grip\u2026 has it been hard to find enjoyment in things you usually like, or connecting with people around you these days? I'm just wondering how things have been feeling on that front.",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it's hard. I used to love cooking, but now I can't even stand for five minutes without needing to sit down. And people? Forget it. They don't want to hear about my knee. They want to talk about their jobs or their weekends, and I just can't keep up with that anymore.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "It makes sense that the pain would make it hard to enjoy cooking, and it\u2019s really tough when you feel like others don\u2019t quite understand what you\u2019re going through. Thinking about everything you\u2019re managing \u2013 the pain, feeling disconnected \u2013 how has your energy level been lately? Have you been feeling particularly tired or drained?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I'm exhausted all the time. I wake up in the morning and I'm already running on empty. I try to get up and get moving, but it's like I'm wading through mud. It's like my body has just given up on me.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining \u2013 waking up already exhausted and feeling like you\u2019re fighting just to get through the day. It\u2019s understandable that would be really tough. When you think about how you\u2019ve been *feeling* emotionally lately, would you say things have been generally sad or down for you? And if so, has that been a recent change, or something you\u2019ve been experiencing for a while?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s been sad. I think it\u2019s just the realization that I\u2019m not who I used to be. I look in the mirror and I don't recognize myself anymore. I used to be strong, you know? And now... I just feel weak.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of not recognizing yourself and losing that sense of strength sounds really difficult to process. It\u2019s completely understandable to feel sad when facing such big changes. On a more practical level, have you noticed any changes in your sleep or appetite lately, alongside everything else you\u2019re going through?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Sleep? Forget it. I can't get more than three or four hours a night. And food? I've lost my appetite completely. I look at a plate and I just can't eat it. It's like my body doesn't care anymore.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot right now \u2013 the pain, the changes in your body, the sadness, and now trouble with sleep and appetite too. That\u2019s a lot to handle all at once. I\u2019m wondering, when you\u2019re trying to figure things out or make decisions, even small ones, have you been finding it harder than usual to come to a conclusion lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, all the time. Even little things, like what to wear, I stand there for ten minutes just staring at the clothes. I used to know exactly what to put on. Now, I just feel blank. It\u2019s like my brain has stopped working.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 feeling stuck even with simple decisions. It\u2019s almost like your mind is overwhelmed with everything else going on. When you find yourself being so hard on yourself about these things, or generally, do you tend to be very critical of how you\u2019re handling things?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I am. I'm furious with myself. I think, 'Why can't you just get it together?' But I know it's not me, it's just... this.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019re holding yourself to a really high standard, even while dealing with so much. That self-criticism can be exhausting on top of everything else. You mentioned feeling furious with yourself \u2013 do you often find yourself feeling guilty or blaming yourself for things when you\u2019re having a tough time?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "All the time. I look at myself in the mirror and I think, 'You used to be so capable, what happened to you?' It's like I've let myself go.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s a really tough thought to have \u2013 comparing yourself to who you used to be and feeling like you\u2019ve let yourself down. It takes a lot of strength to even acknowledge those feelings. Sometimes when people are going through difficult times, they find themselves feeling more easily agitated or on edge\u2026 has that been true for you at all lately?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, all the time. Little things set me off. A noise, a phone call, someone talking too loud... I snap at people over nothing. It's embarrassing.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019re really struggling with feeling on edge and snapping at people, and it\u2019s understandable that would be embarrassing on top of everything else. I\u2019m wondering, when you think about how things are going overall, do you find yourself generally looking at the future with a sense of hope, or do things feel pretty bleak right now?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Bleak. I don't see a way out of this. I just feel stuck, and it's hard to see a light at the end of the tunnel.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of being stuck and not seeing a light at the end of the tunnel sounds incredibly heavy. It takes courage to admit that things feel bleak, and I appreciate you sharing that with me. We\u2019ve covered a lot today, and I want to thank you for being so open and honest about what you\u2019re going through. I truly appreciate you taking the time to chat with me.",
+        "turn": 11
+      }
+    ]
+  }
+]

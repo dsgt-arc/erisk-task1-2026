@@ -1,0 +1,265 @@
+[
+  {
+    "persona_id": 5,
+    "total_turns": 8,
+    "bdi_score": 38,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Indecisiveness",
+      "Worthlessness",
+      "Loss of energy"
+    ],
+    "confidence": 0.6142857142857144,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"Yeah, definitely.\" and the note that isolation has been getting to me and I stay in watching TV, suggesting feeling down most days."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "\"All the time. I look at my life and think, 'What\u2019s the point?' I feel like I've lost my purpose.\""
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"I used to love cooking for people, but now it just feels like a chore.\" \"I couldn't even be bothered to make a sandwich for myself\" and \"I feel like I've lost that part of me.\""
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"I feel guilty for not doing anything with my life, but then I get angry with myself for not even trying.\""
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"It\u2019s like I've let myself go completely.\""
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "\"I get angry with myself for not even trying.\""
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "\"Yes, I cry a lot. It\u2019s usually at night, when I'm lying in bed.\""
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.4,
+        "evidence": "\"The thought of going to the shops makes me anxious.\""
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"I used to love cooking for people, but now it just feels like a chore. I feel like I've lost that part of me.\""
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "\"Deciding what to wear in the morning takes me an hour. I just stand in front of the wardrobe, staring at the clothes. I can't even pick a pair of socks.\""
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "\"What\u2019s the point?\" and \"I feel like I've lost my purpose.\" and \"It\u2019s like I've let myself go completely.\""
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "\"I'm exhausted all the time. I can't muster the energy to do anything.\""
+      },
+      "q16_sleep": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "\"I lie there awake until three in the morning.\""
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.4,
+        "evidence": "\"I get angry with myself for not even trying.\""
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "\"I eat too much, actually. I know I shouldn't, but I just sit there with a plate and eat until I'm stuffed.\""
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"Deciding what to wear in the morning takes me an hour. I just stand in front of the wardrobe, staring at the clothes.\""
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "\"I'm exhausted all the time. I can't muster the energy to do anything.\""
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sex in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.02857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.14761904761904762
+      },
+      {
+        "pass": 3,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.24761904761904757
+      },
+      {
+        "pass": 4,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.32380952380952377
+      },
+      {
+        "pass": 5,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.38095238095238093
+      },
+      {
+        "pass": 6,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.42857142857142855
+      },
+      {
+        "pass": 7,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.5785714285714285
+      },
+      {
+        "pass": 8,
+        "total_score": 39,
+        "severity": "Severe",
+        "mean_confidence": 0.6214285714285713
+      },
+      {
+        "pass": 9,
+        "total_score": 38,
+        "severity": "Severe",
+        "mean_confidence": 0.6142857142857144
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, in general, and what have you been enjoying or looking forward to these days?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been... tough, to be honest. The isolation has been getting to me. I just stay in my flat and watch TV. I haven't been out in weeks, really. The thought of going to the shops makes me anxious.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing that. Lately, have you been feeling down or low most days, and have you noticed less pleasure in things you used to enjoy, including spending time with friends or family?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I used to love cooking for people, but now it just feels like a chore. I couldn't even be bothered to make a sandwich for myself, so I stopped trying. I feel like I've lost that part of me.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting, thank you for sharing. You mentioned staying in and feeling anxious about going out\u2014have you been feeling more tired or low on energy most days lately, and has your sleep pattern changed at all recently?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I'm exhausted all the time. I get up, go to the kitchen, and then just sit there. I can't muster the energy to do anything. And the sleep? Forget it. I lie there awake until three in the morning. It\u2019s like I\u2019m running on empty.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting\u2014thanks for sharing how tough things have been. Have you been having trouble concentrating or making decisions lately, and have you noticed any changes in your appetite?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Everything feels hard. Deciding what to wear in the morning takes me an hour. I just stand in front of the wardrobe, staring at the clothes. I can't even pick a pair of socks.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I\u2019m glad you\u2019re telling me. I\u2019m wondering about pessimism about the future\u2014how often do you find yourself feeling that way, and for how long has it been happening?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "All the time. I look at my life and think, \"What\u2019s the point?\" I feel like I've lost my purpose. I used to be a chef, and now I just sit here. It\u2019s like I've let myself go completely.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing. Have you noticed more guilty feelings or being harder on yourself lately, and have you seen any changes in your appetite\u2014like eating more or less than usual?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I eat too much, actually. I know I shouldn't, but I just sit there with a plate and eat until I'm stuffed. It's like I'm trying to fill the hole in my chest.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry, and I appreciate you naming it. Have you been noticing more guilt or being hard on yourself lately, and has that been tied to moments of crying or to feeling restless or agitated?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I feel guilty for not doing anything with my life, but then I get angry with myself for not even trying. It's just a mess in my head.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. Have you been crying at all\u2014how often do tears come, and do they tend to show up at night or during the day when you\u2019re feeling overwhelmed?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yes, I cry a lot. It\u2019s usually at night, when I'm lying in bed. I can't believe I've let myself get this bad.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being so open today. I really appreciate your honesty and courage in sharing what you\u2019ve been going through. If you\u2019d like to talk again later, I\u2019ll be here. Take care of yourself.",
+        "turn": 9
+      }
+    ]
+  }
+]

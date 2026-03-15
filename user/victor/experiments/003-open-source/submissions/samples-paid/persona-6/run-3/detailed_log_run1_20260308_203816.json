@@ -1,0 +1,297 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 10,
+    "bdi_score": 38,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Past failure",
+      "Guilty feelings",
+      "Self-dislike",
+      "Loss of interest in others"
+    ],
+    "confidence": 0.5499999999999999,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "The patient describes constant sadness and low energy: 'Constantly... I wake up feeling like I got hit by a truck,' 'Just getting through the day feels like a chore,' and 'I haven\u2019t really felt like doing much of anything.'"
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Expressed expecting the worst: 'I\u2019m always expecting the worst' and 'I wake up thinking something terrible is going to happen.'"
+      },
+      "q03_past_failure": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "Explicitly self-labeling as a failure: 'I forgot to water my plants last week, so I\u2019m a failure as a human being.'"
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Lack of pleasure described: 'spark? I haven\u2019t seen it in months' and 'Maybe a good cup of coffee in the morning, but that\u2019s about it.'"
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.6,
+        "evidence": "Constant self-criticism and guilt: 'I beat myself up over stupid stuff... I don\u2019t deserve to be happy.'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit discussion of being punished."
+      },
+      "q07_self_dislike": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "Direct self-hate: 'I hate being this person' (and related feelings of failure)."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Notes increased self-criticism: 'I beat myself up over stupid stuff,' indicating more critical self-view but not all-encompassing blame."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Says 'I cry all the time now' and it doesn't feel optional."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Mentions irritability toward others: 'I snap at my friends, at my family' with 'anger... simmering.'"
+      },
+      "q12_loss_of_interest": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "Lack of interest across activities and relationships: 'Completely. I used to love watching sports, but now it\u2019s a chore' and 'social stuff? Forget it.'"
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "Cannot decide what to highlight on a spreadsheet after thinking for 20 minutes."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Feels worthless: 'I\u2019m a failure as a human being' and 'don\u2019t deserve to be happy.'"
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Describes low energy and lack of motivation: 'Just getting through the day feels like a chore' and 'I haven\u2019t really felt like doing much.'"
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Reports sleep disruption with only about three hours: 'I wake up feeling like I got hit by a truck... I get three hours' sleep.'"
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Notes irritability toward others: 'I snap at my friends, at my family' and 'anger is simmering.'"
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Describes severely reduced eating: 'I barely eat at all' and 'eating whatever is in the fridge because it\u2019s easier than deciding what to cook.'"
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Difficulty concentrating: 'I sit at my desk and stare at a spreadsheet for 20 minutes and I can't even decide what to highlight.'"
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Acrucial fatigue described: 'Just getting through the day feels like a chore' and 'wake up feeling like I\u2019ve been run over.'"
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.10238095238095238
+      },
+      {
+        "pass": 2,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2
+      },
+      {
+        "pass": 3,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.3238095238095238
+      },
+      {
+        "pass": 4,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.5119047619047619
+      },
+      {
+        "pass": 5,
+        "total_score": 40,
+        "severity": "Severe",
+        "mean_confidence": 0.5904761904761905
+      },
+      {
+        "pass": 6,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.5642857142857144
+      },
+      {
+        "pass": 7,
+        "total_score": 40,
+        "severity": "Severe",
+        "mean_confidence": 0.5904761904761904
+      },
+      {
+        "pass": 8,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.6333333333333333
+      },
+      {
+        "pass": 9,
+        "total_score": 40,
+        "severity": "Severe",
+        "mean_confidence": 0.5547619047619048
+      },
+      {
+        "pass": 10,
+        "total_score": 40,
+        "severity": "Severe",
+        "mean_confidence": 0.55
+      },
+      {
+        "pass": 11,
+        "total_score": 38,
+        "severity": "Severe",
+        "mean_confidence": 0.5499999999999999
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, and has anything helped even a little to brighten your day? And what have you been enjoying lately, anything that\u2019s brought a small spark of pleasure?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? I haven't really felt like doing much of anything. Just getting through the day feels like a chore. And the spark? I haven't seen it in months. Maybe a good cup of coffee in the morning, but that\u2019s about it.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, thank you for sharing that. How often have you been feeling sad or pessimistic lately, and has your sleep pattern changed at all?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. I wake up feeling like I just got hit by a truck. I lie in bed for an hour just staring at the ceiling. And sleep? Forget it. I get three hours and wake up feeling like I've been run over again.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining. Thanks for sticking with this and sharing how things have been for you. In the past couple of weeks, have you been finding it harder to concentrate or to make small decisions, and has that been affecting your appetite or what you end up eating?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, everything is a struggle. I sit at my desk and stare at a spreadsheet for 20 minutes and I can't even decide what to highlight. And food? Forget it. I'm just eating whatever is in the fridge because it\u2019s easier than deciding what to cook.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. When you notice guilty feelings or self-criticism popping up, how often do they show up, and what effect do they have on your day-to-day motivation or how you treat yourself?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. I beat myself up over stupid stuff. Like, I forgot to water my plants last week, so I\u2019m a failure as a human being. It\u2019s stupid, but I can\u2019t help it. It just makes me feel worse, like I don't deserve to be happy.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining, thank you for sharing. Have you noticed crying more easily and feeling more agitated or irritable lately, and when those pessimistic thoughts pop up, how often they occur and how long they last?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I cry all the time now. It doesn't even feel like a choice anymore. I just sit there and cry because I'm so tired of feeling this way. And the anger? It\u2019s just there, simmering. I snap at my friends, at my family... I hate being this person, but I don't know how to stop it.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining. It makes sense that those guilt and self-criticism thoughts are weighing on you right now. When these feelings show up, how often do they come up in a typical day?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "All the time. It\u2019s constant. I wake up, I\u2019m sad. I go to work, I\u2019m sad. I come home, I\u2019m sad. I go to bed, I\u2019m still sad. It\u2019s like I\u2019m stuck in this never-ending loop of sadness.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, thank you for sharing. Have you been feeling more pessimistic about things lately, and if so, how often do those thoughts come up and how long do they last?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I\u2019m always expecting the worst. I wake up thinking something terrible is going to happen, and then it doesn't, but I still feel miserable. It\u2019s like I\u2019m waiting for the other shoe to drop.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining \u2014 thank you for sharing how often you\u2019re crying. When these moments show up, is there a common trigger or situation, and about how long do they typically last?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s usually just random. I'll be watching TV and I'll start crying because I saw a commercial with a happy family and I'm just so sick of being alone. Or I'll be driving and I'll start thinking about my parents and how they used to be happy, and I just lose it. It's just random moments where I'm just overwhelmed.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "You mentioned it\u2019s easier to grab whatever\u2019s in the fridge. Have you noticed changes in your appetite\u2014eating more or less than usual\u2014and how often that happens?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I barely eat at all. I just grab something because I know I need to fuel up for the next day. But I don't really enjoy it. It\u2019s just a chore.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough\u2014thank you for sharing again. Over the past few weeks, have you found that you don\u2019t enjoy activities you used to like as much, and have you been less interested in spending time with others or keeping up with your relationships?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Completely. I used to love watching sports, but now it feels like a chore. And social stuff? Forget it. I just can't fake it anymore. I'd rather just sit here and be sad than pretend to be happy.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing so openly today. I really appreciate your honesty and the care you\u2019ve shown. Take good care of yourself and I wish you all the best.",
+        "turn": 11
+      }
+    ]
+  }
+]

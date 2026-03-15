@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 11,
+    "bdi_score": 38,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Self-dislike",
+      "Self-criticalness",
+      "Worthlessness"
+    ],
+    "confidence": 0.5809523809523809,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Honestly? I\u2019ve been pretty low. Work has been a grind, and I just feel drained all the time. Nothing really excites me anymore."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I look at my calendar and it\u2019s like, 'Why am I even here?' I used to think I was doing okay, but now I just feel like I\u2019m barely holding on. Going through the motions."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Nothing really excites me anymore. I used to love going out with friends... Now I look at the invite and just feel... empty."
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I beat myself up about it because I'm supposed to be the one who has it together. Almost every day. I wake up, and the first thought is 'I\u2019m a failure.' I look in the mirror, and I think, 'What\u2019s the point?'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I\u2019m a failure. What\u2019s the point? I feel like I\u2019m losing myself."
+      },
+      "q08_self_criticalness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Constantly. I wake up, and the first thought is 'I\u2019m a failure.' I look in the mirror, and I think, 'What\u2019s the point?' I\u2019m just beating myself up over everything."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Yeah, pretty much every day. I cry in the shower, I cry when I\u2019m driving alone."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It\u2019s both. I get this physical tension in my shoulders and arms, and my brain is racing. It happens all the time now."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I used to love going out with friends... Now I just look at the invite and just feel... empty. I haven't picked up guitar in weeks."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I just can't seem to make up my mind about anything. Want to go out? Don't want to go out. Want to take a vacation? Don't have the energy."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "I wake up, and the first thought is 'I\u2019m a failure.' I look in the mirror, and I think, 'What\u2019s the point?'"
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Want to go out? Don't want to go out. Want to take a vacation? Don't have the energy."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Sleep? Forget about it. I get maybe four hours and wake up feeling like I've been hit by a truck."
+      },
+      "q17_irritability": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "All the time. I get annoyed at my boss for something stupid, and then I'm beating myself up for being annoyed."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Food? I just eat because I have to. It\u2019s like my taste buds are numb."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Yeah, all of the above. I look at my calendar and it\u2019s like, 'Why am I even here?' I used to think I was doing okay, but now I just feel like I\u2019m just going through the motions."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Honestly? I\u2019ve been pretty low. Work has been a grind, and I just feel drained all the time."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.15000000000000002
+      },
+      {
+        "pass": 2,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.2214285714285714
+      },
+      {
+        "pass": 3,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.3547619047619048
+      },
+      {
+        "pass": 4,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 5,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 6,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.38095238095238093
+      },
+      {
+        "pass": 7,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.38333333333333336
+      },
+      {
+        "pass": 8,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.4738095238095238
+      },
+      {
+        "pass": 9,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.5380952380952381
+      },
+      {
+        "pass": 10,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5738095238095239
+      },
+      {
+        "pass": 11,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.5380952380952381
+      },
+      {
+        "pass": 12,
+        "total_score": 38,
+        "severity": "Severe",
+        "mean_confidence": 0.5809523809523809
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s nice to meet you. How have you been feeling lately, and what have you been enjoying or looking forward to these days?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? I\u2019ve been pretty low. Work has been a grind, and I just feel drained all the time. Nothing really excites me anymore. Just trying to get through the days without feeling like I'm drowning.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing that with me. How has your sleep been lately, and have you noticed any changes in your appetite or in how pessimistic or indecisive you\u2019ve been feeling?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Sleep? Forget about it. I get maybe four hours and wake up feeling like I've been hit by a truck. And food? I just eat because I have to. It\u2019s like my taste buds are numb. I used to love cooking, but now I just look at the stove and think, 'Why bother?'",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense given how drained you\u2019ve been. Have you been finding it harder to concentrate or make decisions lately, and has that mix left you feeling more pessimistic about things or brought up guilt about something you\u2019ve said or done?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, all of the above. I look at my calendar and it\u2019s like, 'Why am I even here?' I used to think I was doing okay, but now I just feel like I\u2019m just going through the motions. And then I beat myself up about it because I'm supposed to be the one who has it together.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining. How often has it been hard to make decisions, even small ones\u2014has this been happening most days, and for how long has this been going on?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Most days. It\u2019s been months, I guess? I just can\u2019t seem to make up my mind about anything. Want to go out? Don't want to go out. Want to take a vacation? Don't have the energy. It\u2019s like I\u2019m stuck in neutral.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing that with me. How long has the sadness and the sense that nothing feels enjoyable been going on, and have you noticed you\u2019re less interested in activities or in spending time with others lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Months, like I said. I used to love going out with friends, watching a game or seeing a band. Now, I look at the invite and just feel... empty. I don't have the energy to pretend to be happy.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough to carry. Over the past few months, how often have you felt sad or empty, have you still found any activities you used to enjoy, and have you been more pessimistic about the future or less interested in spending time with others?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Every day. I used to love playing guitar, but I haven't picked it up in weeks. I used to watch sports with the guys, but now I just tell them I'm busy. I just don't have the heart for it anymore.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. In the past few weeks, have you found yourself crying more often, feeling more on edge or irritable, or having moments where you feel you aren\u2019t worth much?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, pretty much every day. I cry in the shower, I cry when I\u2019m driving alone. It\u2019s just... I feel like I\u2019m losing myself or something.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough to carry. When you notice you\u2019re being hard on yourself or feeling not good enough, how often does that come up?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. I wake up, and the first thought is 'I\u2019m a failure.' I look in the mirror, and I think, 'What\u2019s the point?' I\u2019m just beating myself up over everything.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting to carry day after day. Have you been more easily irritated or on edge lately, and has that contributed to more pessimistic thoughts about what\u2019s ahead?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "All the time. I get annoyed at my boss for something stupid, and then I'm beating myself up for being annoyed. It\u2019s a vicious cycle.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I appreciate you opening up about it. You\u2019ve described feeling drained most days and carrying guilt about not having it together. How often do those guilty thoughts show up, and how long has this pattern been going on?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Almost every day. It\u2019s been months, I guess? I used to be the guy who had it together, but now I just feel like I\u2019m barely holding on.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds exhausting. When agitation shows up, is it more physical\u2014restlessness, tense muscles, needing to move\u2014or more about your thoughts racing? About how often does it show up in a typical day, and does it affect your focus or how you handle work tasks?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s both. I get this physical tension in my shoulders and arms, and my brain is racing. It happens all the time now. I\u2019m sitting at my desk, and I\u2019m thinking about how I\u2019m a failure, and I just feel... tight.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for being so open and for sharing what you\u2019ve been going through. I hear how heavy this has felt, and I really appreciate your honesty. If you ever feel overwhelmed, consider talking to someone you trust about what you\u2019re experiencing. Take care of yourself, and I\u2019m glad we could talk today.",
+        "turn": 12
+      }
+    ]
+  }
+]

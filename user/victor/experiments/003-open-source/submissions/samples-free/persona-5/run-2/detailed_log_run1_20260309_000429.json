@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 5,
+    "total_turns": 11,
+    "bdi_score": 40,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Self-criticalness",
+      "Indecisiveness",
+      "Worthlessness"
+    ],
+    "confidence": 0.6071428571428571,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I get these waves of just... sadness, I guess. I look at people on Facebook... I just feel so... removed."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "I just don't see a future."
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I think about all the things I should have done differently."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I used to love watching the footy with my mates, but now I just can't muster the energy to even sit through a game."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I think about all the things I should have done differently, and I get angry with myself for letting it get this bad."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I don't know who I am anymore. I used to be someone who worked and contributed, and now I'm just... nothing."
+      },
+      "q08_self_criticalness": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "what's wrong with you? You used to be able to make a decision in seconds."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Yeah, a lot. I'll just sit there and cry over nothing."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I get annoyed at the smallest things, like the noise of the neighbors or a bird outside the window. ... it just sets me off."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "used to love ... but now I just can't muster the energy to even sit through a game."
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "I'll be trying to decide what to watch on the telly and I'll just freeze up. I'll stare at the menu for half an hour, unable to choose."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "I don't know who I am anymore. I used to be someone who worked and contributed, and now I'm just... nothing."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I just get so tired from doing nothing."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I wake up in the middle of the night, can't get back to sleep, and just lie there thinking about how I used to be."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I get annoyed at the smallest things, like the noise of the neighbors or a bird outside the window. ... it just sets me off."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "eating... I just don't have the appetite anymore."
+      },
+      "q19_concentration": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "I'll stare at the menu for half an hour, unable to choose. It feels like my brain has just... stopped working."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I just get so tired from doing nothing."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.047619047619047616
+      },
+      {
+        "pass": 2,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.09285714285714286
+      },
+      {
+        "pass": 3,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.17142857142857143
+      },
+      {
+        "pass": 4,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.2
+      },
+      {
+        "pass": 5,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.3142857142857143
+      },
+      {
+        "pass": 6,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.3357142857142857
+      },
+      {
+        "pass": 7,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.4309523809523811
+      },
+      {
+        "pass": 8,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.4880952380952381
+      },
+      {
+        "pass": 9,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.5238095238095238
+      },
+      {
+        "pass": 10,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5333333333333333
+      },
+      {
+        "pass": 11,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.7190476190476192
+      },
+      {
+        "pass": 12,
+        "total_score": 40,
+        "severity": "Severe",
+        "mean_confidence": 0.6071428571428571
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been a bit of a struggle, to be honest. I used to work full-time, but I had to stop due to my back. I just get so tired from doing nothing. It's weird, but it\u2019s like my body is telling me I'm done.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, especially going from full-time work to feeling limited by your back and energy levels. It\u2019s understandable that feeling so tired from doing nothing would be frustrating. Thinking about how things have been emotionally, have you found yourself feeling particularly sad or down lately?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get these waves of just... sadness, I guess. I look at people on Facebook who are still working and living their lives, and I just feel so... removed. Like I've stopped moving forward. It\u2019s hard to explain, but it\u2019s a heavy feeling.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly isolating, seeing others move forward when you feel stuck \u2013 it\u2019s completely understandable that would bring on sadness. You mentioned feeling removed from things\u2026 has that feeling extended to losing interest in connecting with friends or family, or things you used to enjoy doing with others?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s definitely affected that too. I used to love watching the footy with my mates, but now I just can't muster the energy to even sit through a game. It\u2019s like I've lost my place in the world, you know?",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like that loss of enjoyment is really impacting you, and it makes sense you\u2019d feel that way when things you once loved now take so much energy. You\u2019ve mentioned feeling physically tired and emotionally down\u2026 have you noticed any changes in your sleep or appetite during this time, or perhaps finding it harder to concentrate or make decisions?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, everything is a struggle. I wake up in the middle of the night, can't get back to sleep, and just lie there thinking about how I used to be. And eating... I just don't have the appetite anymore. I'll look at a plate of food and just feel this massive weight in my chest.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly difficult \u2013 waking up feeling restless and then struggling with your appetite on top of everything else. It\u2019s completely understandable that would feel overwhelming. When you\u2019re trying to sort through things, have you been finding it harder to make decisions lately, even small ones?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It's everything. I'll be trying to decide what to watch on the telly and I'll just freeze up. I'll stare at the menu for half an hour, unable to choose. It feels like my brain has just... stopped working.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 even simple choices feeling impossible. It\u2019s almost like your mind is overloaded. When you find yourself stuck like that, do you tend to be hard on yourself about it, or just feel resigned? And thank you for sharing all of this with me, it takes courage to talk about these things.",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I try not to be, but it\u2019s hard not to feel stupid about it. I'm just sitting there, staring at the menu, and I think, 'What's wrong with you? You used to be able to make a decision in seconds.' But then I just give up and turn the telly off.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s completely understandable to feel frustrated with yourself when things feel so much harder than they used to be \u2013 it sounds like you\u2019re being very kind to yourself even *recognizing* that feeling. You mentioned feeling like you\u2019re replaying things in your mind at night\u2026 have you found yourself getting easily overwhelmed or agitated when you\u2019re thinking about things, or just generally feeling on edge?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get annoyed at the smallest things, like the noise of the neighbors or a bird outside the window. I used to be able to tune it out, but now it just sets me off.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining, to feel so easily irritated by things that never bothered you before. It takes a lot of energy to constantly feel on edge like that. Thinking about how you\u2019re feeling overall, would you say you generally feel hopeful about the future, or do things tend to look a bit bleak?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I don't know. I don't really think about the future much anymore. I used to plan things years ahead, but now... I just don't see a future.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of not seeing a future sounds really heavy, and it\u2019s understandable you\u2019re not planning ahead when things feel so uncertain. You\u2019ve mentioned being hard on yourself when you struggle with decisions or feel frustrated \u2013 has it been difficult to feel good about yourself lately, or to feel like you\u2019re worth something positive?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I don't know. I don't really know who I am anymore. I used to be someone who worked and contributed, and now I'm just... nothing.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of losing your sense of self sounds incredibly painful, especially after defining yourself through work for so long. It takes a lot of strength to admit that, and I appreciate you sharing that with me. When you\u2019re feeling this way, do you ever find yourself getting caught up in feelings of guilt or regret about things?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I think about all the things I should have done differently, and I get angry with myself for letting it get this bad.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That self-criticism sounds really exhausting, and it\u2019s understandable to feel angry when you\u2019re replaying things in your mind. You\u2019ve mentioned feeling so removed from things and losing interest in activities you once enjoyed\u2026 have you noticed yourself crying more easily lately, or feeling more tearful than usual?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a lot. I'll just sit there and cry over nothing. I don't know why I'm so weak now.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019re carrying a lot of difficult emotions right now, and it takes incredible strength to be so open about them. Thank you so much for sharing all of this with me today \u2013 I truly appreciate your honesty and vulnerability. I wish you all the best in finding things that bring you comfort and peace.",
+        "turn": 12
+      }
+    ]
+  }
+]

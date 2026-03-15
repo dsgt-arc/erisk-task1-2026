@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 9,
+    "bdi_score": 32,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Sadness",
+      "Past failure",
+      "Loss of pleasure"
+    ],
+    "confidence": 0.5952380952380951,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "The participant indicated sadness and heaviness of mood, describing the experience as a ongoing struggle and that everything feels heavy."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Explicit hopelessness about the future: nothing is ever going to get better, I don't see a way out."
+      },
+      "q03_past_failure": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Repeatedly ruminates on past actions and faults, stating they replay conversations and decisions and see themselves as lazy and not good enough."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "No longer engages in a former weekend guitar hobby and describes it as requiring too much effort."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.55,
+        "evidence": "Expresses self-blame, telling themselves they are lazy and should be better."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit discussion of feeling punished or punished by others."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Shows clear self-criticism and self-reproach, indicating self-disparagement and belief they should be better."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Consistently critiques themselves and describes tearing themselves apart for perceived faults."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of suicidal thoughts."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Reports having cried a few times."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Describes racing thoughts and feeling like they might burst, indicating heightened agitation."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Has not engaged in a prior hobby (guitar) for months, suggesting reduced interest in activities."
+      },
+      "q13_indecisiveness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Acknowledges that decisions feel harder, responding affirmatively to being more indecisive."
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Notes seeing many mistakes and regrets, implying lowered perceived worth."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Describes things as requiring too much effort and lacking energy to engage in activities like cooking."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Wakes up in the middle of the night with racing thoughts."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Reports being easily irritated, getting furious at small delays."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Food intake described as minimal or haphazard due to low energy."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Cannot focus well and feels mind is a jumble, going through the motions."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Describes overwhelming workload and low energy; expresses fatigue affecting daily functioning."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest or changes."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.08333333333333333
+      },
+      {
+        "pass": 2,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.17142857142857146
+      },
+      {
+        "pass": 3,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2785714285714286
+      },
+      {
+        "pass": 4,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.38095238095238093
+      },
+      {
+        "pass": 5,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.6833333333333333
+      },
+      {
+        "pass": 6,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.48333333333333334
+      },
+      {
+        "pass": 7,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.49523809523809526
+      },
+      {
+        "pass": 8,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.5880952380952381
+      },
+      {
+        "pass": 9,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.561904761904762
+      },
+      {
+        "pass": 10,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.5952380952380951
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been a bit of a struggle, to be honest. Work has been overwhelming, and I feel like I\u2019m just trying to keep my head above water. I used to play guitar on the weekends, but I haven't even picked it up in months. Just feels like too much effort right now.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, juggling a lot at work and then feeling drained on your time off. It's understandable that picking up hobbies feels hard when you're already exhausted. Thinking about how things *feel* these days, would you say you've been feeling particularly sad or down lately?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. It\u2019s not just the physical exhaustion, though that\u2019s bad enough. It\u2019s like... everything feels heavy. I look at my friends who are all moving forward, and I just feel stuck. Like I\u2019m just holding on to the same spot for too long.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot on your shoulders, and it's completely valid to feel stuck when you're comparing yourself to others. You mentioned feeling heavy \u2013 has that feeling been making it hard to make decisions, even small ones? I'm wondering if you've noticed any changes in your sleep or appetite during this time, too?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I wake up in the middle of the night thinking about all the things I should be doing differently. It\u2019s like my brain is just running on a loop. And food? Forget it. I just eat whatever is easy because I don't have the energy to care about cooking anymore.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining \u2013 waking up to racing thoughts and then not having the energy to even think about a proper meal. It's really tough when you're being so hard on yourself. Do you find yourself often thinking about things you could have done differently, or being critical of your choices?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. I replay every conversation, every decision, and just rip myself apart for it. I tell myself I'm just lazy, that I should be better than this. It\u2019s exhausting, and I don't know how to stop.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly exhausting \u2013 constantly replaying things and being so critical of yourself. It takes a lot of energy to do that, and it's understandable you're feeling drained. When you're caught in those thought patterns, do you ever find yourself feeling overwhelmed with restlessness or agitation?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I'll be lying in bed and my mind won't stop racing, and I just feel... like I\u2019m going to burst. It\u2019s like my brain is trying to prove a point to me, and I just can\u2019t keep up.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 feeling trapped in your own head with racing thoughts and that sense of agitation. It\u2019s really tough when it feels like your mind is working *against* you. When you find yourself being so critical, do you generally feel hopeful about the future, or does it feel like things won\u2019t get better?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? It feels like nothing is ever going to get better. I look at my life and I just see a bunch of mistakes and regrets. I don't see a way out of it.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly disheartening \u2013 feeling like you\u2019re stuck with regrets and not seeing a path forward. It takes a lot of strength to even acknowledge those feelings. You mentioned feeling like you could burst with agitation\u2026 has that ever led to finding yourself feeling tearful or easily upset lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I've cried a few times. It\u2019s not even sadness, it\u2019s just... relief. I guess my brain just gets so tired of beating me up that I just break.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like those moments of release, of crying, are a way for your brain to just\u2026 let some pressure off. That makes sense. With everything you're juggling \u2013 the work stress, the self-criticism, the racing thoughts \u2013 I'm wondering, has it been harder to focus on things lately, to really concentrate?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Completely. I can barely focus on a conversation. My brain is just a jumble of noise, and I just feel like I\u2019m just going through the motions.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds incredibly difficult to feel like you're just going through the motions, and that your brain is constantly filled with noise. That level of distraction must be really wearing. When you're feeling this overwhelmed and scattered, do you find yourself getting frustrated more easily than usual \u2013 perhaps snapping at people, or feeling irritable?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get annoyed at the smallest things. If someone is a minute late, I\u2019m furious. I know it\u2019s irrational, but I just can\u2019t handle it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 to feel so easily irritated and to recognize it\u2019s not rational, but still be unable to control it. It takes a lot of self-awareness to notice that pattern. Thank you so much for sharing all of this with me today; I really appreciate your openness and honesty. I hope you\u2019re able to find some moments of peace and quiet for yourself soon.",
+        "turn": 10
+      }
+    ]
+  }
+]

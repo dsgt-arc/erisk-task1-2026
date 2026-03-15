@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 11,
+    "bdi_score": 33,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Self-dislike",
+      "Self-criticalness",
+      "Worthlessness"
+    ],
+    "confidence": 0.5380952380952381,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Yeah, definitely more down. I wake up in the middle of the night and just lie there thinking about bills and work and stuff. It\u2019s hard to switch off. I guess I just need a break or something."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "I look at my 30s and I\u2019m just like, 'Is this it? Is this what the rest of my life is going to be?' It\u2019s scary."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I used to love going to the gym, but even that feels like a chore right now."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Yeah, I definitely beat myself up over things. 'You're 30, grow up.'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "Yeah, I definitely feel worthless. I look at my life and I'm just like, 'What is the point of any of it?'"
+      },
+      "q08_self_criticalness": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "Constantly. It\u2019s every day. And honestly? I don't know how much longer I can keep going like this."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Yeah, I've cried a few times."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Yeah, I'm just... on edge. I get annoyed at my friends for being happy."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I used to love going to the gym, but even that feels like a chore right now."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It\u2019s pretty much every day. And honestly, I don't know how much longer I can keep going like this."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "Yeah, I definitely feel worthless. I look at my life and I'm just like, 'What is the point of any of it?'"
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Honestly? It\u2019s been tough. Work has been crazy, and I just feel drained all the time."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I wake up in the middle of the night and just lie there thinking about bills and work and stuff. It\u2019s hard to switch off."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I\u2019m just... on edge. I get annoyed at my friends for being happy, and I know that\u2019s not fair."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "As for eating, I just haven't had the energy to cook, so I've just been eating takeout or nothing."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Yeah, it\u2019s like my brain is just mush. I get to the office and I\u2019m staring at a spreadsheet and I just can\u2019t focus. It takes me five times longer to do things than it used to."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I just feel drained all the time."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.14047619047619048
+      },
+      {
+        "pass": 2,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.17619047619047618
+      },
+      {
+        "pass": 3,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.24047619047619043
+      },
+      {
+        "pass": 4,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.2857142857142857
+      },
+      {
+        "pass": 5,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.2928571428571428
+      },
+      {
+        "pass": 6,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.4523809523809523
+      },
+      {
+        "pass": 7,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5404761904761904
+      },
+      {
+        "pass": 8,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.5714285714285714
+      },
+      {
+        "pass": 9,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 10,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5785714285714285
+      },
+      {
+        "pass": 11,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.5380952380952382
+      },
+      {
+        "pass": 12,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.5380952380952381
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it's really nice to meet you. How have you been feeling lately, in general, and what's something you've been enjoying or looking forward to these days?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? It\u2019s been tough. Work has been crazy, and I just feel drained all the time. I used to love going to the gym, but even that feels like a chore right now. I guess I just need a break or something.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing that with me. Have you been feeling more down or pessimistic about things lately, and has your sleep changed at all?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely more down. I wake up in the middle of the night and just lie there thinking about bills and work and stuff. It\u2019s hard to switch off.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds exhausting, and I\u2019m glad you\u2019re sharing this with me. Sleep disruptions can really amplify how things feel. Have you also noticed any trouble concentrating at work or finding it hard to make even small decisions lately?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s like my brain is just mush. I get to the office and I\u2019m staring at a spreadsheet and I just can\u2019t focus. It takes me five times longer to do things than it used to.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, given the sleep disruption and concentration issues. Have you been noticing more pessimistic thoughts about the future or feeling indecisive lately? And have you seen any changes in your appetite or how you\u2019re eating?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I guess I am. I look at my 30s and I\u2019m just like, 'Is this it? Is this what the rest of my life is going to be?' It\u2019s scary. As for eating, I just haven't had the energy to cook, so I've just been eating takeout or nothing.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds exhausting; thank you for sharing how hard things feel. How often do you find yourself having trouble making even small decisions, and how long has this been going on?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s pretty much every day. And honestly, I don't know how much longer I can keep going like this. It\u2019s been months, maybe? I just feel stuck, you know?",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy; thank you for sharing all of that. Do you notice any guilt about things you've done, or find yourself being extra hard on yourself, or moments when you dislike yourself, and have you cried more often lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I definitely beat myself up over things. I'm always like, 'You're 30, grow up,' you know? And yeah, I've cried a few times. It\u2019s embarrassing, but I guess it\u2019s just what happens when you feel like you're losing control.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I appreciate you sharing how hard things have been. Have you been noticing more agitation or irritability lately, and do you also have moments where you feel worthless?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I'm just... on edge. I get annoyed at my friends for being happy, and I know that\u2019s not fair. And yeah, I definitely feel worthless. I look at my life and I'm just like, 'What is the point of any of it?'",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I appreciate you sharing how hard you\u2019ve been on yourself. When those self-critical thoughts come up, how often do they happen, and how long has this been going on?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. It\u2019s every day. And honestly? I don't know how much longer I can keep going like this. It\u2019s been months, maybe? I just feel like I\u2019m stuck in a loop.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I appreciate you sharing how hard this has been. It\u2019s clear you\u2019ve been dealing with a lot of self-criticism and feelings of worthlessness, which I\u2019m glad you\u2019re opening up about. How often do these self-critical thoughts come up for you on a typical day?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I don't know, maybe 10 times? 20? It\u2019s constant. I wake up thinking it, I'm in the shower thinking it, I'm at work thinking it. I just feel like I'm the worst person in the world.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I appreciate you sharing that. You mentioned feeling down lately\u2014how long has this sadness been going on?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Months? A year? I don't know. It just feels like this is who I am now. It's like I'm just stuck in this rut and I don't know how to get out of it.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. When you\u2019re faced with even small decisions, how much is this indecisiveness slowing you down or affecting things at work and in your daily life?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s everything. I used to be able to just go with the flow, but now I\u2019m overthinking every little thing. It\u2019s like my brain is just stuck on repeat.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing so openly today. I really appreciate your honesty and the courage it took to talk about what you\u2019ve been going through. Take care of yourself, and I\u2019m wishing you strength and calm as you move forward.",
+        "turn": 12
+      }
+    ]
+  }
+]

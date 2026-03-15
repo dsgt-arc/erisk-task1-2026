@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 5,
+    "total_turns": 11,
+    "bdi_score": 37,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Guilty feelings",
+      "Worthlessness",
+      "Tiredness or fatigue"
+    ],
+    "confidence": 0.6095238095238096,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Described persistent sadness and a sense of losing what defined them, saying they feel like a shadow of their former self."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.6,
+        "evidence": "Expressed a bleak outlook about the future, saying 'This is it. This is all I've got.'"
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Stated loss of enjoyment: cooking no longer felt like a pleasure and social activities no longer feel rewarding."
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "Woke up feeling guilty for being alive."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Expressed harsh self-judgment, describing themselves as a mess and unable to manage a day."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I look at myself and think, 'I'm not good enough for anything.'"
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation"
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Mentioned crying after watching a cooking show"
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Reported being on edge and irritated by small things, saying 'I get annoyed at the smallest things' and that things set them off."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Loss of interest in activities, including meeting friends and cooking, described as 'wanting to stay home' and 'it feels like a chore.'"
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Spent twenty minutes staring at the closet and couldn't choose between two shirts."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "Thoughts like 'I'm not good enough for anything' and feeling stuck."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I just feel tired all the time."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Sleep is a disaster; I wake up at 3 am and just lie there, wide awake."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Feels on edge, easily irritated; 'I get annoyed at the smallest things' and 'waiting for something to set me off.'"
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Appetite is very poor: 'Forget it. I can barely stomach a cup of tea, let alone a proper meal.'"
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Described brain 'stopped working' and difficulty focusing on tasks."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "Repeated claim of being tired all the time; overwhelmed by fatigue."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.0761904761904762
+      },
+      {
+        "pass": 2,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.12380952380952381
+      },
+      {
+        "pass": 3,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.25238095238095243
+      },
+      {
+        "pass": 4,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.24285714285714283
+      },
+      {
+        "pass": 5,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.3238095238095238
+      },
+      {
+        "pass": 6,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.40476190476190477
+      },
+      {
+        "pass": 7,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.480952380952381
+      },
+      {
+        "pass": 8,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.45952380952380956
+      },
+      {
+        "pass": 9,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.4404761904761904
+      },
+      {
+        "pass": 10,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.5495238095238094
+      },
+      {
+        "pass": 11,
+        "total_score": 39,
+        "severity": "Severe",
+        "mean_confidence": 0.5785714285714285
+      },
+      {
+        "pass": 12,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.6095238095238096
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly, it\u2019s been a bit of a struggle. Work has been stressful, and I just feel tired all the time. I used to love cooking, but now it just feels like a chore. I haven't even picked up a knife in weeks.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough \u2013 it\u2019s draining when things you usually enjoy start to feel like work. You mentioned feeling tired, and losing pleasure in cooking\u2026 how have things been with connecting with people, with friends and family? Have you found yourself wanting to spend less time with others lately?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I used to love meeting up with friends, but now I just can't be bothered. It sounds silly, but even just planning the time to go out feels exhausting. I just want to stay home and watch TV, you know?",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s completely understandable to want to retreat when things feel overwhelming \u2013 wanting to just relax at home is a really valid feeling. You\u2019ve touched on feeling tired and withdrawing a bit\u2026 how have you been feeling emotionally, would you say? Have things felt particularly sad or hopeless lately?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I'd say so. I get these moments where I just sit there and think, \"I've lost everything that made me who I am.\" It's like I'm just a shadow of the person I used to be. It\u2019s hard to explain, but it feels like I'm just drifting through life right now.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly difficult \u2013 feeling like you\u2019ve lost touch with who you are and just drifting along. It takes a lot of courage to share that, thank you. I\u2019m wondering, have you been finding it harder to make decisions lately, even small ones? Or perhaps focusing on tasks feels more challenging than usual?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, everything feels like a chore. I was trying to decide what to wear this morning, and I just stood there for twenty minutes staring at the closet. I couldn't even choose between two shirts. It\u2019s like my brain just stopped working.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 even simple decisions can feel impossible when your brain feels stuck. You\u2019ve mentioned feeling so tired and losing interest in things\u2026 how have your sleep and appetite been lately? Are you finding those have changed at all?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Sleep is a disaster. I wake up at 3 am and just lie there, wide awake. And appetite? Forget it. I can barely stomach a cup of tea, let alone a proper meal. It feels like my body just doesn't want to function anymore.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like your body really isn\u2019t cooperating with you right now, with both sleep and appetite being so off. When you\u2019re lying awake at 3 am, is your mind racing with thoughts, or is it more just a restless feeling? And if you don\u2019t mind me asking, have you been generally harder on yourself lately, perhaps noticing more self-doubt or criticism?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s just... quiet. No thoughts, just me sitting there, awake. It\u2019s not even stress or worry \u2013 it\u2019s just me. And yeah, definitely self-criticism. I look at myself and think, \"You're a mess. You can't even manage a day.\"",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly isolating \u2013 just being awake with quietness, and then turning that inward with harsh self-criticism. It takes a lot to be honest about those kinds of thoughts, so thank you for sharing. Sometimes when people are really hard on themselves, it can bring on strong emotions\u2026 have you found yourself feeling more easily upset or perhaps more irritable than usual lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, all the time. I get annoyed at the smallest things \u2013 a car horn, a loud noise, even just the TV being too loud. It\u2019s like I\u2019m just waiting for something to set me off.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining \u2013 being on edge and easily irritated must be exhausting. You\u2019ve mentioned being really critical of yourself, and feeling easily upset\u2026 I\u2019m wondering, have you been finding yourself feeling particularly hopeless about the future, or things just generally seeming bleak?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I look at my life and think, \"This is it. This is all I've got.\" And it's not even a bad life, it's just... ordinary. But it feels like I've lost the ability to make it exciting or fulfilling.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of things being ordinary, even when they aren\u2019t necessarily bad, but just lacking that spark\u2026 that resonates. You\u2019ve mentioned being really hard on yourself and feeling irritable \u2013 have you noticed any times lately where you\u2019ve felt particularly guilty about something, even if it seems small? Or perhaps found yourself unexpectedly tearful?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I was watching a cooking show the other day, and I just started crying. I don't even know why \u2013 it was just a chef chopping an onion. But I couldn't stop. It was like the dam just broke.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly overwhelming \u2013 to be unexpectedly moved to tears by something so simple. It\u2019s okay to feel things deeply. You\u2019ve also mentioned being quite self-critical\u2026 has that extended to feeling like you\u2019re not measuring up, or perhaps feeling a sense of worthlessness at times?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I look at my life and think, \"I'm not good enough for anything.\" I used to be someone who could do things, and now I'm just... stuck.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of being stuck and not good enough sounds incredibly painful \u2013 it takes a lot to admit that. You mentioned crying while watching a cooking show, and feeling guilty\u2026 has that sense of guilt been focused on anything specific, or is it more of a general feeling? And if you don\u2019t mind sharing, how often would you say you\u2019ve been experiencing these moments of unexpected tears lately?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "It's not just tears \u2013 it's everything. I wake up feeling guilty for being alive. And it's not just one thing, it's everything. I feel like I'm just waiting for the other shoe to drop.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly heavy \u2013 carrying that weight of guilt and anticipating something bad happening must be exhausting. You\u2019ve been so open and honest about everything you\u2019ve been going through, and I truly appreciate you sharing all of this with me. I think we\u2019ve covered a lot of ground today, and I want to thank you again for your time and willingness to talk.",
+        "turn": 12
+      }
+    ]
+  }
+]

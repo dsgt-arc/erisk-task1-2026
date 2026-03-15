@@ -1,0 +1,345 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 13,
+    "bdi_score": 35,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Self-dislike",
+      "Worthlessness",
+      "Pessimism"
+    ],
+    "confidence": 0.5799999999999998,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "The participant indicated feeling down/lack of mood, stating it's hard to separate sadness from stress and described feeling empty."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "They described looking at bills and not seeing a way out, saying they feel drowning in debt and doubt things will improve."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "They say they used to have hobbies but don't have energy to engage in them anymore (e.g., guitar, movies)."
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.88,
+        "evidence": "They describe constant self-criticism and guilt: being their own worst enemy and blaming themselves for not being better."
+      },
+      "q06_punishment": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "They say, 'it's like I\u2019m trying to punish myself for not being better.'"
+      },
+      "q07_self_dislike": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "They state being their own worst enemy and not feeling good enough."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "They report constantly beating themselves up and blaming themselves for minor faults."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of thoughts about killing oneself."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "They say they cry a lot and don\u2019t know why."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "They report snapping at friends and lashing out when irritated."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "They describe lack of energy and preferring to stay home, losing interest in spending time with others they used to enjoy."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "They say they stare at a menu and don\u2019t know what they want, indicating difficulty making decisions."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "They express feeling broken and worthless, stating persistent beliefs of being defective."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "They report low energy and heavy fatigue, wanting to lie back down and carry a burden."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "They wake up at 3 am and lie there unable to get back to sleep."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "They report being more irritable and snapping at others."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "They say they eat because they have to and that food doesn\u2019t taste like anything."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "They report focus is difficult and their eyes glaze over after reading a page."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "They describe low energy, running on fumes, and wanting to lie down often."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.06904761904761905
+      },
+      {
+        "pass": 2,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.09047619047619047
+      },
+      {
+        "pass": 3,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 4,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.16666666666666669
+      },
+      {
+        "pass": 5,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.30238095238095236
+      },
+      {
+        "pass": 6,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.2857142857142857
+      },
+      {
+        "pass": 7,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.40476190476190477
+      },
+      {
+        "pass": 8,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.42380952380952375
+      },
+      {
+        "pass": 9,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 10,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.45714285714285713
+      },
+      {
+        "pass": 11,
+        "total_score": 35,
+        "severity": "Severe",
+        "mean_confidence": 0.5919047619047619
+      },
+      {
+        "pass": 12,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5523809523809522
+      },
+      {
+        "pass": 13,
+        "total_score": 38,
+        "severity": "Severe",
+        "mean_confidence": 0.6000000000000001
+      },
+      {
+        "pass": 14,
+        "total_score": 35,
+        "severity": "Severe",
+        "mean_confidence": 0.5799999999999998
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been tough, to be honest. Work has been a grind lately. I've just been going through the motions, trying to keep my head above water. Nothing really exciting happening.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining \u2013 work being a grind and just going through the motions. It\u2019s completely understandable to feel weighed down by that. On a related note, how has your energy level been feeling these days with everything going on at work?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "It's been low. I wake up in the morning and just feel... heavy. Like I'm carrying a bag of bricks on my shoulders. I just want to lie back down.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly difficult \u2013 waking up feeling heavy like that. It takes a lot of strength to even get out of bed when you feel that way. Thinking about how things have been generally, have you found yourself feeling more pessimistic about things lately, or less hopeful about the future?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Pessimistic. Definitely. I look at my bank account and I think, 'How am I going to pay the bills next month?' And I just don't see a way out. It feels like I'm drowning in debt.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly stressful, worrying about bills and feeling like you\u2019re drowning in debt. It\u2019s completely understandable to feel pessimistic when facing those kinds of pressures. Beyond the financial worries, have you noticed if you\u2019ve been feeling particularly sad or down lately, separate from the stress about work and money?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. It\u2019s hard to separate the two, but I think I\u2019m just... empty, you know? I used to have hobbies and stuff, but I just don't have the energy to pick up the guitar or watch a movie. It feels like I've just been running on fumes for months.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like that emptiness is really impacting what you used to enjoy, and that\u2019s really tough. You mentioned having low energy and just running on fumes \u2013 I\u2019m wondering, has that been making it hard to concentrate or focus on things, even simple tasks? And along with that, have you noticed any changes in your sleep or appetite recently?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, everything is a struggle. Focus? Forget about it. I read a page of a book and my eyes glaze over. I'm just... numb. And sleep? Forget about it. I wake up at 3 am and just lie there staring at the ceiling. And food? I just eat because I have to. It doesn't taste like anything.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 feeling numb and struggling to concentrate, and then having sleep and appetite disrupted on top of it. It takes a lot to keep going when everything feels like a struggle. You mentioned feeling like you\u2019re just going through the motions\u2026 have you been finding it harder to make decisions lately, even small ones?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. Everything feels like too much. I look at a menu and I just stare at it. What do I want? I don't know. It feels like I'm just watching myself do things, but I'm not really in control.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of being disconnected, like watching yourself from the outside, sounds really unsettling. It takes a lot of energy just to navigate daily life when things feel that way. When you reflect on things, do you find yourself being particularly self-critical, or holding yourself to really high standards?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. I'm my own worst enemy. I tell myself I\u2019m just lazy or that I\u2019m not good enough. It\u2019s like I\u2019m trying to punish myself for not being better.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly painful \u2013 constantly being self-critical and feeling like you\u2019re punishing yourself. It takes a lot of courage to even acknowledge that inner voice. Sometimes when we're feeling that way, emotions can feel really intense. Have you noticed yourself feeling more easily agitated or frustrated lately, or perhaps even finding yourself crying more often?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I cry a lot. I don't know why. I just look at the ceiling and it comes out. It's embarrassing, but I feel like I'm just... empty inside, so the tears come.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly overwhelming \u2013 feeling those tears come up when you\u2019re already feeling so empty. It\u2019s definitely not embarrassing to feel your emotions, and it takes strength to allow yourself to cry. You mentioned feeling agitated and crying more often\u2026 has that agitation shown up in other ways, like feeling more easily irritated or on edge with people?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I snap at my friends. I say things I don't mean. I'm just so tired of being the same person every day, so I lash out. It's not fair to them, but I don't know how to stop it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really difficult \u2013 realizing you\u2019re lashing out at friends and feeling stuck in the same patterns. It takes a lot of self-awareness to recognize that, and it\u2019s understandable to feel frustrated with yourself. Thinking about connecting with others, have you noticed a loss of interest in spending time with people you usually enjoy being around?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I don't have the energy. I'd rather just stay home and stare at the wall. It feels like I'm just pretending to be a person, but I'm actually just a robot.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of being a robot, just going through the motions\u2026 that sounds incredibly isolating. It takes a lot to keep up appearances when you\u2019re feeling that disconnected. You\u2019ve mentioned being really hard on yourself \u2013 do you find yourself often feeling guilty about things, even small things, or holding yourself responsible for things that aren\u2019t really your fault?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. I beat myself up over stupid stuff. I'll think, 'I should have said this,' or 'I shouldn't have done that.' It's like I'm trying to punish myself for existing.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly exhausting \u2013 constantly replaying things and feeling guilty, like you\u2019re punishing yourself just for being you. It takes a lot of strength to carry that weight. You\u2019ve shared a lot about feeling low on energy, struggling with sleep and appetite, and being really self-critical. I\u2019m wondering, beyond all of that, have you been feeling particularly sad or down lately, just a general sense of sadness?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. It's just... it feels like I've lost the spark. I used to be the guy who made people laugh, and now I just sit there and stare at the wall. I don't know how to get it back.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of losing your spark and not knowing how to get it back sounds incredibly disheartening. It takes a lot to be the life of the party, and it\u2019s understandable to feel lost when that feels gone. You\u2019ve mentioned feeling a lot of guilt and self-criticism \u2013 do you ever feel like you\u2019re just not good enough, or that you\u2019re a burden to others?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "All the time. I think I'm just broken. I look at my friends and they're all moving forward, and I'm just stuck in this rut. I feel like I'm holding them back just by being around.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of being stuck while others move forward sounds incredibly isolating and painful. It takes a lot of courage to admit feeling like a burden, and I want you to know it\u2019s okay to feel that way sometimes. We\u2019ve covered a lot today, and I truly appreciate you sharing so openly with me. I think we\u2019ve explored things in a really thorough way, and I want to thank you again for your time and honesty.",
+        "turn": 14
+      }
+    ]
+  }
+]

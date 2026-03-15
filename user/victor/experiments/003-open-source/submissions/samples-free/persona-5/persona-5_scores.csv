@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+5,free/sample-1,0,Minimal,0.00,14,
+5,free/sample-4,26,Moderate,0.44,10,Indecisiveness; Loss of pleasure; Self-dislike; Self-criticalness
+5,free/sample-15,27,Severe,0.64,12,Self-dislike; Self-criticalness; Changes in sleeping pattern; Changes in appetite
+5,free/sample-13,28,Moderate,0.55,8,Past failure; Loss of pleasure; Guilty feelings; Self-dislike
+5,free/sample-16,29,Severe,0.65,11,Guilty feelings; Loss of interest in others; Changes in appetite; Loss of pleasure
+5,free/sample-2,29,Severe,0.56,11,Concentration difficulty; Pessimism; Loss of pleasure; Self-dislike
+5,free/sample-3,34,Severe,0.57,13,Pessimism; Agitation; Indecisiveness; Worthlessness
+5,free/sample-5,34,Severe,0.51,11,Worthlessness; Loss of energy; Changes in sleeping pattern; Tiredness or fatigue
+5,free/sample-18,35,Severe,0.53,14,Changes in appetite; Concentration difficulty; Sadness; Loss of pleasure
+5,free/sample-19,35,Severe,0.68,11,Guilty feelings; Agitation; Indecisiveness; Irritability
+5,free/sample-20,35,Severe,0.58,14,Agitation; Indecisiveness; Irritability; Sadness
+5,free/sample-14,36,Severe,0.52,14,Pessimism; Indecisiveness; Loss of energy; Tiredness or fatigue
+5,free/sample-10,37,Severe,0.56,13,Guilty feelings; Agitation; Loss of energy; Changes in sleeping pattern
+5,free/sample-11,37,Severe,0.71,9,Past failure; Changes in sleeping pattern; Changes in appetite; Sadness
+5,free/sample-12,37,Severe,0.55,9,Pessimism; Guilty feelings; Worthlessness; Tiredness or fatigue
+5,free/sample-17,39,Severe,0.66,14,Pessimism; Past failure; Indecisiveness; Loss of energy
+5,free/sample-9,39,Moderate,0.43,9,Indecisiveness; Worthlessness; Changes in sleeping pattern; Concentration difficulty
+5,free/sample-8,40,Mild,0.36,9,Pessimism; Self-criticalness; Indecisiveness; Worthlessness
+5,free/sample-6,41,Severe,0.58,14,Pessimism; Loss of pleasure; Self-dislike; Loss of interest in others
+5,free/sample-7,41,Severe,0.65,10,Pessimism; Self-dislike; Indecisiveness; Worthlessness

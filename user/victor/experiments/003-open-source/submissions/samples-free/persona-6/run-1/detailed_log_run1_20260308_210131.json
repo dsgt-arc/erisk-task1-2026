@@ -1,0 +1,361 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 14,
+    "bdi_score": 32,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Concentration difficulty",
+      "Sadness",
+      "Loss of pleasure"
+    ],
+    "confidence": 0.5571428571428572,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Described persistent low mood, saying she feels like she is 'going through the motions' and that she feels 'empty'."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "Expressed a bleak, hopeless view of the future, likening life to treading water and seeing a never-ending task list."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Reported loss of interest in previously enjoyed activities (guitar) and low energy to engage."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Expressed guilt about letting loved ones down and not doing enough."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Reported self-critical beliefs, calling herself lazy and not trying hard enough."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Expressed self-criticism, saying she berates herself for faults and lack of effort."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Admitted crying episodes, describing crying on occasion."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Reported increased irritability, getting annoyed by minor things."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Described loss of interest in guitar; activities no longer engaging."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Described indecisiveness, opting for the easiest choice to minimize effort."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Described low energy, saying getting up feels like a chore and that exhaustion pervades daily tasks."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Sleep? Forget it. I'm lucky if I get four hours."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Expressed greater irritability, noting increased anger and frustration with minor things."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Appetite described as reduced; eats because required but not satisfying."
+      },
+      "q19_concentration": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "Concentration severely affected; 'focus is a joke' and unable to recall what\u2019s on the screen after staring at a spreadsheet."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Described exhaustion and heaviness; daily tasks feel draining."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.05714285714285715
+      },
+      {
+        "pass": 2,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.1476190476190476
+      },
+      {
+        "pass": 3,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.2214285714285714
+      },
+      {
+        "pass": 4,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.319047619047619
+      },
+      {
+        "pass": 5,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.3619047619047619
+      },
+      {
+        "pass": 6,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.42619047619047634
+      },
+      {
+        "pass": 7,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.44047619047619047
+      },
+      {
+        "pass": 8,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5000000000000001
+      },
+      {
+        "pass": 9,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.6071428571428572
+      },
+      {
+        "pass": 10,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.48571428571428565
+      },
+      {
+        "pass": 11,
+        "total_score": 35,
+        "severity": "Severe",
+        "mean_confidence": 0.5380952380952382
+      },
+      {
+        "pass": 12,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.6785714285714286
+      },
+      {
+        "pass": 13,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5666666666666667
+      },
+      {
+        "pass": 14,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5452380952380953
+      },
+      {
+        "pass": 15,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.5571428571428572
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? Not much. Work has been a grind, and the evenings are just sitting on the couch staring at my phone. I feel like I'm just going through the motions.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining, feeling like you're just going through the motions. It's tough when work feels like a grind and you don't have much energy for things you usually enjoy. How has your energy level been overall these past few weeks \u2013 have you noticed feeling particularly tired or fatigued?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it's been exhausting. I wake up in the morning and just feel... heavy. Like I'm carrying a weight I can't put down. Even just getting up to make coffee feels like a chore.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly difficult, feeling weighed down like that even with simple tasks. It\u2019s understandable that would be exhausting. Thinking about things like keeping your energy up\u2026 how have things been with your sleep and appetite lately? Are those feeling normal for you?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Sleep? Forget it. I'm lucky if I get four hours. And appetite? Forget it too. I eat because I have to, but it doesn't fill me up like it used to. I just feel... empty.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly tough \u2013 consistently getting so little sleep and not finding satisfaction in eating must be really wearing you down. It takes a lot to keep going when things feel that empty. Lately, have you found it harder to make decisions, even small ones, or to really focus on things when you *do* try to do them?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, focus is a joke. I sit down at my desk and stare at a spreadsheet for an hour and I can\u2019t even tell you what I\u2019m looking at. It\u2019s just... blank. And making decisions? Forget it. I just choose the easiest option because it\u2019s less effort.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating, losing focus like that and feeling overwhelmed by even small decisions. It makes perfect sense you'd gravitate towards the easiest option when everything feels like a lot of effort. When you find yourself being hard on yourself about things like work or decisions, what kind of thoughts tend to come up?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Just that I\u2019m lazy. I tell myself I\u2019m just not trying hard enough, that if I just got my act together I could get things done. But deep down, I know it\u2019s not that simple. It\u2019s just... I\u2019m tired.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s a really insightful observation \u2013 recognizing it\u2019s not simply about effort, even when you\u2019re telling yourself it is. It sounds like you\u2019re very self-aware. You mentioned feeling tired a lot, and also that you\u2019re being hard on yourself\u2026 have you found yourself getting easily frustrated or agitated lately, perhaps more than usual?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, way more. I get annoyed at the smallest things \u2013 a slow line at the coffee shop, a song playing on the radio that I don't like. It\u2019s just... everything feels like a struggle.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly difficult, feeling so easily frustrated when everything already feels like a struggle. It takes a lot to navigate those little annoyances when you're already feeling worn down. Lately, have you found yourself looking at things \u2013 the future, your situation \u2013 and feeling particularly pessimistic or hopeless about how things will turn out?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I do. I look at the calendar and I just see a never-ending stream of tasks and bills and deadlines. I feel like I\u2019m just treading water, and the future just looks... bleak.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly overwhelming, seeing the future as just a long list of obligations and feeling like you're barely keeping your head above water. It takes a lot of strength to keep going when things feel that bleak. You\u2019ve mentioned feeling tired and frustrated, and also that you\u2019re often critical of yourself\u2026 have you noticed if you\u2019ve been feeling particularly down on yourself lately, or maybe even disliking things about who you are?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I catch myself thinking, 'Why are you so weak?' or 'You're just being lazy again.' It\u2019s like I\u2019m beating myself up for not being better.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly painful, constantly battling those negative self-critical thoughts. It takes a lot to keep going when you're being so hard on yourself. Sometimes when things feel this difficult, people find themselves feeling overwhelmed with sadness \u2013 have you noticed yourself feeling particularly tearful or emotional lately?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s been there. I\u2019ll be sitting on the couch, staring at a blank wall, and suddenly I just start crying. It feels stupid, but I just can\u2019t help it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, feeling those waves of sadness come on unexpectedly. It's definitely not stupid to cry when you're feeling overwhelmed. You mentioned being critical of yourself and calling yourself \"weak\" or \"lazy\" \u2013 do those kinds of thoughts tend to come up in specific situations, or is it more of a general feeling?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "It's usually when I'm just sitting there, doing nothing. Like, I'll be scrolling through my phone and I'll see a post from an old friend and I'll just think, 'Why am I still here? What\u2019s the point?'",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly painful, comparing yourself to others and questioning what you're doing with your life. It takes a lot of courage to acknowledge those feelings. When you have those thoughts about what\u2019s the point, do you also find yourself feeling guilty about not doing more, or letting people down?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I feel like I\u2019m letting everyone down \u2013 my family, my friends, even myself. I\u2019m just sitting here, not doing anything, and I feel like I\u2019m wasting everyone\u2019s time.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of letting people down sounds incredibly heavy to carry. It\u2019s understandable to feel guilty when you\u2019re struggling to find the energy to do things. You\u2019ve mentioned feeling easily frustrated and agitated \u2013 could you give me an example of a recent situation where you felt that way, and what it was like in the moment?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "I was at the grocery store and someone cut me off in the parking lot. I just lost it. I started yelling at them, and then I felt terrible. It was just... ridiculous.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really upsetting, losing your temper like that and then feeling bad about it afterwards. It\u2019s understandable to feel overwhelmed when small things trigger a bigger reaction. You\u2019ve talked about feeling weighed down, exhausted, and critical of yourself\u2026 how would you describe your overall mood these days \u2013 would you say you\u2019ve been feeling generally sad or down?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I guess you could say that. I just feel... empty. Like I\u2019m just going through the motions, but there\u2019s nothing inside.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of emptiness sounds incredibly difficult to carry around. It takes a lot to keep going when things feel so hollow inside. You\u2019ve mentioned feeling sad and empty, and also being really hard on yourself \u2013 has that impacted your interest in things you used to enjoy, or your ability to find pleasure in everyday activities?",
+        "turn": 14
+      },
+      {
+        "role": "persona",
+        "content": "Completely. I used to love playing guitar, but now it just feels like a chore. I sit down, pick it up, and I just... stop. I don't have the energy to care.",
+        "turn": 14
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like so many things have lost their spark, and that feeling of emptiness is really weighing on you. Thank you so much for sharing all of this with me today \u2013 I really appreciate your openness and honesty. I wish you all the best in finding things that bring a little bit of light back into your days.",
+        "turn": 15
+      }
+    ]
+  }
+]

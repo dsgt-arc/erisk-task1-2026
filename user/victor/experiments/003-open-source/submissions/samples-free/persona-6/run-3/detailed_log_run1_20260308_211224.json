@@ -1,0 +1,377 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 15,
+    "bdi_score": 32,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Sadness",
+      "Past failure",
+      "Loss of pleasure"
+    ],
+    "confidence": 0.5476190476190477,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "It's just... flat. I wake up, go to work, come home, watch TV, go to bed. There\u2019s no up or down, just this... nothing. It's constant. I wake up with it, I go to bed with it."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "I don't look ahead. I just exist. I don't see a future, I just see the next day."
+      },
+      "q03_past_failure": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I replay all the mistakes I made, like I could have done things differently. I used to be the one with the answers, and now I\u2019m just lost."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I used to love playing guitar, but I haven't picked it up in weeks. I just don't have the energy to make the notes sound good anymore. I don't have time for hobbies or anything like that."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I replay all the mistakes I made. It\u2019s pointless, but I do it anyway. I tell myself I\u2019m stupid for letting it happen. I beat myself up over it."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I\u2019m hard on myself. I know I used to be able to handle it, so I tell myself I\u2019m just lazy or getting old. It\u2019s not fair, but I don't know how to stop being like that."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I\u2019m hard on myself. I know I used to be able to handle it, so I tell myself I\u2019m just lazy or getting old."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Yeah. I cried in the shower last week. I just couldn't hold it in anymore."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Yeah. I get frustrated, but it's not anger. It's... sadness, I guess."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I don't have time for hobbies or anything like that. Just getting to the weekend is the goal. I haven't picked up guitar in weeks."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "It\u2019s like my brain is just foggy. I stare at the spreadsheet and I just can\u2019t decide what to do. It takes me hours to make a decision that used to take five minutes."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I replay all the mistakes I made, like I could have done things differently. It\u2019s pointless, but I do it anyway. I tell myself I\u2019m stupid for letting it happen. I beat myself up over it."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I just don't have the energy to make the notes sound good anymore. I don't have the energy to cook, so I just order takeout or skip it."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I sleep too much. I lie in bed for hours just staring at the ceiling, and then I wake up feeling like I haven't slept at all."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Yeah. I get frustrated, but it's not anger. It's... sadness, I guess."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I barely eat. I just don't have the energy to cook or even order takeout."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "It's like my brain is just foggy. I stare at the spreadsheet and I just can\u2019t decide what to do."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Just getting through the days. Work is a grind, and I'm just trying to keep up."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.0880952380952381
+      },
+      {
+        "pass": 3,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.1595238095238095
+      },
+      {
+        "pass": 4,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.20714285714285716
+      },
+      {
+        "pass": 5,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.2547619047619048
+      },
+      {
+        "pass": 6,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.3523809523809524
+      },
+      {
+        "pass": 7,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.3523809523809523
+      },
+      {
+        "pass": 8,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.3785714285714286
+      },
+      {
+        "pass": 9,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.3952380952380953
+      },
+      {
+        "pass": 10,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.430952380952381
+      },
+      {
+        "pass": 11,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.5057142857142858
+      },
+      {
+        "pass": 12,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.5238095238095238
+      },
+      {
+        "pass": 13,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.5880952380952381
+      },
+      {
+        "pass": 14,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.5785714285714285
+      },
+      {
+        "pass": 15,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.5119047619047619
+      },
+      {
+        "pass": 16,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.5476190476190477
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Just trying to get through the days, to be honest. Work is a grind, and I'm just trying to keep up. I don't have time for hobbies or anything like that. Just getting to the weekend is the goal.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really demanding \u2013 work taking up all your energy like that. It\u2019s understandable you\u2019re just focused on getting to the weekend. When things get busy like that, do you still find yourself enjoying things you used to, or does it feel like things just\u2026 lose their color a bit?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "It feels like I just turned the color down. I used to love playing guitar, but I haven't picked it up in weeks. I just don't have the energy to make the notes sound good anymore.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2013 when you\u2019re feeling drained, even things you love can feel like too much effort. You mentioned not having the energy to play guitar, and just generally feeling like things have lost their color\u2026 how would you describe your mood most days lately? And has that been a recent change, or something you\u2019ve been feeling for a while?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s just... flat. I wake up, go to work, come home, watch TV, go to bed. There\u2019s no up or down, just this... nothing. I used to get excited for things, but now it\u2019s just routine.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like things feel very monotonous right now, just going through the motions. That \u201cflat\u201d feeling can be really draining in itself. I\u2019m wondering, have you noticed any changes in your sleep or appetite lately, with everything feeling so routine?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I sleep too much. I lie in bed for hours just staring at the ceiling, and then I wake up feeling like I haven't slept at all. And food... I don't have the energy to cook, so I just order takeout or skip it.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're caught in a really tough cycle with sleep and food \u2013 getting too much but not feeling rested, and not having the energy to properly nourish yourself. When you're facing a lot of decisions at work, or even small ones throughout the day, do you find it easy to make up your mind, or has that become more difficult lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s like my brain is just foggy. I stare at the spreadsheet and I just can\u2019t decide what to do. It takes me hours to make a decision that used to take five minutes.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 feeling like your thoughts are just stuck in the fog. It\u2019s completely understandable that decisions, even small ones, would feel overwhelming when you\u2019re experiencing that. When you find yourself struggling with those decisions, do you tend to be hard on yourself about it, or are you able to be a bit more patient with the process?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m hard on myself. I know I used to be able to handle it, so I tell myself I\u2019m just lazy or getting old. It\u2019s not fair, but I don't know how to stop being like that.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s a really honest thing to share \u2013 it sounds like you hold yourself to a high standard, and it\u2019s tough when you feel like you\u2019re not meeting it. When you\u2019re being critical of yourself like that, do you find those thoughts tend to focus on things you\u2019ve done, or more on who you are as a person?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s both. I think, \u2018I used to be better than this. I used to be the one with the answers, and now I\u2019m just lost.\u2019 It\u2019s like I\u2019m looking at someone else, and I don't know how to get back to being that person.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly painful \u2013 feeling disconnected from who you used to be and being so critical of that shift. It takes a lot of courage to admit that. I\u2019m wondering, alongside feeling lost and critical, have you found yourself feeling more easily moved to tears lately, or perhaps feeling more agitated or restless than usual?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I get frustrated, but it's not anger. It's... sadness, I guess. Just feeling sorry for myself that I got this way.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like that sadness is really weighing on you, and it\u2019s understandable to feel sorry for yourself when you\u2019re going through such a difficult time. When you find yourself feeling that sadness, does it come in waves, or is it more of a constant presence throughout the day?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "It's constant. I wake up with it, I go to bed with it. It\u2019s just... there.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly heavy to carry with you all day \u2013 that constant feeling of sadness. It takes a lot of strength to keep going when that\u2019s present. You mentioned feeling frustrated too, but describing it as sadness rather than anger\u2026 has that feeling of sadness ever brought you to tears, or made you feel particularly overwhelmed?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I cried in the shower last week. I just couldn't hold it in anymore. It felt... dirty, like I was giving in.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly difficult \u2013 to feel like you can\u2019t even allow yourself to feel those emotions without feeling like you\u2019re \u201cgiving in.\u201d It takes a lot to reach that point. When you\u2019re being so hard on yourself, do you ever find yourself dwelling on things you feel you *should* have done differently, or things you regret?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I replay all the mistakes I made, like I could have done things differently. It\u2019s pointless, but I do it anyway.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s really common to get stuck replaying past events, especially when you\u2019re feeling down. It sounds exhausting to keep revisiting those \u201cwhat ifs.\u201d When you\u2019re caught in those thoughts, do you find yourself feeling particularly guilty or blaming yourself for things?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "I tell myself I\u2019m stupid for letting it happen. I beat myself up over it.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly painful \u2013 constantly replaying mistakes and being so hard on yourself. It takes a lot of energy to carry that kind of self-criticism. I\u2019m wondering, generally speaking, do you tend to look at the future with a sense of hopefulness, or do things feel a bit\u2026 bleak right now?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "I don't look ahead. I just exist. I don't see a future, I just see the next day.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of just existing, of not seeing a future\u2026 that sounds incredibly isolating. It takes a lot to keep going when things feel that uncertain. You mentioned feeling frustrated and sad, and even crying last week \u2013 have you noticed yourself feeling more easily agitated or restless alongside those feelings, or is it mostly just this heavy sadness?",
+        "turn": 14
+      },
+      {
+        "role": "persona",
+        "content": "It's all mixed together. I'm tired, I'm frustrated, I'm sad. It's just... everything feels heavy.",
+        "turn": 14
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly overwhelming \u2013 to have so many difficult feelings all mixed together, and everything just feeling heavy. It takes a lot of strength to describe that. I\u2019m wondering, has your appetite been affected by all of this, or have you noticed any changes in how much you eat?",
+        "turn": 15
+      },
+      {
+        "role": "persona",
+        "content": "I barely eat. I just don't have the energy to cook or even order takeout.",
+        "turn": 15
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019re carrying a tremendous weight right now, with everything feeling so heavy and impacting even basic things like eating. Thank you so much for sharing all of this with me today \u2013 it takes real courage to be so open, and I truly appreciate you taking the time to talk. I\u2019m going to wrap things up here, and I hope you\u2019re able to find some small moments of peace in the days ahead.",
+        "turn": 16
+      }
+    ]
+  }
+]

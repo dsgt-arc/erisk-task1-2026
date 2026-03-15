@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 6,
+    "total_turns": 11,
+    "bdi_score": 33,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Loss of pleasure",
+      "Guilty feelings",
+      "Loss of interest in others"
+    ],
+    "confidence": 0.5857142857142856,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "it's been a while. As for my mood... I don\u2019t know, it\u2019s just flat. Nothing seems to spark it anymore."
+      },
+      "q02_pessimism": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "Hopeful? Nah, not really. I don't see a light at the end of the tunnel. It's just... this is it, right? This is what life is. I guess you could say I'm just waiting for it to be over."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "I used to love my job, but now it just feels like a chore. I used to love music, but now I just put on the radio and it feels like noise."
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "It's always there. I wake up every morning thinking, 'I should be better than this.'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I tell myself I'm just lazy. ... Now I'm just... the one who can't even get out of bed."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "I am more critical of myself than I used to be. I tell myself I'm just lazy, that I should be doing more."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Yeah, I cry all the time now. It's just... I don't know how to turn it off. I'll be watching a funny video and suddenly I'm sobbing."
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.6,
+        "evidence": "No explicit discussion of restlessness or agitation."
+      },
+      "q12_loss_of_interest": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "It's hard to be interested in anything. I don't have the energy to enjoy anything. I used to love music, but now I just put on the radio and it feels like noise."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Thinking: brain just stops. I look at my to-do list and it\u2019s just a bunch of words on a page. I used to be the person who planned everything out."
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.55,
+        "evidence": "I wake up every morning thinking, 'I should be better than this.'"
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "I'm just... exhausted. All the time."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I wake up feeling like I haven't slept, even if I did."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.6,
+        "evidence": "No explicit discussion of irritability."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Food? Forget it. I'm just eating to not starve, not because I actually want it."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "My brain just... stops. I look at my to-do list and it\u2019s just a bunch of words on a page."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "I'm just... exhausted. All the time."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.05714285714285714
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.05952380952380952
+      },
+      {
+        "pass": 3,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.1380952380952381
+      },
+      {
+        "pass": 4,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.2571428571428571
+      },
+      {
+        "pass": 5,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.29999999999999993
+      },
+      {
+        "pass": 6,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.36666666666666664
+      },
+      {
+        "pass": 7,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.44999999999999996
+      },
+      {
+        "pass": 8,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.5047619047619047
+      },
+      {
+        "pass": 9,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.39761904761904754
+      },
+      {
+        "pass": 10,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.43809523809523815
+      },
+      {
+        "pass": 11,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.6952380952380951
+      },
+      {
+        "pass": 12,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.5857142857142856
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? Not really. Work has been a grind, and I just feel like I'm running in circles. I used to love my job, but now it just feels like a chore.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining \u2013 it\u2019s tough when something you once enjoyed starts to feel like just another task. You mentioned feeling like you\u2019re running in circles\u2026 has that feeling been around for a while, or is it more recent? And, if you don\u2019t mind me asking, how would you describe your general mood these days?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s been a while. I guess it just built up over time. As for my mood... I don\u2019t know, it\u2019s just flat. Nothing seems to spark it anymore. I just get up, go to work, come home, and stare at my phone. It\u2019s like I\u2019m just waiting for something to happen, but nothing does.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly monotonous, just going through the motions like that. It takes a lot of energy just to *do* that, even without feeling motivated. When you think about the future, do you generally feel hopeful, or do things tend to look a bit bleak? And, on a similar note, have you been finding it harder to make decisions lately, even small ones?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Hopeful? Nah, not really. I don't see a light at the end of the tunnel. It's just... this is it, right? This is what life is. I guess you could say I'm just waiting for it to be over.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly heavy to carry, feeling like there\u2019s no light ahead. It\u2019s understandable to feel stuck when things seem unchanging. I\u2019m wondering, have you noticed any changes in your energy levels lately \u2013 are you feeling more tired than usual, or perhaps finding it harder to get going in the mornings? And along with that, how have things been with your sleep and appetite?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I'm just... exhausted. All the time. I wake up feeling like I haven't slept, even if I did. And food? Forget it. I'm just eating to not starve, not because I actually want it. It feels like I'm just going through the motions, but I'm not actually living.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly difficult \u2013 feeling constantly exhausted and disconnected from things you used to enjoy. It takes a lot to keep going when even basic things like eating and sleeping feel like chores. You mentioned feeling like you're just going through the motions\u2026 has it been harder to decide *what* motions to make, even with small everyday things? I\u2019m just wondering if you\u2019ve been finding it difficult to make decisions lately.",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s like my brain just... stops. I look at my to-do list and it\u2019s just a bunch of words on a page. I used to be the person who planned everything out, but now... I don't know, it just feels pointless.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 to feel paralyzed even by a to-do list. It\u2019s easy to lose motivation when things feel pointless. Thinking about how you describe yourself, and how you used to be\u2026 do you find yourself being harder on yourself these days than you used to be?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I used to be pretty easy-going, but now I'm just... harsh. I tell myself I'm just lazy, that I should be doing more. But honestly, I don't have the energy to be lazy. I'm just... done.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're caught in a really tough cycle of exhaustion and self-criticism, and that's incredibly draining. You mentioned feeling \"done\" \u2013 I wonder, have you found yourself getting easily frustrated or agitated with things lately, even small inconveniences? And, if you don\u2019t mind sharing, have you been feeling more tearful than usual, or finding yourself unexpectedly crying?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I cry all the time now. It's just... I don't know how to turn it off. I'll be watching a funny video and suddenly I'm sobbing. It feels like my body just gave up.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly overwhelming, to feel like your emotions are so close to the surface. It takes a lot of strength to even acknowledge that, so thank you for sharing that with me. You also mentioned feeling agitated and easily frustrated\u2026 has that been directed at anyone in particular, or is it more of a general feeling of being on edge?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s everyone. My friends, my family... I just can't be around people right now. I'm too tired to pretend to be okay.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly isolating \u2013 wanting to protect the people around you from what you\u2019re going through, but at the cost of connection. It takes a lot of courage to recognize your limits. When you find yourself being critical of yourself, what kinds of things do you tend to focus on? Are there specific areas where you feel like you\u2019re falling short?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Just everything. I used to be the reliable one, the one who keeps everyone going. Now I'm just... the one who can't even get out of bed.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly painful \u2013 to feel like you\u2019ve lost that sense of purpose and reliability. It\u2019s understandable to feel a lot of guilt when you feel like you\u2019re not living up to your own expectations. Has that feeling of guilt been weighing on you a lot lately, or is it something that comes and goes?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s always there. I wake up every morning thinking, 'I should be better than this.' It\u2019s just... I don't know how to get out of this hole.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like an incredibly heavy burden to carry, constantly feeling like you *should* be doing more. It\u2019s really brave of you to share that. You mentioned feeling like you\u2019re in a hole\u2026 and wanting to get out, but not knowing how. Has that feeling of hopelessness been making it hard to find joy in anything at all, even things you used to enjoy?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s just... I don't have the energy to enjoy anything. I used to love music, but now I just put on the radio and it feels like noise. I\u2019m just waiting for something to change, but it\u2019s just... this.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like everything feels muted and overwhelming right now, and that\u2019s incredibly tough to navigate. You\u2019ve been so open and honest about what you\u2019re experiencing, and I truly appreciate you sharing all of this with me. I think we\u2019ve covered a lot of ground today, and I want to thank you again for your time and willingness to talk. Take care of yourself.",
+        "turn": 12
+      }
+    ]
+  }
+]
