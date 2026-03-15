@@ -1,0 +1,143 @@
+# Precomputed dialogue tree for BDI-II interview.
+# Organized by symptom cluster with openers + 1-2 follow-up layers.
+# Seeded from prompts/conversation.md Groups A-D.
+
+clusters:
+  mood_pleasure:
+    symptoms: [q01_sadness, q04_anhedonia]
+    openers:
+      - id: mood_opener_1
+        text: "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?"
+        target_symptoms: [q01_sadness]
+        keywords: [mood, feeling, feelings, felt, sad, down, low, blue, steady, rough, okay, fine]
+        followups:
+          - id: mood_followup_neg
+            trigger_keywords: [down, sad, low, blue, terrible, awful, bad, rough, horrible, miserable, crying, depressed, empty, numb]
+            text: "When you say you've been feeling down, is that most of the time lately, or just certain moments?"
+            target_symptoms: [q01_sadness]
+            severity_probe: true
+          - id: mood_followup_pos
+            trigger_keywords: [fine, okay, good, alright, great, decent, not bad, pretty good]
+            text: "That's good to hear. Has anything been bringing you joy recently? Like hobbies or activities you look forward to?"
+            target_symptoms: [q04_anhedonia]
+            severity_probe: false
+      - id: pleasure_opener_1
+        text: "What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities — what brings you a sense of satisfaction?"
+        target_symptoms: [q04_anhedonia]
+        keywords: [enjoy, enjoying, hobby, hobbies, fun, pleasure, activity, activities, interest, satisfaction, happy]
+        followups:
+          - id: pleasure_followup_neg
+            trigger_keywords: [nothing, not really, used to, anymore, flat, pointless, boring, lost interest, don't enjoy, stopped]
+            text: "So it sounds like things that used to feel good don't really anymore. How long has that been going on?"
+            target_symptoms: [q04_anhedonia]
+            severity_probe: true
+          - id: pleasure_followup_pos
+            trigger_keywords: [love, enjoy, like, fun, great, awesome, playing, reading, watching, cooking, gaming]
+            text: "That sounds really nice. When you think about what's coming up — next week, next month — how do you generally feel about it?"
+            target_symptoms: [q02_pessimism]
+            severity_probe: false
+
+  physical:
+    symptoms: [q15_energy, q16_sleep, q18_appetite, q20_fatigue]
+    openers:
+      - id: energy_opener_1
+        text: "How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?"
+        target_symptoms: [q15_energy, q20_fatigue]
+        keywords: [energy, tired, exhausted, dragging, motivation, fatigue, sluggish, lazy, productive]
+        followups:
+          - id: energy_followup_neg
+            trigger_keywords: [exhausted, can't, tired, dragging, no energy, push myself, chore, forcing, barely, drained]
+            text: "When you say you're exhausted, does that make it hard to do everyday things, or is it more that you don't feel the motivation to start?"
+            target_symptoms: [q15_energy, q20_fatigue]
+            severity_probe: true
+          - id: energy_followup_pos
+            trigger_keywords: [fine, good, okay, normal, pretty good, enough, manage]
+            text: "Good to know. How has your sleep been? Sleeping okay, having trouble, or sleeping more than usual?"
+            target_symptoms: [q16_sleep]
+            severity_probe: false
+      - id: sleep_opener_1
+        text: "How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?"
+        target_symptoms: [q16_sleep]
+        keywords: [sleep, sleeping, insomnia, waking, rest, bed, night, hours, nap, oversleep]
+        followups:
+          - id: sleep_followup_neg
+            trigger_keywords: [can't sleep, insomnia, waking up, tossing, hours, barely, too much, oversleeping, early, restless]
+            text: "Has that always been an issue for you, or is this something that's changed recently?"
+            target_symptoms: [q16_sleep]
+            severity_probe: true
+      - id: appetite_opener_1
+        text: "Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?"
+        target_symptoms: [q18_appetite]
+        keywords: [appetite, eating, food, hungry, weight, meal, meals, eat, starving, diet]
+        followups:
+          - id: appetite_followup_neg
+            trigger_keywords: [less, lost, no appetite, can't eat, skipping, not hungry, more, overeating, weight, gained, lost weight]
+            text: "Is that change something that's been gradually getting worse, or did it happen pretty suddenly?"
+            target_symptoms: [q18_appetite]
+            severity_probe: true
+
+  outlook_social:
+    symptoms: [q02_pessimism, q12_loss_of_interest]
+    openers:
+      - id: pessimism_opener_1
+        text: "When you think about what's coming up — whether it's next week, next month, or further ahead — how do you generally feel about it?"
+        target_symptoms: [q02_pessimism]
+        keywords: [future, coming up, ahead, plans, hope, hopeful, worried, dread, point, optimistic]
+        followups:
+          - id: pessimism_followup_neg
+            trigger_keywords: [dread, hopeless, pointless, nothing, won't change, worse, scared, anxious, don't see, bleak, dark]
+            text: "It sounds like you're not feeling very optimistic. Has it always been like this, or is it newer?"
+            target_symptoms: [q02_pessimism]
+            severity_probe: true
+      - id: social_opener_1
+        text: "Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?"
+        target_symptoms: [q12_loss_of_interest]
+        keywords: [people, friends, family, social, alone, lonely, isolating, hanging out, seeing, company]
+        followups:
+          - id: social_followup_neg
+            trigger_keywords: [avoid, avoiding, don't feel like, alone, withdrawn, isolating, can't be bothered, no energy, stopped]
+            text: "Is it that you're avoiding people by choice, or is it more like you just don't have the energy or interest?"
+            target_symptoms: [q12_loss_of_interest]
+            severity_probe: true
+
+  cognition:
+    symptoms: [q13_indecisiveness, q19_concentration]
+    openers:
+      - id: concentration_opener_1
+        text: "Do you find it easy to focus on things — work, reading, conversations? Or has it been harder to concentrate lately?"
+        target_symptoms: [q19_concentration, q13_indecisiveness]
+        keywords: [focus, concentrate, concentration, attention, distracted, brain fog, think, thinking, decisions, decide]
+        followups:
+          - id: concentration_followup_neg
+            trigger_keywords: [can't focus, hard, difficult, brain fog, distracted, trouble, spacing out, forgetful, decisions, indecisive]
+            text: "So focusing feels harder. Is that affecting work or relationships or day-to-day stuff?"
+            target_symptoms: [q19_concentration, q13_indecisiveness]
+            severity_probe: true
+
+  self_perception:
+    symptoms: [q07_self_dislike, q14_worthlessness]
+    openers:
+      - id: self_worth_opener_1
+        text: "How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?"
+        target_symptoms: [q07_self_dislike, q14_worthlessness]
+        keywords: [myself, self, worth, worthless, failure, disappointed, critical, confident, proud, hate]
+        followups:
+          - id: self_worth_followup_neg
+            trigger_keywords: [worthless, useless, failure, hate, disgusted, disappointed, critical, hard on myself, not good enough, loser]
+            text: "That sounds like you're being pretty hard on yourself. Do you feel that way because of specific things, or is it more general?"
+            target_symptoms: [q07_self_dislike, q14_worthlessness]
+            severity_probe: true
+
+  guilt_criticism:
+    symptoms: [q05_guilt, q08_self_criticalness]
+    openers:
+      - id: guilt_opener_1
+        text: "Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?"
+        target_symptoms: [q05_guilt, q08_self_criticalness]
+        keywords: [guilty, guilt, blame, fault, sorry, regret, should have, shouldn't, wrong, mistake]
+        followups:
+          - id: guilt_followup_neg
+            trigger_keywords: [all the time, guilty, can't let go, everything, blame myself, my fault, constantly, always]
+            text: "Is that guilt connected to something specific, or does it feel more pervasive?"
+            target_symptoms: [q05_guilt]
+            severity_probe: true

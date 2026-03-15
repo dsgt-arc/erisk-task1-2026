@@ -156,6 +156,7 @@ uv.lock
 # Data directories
 user/*/experiments/*/data/*
 !user/*/experiments/*/data/.gitkeep
+!user/*/experiments/*/data/*.yaml
 
 # Results and outputs
 # user/*/experiments/*/results/*
