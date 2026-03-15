@@ -72,6 +72,12 @@ Different team members are exploring various approaches across eRisk tasks. For 
 - Status: Implemented, awaiting real persona API integration
 - See: [user/victor/experiments/001-baseline-mvp/README.md](user/victor/experiments/001-baseline-mvp/README.md)
 
+**Experiment 004: Weaver Run Selection + Dialogue Tree**
+- Location: `user/victor/experiments/004-weaver/`
+- Approach: Weaver-style weighted aggregation for run selection + BM25 dialogue tree for interview consistency
+- Status: In progress
+- See: [user/victor/experiments/004-weaver/README.md](user/victor/experiments/004-weaver/README.md)
+
 ---
 
 # OpenSpec (OPSX Workflow)
