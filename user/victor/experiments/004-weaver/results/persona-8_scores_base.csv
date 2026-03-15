@@ -1,0 +1,5 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+8,paid/sample-5,30,Severe,0.46,8,Pessimism; Sadness; Past failure; Loss of pleasure
+8,paid/sample-8,34,Severe,0.58,7,Worthlessness; Sadness; Pessimism; Past failure
+8,paid/sample-4,35,Severe,0.57,9,Loss of energy; Changes in appetite; Tiredness or fatigue; Sadness
+8,paid/sample-7,38,Severe,0.62,10,Guilty feelings; Self-criticalness; Worthlessness; Changes in appetite

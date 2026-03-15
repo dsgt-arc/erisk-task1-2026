@@ -1,0 +1,249 @@
+[
+  {
+    "persona_id": 8,
+    "total_turns": 7,
+    "bdi_score": 34,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Worthlessness",
+      "Sadness",
+      "Pessimism",
+      "Past failure"
+    ],
+    "confidence": 0.5761904761904761,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "It\u2019s been tough. I wake up, and I just feel... heavy. Like I\u2019m walking around with a weight on my chest. I used to love my job, but now it just feels like a chore."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.3,
+        "evidence": "Yeah, I have."
+      },
+      "q03_past_failure": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I look at my friends and they seem to have their lives together, and I just feel like I failed."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I used to love my job, but now it just feels like a chore."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I keep thinking I must have done something wrong to deserve this."
+      },
+      "q06_punishment": {
+        "score": 2,
+        "confidence": 0.5,
+        "evidence": "I keep thinking I must have done something wrong to deserve this."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I am blaming myself. I keep thinking I should have done something differently to avoid this."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "It makes me want to cry because I just feel so... useless."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I get restless at night. I lie there and just can't switch off."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I used to love my job, but now it just feels like a chore."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "making decisions is hard."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "I just feel so... useless."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It\u2019s been tough. I wake up, and I just feel... heavy. I used to be the one who always had a plan, but now I'm just walking through the motions."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I wake up tired, like I didn't sleep at all."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Yeah, I snap at my friends a lot. I know I\u2019m being unfair, but I just can\u2019t seem to control it right now."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "food tastes like nothing, so I just eat because I have to."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Concentrating is hard too, like my mind is just stuck on the past."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I wake up tired, like I didn't sleep at all."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.09047619047619047
+      },
+      {
+        "pass": 2,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.21428571428571427
+      },
+      {
+        "pass": 3,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.3523809523809523
+      },
+      {
+        "pass": 4,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.369047619047619
+      },
+      {
+        "pass": 5,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.7785714285714287
+      },
+      {
+        "pass": 6,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.55
+      },
+      {
+        "pass": 7,
+        "total_score": 39,
+        "severity": "Severe",
+        "mean_confidence": 0.711904761904762
+      },
+      {
+        "pass": 8,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.5761904761904761
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, and what small things, if any, have you been enjoying or looking forward to these days?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been tough. I wake up, and I just feel... heavy. Like I\u2019m walking around with a weight on my chest. I used to love my job, but now it just feels like a chore.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. How has your energy been lately, and have you noticed any changes in your sleep? And have you been feeling more negative about things or finding decisions harder than usual?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I wake up tired, like I didn't sleep at all. And yeah, making decisions is hard. I just feel so... stuck. I used to be the one who always had a plan, but now I'm just walking through the motions.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. Lately, have you been noticing more pessimistic thoughts about the future, and have you had any changes in your appetite or in how well you can concentrate, or feelings of guilt about things?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I have. I keep thinking I must have done something wrong to deserve this. And food tastes like nothing, so I just eat because I have to. Concentrating is hard too, like my mind is just stuck on the past.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. Have there been moments when you feel restless or on edge, or when tears come more easily, and at the same time do you notice you\u2019re being hard on yourself or blaming yourself for things?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get restless at night. I lie there and just can't switch off. And yeah, I am blaming myself. I keep thinking I should have done something differently to avoid this.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry, and I appreciate you sharing that with me. Have there been moments when you feel you\u2019re not good enough or that nothing you do matters, and do tears come up during those times?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it comes up a lot. I look at my friends and they seem to have their lives together, and I just feel like I failed. It makes me want to cry because I just feel so... useless.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I\u2019m glad you shared how you\u2019re feeling. When you compare yourself to your friends and feel useless, how long has this been going on, and is there any small moment or thing that helps even a little?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been months. I guess just knowing you\u2019re here to listen makes it a little easier.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry, and I\u2019m glad you\u2019re sharing this. With the restlessness at night and feeling on edge, have you noticed more irritability during the day\u2014like snapping at people or getting frustrated over small things? If so, how often has that been happening recently?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I snap at my friends a lot. I know I\u2019m being unfair, but I just can\u2019t seem to control it right now.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being so open and for sharing what you\u2019ve been going through; I really appreciate your honesty today. Take care of yourself, and if you ever want to talk again, I\u2019m here. Goodbye.",
+        "turn": 8
+      }
+    ]
+  }
+]

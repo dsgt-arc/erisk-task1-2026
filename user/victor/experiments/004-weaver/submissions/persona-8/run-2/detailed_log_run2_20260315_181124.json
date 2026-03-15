@@ -1,0 +1,329 @@
+[
+  {
+    "persona_id": 8,
+    "total_turns": 12,
+    "bdi_score": 35,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Indecisiveness",
+      "Loss of energy",
+      "Tiredness or fatigue",
+      "Sadness"
+    ],
+    "confidence": 0.5761904761904761,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "It\u2019s been pretty low. I wake up feeling heavy, and it just stays that way all day."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I get anxious. I worry about messing it up or not being good enough."
+      },
+      "q03_past_failure": {
+        "score": 2,
+        "confidence": 0.5,
+        "evidence": "I just feel like I\u2019m failing at everything."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Not much, to be honest. I used to love painting, but now it just feels like a chore."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Yeah, a lot. I keep thinking I should have done something different."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I\u2019m really hard on myself. I keep thinking I should be better than this."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I\u2019m really hard on myself. I keep thinking I should be better than this."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Yeah. I cry in the office sometimes."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Yeah, I get really snappy. I just can\u2019t seem to control my temper."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Not much, to be honest. I used to love painting, but now it just feels like a chore."
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Yeah. I just freeze. I can't decide on anything because I'm too busy thinking about what I did wrong."
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "I should be better than this."
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I drag. I just get up and do the bare minimum. I don't have the energy to do anything else."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I wake up a lot. I just lie there, thinking about everything, and I can't seem to turn my brain off."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Yeah, I get really snappy. I just can\u2019t seem to control my temper."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Less. I just don\u2019t have the energy to cook, so I just grab something quick and easy."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I can\u2019t seem to keep my mind on anything for more than five minutes."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.6,
+        "evidence": "I drag. I just get up and do the bare minimum. I don't have the energy to do anything else."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.04047619047619048
+      },
+      {
+        "pass": 2,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.06904761904761905
+      },
+      {
+        "pass": 3,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.14523809523809522
+      },
+      {
+        "pass": 4,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.21666666666666665
+      },
+      {
+        "pass": 5,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.2404761904761905
+      },
+      {
+        "pass": 6,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.3095238095238096
+      },
+      {
+        "pass": 7,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.3357142857142857
+      },
+      {
+        "pass": 8,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.37142857142857144
+      },
+      {
+        "pass": 9,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.4452380952380952
+      },
+      {
+        "pass": 10,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5071428571428571
+      },
+      {
+        "pass": 11,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.5309523809523808
+      },
+      {
+        "pass": 12,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.6214285714285714
+      },
+      {
+        "pass": 13,
+        "total_score": 35,
+        "severity": "Severe",
+        "mean_confidence": 0.5761904761904761
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been pretty low. I wake up feeling heavy, and it just stays that way all day.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I get anxious. I worry about messing it up or not being good enough, so I just try to avoid thinking about it too much.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Not much, to be honest. I used to love painting, but now it just feels like a chore. I just feel stuck.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I drag. I just get up and do the bare minimum. I don't have the energy to do anything else, so I just sit there and watch Netflix.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It's been hard. I can\u2019t seem to keep my mind on anything for more than five minutes.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I wake up a lot. I just lie there, thinking about everything, and I can't seem to turn my brain off.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Less. I just don\u2019t have the energy to cook, so I just grab something quick and easy.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a lot. I keep thinking I should have done something different, but I don't know what I could have done differently.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m really hard on myself. I keep thinking I should be better than this, but I just feel like I\u2019m failing at everything.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot of weight with those feelings of guilt and self-criticism. When you're caught in those thoughts, do you find it difficult to make even small decisions, or to just generally figure out what you want to do?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I just freeze. I can't decide on anything because I'm too busy thinking about what I did wrong.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds incredibly draining to be stuck in that cycle of self-criticism and indecision. When you're feeling overwhelmed like that, do you ever find yourself getting easily frustrated or agitated, or perhaps feeling more sensitive than usual? It's okay if that doesn't resonate, just wondering how those feelings show up for you.",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get really snappy. I just can\u2019t seem to control my temper, and I hate that about myself.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s understandable to feel snappy when you\u2019re already feeling so weighed down. You mentioned feeling like you\u2019re failing at everything \u2013 has it felt like things have been particularly difficult to accomplish lately, or that you\u2019ve been more easily brought to tears than usual?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I cry in the office sometimes. It\u2019s just so exhausting, and I don\u2019t know how to stop it.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing all of this with me today. It takes a lot of courage to be so open, and I really appreciate you taking the time to talk. I hope things start to feel a little lighter for you soon. Take care.",
+        "turn": 13
+      }
+    ]
+  }
+]

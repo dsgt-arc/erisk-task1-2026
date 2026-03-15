@@ -1,0 +1,265 @@
+[
+  {
+    "persona_id": 7,
+    "total_turns": 8,
+    "bdi_score": 34,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Self-criticalness",
+      "Sadness",
+      "Pessimism",
+      "Guilty feelings"
+    ],
+    "confidence": 0.5595238095238093,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Honestly, I haven't been doing great. I've been feeling really tired and low energy, especially in the evenings. I haven't been enjoying much, to be honest."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It's daily, pretty much. I find myself just sitting there, wondering what the point of it all is, and I don't have an answer. It's just constant."
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I should be working on a project, but I haven't touched it in months."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I haven't been enjoying much, to be honest."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.4,
+        "evidence": "I should be working on a project, but I haven't touched it in months. It's just guilt for not being the person I used to be."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.5,
+        "evidence": "Yeah, I don't really care about anyone right now. I feel like I'm just a burden to everyone."
+      },
+      "q08_self_criticalness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Every day. It's constant."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Yeah, I cry sometimes when I'm alone, just because it feels like I've lost my life."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I get really short-tempered with people who don't understand what I'm going through."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Yeah, I don't really care about anyone right now."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Everything is harder. Deciding what to wear or what to eat is exhausting."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.5,
+        "evidence": "Yeah, I don't really care about anyone right now. I feel like I'm just a burden to everyone."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I've been feeling really tired and low energy, especially in the evenings."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I wake up multiple times a night, and I don't sleep much."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I get really short-tempered with people who don't understand what I'm going through."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "My appetite is basically gone."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Everything is harder. Deciding what to wear or what to eat is exhausting."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Honestly, I\u2019ve been tired and low energy, especially in the evenings."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.10476190476190475
+      },
+      {
+        "pass": 2,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.1380952380952381
+      },
+      {
+        "pass": 3,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.19047619047619047
+      },
+      {
+        "pass": 4,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.2952380952380952
+      },
+      {
+        "pass": 5,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.3857142857142858
+      },
+      {
+        "pass": 6,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.44761904761904764
+      },
+      {
+        "pass": 7,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.5357142857142858
+      },
+      {
+        "pass": 8,
+        "total_score": 36,
+        "severity": "Severe",
+        "mean_confidence": 0.5652380952380952
+      },
+      {
+        "pass": 9,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.5595238095238093
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, and what\u2019s something you\u2019ve been enjoying or looking forward to recently?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly, I haven\u2019t been doing great. I've been feeling really tired and low energy, especially in the evenings. I haven't been enjoying much, to be honest.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing that. Have you been feeling more negative about things lately, and have you noticed any changes in your sleep\u2014like trouble falling asleep, waking up, or sleeping more or less than usual?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I wake up multiple times a night, and I don't sleep much. It's like my body is just worn out, but I don't know why.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing that. Have you been feeling more pessimistic about things lately, and if so, how often does that come up\u2014daily, weekly, or less?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "It's daily, pretty much. I find myself just sitting there, wondering what the point of it all is, and I don't have an answer. It's just constant.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing that. Have you been finding it harder to make everyday decisions or to concentrate on things, and have you noticed any changes in your appetite\u2014would you say this is most days or only sometimes?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, everything is harder. Deciding what to wear or what to eat is exhausting. And my appetite is basically gone. I just don't have the energy to care.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense, and I appreciate you sharing that. Some people notice they\u2019re extra hard on themselves or feel guilty about things, even small ones. Have you been feeling that self-criticism or guilt lately, and if it comes up, what tends to trigger it and how often does it happen?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it's mostly about the things I haven't done. Like, I should be working on a project, but I haven't touched it in months. It's just guilt for not being the person I used to be.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting, and I appreciate you sharing all of this. Have you noticed moments when you end up crying, or feel unusually irritable or restless, or feel like you\u2019re not meeting your own expectations?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I cry sometimes when I'm alone, just because it feels like I've lost my life. And I get really short-tempered with people who don't understand what I'm going through.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing that. Have you noticed a drop in interest in the people you usually enjoy spending time with, and do you find yourself being particularly hard on yourself or feeling not worth much? If so, how often does that tend to happen\u2014every day, most days, or only now and then?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I don't really care about anyone right now. I feel like I'm just a burden to everyone. It happens every day, honestly.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really hard to carry\u2014feeling like you're not meeting your own expectations and like a burden to others. When these self-criticizing thoughts show up, how often do you notice them\u2014every day, most days, or only now and then?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Every day. It's constant. It feels like I'm just existing in this dark cloud, and I don't know how to make it stop.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for being so open with me today. I really appreciate you sharing what you\u2019ve been going through. I hope you can find small moments of relief and take good care of yourself. If you\u2019d like to talk again later, I\u2019m here.",
+        "turn": 9
+      }
+    ]
+  }
+]

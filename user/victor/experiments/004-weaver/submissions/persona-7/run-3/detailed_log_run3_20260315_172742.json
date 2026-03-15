@@ -1,0 +1,345 @@
+[
+  {
+    "persona_id": 7,
+    "total_turns": 13,
+    "bdi_score": 35,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Loss of pleasure",
+      "Guilty feelings",
+      "Loss of interest in others",
+      "Indecisiveness"
+    ],
+    "confidence": 0.6023809523809524,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Described mood as 'all over the place' with days feeling fine and other days feeling empty."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Future feels so uncertain right now."
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "What did I do wrong? If I had just done things differently, I wouldn't be like this."
+      },
+      "q04_anhedonia": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "Nothing, really. I used to love painting, but I haven't picked up a brush in months."
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "I wake up and I feel guilty for just existing. It\u2019s like I\u2019m wasting everyone\u2019s time, including my own."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I don't like who I am right now. I look in the mirror, and I don't recognize the person I used to be."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "What did I do wrong? If I had just done things differently, I wouldn't be like this."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Yeah. I cry a lot. ... I cry in the shower at work."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I get annoyed at the smallest things. ... I get frustrated over nothing."
+      },
+      "q12_loss_of_interest": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "Nothing, really ... Haven't picked up painting in months."
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "I just freeze. I look at the choices and I can't decide what to do."
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "I don't like who I am right now."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I'm just tired all the time."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Even after a full day, I still wake up at 3 am and can't sleep."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I get annoyed at the smallest things. ... I get frustrated over nothing."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I eat because I have to, but I don't really taste anything."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "It\u2019s really hard. I try to read, but my mind wanders. I miss being able to focus on something without my brain going blank."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I'm just tired all the time."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sex drive."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.02857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.0857142857142857
+      },
+      {
+        "pass": 3,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.16904761904761903
+      },
+      {
+        "pass": 4,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.1952380952380952
+      },
+      {
+        "pass": 5,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.24761904761904763
+      },
+      {
+        "pass": 6,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.2833333333333333
+      },
+      {
+        "pass": 7,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.3333333333333333
+      },
+      {
+        "pass": 8,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.3357142857142857
+      },
+      {
+        "pass": 9,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.4547619047619048
+      },
+      {
+        "pass": 10,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.5571428571428572
+      },
+      {
+        "pass": 11,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.5785714285714286
+      },
+      {
+        "pass": 12,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.5319047619047618
+      },
+      {
+        "pass": 13,
+        "total_score": 39,
+        "severity": "Severe",
+        "mean_confidence": 0.6347619047619047
+      },
+      {
+        "pass": 14,
+        "total_score": 35,
+        "severity": "Severe",
+        "mean_confidence": 0.6023809523809524
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly, it\u2019s been all over the place. Some days I wake up and everything feels fine, and then I get home and I just feel... empty. It\u2019s hard to explain.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I don't think about it much. I just try to get through the day because the future feels so uncertain right now.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I'm just tired all the time. Even after a full day, I still wake up at 3 am and can't sleep.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Nothing, really. I used to love painting, but I haven't picked up a brush in months. I just sit on the sofa and scroll through my phone.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s really hard. I try to read, but my mind wanders. I miss being able to focus on something without my brain going blank.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I eat because I have to, but I don't really taste anything. I just put food in my mouth and wait for the day to be over.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I wake up and I feel guilty for just existing. It\u2019s like I\u2019m wasting everyone\u2019s time, including my own.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I don't like who I am right now. I look in the mirror, and I don't recognize the person I used to be.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're being really hard on yourself, and that's completely understandable given everything you've been going through. When you're facing a decision, even a small one, do you find it easy to make up your mind, or do you struggle with indecisiveness these days?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I just freeze. I look at the choices and I can't decide what to do. It feels like my whole life is just paused.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of being paused sounds incredibly frustrating. You mentioned feeling guilty and not liking who you are right now \u2013 has that led to feeling more easily bothered by things, or perhaps a bit on edge lately? It\u2019s okay if that doesn\u2019t quite fit, just wondering if things feel a little more sensitive than usual.",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get annoyed at the smallest things. I used to be the kind of person who just rolled with it, but now I get frustrated over nothing.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot right now, and it's understandable that small things would feel bigger. You mentioned getting frustrated easily \u2013 have you found yourself feeling more tearful than usual, or having moments where you just feel overwhelmed with sadness? It's okay to share, and it's okay if it's hard to put into words.",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I cry a lot. It's not just about the day, it's about the fact that I don't know how to fix it. I just sit there and I cry because I don't know what to do.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly overwhelming, not knowing where to turn when you're feeling so sad. When you find yourself crying, is it more often in private, or do you find it happening around other people as well? It\u2019s okay to share whatever feels comfortable.",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s mostly when I\u2019m alone, but sometimes I cry in the shower at work. I just turn the water on and let it out because I don\u2019t want anyone to see me like that.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly isolating, feeling like you have to hide your tears even at work. It takes a lot of strength to carry that privately. You\u2019ve mentioned feeling guilty and not liking who you are \u2013 when you\u2019re being hard on yourself like that, what kinds of thoughts are going through your mind?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "I think, \"What did I do wrong?\" It sounds stupid, but I keep thinking that if I had just done things differently, I wouldn't be like this.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing all of this with me. It takes a lot of courage to be so open, and I really appreciate your honesty and willingness to talk about what you\u2019ve been going through. I\u2019m sending you all the best, and I hope things start to feel a little lighter for you soon.",
+        "turn": 14
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+7,free/sample-5,23,Moderate,0.38,9,Tiredness or fatigue; Sadness; Loss of pleasure; Self-dislike
+7,free/sample-12,25,Moderate,0.41,10,Loss of pleasure; Guilty feelings; Loss of interest in others; Sadness
+7,free/sample-16,25,Moderate,0.44,8,Guilty feelings; Self-dislike; Sadness; Loss of pleasure
+7,free/sample-11,28,Moderate,0.50,11,Guilty feelings; Self-dislike; Indecisiveness; Loss of energy
+7,free/sample-17,28,Moderate,0.51,10,Pessimism; Guilty feelings; Self-dislike; Agitation
+7,free/sample-6,28,Moderate,0.55,12,Indecisiveness; Loss of energy; Tiredness or fatigue; Loss of pleasure
+7,free/sample-4,29,Severe,0.46,10,Loss of pleasure; Indecisiveness; Changes in sleeping pattern; Guilty feelings
+7,free/sample-18,31,Severe,0.54,11,Loss of energy; Tiredness or fatigue; Loss of pleasure; Guilty feelings
+7,free/sample-13,32,Severe,0.68,11,Guilty feelings; Indecisiveness; Changes in sleeping pattern; Loss of pleasure
+7,free/sample-14,32,Severe,0.60,13,Loss of energy; Tiredness or fatigue; Loss of pleasure; Guilty feelings
+7,free/sample-2,32,Severe,0.57,14,Loss of pleasure; Guilty feelings; Self-criticalness; Crying
+7,free/sample-7,32,Severe,0.56,13,Loss of pleasure; Loss of interest in others; Past failure; Guilty feelings
+7,free/sample-9,34,Severe,0.58,10,Pessimism; Indecisiveness; Sadness; Past failure
+7,free/sample-1,35,Severe,0.60,13,Loss of pleasure; Guilty feelings; Loss of interest in others; Indecisiveness
+7,free/sample-10,35,Severe,0.58,15,Sadness; Loss of pleasure; Loss of interest in others; Indecisiveness
+7,free/sample-15,35,Severe,0.57,11,Loss of pleasure; Self-dislike; Loss of interest in others; Changes in appetite
+7,free/sample-3,35,Severe,0.77,15,Guilty feelings; Worthlessness; Tiredness or fatigue; Loss of pleasure
+7,free/sample-8,36,Severe,0.59,14,Indecisiveness; Worthlessness; Loss of energy; Tiredness or fatigue
+7,free/sample-19,38,Severe,0.61,11,Guilty feelings; Self-dislike; Self-criticalness; Agitation
+7,free/sample-20,44,Severe,0.59,13,Loss of pleasure; Guilty feelings; Self-dislike; Crying
