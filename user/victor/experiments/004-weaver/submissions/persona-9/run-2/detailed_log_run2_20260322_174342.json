@@ -1,0 +1,409 @@
+[
+  {
+    "persona_id": 9,
+    "total_turns": 17,
+    "bdi_score": 19,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Self-dislike",
+      "Indecisiveness",
+      "Loss of energy",
+      "Changes in sleeping pattern"
+    ],
+    "confidence": 0.6880952380952381,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Persona described being 'a bit down' and that it feels heavier than usual due to work stress."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Said not really pessimistic, just a bit flat, and that things won't change overnight; needs to get through this patch."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit discussion of past failures or regrets."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Said gardening no longer energy-worthy and it's hard to find time for relaxing activities."
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Not really guilty, just a bit annoyed; frustration with work and life."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Described as just the usual frustration with work and life; no sense of being punished."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.55,
+        "evidence": "Noting not liking yourself very much in those moments (acknowledged by the respondent as occurring occasionally)."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Said I've been a bit more short with myself (more self-criticism)."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No mention of suicidal thoughts or self-harm."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "I don't cry or anything."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Noted being a bit more irritable."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Not having time for hobbies and gardening; energy limits engagement in enjoyable activities."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Deciding what to eat for dinner is described as a big, difficult choice."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No statements indicating worthlessness or global low self-worth."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "A bit tired from work and lacking energy for activities; wants energy back."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Sleep described as a bit restless with waking up a lot; aims to get sleep back on track."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Acknowledged being more irritable than usual."
+      },
+      "q18_appetite": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Eating's fine, just a bit bland."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Mentions a mental fog and needing to regain focus."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Noted being a bit tired from work and needing to regain energy."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No discussion of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.07142857142857142
+      },
+      {
+        "pass": 3,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.08095238095238096
+      },
+      {
+        "pass": 4,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.14523809523809522
+      },
+      {
+        "pass": 5,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.15238095238095237
+      },
+      {
+        "pass": 6,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.22380952380952376
+      },
+      {
+        "pass": 7,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.34761904761904766
+      },
+      {
+        "pass": 8,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.4238095238095238
+      },
+      {
+        "pass": 9,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.4452380952380952
+      },
+      {
+        "pass": 10,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.3785714285714285
+      },
+      {
+        "pass": 11,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.43809523809523804
+      },
+      {
+        "pass": 12,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.44047619047619047
+      },
+      {
+        "pass": 13,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.4071428571428571
+      },
+      {
+        "pass": 14,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.38095238095238093
+      },
+      {
+        "pass": 15,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 16,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.3999999999999999
+      },
+      {
+        "pass": 17,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.730952380952381
+      },
+      {
+        "pass": 18,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.6880952380952381
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been alright, I suppose. Just working and doing the usual stuff. I haven't really had time to focus on hobbies or anything like that lately.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a pretty full plate \u2013 work and the usual stuff can definitely take up all your time. You mentioned not having time for hobbies, and I was wondering, have you noticed a change in things you used to enjoy, or just a lack of time for them?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "It's a bit of both, probably. I used to like gardening, but I haven't had the energy for it lately. It's just hard to find the time to do anything relaxing.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s understandable \u2013 when things get busy, it\u2019s often the relaxing activities that fall by the wayside. You mentioned a lack of energy, and I\u2019m curious, how have you been feeling emotionally lately? Have things felt\u2026 particularly heavy or sad for you recently?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I don't know, I guess I'm just a bit down. It's probably just the usual work stress, but it feels a bit heavier than usual, I suppose.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot, and it's okay to feel weighed down by work stress \u2013 especially when it feels heavier than usual. Sometimes when things feel that way, it can be hard to look ahead or feel hopeful\u2026 have you been finding yourself feeling more pessimistic lately, or like things won\u2019t improve?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Not really pessimistic, just a bit flat. I'm not expecting things to change overnight or anything, I just need to get through this patch.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s really good you\u2019re acknowledging this is a tough patch and focusing on getting through it. Sometimes when things feel \u201cflat\u201d like that, it can be hard to make even small decisions \u2013 have you noticed yourself struggling with indecisiveness at all recently, maybe with things you wouldn\u2019t normally think twice about?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a bit. Deciding what to eat for dinner or something is suddenly a big choice. It sounds silly, but it\u2019s just a bit of a mental fog, I think.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That doesn\u2019t sound silly at all \u2013 even small decisions can feel overwhelming when you\u2019re in a mental fog. I\u2019m wondering, alongside that feeling of things being a bit foggy, how have basic things been for you lately \u2013 things like your sleep and appetite? Have you noticed any changes there?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I've been sleeping okay, I think. Just a bit tired from work. And eating's fine, just a bit bland.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "It's good to hear you're managing to get some sleep, even with work being tiring. You mentioned your appetite is a bit bland \u2013 has that been a recent change, or something you've noticed over a longer period of time? And thinking about how you're feeling generally, have you been finding yourself being harder on yourself lately, or feeling particularly critical?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I don't know, I guess I've just been a bit more short with myself. Nothing major, just a bit more irritable.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2013 it\u2019s common to be a bit more irritable when you\u2019re feeling stressed and tired. You mentioned sleeping okay, but also feeling tired\u2026 could you tell me a little more about your sleep? Is it the amount of sleep, the quality of it, or something else that\u2019s been different?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "It's just a bit restless. I wake up a lot, but I don't think it's too bad. I just need to get my sleep back on track.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're aware of the restless sleep and wanting to get back on track, which is great. Sometimes when we're feeling a bit down or stressed, we can be more critical of ourselves \u2013 have you noticed yourself feeling particularly guilty about things lately, even small things?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Not really guilty, just a bit annoyed. It's just the usual frustration with work and life in general.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s completely understandable to feel frustrated with work and life sometimes \u2013 it sounds like you\u2019re carrying a lot on your shoulders. You mentioned being a bit more annoyed with yourself lately, and I was wondering if that annoyance ever spills over into feeling\u2026 well, just not liking yourself very much in those moments? It\u2019s a tough thing to admit, but it\u2019s okay if it does.",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "I don't know, I suppose a bit. It's just hard to see things clearly when you're tired and stressed.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s a really honest answer, and it\u2019s so true that it\u2019s hard to see things clearly when you\u2019re tired and stressed. It takes a lot of strength to acknowledge those feelings. You mentioned not liking yourself very much in those moments \u2013 has that feeling been happening often, or is it more occasional when you\u2019re particularly frustrated?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "It's just been a few times. I don't really think about it that much, I just need to get back to a better place.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s really good you\u2019re focused on getting back to a better place \u2013 that\u2019s a positive step. You mentioned it happening a few times, not liking yourself in those moments\u2026 and I\u2019m wondering, when you *do* notice that feeling, does it ever lead to feeling overwhelmed, or maybe even a bit tearful? It\u2019s okay if it doesn\u2019t, just curious how it manifests for you.",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "I don't cry or anything. I just get a bit frustrated and annoyed.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s completely understandable to deal with frustration and annoyance \u2013 those feelings are really common when things are tough. You mentioned you don\u2019t cry, and that\u2019s perfectly okay. Sometimes feelings show up in different ways for everyone. Thinking about those moments of frustration, do you find yourself withdrawing from people or activities when you\u2019re feeling that way?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "Not really. I just try to focus on work and getting through the day.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s a really common way to cope \u2013 focusing on getting through the day when things are difficult. It sounds like you\u2019re very resilient. Since we\u2019re nearing the end of our chat, I wanted to check in \u2013 how are *you* feeling about our conversation so far? Is there anything else on your mind you\u2019d like to share?",
+        "turn": 14
+      },
+      {
+        "role": "persona",
+        "content": "I think we\u2019ve covered everything. It's just good to talk about it and get it off my chest.",
+        "turn": 14
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s wonderful to hear it felt good to talk things through \u2013 sometimes just voicing things can make a difference. Thank you for sharing your thoughts with me today. I really appreciate you taking the time to chat, and I wish you all the best in getting back to a better place.",
+        "turn": 15
+      },
+      {
+        "role": "persona",
+        "content": "Thanks for listening. I appreciate it.",
+        "turn": 15
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019ve been really focused on just getting through things, which takes a lot of strength. You mentioned not really expecting things to change overnight, and I was wondering \u2013 have you noticed a decrease in things you used to find enjoyable, or a general sense of not feeling much pleasure in things lately?",
+        "turn": 16
+      },
+      {
+        "role": "persona",
+        "content": "Not really. I just need to get my energy back.",
+        "turn": 16
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like getting your energy back is a big priority right now, and that makes perfect sense. You mentioned not really noticing a decrease in enjoyment, but sometimes when energy is low, it can be hard to *feel* enjoyment even when things are still potentially pleasurable. Have you found yourself feeling more easily overwhelmed by things lately, even things that wouldn\u2019t normally bother you?",
+        "turn": 17
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a bit. I just need to get my focus back.",
+        "turn": 17
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like regaining your focus is really important to you right now, and that\u2019s completely understandable. It takes a lot to keep going when things feel overwhelming. Thank you so much for sharing your thoughts with me today \u2013 I really appreciate your openness, and I wish you all the very best as you move forward. It was lovely chatting with you.",
+        "turn": 18
+      }
+    ]
+  }
+]

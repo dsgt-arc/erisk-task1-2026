@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 9,
+    "total_turns": 11,
+    "bdi_score": 29,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Pessimism",
+      "Loss of pleasure",
+      "Self-dislike",
+      "Self-criticalness"
+    ],
+    "confidence": 0.4904761904761904,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "I wouldn't say I'm depressed or anything, I just feel a bit flat. I just go through the motions."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I wouldn't say I'm hopeful. I just want to get through the next few weeks without everything falling apart."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I used to enjoy gardening, but I haven't even watered the plants in a while. It just feels like too much effort right now."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I feel like I should be doing better, but I just can't seem to get out of this rut."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I don't really feel good about myself. I know I\u2019m better than this"
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I find myself second-guessing a lot, even about simple things. It's frustrating, but I think it's just because I'm tired."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation"
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Yeah, a bit. I get emotional sometimes, but I think it's just because I'm so tired."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I get annoyed at the smallest things, like a slow internet connection or a traffic jam. It\u2019s like my patience has just disappeared."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I used to enjoy gardening... I haven't watered the plants in a while. I haven't had much time for hobbies."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I find myself second-guessing a lot, even about simple things."
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I don't really feel good about myself."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I don't have the energy for much"
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Sleep is patchy, mostly. I wake up a lot during the night and can't get back to sleep."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "I get annoyed at the smallest things."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "food-wise, I just eat what I have to, mostly just to get through the day."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I have trouble focusing on a single thing for more than a minute."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I just go through the days... I don't really have the energy for much."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.01904761904761905
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.06190476190476191
+      },
+      {
+        "pass": 3,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.15238095238095237
+      },
+      {
+        "pass": 4,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.22857142857142856
+      },
+      {
+        "pass": 5,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.27142857142857146
+      },
+      {
+        "pass": 6,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.40238095238095234
+      },
+      {
+        "pass": 7,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.5428571428571427
+      },
+      {
+        "pass": 8,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.4285714285714285
+      },
+      {
+        "pass": 9,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5261904761904763
+      },
+      {
+        "pass": 10,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.48571428571428577
+      },
+      {
+        "pass": 11,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.5666666666666667
+      },
+      {
+        "pass": 12,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.4904761904761904
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019ve been alright, I suppose. Just keeping my head down at work and trying to get things sorted. I haven't had much time for hobbies, to be honest.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a lot to juggle with work keeping you so busy. It's easy to let things slip when you're focused on getting things done \u2013 have you noticed yourself losing interest in things you usually enjoy, or finding it harder to feel pleasure in activities?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I guess I have. I used to enjoy gardening, but I haven't even watered the plants in a while. It just feels like too much effort right now.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough \u2013 it\u2019s hard when things you normally find relaxing start to feel like a chore. Thinking about how you\u2019ve been feeling generally, would you say you\u2019ve been feeling particularly sad or down lately? And on a similar note, how about your outlook on things \u2013 have you been feeling hopeful about the future, or more pessimistic?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I wouldn't say I'm depressed or anything, I just feel a bit flat. I don't really have the energy for much, so I just go through the motions.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "It\u2019s completely understandable to feel flat when you\u2019re running on low energy and just going through the motions. You mentioned feeling tired \u2013 I\u2019m wondering, how has your sleep been lately? And on top of that, has your appetite been normal, or have you noticed any changes there too?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Sleep is patchy, mostly. I wake up a lot during the night and can't get back to sleep. And food-wise, I just eat what I have to, mostly just to get through the day.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're dealing with a lot of little things adding up \u2013 the patchy sleep and just eating to get by. When you're facing decisions, big or small, have you found it harder than usual to make up your mind lately, or to really feel confident in your choices? It\u2019s okay if things feel a bit unclear right now.",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I find myself second-guessing a lot, even about simple things. It's frustrating, but I think it's just because I'm tired.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 constantly second-guessing yourself must be exhausting, especially when you're already feeling tired. You mentioned feeling like you're just going through the motions\u2026 has that led to any feelings of guilt or self-criticism, or finding yourself being harder on yourself than usual? It\u2019s perfectly alright to share whatever comes to mind.",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "A bit, I suppose. I feel like I should be doing better, but I just can't seem to get out of this rut. It\u2019s annoying, because I know I\u2019m better than this.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019re holding yourself to a really high standard, even when you\u2019re already feeling so drained. That feeling of knowing you *can* do better, but not being able to reach it, must be really tough. Have you found yourself getting easily frustrated or agitated lately, perhaps feeling more on edge than usual?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get annoyed at the smallest things, like a slow internet connection or a traffic jam. It\u2019s like my patience has just disappeared.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly draining \u2013 it\u2019s tough when everyday things feel so irritating. You mentioned feeling like you *should* be doing better, and being annoyed at yourself for not being able to get out of this rut\u2026 would you say you\u2019ve been generally feeling good about yourself lately, or more critical of your own shortcomings? It\u2019s okay to be honest, whatever you\u2019re feeling is valid.",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I don't really feel good about myself. I know I\u2019m better than this, but I just can't seem to get out of this slump.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're being really hard on yourself, and it's completely understandable to feel down when you're stuck in a slump and not feeling like your usual self. Thinking about how you see things right now, would you say you've been feeling generally hopeful about the future, or more pessimistic about how things will turn out? And on a slightly different note, have you found it harder to concentrate on things lately, or to really focus your attention?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I wouldn't say I'm hopeful. I just want to get through the next few weeks without everything falling apart.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're really just focused on getting through each day, and that's completely valid when things feel overwhelming. You mentioned wanting to just get through the next few weeks \u2013 have you noticed it being harder to concentrate on tasks, or to really focus your attention on what you\u2019re doing? It\u2019s okay if your mind feels a bit scattered right now.",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I have trouble focusing on a single thing for more than a minute.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 constantly losing focus must make everything feel more challenging. You\u2019ve mentioned feeling so tired and just wanting to get through the days\u2026 have you found yourself feeling more tearful than usual lately, or experiencing moments where you just feel like crying? It\u2019s perfectly okay if you have, or haven\u2019t.",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a bit. I get emotional sometimes, but I think it's just because I'm so tired.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019re carrying a lot, and it makes sense that you\u2019d be feeling emotional when you\u2019re already so exhausted. Thank you so much for sharing all of this with me today \u2013 I really appreciate your openness and honesty. I wish you all the best in finding some space to recharge and feel more like yourself again.",
+        "turn": 12
+      }
+    ]
+  }
+]

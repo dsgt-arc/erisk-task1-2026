@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 10,
+    "total_turns": 9,
+    "bdi_score": 16,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Loss of energy",
+      "Changes in sleeping pattern",
+      "Concentration difficulty",
+      "Tiredness or fatigue"
+    ],
+    "confidence": 0.32380952380952377,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No direct statements of sadness were made in the transcript."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Persona described being 'a bit anxious' about what\u2019s coming up and wanting to stay positive."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion of past failures."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Not much enjoyed lately; 'Not much' to be honest and hasn't found a new routine yet."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Said 'I feel like I should be doing more with my life.'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No sense of punishment mentioned."
+      },
+      "q07_self_dislike": {
+        "score": 1,
+        "confidence": 0.3,
+        "evidence": "I\u2019m in a weird place right now. I\u2019m trying to be kind to myself, but it\u2019s hard not to compare myself to others."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit self-criticism language beyond general self-kindness."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No crying discussed."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Frustrated easily over small things."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Not much enjoyment; not really finding a routine."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of indecisiveness."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No statements implying worthlessness."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Energy level is 'pretty low' with waking up tired and feeling flat."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Sleep is 'hit and miss'; usually wake up in the middle of the night thinking about stuff."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Frustrated easily over small things."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Less, probably. Not really in the mood for much."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Hard to focus; mind starts wandering and I can\u2019t stay with it."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Energy is low; wake up tired and feel flat."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.05714285714285714
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.11428571428571428
+      },
+      {
+        "pass": 3,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.11428571428571428
+      },
+      {
+        "pass": 4,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.19761904761904758
+      },
+      {
+        "pass": 5,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.2833333333333333
+      },
+      {
+        "pass": 6,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.30714285714285716
+      },
+      {
+        "pass": 7,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.3119047619047619
+      },
+      {
+        "pass": 8,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.34761904761904755
+      },
+      {
+        "pass": 9,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.3142857142857142
+      },
+      {
+        "pass": 10,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.32380952380952377
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been a bit all over the place. I get frustrated easily over small things, but I try to tell myself it\u2019s just the move stress.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Not much, to be honest. I've been busy sorting out the flat, but I haven't really found a new routine yet.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "A bit anxious. I don't want to fail at this, you know? But I'm working on it, trying to stay positive.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "It's been pretty low. I wake up tired, and even after a decent breakfast, I just feel flat. I'm trying to eat better, but it doesn't seem to be helping much yet.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s hit and miss. Sometimes I can sleep okay, but usually, I wake up in the middle of the night thinking about stuff.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been hard to focus. I try to sit down and read a book, but my mind starts wandering and I can\u2019t stay with it.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a bit. I feel like I should be doing more with my life, but I\u2019m working on it.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Less, probably. I\u2019m just not really in the mood for much.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I'm just in a weird place right now. I\u2019m trying to be kind to myself, but it\u2019s hard not to compare myself to others.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot right now, navigating a big move and being gentle with yourself through it all. I really appreciate you sharing so openly with me today \u2013 it takes courage to reflect on these things. I wish you all the best as you settle in and find your rhythm.",
+        "turn": 10
+      }
+    ]
+  }
+]

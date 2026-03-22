@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+9,free/sample-1,0,Minimal,0.00,16,
+9,free/sample-20,8,Minimal,0.31,9,Sadness; Loss of pleasure; Loss of interest in others; Indecisiveness
+9,free/sample-4,10,Minimal,0.25,10,Indecisiveness; Loss of energy; Tiredness or fatigue; Self-criticalness
+9,free/sample-7,13,Minimal,0.24,9,Loss of pleasure; Loss of interest in others; Indecisiveness; Loss of energy
+9,free/sample-15,14,Mild,0.37,15,Loss of energy; Tiredness or fatigue; Sadness; Pessimism
+9,free/sample-18,18,Minimal,0.00,9,Loss of pleasure; Self-criticalness; Loss of interest in others; Concentration difficulty
+9,free/sample-11,19,Mild,0.69,17,Self-dislike; Indecisiveness; Loss of energy; Changes in sleeping pattern
+9,free/sample-2,19,Mild,0.46,10,Indecisiveness; Loss of pleasure; Loss of interest in others; Concentration difficulty
+9,free/sample-5,20,Minimal,0.27,10,Sadness; Pessimism; Loss of pleasure; Indecisiveness
+9,free/sample-13,22,Moderate,0.54,11,Self-dislike; Self-criticalness; Indecisiveness; Worthlessness
+9,free/sample-14,23,Moderate,0.74,13,Tiredness or fatigue; Pessimism; Self-dislike; Indecisiveness
+9,free/sample-17,25,Moderate,0.66,15,Past failure; Loss of pleasure; Guilty feelings; Self-dislike
+9,free/sample-3,25,Moderate,0.51,10,Self-dislike; Pessimism; Loss of pleasure; Guilty feelings
+9,free/sample-8,25,Moderate,0.47,9,Concentration difficulty; Loss of pleasure; Self-dislike; Loss of interest in others
+9,free/sample-12,26,Moderate,0.54,17,Sadness; Pessimism; Loss of pleasure; Self-criticalness
+9,free/sample-16,27,Moderate,0.46,10,Agitation; Irritability; Guilty feelings; Self-dislike
+9,free/sample-19,28,Moderate,0.57,11,Loss of pleasure; Self-dislike; Self-criticalness; Agitation
+9,free/sample-10,29,Severe,0.49,11,Pessimism; Loss of pleasure; Self-dislike; Self-criticalness
+9,free/sample-6,31,Severe,0.55,13,Pessimism; Loss of pleasure; Guilty feelings; Self-dislike
+9,free/sample-9,31,Severe,0.47,13,Loss of pleasure; Loss of interest in others; Sadness; Self-dislike
