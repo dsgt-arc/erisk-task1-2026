@@ -72,7 +72,7 @@ def chat(
             else:
                 messages.append({"role": "system", "content": system_prompt})
         messages.append({"role": "user", "content": prompt})
-    
+
     # Continue interview with previous convo context
     elif google:
         # Strip system messages from pre-built message lists (no system role for Gemma 3)
@@ -91,7 +91,7 @@ def chat(
         kwargs["max_tokens"] = max_tokens
 
     # Exponential backoff for free model rate limits
-    max_retries = 10
+    max_retries = 5
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(**kwargs)
@@ -100,7 +100,7 @@ def chat(
                 return content.strip()
             print(f"  [LLM returned empty response, retry {attempt + 1}/{max_retries}]")
         except openai.RateLimitError as e:
-            wait = min(2 ** attempt * 10, 120)  # 10s, 20s, 40s, 80s, 120s, 120s...
+            wait = min(2 ** attempt * 5, 60)  # 5s, 10s, 20s, 40s, 60s
             print(f"  [Rate limited, waiting {wait}s before retry {attempt + 1}/{max_retries}]")
             time.sleep(wait)
         except openai.APIError as e:
