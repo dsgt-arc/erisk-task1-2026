@@ -160,13 +160,9 @@ def main():
     parser.add_argument("--run-id", type=int, default=1, choices=[1, 2, 3],
                         help="Run number for submission (1-3)")
 
-    # Model selection (OpenRouter model strings)
-    parser.add_argument("--interviewer-model", type=str, default=None,
-                        help="OpenRouter model for interviewer (e.g. openai/gpt-4.1-mini)")
-    parser.add_argument("--scorer-model", type=str, default=None,
-                        help="OpenRouter model for scorer (e.g. openai/gpt-4.1-mini)")
+    # Model selection
     parser.add_argument("--free", action="store_true",
-                        help="Use free open-source models (meta-llama/llama-3.1-8b-instruct:free)")
+                        help="Use free Gemma model for interviewer (scorer always paid)")
     parser.add_argument("--ensemble-size", type=int, default=1,
                         help="Number of scorer passes (1=fast, 3=accurate)")
     parser.add_argument("--score-every-n", type=int, default=1,
@@ -181,18 +177,12 @@ def main():
     # Output
     parser.add_argument("--output-dir", type=Path, default=None,
                         help="Output directory for submission files")
-    parser.add_argument("--manual", action="store_true",
-                        help="Mark as manual/human-assisted run")
     parser.add_argument("--quiet", action="store_true",
                         help="Suppress verbose output")
 
     # Dialogue tree
-    parser.add_argument("--use-tree", action="store_true",
-                        help="Enable precomputed dialogue tree for interviewer")
     parser.add_argument("--tree-threshold", type=float, default=1.5,
                         help="BM25 match threshold for dialogue tree followups")
-    parser.add_argument("--use-lf", action="store_true",
-                        help="Enable labeling functions for orchestrator")
 
     # Testing
     parser.add_argument("--mock-persona", action="store_true",
@@ -201,22 +191,19 @@ def main():
     args = parser.parse_args()
     verbose = not args.quiet
 
-    # Resolve model selection: explicit flag > --free > paid default
-    # --free only affects interviewer; scorer stays paid for reliable JSON output
+    # Model selection: --free uses Gemma for interviewer, scorer always paid
     from llm import PAID_DEFAULT, FREE_DEFAULT
-    interviewer_model = args.interviewer_model or (FREE_DEFAULT if args.free else PAID_DEFAULT)
-    scorer_model = args.scorer_model or PAID_DEFAULT
+    interviewer_model = FREE_DEFAULT if args.free else PAID_DEFAULT
+    scorer_model = PAID_DEFAULT
 
     print("\n" + "=" * 60)
     print("eRisk 2026 Task 1: Open-Source Depression Detection")
     print("=" * 60 + "\n")
 
-    # Load dialogue tree if requested
-    tree_bank = None
-    if args.use_tree:
-        from dialogue_tree import load_bank
-        tree_path = Path(__file__).parent.parent / "data" / "question_bank.yaml"
-        tree_bank = load_bank(tree_path)
+    # Load dialogue tree (always enabled in 004)
+    from dialogue_tree import load_bank
+    tree_path = Path(__file__).parent.parent / "data" / "question_bank.yaml"
+    tree_bank = load_bank(tree_path)
 
     print("Configuration:")
     print(f"  Personas: {args.personas}")
@@ -229,14 +216,12 @@ def main():
     print(f"  Mock persona: {args.mock_persona}")
     if args.free:
         print(f"  Mode: FREE (open-source models)")
-    if args.use_tree:
-        n_openers = sum(
-            len(c.get("openers", []))
-            for c in tree_bank.get("clusters", {}).values()
-        )
-        print(f"  Dialogue tree: ON ({n_openers} openers, threshold={args.tree_threshold})")
-    if args.use_lf:
-        print(f"  Labeling functions: ON")
+    n_openers = sum(
+        len(c.get("openers", []))
+        for c in tree_bank.get("clusters", {}).values()
+    )
+    print(f"  Dialogue tree: ON ({n_openers} openers, threshold={args.tree_threshold})")
+    print(f"  Labeling functions: ON")
     print()
 
     # Create agents
@@ -261,7 +246,7 @@ def main():
         max_turns=args.max_turns,
         score_every_n_turns=args.score_every_n,
         verbose=verbose,
-        use_lf=args.use_lf,
+        use_lf=True,
     )
 
     # Run interviews
@@ -294,7 +279,7 @@ def main():
         results=results,
         run_id=args.run_id,
         output_dir=args.output_dir,
-        manual=args.manual,
+        manual=False,
     )
 
     print("\nDone!")

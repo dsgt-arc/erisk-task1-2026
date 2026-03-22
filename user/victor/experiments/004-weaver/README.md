@@ -11,14 +11,14 @@ uv sync --package 004-weaver
 
 # Set API keys
 export OPENAI_API_KEY="your-key"
-export GOOGLE_AI_API_KEY="your-key"
+export GOOGLE_AI_API_KEY="your-key"  # only needed with --free
 
-# Run with dialogue tree + labeling functions
+# Run (dialogue tree + labeling functions always enabled)
 cd user/victor/experiments/004-weaver/src
-python run.py --mock-persona --personas 1 --use-tree --use-lf
-
-# Run without tree (same as 003 behavior)
 python run.py --mock-persona --personas 1
+
+# Run with free Gemma model for interviewer
+python run.py --mock-persona --personas 1 --free
 
 # Select runs with Weaver aggregation
 cd ..
@@ -41,18 +41,16 @@ python select_runs.py 5 --mix --legacy
 --personas N [N ...]        Persona IDs to interview (default: 1 2)
 --run-id {1,2,3}            Submission run number
 --mock-persona              Use canned responses instead of Llama model
---free                      Use free open-source models (zero cost)
---interviewer-model STR     Model string for interviewer
---scorer-model STR          Model string for scorer
+--free                      Use free Gemma model for interviewer (scorer always paid)
 --max-turns N               Max conversation turns (default: 18)
 --ensemble-size N           Scorer passes per turn (1=fast, 3=accurate)
 --score-every-n N           Score every Nth turn (default: 1)
 --confidence-threshold F    Stopping threshold (default: 0.6)
---use-tree                  Enable dialogue tree for interviewer
 --tree-threshold F          BM25 match threshold (default: 1.5)
---use-lf                    Enable labeling functions for orchestrator
 --quiet                     Suppress verbose output
 ```
+
+Dialogue tree and labeling functions are always enabled. Scorer always uses `gpt-5-nano`.
 
 ### select_runs.py
 
