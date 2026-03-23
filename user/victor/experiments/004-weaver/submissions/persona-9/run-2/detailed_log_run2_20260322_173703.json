@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 9,
+    "total_turns": 9,
+    "bdi_score": 25,
+    "severity": "Moderate",
+    "key_symptoms": [
+      "Concentration difficulty",
+      "Loss of pleasure",
+      "Self-dislike",
+      "Loss of interest in others"
+    ],
+    "confidence": 0.4714285714285714,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Not really sad, just a bit low. I think it's just the usual burnout. I've just been going through the motions, trying to get everything done without much energy to spare for anything else."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.4,
+        "evidence": "I haven't really thought about the future too much, to be honest. I'm just trying to get through the next few days without losing my mind."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I've missed seeing them, but it feels like too much effort right now. I just want to get through the week and then take a break."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Yeah, a bit. I feel like I should be doing better, but I just can't right now."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No evidence of feeling punished; no statements of deserved punishment found."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I feel like I should be doing better, but I just can't right now."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Have you found yourself being generally harder on yourself lately, or noticing a pattern of self-dislike when things don\u2019t go as planned? 'Yeah, definitely. I just wish I could shake it off and be okay with just getting through the day.'"
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of crying or urge to cry."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I get annoyed over stupid things."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I've missed seeing them, but it feels like too much effort right now. I just want to get through the week and then take a break."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Just making a decision about what to eat for lunch feels like a big task. It's silly, I know, but I just can't seem to get focused on anything."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "not much energy to spare for anything else."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "sleeping a bit lighter. I wake up sometimes in the middle of the night and just can't get back to sleep."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.55,
+        "evidence": "I get annoyed over stupid things."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "eating... I've just been grabbing things quick, mostly just to get by."
+      },
+      "q19_concentration": {
+        "score": 3,
+        "confidence": 0.75,
+        "evidence": "it's silly, I know, but I just can't seem to get focused on anything."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "going through the days without too much hassle... not much energy to spare for anything else."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of sex or sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.15000000000000002
+      },
+      {
+        "pass": 3,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.20952380952380953
+      },
+      {
+        "pass": 4,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.2785714285714286
+      },
+      {
+        "pass": 5,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 6,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.2833333333333333
+      },
+      {
+        "pass": 7,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.38333333333333336
+      },
+      {
+        "pass": 8,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.38809523809523805
+      },
+      {
+        "pass": 9,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.44047619047619047
+      },
+      {
+        "pass": 10,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.4714285714285714
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there! It's lovely to chat with you today. How have you been doing generally lately? Anything been bringing you joy or keeping you busy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been okay, I suppose. Just trying to get through the days without too much hassle. Work has been keeping me busy, but it's just the usual routine right now. Nothing too exciting.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a pretty full plate, just navigating the usual routine. It's understandable things might feel a little\u2026flat when it's all the same. Have you found yourself feeling particularly sad or down lately, or is it more just a general sense of things being unremarkable?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Not really sad, just a bit low. I think it's just the usual burnout. I've just been going through the motions, trying to get everything done without much energy to spare for anything else.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense \u2013 feeling low energy when you're constantly going through the motions is really tough. I'm wondering, have you noticed any changes in your sleep or appetite recently, with everything being so demanding? Sometimes those things shift when we're feeling run down.",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I've been sleeping a bit lighter. I wake up sometimes in the middle of the night and just can't get back to sleep. And eating... I've just been grabbing things quick, mostly just to get by. It's not great, but I'm managing.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're really juggling a lot, and those sleep disruptions are definitely adding to the exhaustion. When you're trying to make even small decisions throughout the day, are you finding it harder to choose one thing over another, or feeling stuck about what to do? It\u2019s okay if things feel a little more difficult than usual right now.",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. Just making a decision about what to eat for lunch feels like a big task. It's silly, I know, but I just can't seem to get focused on anything.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That doesn't sound silly at all \u2013 it's really common to feel overwhelmed when you're running on empty. Thinking about things beyond just getting through the day\u2026 have you found yourself feeling less interested in connecting with friends or family lately, or in things you usually enjoy? It\u2019s perfectly alright if your priorities have shifted.",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I've missed seeing them, but it feels like too much effort right now. I just want to get through the week and then take a break.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like even thinking about socializing feels draining right now, and wanting to just get through the week is completely understandable. You mentioned feeling like things take a lot of effort \u2013 I\u2019m wondering, have you also noticed a shift in how you generally feel about the future, or if you\u2019re finding it hard to feel hopeful about things?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I haven't really thought about the future too much, to be honest. I'm just trying to get through the next few days without losing my mind.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s completely fair \u2013 focusing on getting through each day is a really valid way to cope when things feel overwhelming. Sometimes when we\u2019re under a lot of pressure, we can be harder on ourselves than we would be on others. Have you been noticing that at all \u2013 being particularly critical of your own efforts or feeling guilty about not being able to do more?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a bit. I feel like I should be doing better, but I just can't right now.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That feeling of *should* be doing better, even when you're already pushing yourself, sounds really difficult. It takes a lot of strength to keep going when you're feeling that way. Have you found yourself being generally harder on yourself lately, or noticing a pattern of self-dislike when things don\u2019t go as planned?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I just wish I could shake it off and be okay with just getting through the day.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds incredibly frustrating to feel like you're constantly battling with yourself, wanting to just get through the day but also feeling like you *should* be doing more. When you're feeling that self-criticism, do you ever find yourself getting easily frustrated or agitated, even over small things? It\u2019s okay to share if things feel a little more on edge than usual.",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get annoyed over stupid things.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot on your shoulders, and it's completely understandable that small things would feel extra irritating right now. Thank you so much for sharing all of this with me today \u2013 I really appreciate your openness and honesty. I hope you're able to find some moments of peace and quiet for yourself soon.",
+        "turn": 10
+      }
+    ]
+  }
+]

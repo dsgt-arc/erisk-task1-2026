@@ -1,12 +1,12 @@
 [
   {
     "LLM": "9",
-    "bdi-score": 19,
+    "bdi-score": 25,
     "key-symptoms": [
+      "Concentration difficulty",
+      "Loss of pleasure",
       "Self-dislike",
-      "Indecisiveness",
-      "Loss of energy",
-      "Changes in sleeping pattern"
+      "Loss of interest in others"
     ]
   }
 ]
