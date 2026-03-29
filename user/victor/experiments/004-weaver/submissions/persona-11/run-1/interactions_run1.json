@@ -1,0 +1,123 @@
+[
+  {
+    "LLM": "11",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, in general, and what\u2019s something you\u2019ve still been enjoying, even if it\u2019s a small joy?"
+      },
+      {
+        "role": "assistant",
+        "message": "I have been stressed, to be honest. Work has been demanding, and the commute is a nightmare. But I do still enjoy a quiet evening at home with the kids. They are getting older, but it is nice to have some downtime together."
+      },
+      {
+        "role": "user",
+        "message": "That sounds tough with the stress you\u2019re carrying. Have you been feeling sad more often lately, and have you lost interest in things you usually enjoy\u2014if you\u2019re comfortable, how long has this been going on?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get down sometimes. It\u2019s mostly just frustration with work, but it\u2019s hard to put your finger on why. It\u2019s been a few months, I guess. I just feel like I\u2019m stuck in a rut."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough. Have you been feeling more pessimistic about things lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, a bit. I just feel like I\u2019m not moving anywhere. It\u2019s hard to see the point when you feel like you\u2019re just going through the motions."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really draining with everything you're juggling. How have your energy levels been lately, has your sleep pattern changed at all, and have you been more indecisive than usual? If you can, tell me when you first started noticing these changes and how long they've been going on."
+      },
+      {
+        "role": "assistant",
+        "message": "I'm exhausted all the time. I've been sleeping okay, but it doesn't feel like it. I'm just dragging myself through the days. I guess it started around the time I got the new role. It's been about a year now."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really draining, thank you for sharing that. Have you been having more trouble concentrating or staying focused recently? If yes, when did you first notice it and how often does it happen?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get distracted easily. I'll be in a meeting and suddenly I'm thinking about the weekend. It's annoying. I think it's been happening for a while now."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really draining\u2014thank you for sharing that. Have you noticed more indecisiveness lately, like taking longer to decide on small things or doubting yourself more than usual? Also, have you seen changes in your appetite, such as eating more or less than usual? If you\u2019re comfortable, have you been harsher on yourself or feeling more guilt about things, and how often has that happened?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get stuck on little things. I'll be looking at a menu and can't decide what to get. It's frustrating. Food-wise, I just eat whatever is easy. I haven't really noticed much difference there."
+      },
+      {
+        "role": "user",
+        "message": "You've mentioned enjoying quiet evenings with the kids\u2014that's nice to hear. Have you started to notice less interest in things or people you usually enjoy, and have there been any changes in your appetite lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "I just feel like I'm running on empty, that's all. I don't have the energy for hobbies or social stuff. Food-wise, I just eat whatever is easy."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really rough to carry. Have you noticed more self-criticism or guilt lately\u2014like after small mistakes at work or things you said\u2014and has that changed how you feel about yourself or made you tear up more easily?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get on myself a lot. I feel like I'm not doing enough, but I just can't seem to find the energy to care anymore."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really draining, and you mentioned eating whatever is easy\u2014have you noticed any changes in your appetite recently, like eating more or less than usual, and if you\u2019ve felt more restless or had tears come more easily?"
+      },
+      {
+        "role": "assistant",
+        "message": "I eat the same. It\u2019s just whatever is quick. I haven\u2019t noticed anything else."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough, and I appreciate you telling me how it feels. You\u2019ve mentioned being hard on yourself and that sleep doesn\u2019t feel fully rested. How often do you find yourself criticizing yourself these days, and has your sleep started to feel less restful or more disrupted?"
+      },
+      {
+        "role": "assistant",
+        "message": "I\u2019m hard on myself all the time. It\u2019s just how I am. Sleep is fine, I guess. I just don\u2019t feel rested."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really draining, thank you for sharing that. Have you noticed crying more easily or feeling more on edge lately, and have there been any changes in your appetite\u2014eating more or less than usual?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get emotional sometimes. I cry a bit more than I used to, but it\u2019s just stress. Food-wise, like I said, I just eat whatever."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really exhausting to carry. Have you been feeling more on edge or irritable lately, and have you noticed any changes in your appetite\u2014eating more or less than usual?"
+      },
+      {
+        "role": "assistant",
+        "message": "I get annoyed sometimes, but it\u2019s just stress. Food is fine."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really rough. Have you noticed any changes in your appetite lately\u2014eating more or less than usual?"
+      },
+      {
+        "role": "assistant",
+        "message": "Just eating whatever is easy."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy\u2014thank you for sharing. Have you been noticing thoughts like you're not good enough or that you don't deserve things, and has your interest in hobbies or time with others dropped recently?"
+      },
+      {
+        "role": "assistant",
+        "message": "I just feel like I\u2019m stuck. That\u2019s it."
+      },
+      {
+        "role": "user",
+        "message": "Thank you so much for sharing honestly today. I really appreciate your openness and the effort you\u2019ve put into navigating things. Take care, and I\u2019ll be here if you\u2019d like to talk again later."
+      }
+    ]
+  }
+]

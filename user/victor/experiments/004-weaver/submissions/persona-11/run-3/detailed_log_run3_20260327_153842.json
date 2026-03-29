@@ -1,0 +1,297 @@
+[
+  {
+    "persona_id": 11,
+    "total_turns": 10,
+    "bdi_score": 20,
+    "severity": "Moderate",
+    "key_symptoms": [
+      "Sadness",
+      "Loss of pleasure",
+      "Guilty feelings",
+      "Loss of interest in others"
+    ],
+    "confidence": 0.3142857142857142,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Mood described as pretty low and drained."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Said they don't have energy to worry about the future and take it one day at a time."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Nothing, really; things aren\u2019t exciting though they\u2019re easy to do (e.g., watching TV, video games)."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Feels guilty about not being there for family."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No evidence of feeling punished."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No clear indication of self-dislike."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No clear self-criticism described."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of suicidal thoughts."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of crying."
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of agitation."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Not having time for social activities; used to play football but hasn't been able to keep up, indicating reduced interest."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Stares at the screen and can't decide what to do."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of feeling worthless."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Low energy; running on empty; not having energy to worry."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Wakes up a lot and doesn't get a full night's rest."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No irritability described."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Eating a bit less; not really hungry."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Everything takes twice as long; brain won't hold onto it."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Feeling drained and running on empty."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of sex drive."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.09047619047619047
+      },
+      {
+        "pass": 2,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.09285714285714286
+      },
+      {
+        "pass": 3,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.13333333333333333
+      },
+      {
+        "pass": 4,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.18095238095238098
+      },
+      {
+        "pass": 5,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.25476190476190474
+      },
+      {
+        "pass": 6,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.24761904761904768
+      },
+      {
+        "pass": 7,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.27142857142857146
+      },
+      {
+        "pass": 8,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 9,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.34285714285714286
+      },
+      {
+        "pass": 10,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.7642857142857145
+      },
+      {
+        "pass": 11,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.3142857142857142
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been pretty low. Just feeling a bit drained. Work has been stressful, and then my wife is going through some stuff at home, so I just feel like I'm running on empty.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I don't think about it too much. I just take it one day at a time. I don't have the energy to worry about the future right now.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I haven't really had the time for it. I used to play football with friends, but I haven't been able to keep up with that lately. I just feel like I'm stuck in a rut.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I wake up a lot. I'm usually lying there thinking about things I should be doing, so I don't get a full night's rest.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Everything takes twice as long. I'll be reading a page and I'll have to re-read it because my brain won't hold onto it.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I'm eating a bit less. I'm not really hungry, so I just grab something quick and move on.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I feel guilty about not being there for my family. But what can I do? I'm stuck here.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I'm just tired. I don't have the energy to think about any of that. I just get through the day.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Nothing, really. Just the usual stuff. Watching TV, playing video games. It's not exciting, but it's easy.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like things are really weighing on you right now, and it makes sense you'd be feeling drained with everything going on at work and with your wife. When you're facing a lot, do you find it hard to make even small decisions, or do you usually know what you want to do?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "I don't know. I just stare at the screen. I know I should probably get a move on, but I just can't.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot right now, and it's completely understandable that you're feeling stuck and exhausted. I really appreciate you sharing all of this with me today. It takes courage to talk about these things, and I want to thank you for your openness. I hope you're able to find some small moments of peace amidst everything.",
+        "turn": 11
+      }
+    ]
+  }
+]

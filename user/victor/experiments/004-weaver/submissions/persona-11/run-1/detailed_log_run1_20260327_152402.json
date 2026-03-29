@@ -1,0 +1,361 @@
+[
+  {
+    "persona_id": 11,
+    "total_turns": 14,
+    "bdi_score": 27,
+    "severity": "Moderate",
+    "key_symptoms": [
+      "Self-criticalness",
+      "Loss of energy",
+      "Tiredness or fatigue",
+      "Pessimism"
+    ],
+    "confidence": 0.5785714285714286,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "The participant said they get down sometimes and mentioned being stuck in a rut for a few months."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "They feel they aren\u2019t moving forward and have difficulty seeing a point, acting pessimistically about the future."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "They still enjoy a quiet evening with the kids but report lacking energy for hobbies or social activities."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "They described frequent self-criticism and feeling like they aren\u2019t doing enough."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit sense of being punished described."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "They express disappointment in self and not doing enough at times."
+      },
+      "q08_self_criticalness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "They state they are hard on themselves all the time."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal thoughts."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "They report crying a bit more than they used to, linked to stress."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "They note being annoyed sometimes, indicating irritability."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "They feel running on empty and lack energy for hobbies or social activities."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "They can\u2019t decide what to order at a menu and feel stuck on small things."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit statements of worthlessness."
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "They are exhausted all the time and dragging themselves through the days; lack energy for activities."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "They report sleep not feeling restful and inconsistent sleep quality, with statements like sleep not feeling rested."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "They mention being annoyed sometimes, indicating mild irritability."
+      },
+      "q18_appetite": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "They report eating the same and not noting appetite changes."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "They describe being easily distracted in meetings and thoughts shifting away to weekend plans."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Exhausted all the time and dragging through the days."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of changes in sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.08333333333333333
+      },
+      {
+        "pass": 3,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.10952380952380951
+      },
+      {
+        "pass": 4,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.18095238095238095
+      },
+      {
+        "pass": 5,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.25
+      },
+      {
+        "pass": 6,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.24047619047619045
+      },
+      {
+        "pass": 7,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.36666666666666664
+      },
+      {
+        "pass": 8,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.369047619047619
+      },
+      {
+        "pass": 9,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.6833333333333333
+      },
+      {
+        "pass": 10,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.3880952380952381
+      },
+      {
+        "pass": 11,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.41904761904761906
+      },
+      {
+        "pass": 12,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.46190476190476193
+      },
+      {
+        "pass": 13,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.4309523809523809
+      },
+      {
+        "pass": 14,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.5
+      },
+      {
+        "pass": 15,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.5785714285714286
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, in general, and what\u2019s something you\u2019ve still been enjoying, even if it\u2019s a small joy?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I have been stressed, to be honest. Work has been demanding, and the commute is a nightmare. But I do still enjoy a quiet evening at home with the kids. They are getting older, but it is nice to have some downtime together.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds tough with the stress you\u2019re carrying. Have you been feeling sad more often lately, and have you lost interest in things you usually enjoy\u2014if you\u2019re comfortable, how long has this been going on?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get down sometimes. It\u2019s mostly just frustration with work, but it\u2019s hard to put your finger on why. It\u2019s been a few months, I guess. I just feel like I\u2019m stuck in a rut.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Have you been feeling more pessimistic about things lately?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a bit. I just feel like I\u2019m not moving anywhere. It\u2019s hard to see the point when you feel like you\u2019re just going through the motions.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining with everything you're juggling. How have your energy levels been lately, has your sleep pattern changed at all, and have you been more indecisive than usual? If you can, tell me when you first started noticing these changes and how long they've been going on.",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I'm exhausted all the time. I've been sleeping okay, but it doesn't feel like it. I'm just dragging myself through the days. I guess it started around the time I got the new role. It's been about a year now.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining, thank you for sharing that. Have you been having more trouble concentrating or staying focused recently? If yes, when did you first notice it and how often does it happen?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get distracted easily. I'll be in a meeting and suddenly I'm thinking about the weekend. It's annoying. I think it's been happening for a while now.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining\u2014thank you for sharing that. Have you noticed more indecisiveness lately, like taking longer to decide on small things or doubting yourself more than usual? Also, have you seen changes in your appetite, such as eating more or less than usual? If you\u2019re comfortable, have you been harsher on yourself or feeling more guilt about things, and how often has that happened?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get stuck on little things. I'll be looking at a menu and can't decide what to get. It's frustrating. Food-wise, I just eat whatever is easy. I haven't really noticed much difference there.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "You've mentioned enjoying quiet evenings with the kids\u2014that's nice to hear. Have you started to notice less interest in things or people you usually enjoy, and have there been any changes in your appetite lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I just feel like I'm running on empty, that's all. I don't have the energy for hobbies or social stuff. Food-wise, I just eat whatever is easy.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really rough to carry. Have you noticed more self-criticism or guilt lately\u2014like after small mistakes at work or things you said\u2014and has that changed how you feel about yourself or made you tear up more easily?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get on myself a lot. I feel like I'm not doing enough, but I just can't seem to find the energy to care anymore.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining, and you mentioned eating whatever is easy\u2014have you noticed any changes in your appetite recently, like eating more or less than usual, and if you\u2019ve felt more restless or had tears come more easily?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I eat the same. It\u2019s just whatever is quick. I haven\u2019t noticed anything else.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you telling me how it feels. You\u2019ve mentioned being hard on yourself and that sleep doesn\u2019t feel fully rested. How often do you find yourself criticizing yourself these days, and has your sleep started to feel less restful or more disrupted?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m hard on myself all the time. It\u2019s just how I am. Sleep is fine, I guess. I just don\u2019t feel rested.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really draining, thank you for sharing that. Have you noticed crying more easily or feeling more on edge lately, and have there been any changes in your appetite\u2014eating more or less than usual?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get emotional sometimes. I cry a bit more than I used to, but it\u2019s just stress. Food-wise, like I said, I just eat whatever.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really exhausting to carry. Have you been feeling more on edge or irritable lately, and have you noticed any changes in your appetite\u2014eating more or less than usual?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "I get annoyed sometimes, but it\u2019s just stress. Food is fine.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really rough. Have you noticed any changes in your appetite lately\u2014eating more or less than usual?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "Just eating whatever is easy.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy\u2014thank you for sharing. Have you been noticing thoughts like you're not good enough or that you don't deserve things, and has your interest in hobbies or time with others dropped recently?",
+        "turn": 14
+      },
+      {
+        "role": "persona",
+        "content": "I just feel like I\u2019m stuck. That\u2019s it.",
+        "turn": 14
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing honestly today. I really appreciate your openness and the effort you\u2019ve put into navigating things. Take care, and I\u2019ll be here if you\u2019d like to talk again later.",
+        "turn": 15
+      }
+    ]
+  }
+]

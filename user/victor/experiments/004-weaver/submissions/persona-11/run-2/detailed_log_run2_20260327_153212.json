@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 11,
+    "total_turns": 9,
+    "bdi_score": 17,
+    "severity": "Mild",
+    "key_symptoms": [
+      "Loss of interest in others",
+      "Indecisiveness",
+      "Loss of energy",
+      "Changes in sleeping pattern"
+    ],
+    "confidence": 0.3166666666666666,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Just need to get through the next few weeks. Just a bit anxious. The thought of making a decision right now feels overwhelming."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Not much, to be honest. I haven't really had time for anything outside of work. Maybe a walk around the block."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Yeah, a bit. I feel like I should be doing more, but I'm just stuck."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Just a bit anxious. The thought of making a decision right now feels overwhelming."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Not much, to be honest. I haven't really had time for anything outside of work. Maybe a walk around the block."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "The thought of making a decision right now feels overwhelming."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It's been low. I'm just tired. I hit a wall at 5 pm. I just want to sit down."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It's been hit-or-miss. Sometimes I sleep fine, sometimes I lie there thinking about work."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I've lost my appetite a bit. I just grab whatever is easy, usually."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It's been hard. My mind wanders. I'll be in a meeting and think about something I need to do at work. It's just hard to focus."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It's been low. I'm just tired. I hit a wall at 5 pm."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.0857142857142857
+      },
+      {
+        "pass": 3,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.11666666666666667
+      },
+      {
+        "pass": 4,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2119047619047619
+      },
+      {
+        "pass": 5,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2452380952380952
+      },
+      {
+        "pass": 6,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.2619047619047619
+      },
+      {
+        "pass": 7,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.3261904761904762
+      },
+      {
+        "pass": 8,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.369047619047619
+      },
+      {
+        "pass": 9,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.3357142857142857
+      },
+      {
+        "pass": 10,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.3166666666666666
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been a bit up and down. I've been stressed about work deadlines, so I guess that's part of it. But I'm managing. Just need to get through the next few weeks.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Not much, to be honest. I haven't really had time for anything outside of work. Maybe a walk around the block. I'll get back to it eventually, I just need to prioritize.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "It's been low. I'm just tired. I know I'm not getting any younger, but it's like I hit a wall at 5 pm. I just want to sit down.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Just a bit anxious. The thought of making a decision right now feels overwhelming. I'll figure it out when the time comes.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It's been hit-or-miss. Sometimes I sleep fine, sometimes I lie there thinking about work. I just need to get on a routine, I guess.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I've lost my appetite a bit. I just grab whatever is easy, usually. I know I should eat better, but I'm just not hungry.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, a bit. I feel like I should be doing more, but I'm just stuck. I guess that's just part of it.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "It's been hard. My mind wanders. I'll be in a meeting and think about something I need to do at work. It's just hard to focus.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I'm just tired. I'm sure I'll get through this.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot right now, and it takes courage to talk about these things \u2013 thank you for sharing with me. I really appreciate your openness, and I hope things start to feel a little lighter for you soon. Take care.",
+        "turn": 10
+      }
+    ]
+  }
+]

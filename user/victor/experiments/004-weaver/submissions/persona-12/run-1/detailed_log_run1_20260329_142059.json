@@ -1,0 +1,361 @@
+[
+  {
+    "persona_id": 12,
+    "total_turns": 14,
+    "bdi_score": 29,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Self-criticalness",
+      "Worthlessness",
+      "Sadness"
+    ],
+    "confidence": 0.5333333333333333,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"It comes up a lot, honestly. I try to distract myself with TV or my phone, but it\u2019s always there in the background.\" \"I wake up a lot. Sometimes I lie there for hours, thinking about how I\u2019m not really doing what I want to do with my life.\""
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "\"not looking forward to anything specific right now\""
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "\"I eat, but I don't really taste it. It\u2019s like my body is just going through the motions, you know?\""
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "\"Yeah, I beat myself up about it. I think about how I should be doing better\" and later \"They come up every day. They usually last a few hours, but sometimes they go on for days.\""
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q08_self_criticalness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "\"Yeah, I beat myself up about it. I think about how I should be doing better, but I just can\u2019t seem to get my head straight.\"\"It\u2019s usually when I\u2019m lying in bed. I just lie there and think about how I\u2019m failing everyone.\""
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"Yeah, I usually cry. It usually lasts a few hours, then I just get tired and go to bed. It happens when I\u2019m alone, mostly.\""
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "\"Yeah, I snap. And yeah, I think it. It\u2019s just... I don't know how to stop it, so I just sit there and feel like I\u2019m wasting everyone's time.\""
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "\"I don\u2019t know if I\u2019m looking forward to anything specific right now.\""
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "\"I'll stare at the shelves for 20 minutes because I can't decide.\""
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "\"not worth much\" or that you should be doing more"
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "\"Just a bit... tired.\""
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "\"I wake up a lot. Sometimes I lie there for hours, thinking about how I\u2019m not really doing what I want to do with my life.\""
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "\"Yeah, I snap. And yeah, I think it. It\u2019s just... I don't know how to stop it, so I just sit there and feel like I\u2019m wasting everyone's time.\""
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "\"I eat, but I don't really taste it. It\u2019s like my body is just going through the motions, you know?\""
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "\"Yeah, I get stuck on the smallest things. I'll be trying to pick out a book, and I'll stare at the shelves for 20 minutes because I can't decide.\""
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "\"Just a bit... tired.\""
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.10476190476190476
+      },
+      {
+        "pass": 2,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.16666666666666666
+      },
+      {
+        "pass": 3,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.23809523809523808
+      },
+      {
+        "pass": 4,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2833333333333333
+      },
+      {
+        "pass": 5,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.36666666666666664
+      },
+      {
+        "pass": 6,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.37857142857142856
+      },
+      {
+        "pass": 7,
+        "total_score": 22,
+        "severity": "Moderate",
+        "mean_confidence": 0.3738095238095238
+      },
+      {
+        "pass": 8,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.44285714285714295
+      },
+      {
+        "pass": 9,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.6690476190476191
+      },
+      {
+        "pass": 10,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.5071428571428571
+      },
+      {
+        "pass": 11,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.5761904761904763
+      },
+      {
+        "pass": 12,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5404761904761904
+      },
+      {
+        "pass": 13,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5261904761904762
+      },
+      {
+        "pass": 14,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.5595238095238095
+      },
+      {
+        "pass": 15,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.5333333333333333
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, in general? And what kinds of things have you found yourself enjoying, or looking forward to, recently?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been okay, I guess. Just a bit... tired. I work part-time and then help my parents with their grocery shopping, so it\u2019s a lot. But honestly, I don\u2019t know if I can say I\u2019m looking forward to anything specific right now.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a lot to manage, and I appreciate you telling me. Have you been feeling sad lately, and have you noticed any changes in your sleep\u2014like trouble getting to sleep, waking up during the night, or feeling less rested in the morning?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I wake up a lot. Sometimes I lie there for hours, thinking about how I\u2019m not really doing what I want to do with my life. It\u2019s hard to explain, but it feels like I\u2019m just drifting along.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really rough to deal with, and I appreciate you telling me about it. Have you been finding it harder to decide things lately or to concentrate on tasks?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get stuck on the smallest things. I'll be trying to pick out a book, and I'll stare at the shelves for 20 minutes because I can't decide. It\u2019s frustrating, but I just can\u2019t seem to focus right now.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a lot to carry, and I really appreciate you sharing this with me. Have you been feeling sad or low lately, and have you noticed any changes in your appetite or eating habits?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I eat, but I don't really taste it. It\u2019s like my body is just going through the motions, you know?",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry, and I appreciate you sharing. Have you been feeling sad lately, and when those feelings show up, do you find yourself being hard on yourself or feeling guilty about what you should have done differently?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I beat myself up about it. I think about how I should be doing better, but I just can\u2019t seem to get my head straight.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry, and I appreciate you sharing how you're feeling. Have you been feeling sad lately, and if so, how often does that come up for you?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It comes up a lot, honestly. I try to distract myself with TV or my phone, but it\u2019s always there in the background.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds heavy to carry, and I appreciate you sharing that. When thoughts like \u201cI\u2019m not good enough\u201d or \u201cI should be doing more\u201d pop up, how often do they show up and how long do they tend to last? If those moments come with crying or feeling restless, what usually seems to trigger them or make them worse?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "They come up a lot. They usually last a few hours, and then I just go back to work or errands. I don't know if I can explain it, but it feels like the sadness just sort of... settles in.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds heavy to carry, and I really appreciate you sharing. When those moments come up, do you end up crying, feeling agitated or irritable, or sensing that you\u2019re not worth much? How often do these feelings show up and how long do they last, and do they tend to happen in certain situations?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I usually cry. It usually lasts a few hours, then I just get tired and go to bed. It happens when I\u2019m alone, mostly.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a heavy load to carry, and I really appreciate you sharing how much you\u2019ve been juggling. Have you been feeling more on edge or irritable lately, like you can\u2019t sit still or you snap at small things, and in those moments do you also catch yourself thinking you\u2019re not doing enough or that you\u2019re not worth the effort?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I snap. And yeah, I think it. It\u2019s just... I don't know how to stop it, so I just sit there and feel like I\u2019m wasting everyone's time.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I appreciate you sharing how much you\u2019re carrying. When those thoughts creep in that you\u2019re not worth much or that you should be doing more, how often do they show up and how long do they tend to last?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "They come up every day. They usually last a few hours, but sometimes they go on for days.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds heavy, and I really appreciate you sharing. When those self-judging thoughts pop up\u2014like \"I'm not good enough\" or \"I should be doing more\"\u2014how often do they come, and how long do they tend to last? Do they show up more when you\u2019re alone or in specific situations like at work or with your parents?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "They come up every day, usually in the afternoon or evening. They last a few hours, and they happen mostly when I\u2019m alone.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really rough to deal with. You mentioned snapping at small things and feeling on edge\u2014how often does irritability show up, and does it tend to happen in specific situations (like at work or with your parents) or at certain times of day?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "It happens a lot. Mostly in the afternoon or evening when I\u2019m tired.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy, and I really appreciate you sharing how you\u2019re feeling. When those thoughts that you\u2019re not worth much or that you should be doing more pop up, how much do they affect your day or the things you try to do?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "A lot. They make it hard to focus or make decisions.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. You mentioned these self-critical thoughts come up every day, usually in the afternoon or evening, and they last a few hours, especially when you're alone. what tends to make them feel most intense, and how do they affect what you\u2019re trying to do in those moments?",
+        "turn": 14
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s usually when I\u2019m lying in bed. I just lie there and think about how I\u2019m failing everyone.",
+        "turn": 14
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being open and for sharing what you\u2019ve been going through today. I really appreciate your honesty and the effort you\u2019ve put into our chat. I hope you have a calmer, gentler day ahead and take care.",
+        "turn": 15
+      }
+    ]
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "persona_id": 12,
+    "total_turns": 10,
+    "bdi_score": 25,
+    "severity": "Moderate",
+    "key_symptoms": [
+      "Indecisiveness",
+      "Self-dislike",
+      "Self-criticalness",
+      "Loss of interest in others"
+    ],
+    "confidence": 0.4904761904761905,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "It\u2019s been a bit of a rollercoaster, honestly. One day I\u2019m fine, and the next I\u2019m just feeling really drained and unsure of what I\u2019m doing."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "It feels overwhelming if I think about the long-term stuff."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I like reading, I guess. It\u2019s easy to just pick up a book and escape for a bit."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Yeah, I do. I always feel like I\u2019m failing at something."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I\u2019m pretty hard on myself, I think. I always feel like I should be doing more or achieving more."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I\u2019m pretty hard on myself, I think. I always feel like I should be doing more or achieving more."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "I wake up in the middle of the night, usually. I just lie there and think about stuff until it\u2019s time to get up. It\u2019s not like I\u2019m stressed about anything specific, I just... can\u2019t turn my brain off."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I haven\u2019t really been out much lately. I just haven\u2019t had the energy for it."
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I struggle a lot. I just get stuck and can't decide."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I just feel... like I'm not doing enough."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I haven\u2019t really been out much lately. I just haven\u2019t had the energy for it."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I wake up in the middle of the night, usually. I just lie there and think about stuff until it\u2019s time to get up. It\u2019s not like I\u2019m stressed about anything specific, I just... can\u2019t turn my brain off."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I eat less, usually."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "It\u2019s been harder, yeah. I\u2019ll be reading and I'll just stare at the page because my brain is somewhere else."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I don\u2019t have the energy to cook or go out, so I just grab something quick and easy."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.0761904761904762
+      },
+      {
+        "pass": 2,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.18095238095238098
+      },
+      {
+        "pass": 3,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.12380952380952381
+      },
+      {
+        "pass": 4,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.1285714285714286
+      },
+      {
+        "pass": 5,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.24761904761904763
+      },
+      {
+        "pass": 6,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.38333333333333336
+      },
+      {
+        "pass": 7,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.3119047619047619
+      },
+      {
+        "pass": 8,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.6833333333333335
+      },
+      {
+        "pass": 9,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.3642857142857143
+      },
+      {
+        "pass": 10,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.7761904761904762
+      },
+      {
+        "pass": 11,
+        "total_score": 25,
+        "severity": "Moderate",
+        "mean_confidence": 0.4904761904761905
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been a bit of a rollercoaster, honestly. One day I\u2019m fine, and the next I\u2019m just feeling really drained and unsure of what I\u2019m doing. It\u2019s hard to explain, but I just feel... stuck.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I like reading, I guess. It\u2019s easy to just pick up a book and escape for a bit. I also spend time with my friends online, but that\u2019s different from being in person, you know?",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I wake up in the middle of the night, usually. I just lie there and think about stuff until it\u2019s time to get up. It\u2019s not like I\u2019m stressed about anything specific, I just... can\u2019t turn my brain off, I suppose.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I try not to think about it too much. It feels overwhelming if I think about the long-term stuff, so I just focus on the day ahead. It\u2019s easier to manage that way.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I haven\u2019t really been out much lately. I just haven\u2019t had the energy for it. I feel bad about it, but... I don\u2019t know, it feels like I\u2019m just taking up space if I go out and have fun when everyone else is dealing with their own stuff.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been harder, yeah. I\u2019ll be reading and I'll just stare at the page because my brain is somewhere else. It\u2019s like I\u2019m stuck in this loop where I'm just going through the motions without really being there.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I eat less, usually. I just don't have the energy to cook or go out, so I just grab something quick and easy. It\u2019s not healthy, I know, but...",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I do. I always feel like I\u2019m failing at something. I don't know if it's just the age thing or what, but I just feel... like I'm not doing enough, I guess.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m pretty hard on myself, I think. I always feel like I should be doing more or achieving more, but... I don\u2019t know, it feels like I\u2019m just stuck in this loop and can\u2019t get out.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot on your shoulders, and being so critical of yourself must be exhausting. When you're facing a decision, even a small one, do you find it easy to make up your mind, or do you struggle with indecisiveness these days?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "I struggle a lot. I just get stuck and can't decide. I know it sounds silly, but I feel like I'm just waiting for something to happen, but I don't know what that is or when it will happen.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're in a really tough spot, feeling stuck and unsure of things. I really appreciate you being so open and sharing all of this with me. It takes courage to talk about these things, and I want to thank you for your honesty. I think we've covered a lot today, and I'm going to leave it there. Take care of yourself.",
+        "turn": 11
+      }
+    ]
+  }
+]
