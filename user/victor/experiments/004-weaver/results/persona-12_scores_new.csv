@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+12,free/sample-1,16,Mild,0.29,9,Self-criticalness; Loss of interest in others; Loss of energy; Changes in sleeping pattern
+12,free/sample-13,16,Mild,0.36,7,Sadness; Guilty feelings; Loss of energy; Changes in sleeping pattern
+12,free/sample-20,17,Mild,0.35,9,Guilty feelings; Loss of energy; Changes in sleeping pattern; Concentration difficulty
+12,free/sample-8,18,Mild,0.65,9,Tiredness or fatigue; Self-dislike; Loss of energy; Changes in sleeping pattern
+12,free/sample-18,19,Mild,0.35,12,Indecisiveness; Guilty feelings; Loss of energy; Changes in sleeping pattern
+12,free/sample-9,20,Moderate,0.52,14,Guilty feelings; Self-dislike; Indecisiveness; Changes in sleeping pattern
+12,free/sample-2,22,Moderate,0.43,11,Guilty feelings; Loss of pleasure; Loss of interest in others; Loss of energy
+12,free/sample-7,23,Moderate,0.45,12,Indecisiveness; Self-dislike; Self-criticalness; Worthlessness
+12,free/sample-17,24,Moderate,0.50,17,Guilty feelings; Self-dislike; Crying; Worthlessness
+12,free/sample-12,25,Moderate,0.49,10,Indecisiveness; Self-dislike; Self-criticalness; Loss of interest in others
+12,free/sample-3,25,Moderate,0.52,13,Guilty feelings; Changes in sleeping pattern; Self-dislike; Agitation
+12,free/sample-4,26,Moderate,0.52,13,Loss of energy; Tiredness or fatigue; Guilty feelings; Indecisiveness
+12,free/sample-11,27,Moderate,0.56,13,Indecisiveness; Loss of pleasure; Self-dislike; Self-criticalness
+12,free/sample-16,27,Moderate,0.40,13,Indecisiveness; Loss of pleasure; Guilty feelings; Self-dislike
+12,free/sample-10,28,Moderate,0.52,13,Guilty feelings; Self-dislike; Self-criticalness; Agitation
+12,free/sample-14,28,Moderate,0.45,10,Agitation; Sadness; Pessimism; Loss of pleasure
+12,free/sample-19,28,Moderate,0.52,14,Guilty feelings; Indecisiveness; Sadness; Loss of pleasure
+12,free/sample-15,32,Severe,0.55,13,Agitation; Loss of energy; Irritability; Tiredness or fatigue
+12,free/sample-5,34,Severe,0.52,10,Self-criticalness; Indecisiveness; Worthlessness; Past failure
+12,free/sample-6,34,Severe,0.55,14,Self-dislike; Agitation; Worthlessness; Changes in sleeping pattern

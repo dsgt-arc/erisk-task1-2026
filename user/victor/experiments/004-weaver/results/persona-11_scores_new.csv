@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+11,free/sample-20,7,Minimal,0.55,9,Loss of pleasure; Pessimism; Loss of interest in others; Changes in sleeping pattern
+11,free/sample-17,10,Minimal,0.71,12,Loss of energy; Concentration difficulty; Pessimism; Loss of pleasure
+11,free/sample-18,10,Minimal,0.29,10,Pessimism; Loss of pleasure; Agitation; Loss of interest in others
+11,free/sample-7,11,Minimal,0.22,9,Loss of pleasure; Loss of interest in others; Loss of energy; Concentration difficulty
+11,free/sample-12,12,Minimal,0.23,9,Loss of energy; Changes in sleeping pattern; Concentration difficulty; Tiredness or fatigue
+11,free/sample-10,17,Mild,0.47,12,Loss of pleasure; Loss of interest in others; Indecisiveness; Changes in sleeping pattern
+11,free/sample-2,17,Mild,0.30,10,Loss of pleasure; Loss of interest in others; Loss of energy; Changes in sleeping pattern
+11,free/sample-3,17,Mild,0.32,9,Loss of interest in others; Indecisiveness; Loss of energy; Changes in sleeping pattern
+11,free/sample-14,18,Mild,0.54,17,Loss of pleasure; Loss of interest in others; Indecisiveness; Loss of energy
+11,free/sample-19,19,Mild,0.38,9,Loss of pleasure; Guilty feelings; Loss of interest in others; Indecisiveness
+11,free/sample-5,20,Moderate,0.45,11,Guilty feelings; Loss of interest in others; Loss of energy; Changes in sleeping pattern
+11,free/sample-8,20,Moderate,0.31,10,Sadness; Loss of pleasure; Guilty feelings; Loss of interest in others
+11,free/sample-15,22,Moderate,0.43,9,Loss of pleasure; Guilty feelings; Self-dislike; Loss of interest in others
+11,free/sample-11,23,Moderate,0.54,10,Loss of pleasure; Self-dislike; Self-criticalness; Loss of interest in others
+11,free/sample-1,26,Moderate,0.48,11,Sadness; Loss of pleasure; Agitation; Loss of interest in others
+11,free/sample-9,27,Moderate,0.69,15,Loss of pleasure; Self-dislike; Self-criticalness; Agitation
+11,free/sample-4,28,Moderate,0.47,16,Crying; Indecisiveness; Changes in sleeping pattern; Sadness
+11,free/sample-16,30,Severe,0.64,12,Self-dislike; Changes in sleeping pattern; Sadness; Loss of pleasure
+11,free/sample-6,31,Severe,0.53,14,Indecisiveness; Sadness; Past failure; Loss of pleasure
+11,free/sample-13,35,Severe,0.48,11,Agitation; Loss of energy; Irritability; Tiredness or fatigue
