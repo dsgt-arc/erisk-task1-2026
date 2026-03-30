@@ -9,21 +9,17 @@ requires-python = ">=3.10"
 dependencies = [
     # LLM API (via OpenRouter)
     "openai>=1.0.0",
-
     # Local LLM (persona)
     "torch>=2.0.0",
     "transformers>=4.40.0",
     "accelerate>=0.27.0",
     "peft>=0.10.0",
     "bitsandbytes>=0.43.0",
-
     # Data handling
     "numpy>=1.24.0",
-
     # Dialogue tree
     "rank-bm25>=0.2.2",
     "pyyaml>=6.0",
-
     # Utilities
     "tqdm>=4.65.0",
 ]
