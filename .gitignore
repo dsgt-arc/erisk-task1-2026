@@ -219,3 +219,5 @@ service-account.json
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
+
+slides

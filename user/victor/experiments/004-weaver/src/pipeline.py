@@ -173,7 +173,7 @@ class InterviewPipeline:
         if final_scores:
             symptom_list = sorted(
                 final_scores.symptoms.values(),
-                key=lambda s: s.score,
+                key=lambda s: (s.score, s.confidence),
                 reverse=True,
             )
             key_symptoms = [s.name for s in symptom_list if s.score > 0][:4]
