@@ -7,12 +7,12 @@
 #SBATCH -o logs/p%x_s%a_%j.out
 #SBATCH -e logs/p%x_s%a_%j.err
 
-# Runs N parallel interviews of ONE persona via OpenRouter.
-# Pass --free as second arg for free open-source models.
+# Runs N parallel interviews of ONE persona.
+# --free uses local Gemma 27B (4-bit) for interviewer; scorer always paid GPT.
 #
 # Usage:
 #   sbatch --job-name=4 batch.sh 4              # 10 paid samples
-#   sbatch --job-name=4 batch.sh 4 --free       # 10 free samples
+#   sbatch --job-name=4 batch.sh 4 --free       # 10 free samples (local Gemma)
 #   sbatch --job-name=4 --array=1-20 batch.sh 4 --free  # 20 free samples
 
 PERSONA_ID=${1:?Usage: sbatch batch.sh <persona_id> [--free]}
