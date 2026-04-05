@@ -74,8 +74,8 @@ Different team members are exploring various approaches across eRisk tasks. For 
 
 **Experiment 004: Weaver Run Selection + Dialogue Tree**
 - Location: `user/victor/experiments/004-weaver/`
-- Approach: Weaver-style weighted aggregation for run selection + BM25 dialogue tree for interview consistency
-- Status: In progress
+- Approach: Weaver-style weighted aggregation for run selection + BM25 dialogue tree + labeling functions + local Gemma 27B (4-bit)
+- Status: In progress — personas 7–12 submitted, comparing paid baseline vs free+algorithmic approach
 - See: [user/victor/experiments/004-weaver/README.md](user/victor/experiments/004-weaver/README.md)
 
 ---

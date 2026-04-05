@@ -15,61 +15,67 @@ git pull origin main
 
 # Sync venv
 export UV_PROJECT_ENVIRONMENT="/storage/scratch1/8/vgong7/.venv-erisk"
-uv sync --package 002-multi-agent --python 3.11
+uv sync --package 004-weaver --python 3.11
 source /storage/scratch1/8/vgong7/.venv-erisk/bin/activate
 
 # Auth (first time only)
 hf auth login
 
-# API keys
+# API keys (scorer uses GPT)
 export OPENAI_API_KEY="sk-..."
 
-# Run for single persona
-cd user/victor/experiments/002-multi-agent/src
+# Run single persona (paid interviewer)
+cd user/victor/experiments/004-weaver/src
 python run.py \
-  --personas 4 \
+  --personas 11 \
   --run-id 1 \
-  --interviewer-provider openai \
-  --scorer-provider openai \
   --max-turns 18 \
-  --ensemble-size 3 \
+  --ensemble-size 1 \
   --score-every-n 1
 
+# Run single persona (free local Gemma 27B interviewer)
+python run.py \
+  --personas 11 \
+  --run-id 1 \
+  --free \
+  --max-turns 18
+
 # Copy results to local machine (run from local terminal)
-# scp -r "vgong7@login-phoenix.pace.gatech.edu:/storage/scratch1/8/vgong7/erisk-2026/user/victor/experiments/002-multi-agent/results/" ~/Downloads/
-
-
+# scp -r vgong7@login-phoenix.pace.gatech.edu:~/scratch/erisk-2026/user/victor/experiments/004-weaver/submissions/ ~/Downloads/submissions/
 
 
 #######################
-# SLURM JOB COMMANDS. #
+# SLURM JOB COMMANDS  #
 #######################
 
-# 1. Add AI provider API key to .bashrc
-echo 'export OPENAI_API_KEY="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"' >> ~/.bashrc 
+# 1. Submit 10 paid baseline samples for persona 11
+sbatch --job-name=11 --array=1-10 batch.sh 11
 
-# 2. Authenticate to Hugging Face models
-export HF_HOME=/storage/scratch1/8/vgong7/.cache/huggingface
-source /storage/scratch1/8/vgong7/.venv-erisk/bin/activate
-huggingface-cli login
+# 2. Submit 20 free samples (local Gemma 27B) for persona 11
+sbatch --job-name=11 --array=1-20 batch.sh 11 --free
 
-# 3. Submit 30 samples for Persona 3 (3 batches of 10, or all at once)
-sbatch --job-name=3 --array=1-30 batch.sh 3
-
-# 4. Monitor
+# 3. Monitor
 squeue -u vgong7
 
-# 5. After all jobs finish, pick top 3 closest to mean
-python select_runs.py 3
+# 4. After all jobs finish, select top 3 runs with Weaver
+cd ~/scratch/erisk-2026/user/victor/experiments/004-weaver
+python select_runs.py 11 --mix
 
 # Output:
-#   Persona 4: 50 samples
-#   Scores: [5, 7, 8, 8, 9, 10, 10, 11, ...]
-#   Mean: 12.3, Median: 11.0, Stdev: 5.2
-#   Selected 3 closest to mean (12.3):
-#     Run 1: sample-17 → BDI=12 (dist=0.3)
-#     Run 2: sample-33 → BDI=13 (dist=0.7)
-#     Run 3: sample-8  → BDI=12 (dist=0.3)
-#   → Copied to submissions/persona-3/run-1/
-#   → Copied to submissions/persona-3/run-2/
-#   → Copied to submissions/persona-3/run-3/
+#   Persona 11: 30 samples
+#   === Weaver Aggregation (30 samples) ===
+#   Weights: #5=0.042, #12=0.041 ... #8=0.028
+#   Consensus BDI: 22 (Moderate)
+#   Selected 3 (Weaver pairwise agreement):
+#     Run 1: free/sample-5  → BDI=22 (dist=2, w=0.042)
+#     Run 2: free/sample-12 → BDI=21 (dist=3, w=0.041)
+#     Run 3: paid/sample-3  → BDI=23 (dist=3, w=0.038)
+#   → Copied to submissions/samples-mix/persona-11/run-{1,2,3}/
+
+# 5. Upload to FTP
+cd submissions
+lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no" -u DS-GT,PASSWORD ftp://erisk.irlab.org
+# Inside lftp:
+#   mkdir -p task1-llms-results/persona11/run-1
+#   lcd persona-11/run-1
+#   mput interactions_run1.json results_run1.json
