@@ -1,7 +1,10 @@
 """
-LLM chat with dual routing:
+LLM chat with triple routing:
 - Paid models (gpt-5-nano) → direct OpenAI API
-- Free models (gemini:*) → Google AI Studio (free, generous limits)
+- Local free models (gemma-3-27b-it) → transformers on GPU (4-bit quantized)
+- [DEPRECATED] Remote free models (gemini:*) → Google AI Studio API
+
+Local mode avoids TPM rate limits and allows concurrent interviews on PACE.
 """
 
 import os
@@ -10,18 +13,112 @@ from typing import Optional, List, Dict
 
 import openai
 
-GOOGLE_AI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+# ── Remote Google AI (deprecated, kept for fallback) ─────────────────────────
+# GOOGLE_AI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
+# GOOGLE_PREFIX = "gemini:"
 
-# Model presets
+# ── Model presets ────────────────────────────────────────────────────────────
 PAID_DEFAULT = "gpt-5-nano"
-FREE_DEFAULT = "gemini:gemma-3-27b-it"
+FREE_DEFAULT = "local:gemma-3-27b-it"
 
-# Google AI Studio prefix
-GOOGLE_PREFIX = "gemini:"
+# ── Local model prefix ──────────────────────────────────────────────────────
+LOCAL_PREFIX = "local:"
+
+# ── Singleton for local model (loaded once, reused across calls) ─────────────
+_local_model = None
+_local_tokenizer = None
 
 
-def _is_google_model(model: str) -> bool:
-    return model.startswith(GOOGLE_PREFIX)
+def _is_local_model(model: str) -> bool:
+    return model.startswith(LOCAL_PREFIX)
+
+
+def _load_local_model():
+    """Load Gemma 3 27B with 4-bit quantization. Cached as singleton."""
+    global _local_model, _local_tokenizer
+    if _local_model is not None:
+        return _local_model, _local_tokenizer
+
+    import torch
+    from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+
+    model_id = "google/gemma-3-27b-it"
+    print(f"  [Loading local model: {model_id} (4-bit)...]")
+
+    quantization_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_use_double_quant=True,
+    )
+
+    _local_tokenizer = AutoTokenizer.from_pretrained(model_id)
+    if _local_tokenizer.pad_token_id is None:
+        _local_tokenizer.pad_token_id = _local_tokenizer.eos_token_id
+    _local_tokenizer.padding_side = "left"
+
+    _local_model = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        quantization_config=quantization_config,
+        device_map="auto",
+        torch_dtype=torch.float16,
+    )
+
+    print(f"  [Local model loaded on {_local_model.device}]")
+    return _local_model, _local_tokenizer
+
+
+def _local_chat(
+    messages: List[Dict[str, str]],
+    temperature: float = 0.7,
+    max_tokens: int = 1000,
+) -> str:
+    """Generate response using local Gemma model."""
+    import torch
+
+    model, tokenizer = _load_local_model()
+
+    # Gemma doesn't support system role — merge into first user message
+    merged = []
+    system_text = ""
+    for m in messages:
+        if m["role"] == "system":
+            system_text += m["content"] + "\n\n"
+        else:
+            if system_text and m["role"] == "user" and not merged:
+                merged.append({"role": "user", "content": system_text + m["content"]})
+                system_text = ""
+            else:
+                merged.append(m)
+    if not merged and system_text:
+        merged.append({"role": "user", "content": system_text.strip()})
+
+    inputs = tokenizer.apply_chat_template(
+        merged,
+        add_generation_prompt=True,
+        return_tensors="pt",
+        return_dict=True,
+    ).to(model.device)
+
+    with torch.no_grad():
+        outputs = model.generate(
+            input_ids=inputs.input_ids,
+            attention_mask=inputs.attention_mask,
+            max_new_tokens=max_tokens,
+            do_sample=temperature > 0,
+            temperature=temperature if temperature > 0 else None,
+            top_p=0.9 if temperature > 0 else None,
+            pad_token_id=tokenizer.pad_token_id,
+        )
+
+    response_tokens = outputs[0][inputs.input_ids.shape[-1]:]
+    text = tokenizer.decode(response_tokens, skip_special_tokens=True)
+    return text.strip() if text else ""
+
+
+# ── Remote Google AI (deprecated) ────────────────────────────────────────────
+# def _is_google_model(model: str) -> bool:
+#     return model.startswith(GOOGLE_PREFIX)
 
 
 def chat(
@@ -34,7 +131,7 @@ def chat(
 ) -> str:
     """
     Chat with any model. Routes automatically:
-    - Models with 'gemini:' prefix (e.g. gemini:gemma-3-27b-it) → Google AI Studio (free)
+    - Models with 'local:' prefix → local GPU via transformers (4-bit quantized)
     - All other models (e.g. gpt-5-nano) → direct OpenAI API
 
     Args:
@@ -48,49 +145,54 @@ def chat(
     Returns:
         Model response text
     """
-    if _is_google_model(model):
-        client = openai.OpenAI(
-            base_url=GOOGLE_AI_BASE_URL,
-            api_key=os.getenv("GOOGLE_AI_API_KEY"),
-        )
-        api_model = model[len(GOOGLE_PREFIX):]  # strip "gemini:" prefix
-    else:
-        client = openai.OpenAI(
-            api_key=os.getenv("OPENAI_API_KEY"),
-        )
-        api_model = model
-
-    google = _is_google_model(model)
-
-    # Start of interview
+    # Build messages list if not provided
     if messages is None:
         messages = []
         if system_prompt:
-            # Gemma models don't support system role; prepend to user message
-            if google:
-                prompt = f"{system_prompt}\n\n{prompt}"
-            else:
-                messages.append({"role": "system", "content": system_prompt})
+            messages.append({"role": "system", "content": system_prompt})
         messages.append({"role": "user", "content": prompt})
 
-    # Continue interview with previous convo context
-    elif google:
-        # Strip system messages from pre-built message lists (no system role for Gemma 3)
-        messages = [
-            {"role": "user" if m["role"] == "system" else m["role"], "content": m["content"]}
-            for m in messages
-        ]
+    # ── Local model route ────────────────────────────────────────────────
+    if _is_local_model(model):
+        result = _local_chat(messages, temperature=temperature, max_tokens=max_tokens)
+        if result:
+            return result
+        raise RuntimeError(f"Local model {model} returned empty response")
+
+    # ── Remote Google AI route (deprecated, commented out) ───────────────
+    # if _is_google_model(model):
+    #     client = openai.OpenAI(
+    #         base_url=GOOGLE_AI_BASE_URL,
+    #         api_key=os.getenv("GOOGLE_AI_API_KEY"),
+    #     )
+    #     api_model = model[len(GOOGLE_PREFIX):]  # strip "gemini:" prefix
+    #     google = True
+    # else:
+
+    # ── Paid OpenAI route ────────────────────────────────────────────────
+    client = openai.OpenAI(
+        api_key=os.getenv("OPENAI_API_KEY"),
+    )
+    api_model = model
+
+    # Strip system messages if needed (for models that don't support them)
+    # google = False  # only paid models now
+    # if google:
+    #     messages = [
+    #         {"role": "user" if m["role"] == "system" else m["role"], "content": m["content"]}
+    #         for m in messages
+    #     ]
 
     kwargs = {
         "model": api_model,
         "messages": messages,
     }
     # gpt-5-nano does not support temperature/max_tokens
-    if google:
-        kwargs["temperature"] = temperature
-        kwargs["max_tokens"] = max_tokens
+    # if google:
+    #     kwargs["temperature"] = temperature
+    #     kwargs["max_tokens"] = max_tokens
 
-    # Exponential backoff for free model rate limits
+    # Exponential backoff for rate limits
     max_retries = 5
     for attempt in range(max_retries):
         try:
