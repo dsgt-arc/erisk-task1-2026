@@ -11,6 +11,7 @@ from typing import Callable, Dict, List
 from models import (
     InterviewState, InterviewResult, ConversationMessage,
 )
+from impute import impute_unassessed
 from agents.interviewer import InterviewerAgent
 from agents.scorer import ScorerAgent
 from agents.orchestrator import Orchestrator
@@ -169,6 +170,18 @@ class InterviewPipeline:
     def _build_result(self, state: InterviewState) -> InterviewResult:
         """Convert InterviewState to InterviewResult."""
         final_scores = state.scorer_history[-1] if state.scorer_history else None
+
+        # Impute unassessed symptoms from clinically-related assessed ones
+        if final_scores:
+            n_unassessed = sum(1 for s in final_scores.symptoms.values() if s.confidence == 0.0)
+            if n_unassessed > 0:
+                final_scores = impute_unassessed(final_scores)
+                n_imputed = sum(
+                    1 for s in final_scores.symptoms.values()
+                    if s.evidence and "Imputed" in s.evidence
+                )
+                if n_imputed > 0:
+                    self._log(f"  [Imputed {n_imputed} unassessed symptoms from related clusters]")
 
         if final_scores:
             symptom_list = sorted(

@@ -21,10 +21,8 @@ SYMPTOM_CLUSTERS = {
     "cognition": ["q13_indecisiveness", "q19_concentration"],
     "self_perception": ["q07_self_dislike", "q14_worthlessness"],
     "guilt_criticism": ["q05_guilt", "q08_self_criticalness"],
-    "passive_observe": [
-        "q03_past_failure", "q06_punishment", "q10_crying",
-        "q11_agitation", "q17_irritability",
-    ],
+    "emotional_reactions": ["q10_crying", "q11_agitation", "q17_irritability"],
+    "passive_observe": ["q03_past_failure", "q06_punishment"],
     "sensitive": ["q09_suicidal_thoughts", "q21_sex"],
 }
 
