@@ -40,6 +40,8 @@ fi
 mkdir -p "$OUTPUT_DIR"
 
 echo "=== Persona $PERSONA_ID, Sample $SAMPLE_ID, Flags: $EXTRA_FLAGS ==="
+echo "Python: $(which python)"
+python -c "import transformers, accelerate; print(f'transformers={transformers.__version__}, accelerate={accelerate.__version__}')"
 
 python run.py \
   --personas $PERSONA_ID \
