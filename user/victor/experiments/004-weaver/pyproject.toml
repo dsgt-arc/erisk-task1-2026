@@ -11,7 +11,7 @@ dependencies = [
     "openai>=1.0.0",
     # Local LLM (persona)
     "torch>=2.0.0",
-    "transformers>=4.40.0",
+    "transformers>=4.50.0",
     "accelerate>=0.27.0",
     "peft>=0.10.0",
     "bitsandbytes>=0.43.0",
