@@ -1,0 +1,329 @@
+[
+  {
+    "persona_id": 13,
+    "total_turns": 12,
+    "bdi_score": 33,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Crying",
+      "Concentration difficulty",
+      "Agitation",
+      "Indecisiveness"
+    ],
+    "confidence": 0.6252380952380951,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "The participant describes depressed mood with statements like being 'empty,' indicating ongoing low mood."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Expresses worry about what's ahead and the future, e.g., concerns about the future and not being able to switch off thoughts."
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Mentions past regrets and wishing to redo past actions."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Not much to enjoy anymore; gardening used to be enjoyable but now feels like too much effort."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Affirms guilt 'a lot' and ruminates about the past wishing things could be different."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of feeling punished or deserving punishment."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Expresses disappointment in themselves and feeling broken."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Mentions disappointment in self, indicating some self-criticism beyond baseline."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Says, 'Yes, I cry a lot,' and that everything is overwhelming."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Reports snapping at kids and feeling on edge, indicating notable irritability."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Not much to enjoy; loss of interest in activities like gardening."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.78,
+        "evidence": "Making decisions is hard and cannot seem to decide for my mind."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Feels empty and like taking up space, implying reduced self-worth."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I'm just really tired all the time and can't get things done."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Wakes up in the middle of the night with racing thoughts."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Snaps at kids and feels irritable, supporting increased irritability."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Eats less and lacks appetite; food feels heavy."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "Has to reread sentences several times; brain feels foggy."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Describes extreme fatigue and inability to engage in activities."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.09523809523809523
+      },
+      {
+        "pass": 2,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.16904761904761903
+      },
+      {
+        "pass": 3,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.24285714285714288
+      },
+      {
+        "pass": 4,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.2642857142857143
+      },
+      {
+        "pass": 5,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.35
+      },
+      {
+        "pass": 6,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.3571428571428571
+      },
+      {
+        "pass": 7,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.3738095238095238
+      },
+      {
+        "pass": 8,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.42380952380952375
+      },
+      {
+        "pass": 9,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.6190476190476192
+      },
+      {
+        "pass": 10,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.6166666666666667
+      },
+      {
+        "pass": 11,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 12,
+        "total_score": 37,
+        "severity": "Severe",
+        "mean_confidence": 0.7119047619047619
+      },
+      {
+        "pass": 13,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.6252380952380951
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been all over the place, to be honest. I wake up in the middle of the night and my mind just starts racing. I can\u2019t seem to switch it off, so I just lie there and worry about the future.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Not much, to be honest. I used to love gardening, but it feels like too much effort now. I just watch my friends post pictures of their gardens on social media and I feel guilty that I can't even water my plants anymore.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I'm just really tired all the time. I used to be able to get things done, but now I just sit on the sofa and stare at the wall. I feel like I'm losing my edge, and it scares me.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been really hard. I sit there reading a book and I have to read the same sentence three times before it actually sinks in. It feels like my brain is just... foggy.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I eat less. I just don't have the appetite for it anymore. I look at the food and it just seems so... heavy.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I'm just really disappointed in myself. I used to be strong, and now I feel like I'm just... broken.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yes, a lot. I think about the past and I just wish I could go back and do it differently.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Have you found yourself getting more emotional than usual? Like tearing up or crying more often?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yes, I cry a lot. I don't know why, it just feels like everything is just too much sometimes, and I just lose it.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you noticed yourself getting annoyed or irritated more easily than usual? Like snapping at people or feeling on edge?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I snap at my kids a lot. I hate it, but I just feel like I'm running on empty and I don't know how to stop it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot right now, and it's understandable that you're feeling overwhelmed. You mentioned feeling disappointed in yourself \u2013 has that feeling of being down on yourself been pretty consistent lately, or does it come and go? And alongside that, have you been finding it difficult to make decisions, even small ones?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "It's constant. I don't know how to make it stop. And yeah, making decisions is hard. I look at my kids and I want to make the right choices, but I just can't seem to make my mind up.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a really heavy weight right now, and it's completely understandable that you're struggling with making decisions when you're feeling so down on yourself. Beyond just disappointment, how would you describe your general mood these days? Would you say you've been feeling particularly sad or down?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "I'm just... empty. I look at my family and I want to be there for them, but I feel like I'm just taking up space.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "I'm scared. I don't know how to make the future look different.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're facing a lot right now, and it takes courage to share all of this. I really appreciate your openness and honesty throughout our conversation today. Please remember to be kind to yourself, and if things continue to feel overwhelming, reaching out for support is a sign of strength.",
+        "turn": 13
+      }
+    ]
+  }
+]

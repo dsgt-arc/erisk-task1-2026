@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+14,free/sample-11,30,Severe,0.64,15,Tiredness or fatigue; Indecisiveness; Guilty feelings; Crying
+14,free/sample-3,30,Severe,0.49,9,Crying; Self-criticalness; Loss of energy; Changes in sleeping pattern
+14,free/sample-15,32,Severe,0.40,8,Sadness; Loss of pleasure; Loss of interest in others; Loss of energy
+14,free/sample-17,33,Severe,0.58,11,Loss of pleasure; Crying; Guilty feelings; Self-criticalness
+14,free/sample-8,33,Severe,0.50,12,Indecisiveness; Crying; Sadness; Loss of pleasure
+14,free/sample-9,33,Severe,0.53,14,Indecisiveness; Guilty feelings; Crying; Loss of pleasure
+14,free/sample-10,34,Severe,0.55,13,Indecisiveness; Irritability; Agitation; Worthlessness
+14,free/sample-2,34,Severe,0.55,11,Changes in sleeping pattern; Sadness; Guilty feelings; Crying
+14,free/sample-1,35,Severe,0.58,17,Guilty feelings; Worthlessness; Loss of energy; Tiredness or fatigue
+14,free/sample-5,35,Severe,0.70,11,Indecisiveness; Worthlessness; Crying; Changes in sleeping pattern
+14,free/sample-13,36,Severe,0.49,14,Indecisiveness; Loss of pleasure; Pessimism; Self-dislike
+14,free/sample-18,36,Severe,0.53,10,Loss of energy; Tiredness or fatigue; Agitation; Concentration difficulty
+14,free/sample-19,36,Severe,0.56,8,Loss of pleasure; Loss of interest in others; Guilty feelings; Sadness
+14,free/sample-7,36,Severe,0.58,13,Tiredness or fatigue; Indecisiveness; Worthlessness; Crying
+14,free/sample-12,37,Severe,0.53,14,Crying; Agitation; Indecisiveness; Irritability
+14,free/sample-14,37,Severe,0.61,17,Guilty feelings; Self-criticalness; Indecisiveness; Loss of energy
+14,free/sample-16,37,Severe,0.66,12,Indecisiveness; Agitation; Loss of energy; Irritability
+14,free/sample-20,39,Severe,0.60,13,Pessimism; Loss of energy; Tiredness or fatigue; Past failure
+14,free/sample-6,39,Severe,0.57,12,Agitation; Changes in sleeping pattern; Irritability; Tiredness or fatigue
+14,free/sample-4,41,Severe,0.59,14,Guilty feelings; Worthlessness; Tiredness or fatigue; Self-dislike

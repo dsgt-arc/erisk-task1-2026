@@ -1,0 +1,11 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+13,paid/sample-4,25,Moderate,0.43,7,Pessimism; Loss of pleasure; Self-dislike; Self-criticalness
+13,paid/sample-5,29,Severe,0.56,7,Pessimism; Concentration difficulty; Sadness; Loss of pleasure
+13,paid/sample-2,34,Severe,0.50,8,Guilty feelings; Indecisiveness; Sadness; Loss of pleasure
+13,paid/sample-9,34,Severe,0.52,9,Changes in appetite; Tiredness or fatigue; Pessimism; Loss of pleasure
+13,paid/sample-8,35,Severe,0.54,11,Guilty feelings; Self-dislike; Concentration difficulty; Pessimism
+13,paid/sample-7,37,Severe,0.63,14,Worthlessness; Loss of energy; Tiredness or fatigue; Sadness
+13,paid/sample-10,38,Severe,0.62,8,Guilty feelings; Self-dislike; Indecisiveness; Worthlessness
+13,paid/sample-3,38,Severe,0.59,10,Self-dislike; Agitation; Changes in sleeping pattern; Irritability
+13,paid/sample-6,38,Severe,0.60,12,Crying; Worthlessness; Loss of energy; Tiredness or fatigue
+13,paid/sample-1,41,Severe,0.58,8,Pessimism; Guilty feelings; Self-dislike; Self-criticalness

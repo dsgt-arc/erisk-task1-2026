@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+13,free/sample-7,0,Minimal,0.00,9,
+13,free/sample-13,23,Moderate,0.70,8,Concentration difficulty; Changes in sleeping pattern; Guilty feelings; Loss of interest in others
+13,free/sample-19,28,Moderate,0.51,11,Sadness; Loss of pleasure; Crying; Agitation
+13,free/sample-17,30,Severe,0.45,9,Crying; Guilty feelings; Changes in sleeping pattern; Loss of pleasure
+13,free/sample-2,31,Severe,0.54,12,Guilty feelings; Self-dislike; Worthlessness; Changes in appetite
+13,free/sample-6,31,Severe,0.73,11,Indecisiveness; Crying; Self-dislike; Agitation
+13,free/sample-20,33,Severe,0.46,10,Guilty feelings; Crying; Changes in sleeping pattern; Concentration difficulty
+13,free/sample-4,33,Severe,0.63,12,Crying; Concentration difficulty; Agitation; Indecisiveness
+13,free/sample-1,34,Severe,0.53,10,Changes in sleeping pattern; Indecisiveness; Crying; Concentration difficulty
+13,free/sample-10,34,Severe,0.62,11,Agitation; Irritability; Tiredness or fatigue; Loss of pleasure
+13,free/sample-14,35,Severe,0.60,11,Self-dislike; Sadness; Crying; Loss of pleasure
+13,free/sample-18,35,Severe,0.57,15,Indecisiveness; Changes in sleeping pattern; Self-dislike; Agitation
+13,free/sample-8,35,Severe,0.63,15,Changes in sleeping pattern; Tiredness or fatigue; Loss of energy; Crying
+13,free/sample-3,36,Severe,0.56,12,Guilty feelings; Loss of energy; Changes in sleeping pattern; Tiredness or fatigue
+13,free/sample-5,36,Severe,0.54,13,Changes in appetite; Concentration difficulty; Guilty feelings; Crying
+13,free/sample-15,37,Severe,0.59,11,Loss of pleasure; Loss of interest in others; Indecisiveness; Crying
+13,free/sample-16,38,Severe,0.38,9,Guilty feelings; Loss of pleasure; Loss of interest in others; Tiredness or fatigue
+13,free/sample-11,40,Severe,0.55,12,Guilty feelings; Indecisiveness; Self-dislike; Agitation
+13,free/sample-12,40,Severe,0.60,15,Indecisiveness; Changes in sleeping pattern; Concentration difficulty; Tiredness or fatigue
+13,free/sample-9,41,Severe,0.66,13,Crying; Tiredness or fatigue; Loss of energy; Changes in appetite

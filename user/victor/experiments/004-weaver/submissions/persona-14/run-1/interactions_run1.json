@@ -1,0 +1,91 @@
+[
+  {
+    "LLM": "14",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi there, it\u2019s really nice to meet you. How have you been feeling day-to-day lately? And what\u2019s something you\u2019ve enjoyed recently, even if it felt small or hard to notice?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s been tough, to be honest. I wake up feeling like I have a weight on my chest, and it takes me a long time to get moving. As for enjoying anything, I think just watching the sunset on my walk home was the highlight of my day yesterday."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough to carry. Thanks for sharing that with me. Have you been feeling more sad or down lately, and have you noticed less pleasure in things you used to enjoy or more negative thoughts about how things will turn out?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s definitely more down than anything. I used to love reading, but now even looking at a page makes me feel anxious. And the future... I don't know, I just can't see things getting better right now."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough, and I appreciate you sharing that. Lately, have you been having trouble concentrating or making decisions, and have you noticed any changes in your sleep or appetite?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, concentrating is a real struggle. I try to read the news, but I get stuck on one paragraph and can't move on. And sleep... I wake up three or four times a night and can't get back to sleep. As for food, I just don't have the energy to cook, so I've been eating a lot of toast."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough, and I appreciate you sharing that. When you need to make a decision, do you find yourself indecisive and second-guessing yourself, and does that come with feeling guilty or being hard on yourself for small choices or mistakes?"
+      },
+      {
+        "role": "assistant",
+        "message": "All the time. I pick up the phone to call my sister, then I put it back down and think I'm bothering her. It feels like I can't make a simple choice without second-guessing myself."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough to carry. When you notice self-dislike or feeling like you\u2019re not good enough, how often does that come up, and what tends to follow\u2014do you end up crying or feeling tense and on edge?"
+      },
+      {
+        "role": "assistant",
+        "message": "It happens a lot. Usually, it ends with me sitting in silence for a while, just trying to calm down. I don't want to cry in front of my kids, so I just sit there and try to breathe."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy to carry, and I appreciate you sharing. Have you been feeling less interested in spending time with others or in things you used to enjoy, and when those self-critical thoughts show up, how often do you feel not good enough and does that tend to make you cry or want to pull away?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I don't want to be a burden. When my husband comes home, I try to put on a smile, but I'm just so tired of being this heavy weight."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy to carry, and I appreciate you sharing. Have you noticed yourself crying or feeling more on edge lately, and if so, how often does that tend to happen? When the self-critical thoughts show up, do they often come with feelings of not being good enough or worthless, and does that show up in how you\u2019re with your kids or your husband?"
+      },
+      {
+        "role": "assistant",
+        "message": "I cry a lot. It's usually when I'm alone, but it feels like I'm losing myself."
+      },
+      {
+        "role": "user",
+        "message": "That sounds heavy to carry, and I really appreciate you sharing that with me. When those self-dislike or worthlessness thoughts pop up, how often do they show up and what tends to follow\u2014do you feel guilty or like you\u2019re a burden? And when agitation surfaces, what usually sets it off for you?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s usually when I think about the future. I look at my kids and my husband, and I just feel like I'm letting everyone down."
+      },
+      {
+        "role": "user",
+        "message": "You've described those moments when you feel not good enough or like you're a burden. How often do those thoughts show up, and what tends to follow\u2014do you notice yourself getting irritable or snapping at your loved ones, or is it something else?"
+      },
+      {
+        "role": "assistant",
+        "message": "It happens a lot. I try to hide it, but I think my husband notices. He asks if everything is okay, and I just tell him I'm fine, but I don't think he believes me."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy to carry, and I appreciate you sharing that. When you notice agitation or irritability, what tends to trigger it\u2014things at home, conversations with your husband, or nights when sleep is rough\u2014and how often has that shown up lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "It's usually when he tries to help. He means well, but I just feel like I'm too much for him to handle right now."
+      },
+      {
+        "role": "user",
+        "message": "Thank you for sharing so openly with me today. I really appreciate your honesty and the effort you\u2019ve shown in talking about what you\u2019ve been going through. I\u2019m wishing you strength and moments of calm with your family\u2014please take care of yourself."
+      }
+    ]
+  }
+]

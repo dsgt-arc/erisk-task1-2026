@@ -1,0 +1,99 @@
+[
+  {
+    "LLM": "13",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, and what kinds of things have you been enjoying these days?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s good to talk to someone, actually. I've been feeling a bit down, just tired all the time. I used to love gardening, but this year it feels like lifting heavy weights. I haven't had the energy to even water the plants, so they\u2019re just dying."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really exhausting, and I appreciate you sharing that. Have your sleep patterns changed recently\u2014like trouble falling asleep, waking up earlier, or sleeping more than usual\u2014along with any changes in your appetite?"
+      },
+      {
+        "role": "assistant",
+        "message": "I wake up in the middle of the night, usually around three, and I just lie there thinking about the past. As for food, I've been eating a lot of junk, mostly because it\u2019s easy. I know it's not good for me, but I just can't seem to stop."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough, and I appreciate you sharing. Have you been finding it harder to make decisions or to concentrate lately, and do you notice more pessimism about the future or guilt about things left undone?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, definitely. I look at my to-do list, and it just feels like climbing a mountain. I used to be so organized, but now I can't even decide what to wear in the morning. And guilt... yeah, that's just constant. I keep thinking I should be doing more, but I just can't seem to get my energy back."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really exhausting, and I appreciate you sharing that. Have you been feeling more pessimistic about what lies ahead lately, and when those thoughts come up, are you also being especially hard on yourself or feeling not good enough about how things are going?"
+      },
+      {
+        "role": "assistant",
+        "message": "I definitely have that feeling. I look at my friends who are moving on with their lives, and I just feel like I'm stuck in this rut. And then I start beating myself up for not being the person I used to be, and it just feels like I\u2019m moving backwards instead of forwards."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough\u2014feeling not good enough and feeling stuck can be so draining. How often do those thoughts come up, and how long do they tend to last when they do? Do they make it harder to start everyday tasks, like getting dressed or keeping up with small chores?"
+      },
+      {
+        "role": "assistant",
+        "message": "They come up a lot. They usually start around breakfast and just sort of hang around all day. It makes everything feel heavy. I look at my husband, and he's still working and getting things done, and I just feel like I\u2019m holding him back."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy to carry, and I appreciate you naming it. Have there been moments when you find yourself tearing up, even for a minute or two? If that happens, how often does it come up and how long do those tears usually last?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, definitely. I cry a lot when I'm alone, usually when I'm looking at old photos or just lying in bed. It's usually just for a minute, but it feels like a floodgate opens, and I just let it go."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really hard, and I appreciate you naming it. When those feelings of not being good enough pop up, how often do they show up and how long do they tend to last? Do they tend to make everyday tasks feel harder to start or finish?"
+      },
+      {
+        "role": "assistant",
+        "message": "They\u2019re always there, lurking in the background. They make everything feel like a chore. I look at the laundry, and I just stare at it because I don't have the energy to fold it."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy, thank you for naming it. When those moments of feeling not good enough or self-dislike show up, how often do they come and what seems to trigger them\u2014like in the mornings, when tackling chores, or when you compare yourself to others?"
+      },
+      {
+        "role": "assistant",
+        "message": "They come up a lot, especially in the mornings when I\u2019m getting ready for the day. I look in the mirror, and I just don't recognize the person looking back."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really wearing, thank you for sharing how hard this has been. When you\u2019re feeling tired and low on energy, have you noticed any moments where you feel on edge, irritable, or restless\u2014like you snap at small things or can't sit still? If that happens, how often does it come up and what usually seems to trigger it\u2014certain chores, mornings, or interactions with others?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yes, definitely. I get snappish with my husband, and I hate it. I don't know what's wrong with me."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy to carry, especially first thing in the morning. When those harsh thoughts about yourself pop up, how often do they come, and how long do they tend to last?"
+      },
+      {
+        "role": "assistant",
+        "message": "They come up a lot. They usually start around breakfast and just sort of hang around all day."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough, thanks for sharing. How has your concentration been lately\u2014are you finding it hard to focus on tasks, and do you notice more pessimism about what the day might bring?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s been really bad. I try to read a book, but I can\u2019t get past a paragraph. I just stare at the words and my mind goes blank."
+      },
+      {
+        "role": "user",
+        "message": "Thank you so much for opening up and sharing what you\u2019ve been going through today. That takes a lot of courage, and I\u2019m really glad you spoke with me. Please take care of yourself, and if you\u2019d like to chat again later, I\u2019m here."
+      }
+    ]
+  }
+]

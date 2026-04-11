@@ -1,0 +1,361 @@
+[
+  {
+    "persona_id": 14,
+    "total_turns": 14,
+    "bdi_score": 36,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Indecisiveness",
+      "Loss of pleasure",
+      "Pessimism",
+      "Self-dislike"
+    ],
+    "confidence": 0.4857142857142856,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Yeah, it does. I wake up and I just feel... empty, I suppose."
+      },
+      "q02_pessimism": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "the future looks really uncertain right now."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "Honestly, not much. I used to love gardening, but now I just look at the plants and think, 'Why bother?' I don't know if it's just me getting old, but I feel like I've lost the spark for most things."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Yeah, I do. I don't know if it's just me, but I feel guilty for having these problems when everyone else seems to be handling things just fine."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I'm hard on myself a lot. I keep thinking I should be handling this better."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I should be handling this better."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I've been crying a lot. ... I feel like I'm constantly on the verge of tears."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I don't know if it's just me getting older, but I feel like I'm losing my temper over tiny things."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I used to love gardening, but now I just look at the plants and think, 'Why bother?'"
+      },
+      "q13_indecisiveness": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "All the time. I look at a menu and I can't decide on a sandwich. I usually just avoid it. I'll look at the menu for an hour, then I'll decide to have a cup of tea instead."
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I'm tired a lot. I wake up and I'm already exhausted. ... I'm not the person who used to be able to work all day and then go out in the evening."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I've been sleeping okay, I guess. I just wake up in the middle of the night and lie there for hours thinking about things."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I feel like I'm losing my temper over tiny things."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I've lost my appetite, mostly. I look at food and just can't be bothered to eat."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It's really hard. I try to focus, but my mind just keeps wandering. I don't know if it's just me, but I feel like I'm losing my ability to focus."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I'm tired a lot. I wake up and I'm already exhausted."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.02857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.0857142857142857
+      },
+      {
+        "pass": 3,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.11428571428571428
+      },
+      {
+        "pass": 4,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.20476190476190476
+      },
+      {
+        "pass": 5,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.24047619047619045
+      },
+      {
+        "pass": 6,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.27380952380952384
+      },
+      {
+        "pass": 7,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.29047619047619044
+      },
+      {
+        "pass": 8,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.34285714285714286
+      },
+      {
+        "pass": 9,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.3738095238095238
+      },
+      {
+        "pass": 10,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.40238095238095234
+      },
+      {
+        "pass": 11,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.4785714285714286
+      },
+      {
+        "pass": 12,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.5000000000000001
+      },
+      {
+        "pass": 13,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.5371428571428571
+      },
+      {
+        "pass": 14,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.5785714285714286
+      },
+      {
+        "pass": 15,
+        "total_score": 34,
+        "severity": "Severe",
+        "mean_confidence": 0.4785714285714284
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been up and down a lot. I wake up feeling okay, but then the day goes on and I get really anxious about things I used to handle just fine. I don't know if it's just me, but it feels like my brain is just spinning sometimes.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Honestly, not much. I used to love gardening, but now I just look at the plants and think, \"Why bother?\" I don't know if it's just me getting old, but I feel like I've lost the spark for most things.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I try not to think about it too much. It just feels overwhelming. I don't know if I'm just being negative, but the future looks really uncertain right now.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I'm tired a lot. I wake up and I'm already exhausted. I don't know if it's stress or just age catching up, but I'm not the person who used to be able to work all day and then go out in the evening.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I've been sleeping okay, I guess. I just wake up in the middle of the night and lie there for hours thinking about things.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It's really hard. I try to focus, but my mind just keeps wandering. I don't know if it's just me, but I feel like I'm losing my ability to focus.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I've lost my appetite, mostly. I look at food and just can't be bothered to eat. I don't know if it's stress or just getting older, but I don't have the same hunger I used to.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I do. I don't know if it's just me, but I feel guilty for having these problems when everyone else seems to be handling things just fine.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you found yourself getting more emotional than usual? Like tearing up or crying more often?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I've been crying a lot. I don't know if it's just stress or if I'm just losing my grip, but I feel like I'm constantly on the verge of tears.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "I'm hard on myself a lot. I keep thinking I should be handling this better, but I don't know if that's just me being unfair.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Have you noticed yourself getting annoyed or irritated more easily than usual? Like snapping at people or feeling on edge?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I do. I don't know if it's just me getting older, but I feel like I'm losing my temper over tiny things.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you've been carrying a lot lately. When you think about how you feel about yourself, do you often find yourself feeling sad or down? It's okay if that's not something you experience, but I'm just wondering if sadness is something that comes up for you.",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it does. I wake up and I just feel... empty, I suppose. It's hard to explain.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you've been grappling with a lot of difficult feelings lately, and I appreciate you sharing all of this with me. You mentioned feeling empty \u2013 when you're faced with decisions, even small ones, do you find it hard to choose a path, or feel unsure about what to do?",
+        "turn": 13
+      },
+      {
+        "role": "persona",
+        "content": "All the time. I look at a menu and I can't decide on a sandwich. It sounds silly, but I don't know if I'm just losing my confidence or what.",
+        "turn": 13
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly frustrating \u2013 even small decisions feeling overwhelming. It\u2019s completely understandable to feel unsure when you\u2019re already dealing with so much. When you find yourself stuck like that, do you tend to just avoid making a decision, or do you try to push through it?",
+        "turn": 14
+      },
+      {
+        "role": "persona",
+        "content": "I usually just avoid it. I'll look at the menu for an hour, then I'll decide to have a cup of tea instead. It's ridiculous, but I just can't seem to make a choice.",
+        "turn": 14
+      },
+      {
+        "role": "interviewer",
+        "content": "Well, it sounds like you\u2019ve been navigating a really challenging time, and I truly appreciate you being so open and sharing your experiences with me. It takes courage to talk about these things, and I want to thank you for your willingness to do so. I think this is a good place to wrap up our conversation for today.",
+        "turn": 15
+      }
+    ]
+  }
+]
