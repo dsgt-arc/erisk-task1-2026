@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+15,free/sample-11,31,Severe,0.62,9,Self-dislike; Changes in sleeping pattern; Guilty feelings; Loss of energy
+15,free/sample-16,34,Severe,0.54,8,Loss of pleasure; Loss of interest in others; Crying; Changes in sleeping pattern
+15,free/sample-15,35,Severe,0.47,9,Crying; Self-dislike; Changes in sleeping pattern; Concentration difficulty
+15,free/sample-6,35,Severe,0.61,10,Agitation; Irritability; Concentration difficulty; Loss of pleasure
+15,free/sample-18,37,Severe,0.48,11,Self-dislike; Loss of energy; Tiredness or fatigue; Loss of pleasure
+15,free/sample-1,38,Severe,0.50,8,Self-dislike; Loss of pleasure; Loss of interest in others; Worthlessness
+15,free/sample-5,38,Severe,0.58,12,Self-dislike; Self-criticalness; Loss of interest in others; Loss of pleasure
+15,free/sample-7,39,Severe,0.73,13,Agitation; Indecisiveness; Irritability; Tiredness or fatigue
+15,free/sample-14,40,Severe,0.75,11,Loss of pleasure; Loss of interest in others; Loss of energy; Guilty feelings
+15,free/sample-19,40,Severe,0.49,10,Guilty feelings; Self-dislike; Loss of interest in others; Concentration difficulty
+15,free/sample-4,40,Severe,0.80,13,Loss of pleasure; Loss of energy; Tiredness or fatigue; Loss of interest in others
+15,free/sample-8,40,Severe,0.55,12,Self-dislike; Worthlessness; Changes in sleeping pattern; Agitation
+15,free/sample-9,40,Severe,0.66,13,Loss of pleasure; Guilty feelings; Self-dislike; Loss of interest in others
+15,free/sample-10,41,Severe,0.65,14,Guilty feelings; Indecisiveness; Loss of energy; Tiredness or fatigue
+15,free/sample-17,41,Severe,0.60,12,Guilty feelings; Changes in sleeping pattern; Worthlessness; Loss of pleasure
+15,free/sample-13,43,Severe,0.60,12,Guilty feelings; Self-dislike; Crying; Changes in sleeping pattern
+15,free/sample-20,44,Severe,0.59,10,Guilty feelings; Tiredness or fatigue; Past failure; Self-dislike
+15,free/sample-12,45,Severe,0.62,14,Self-dislike; Agitation; Indecisiveness; Loss of energy
+15,free/sample-3,45,Severe,0.70,13,Loss of pleasure; Self-dislike; Loss of interest in others; Changes in sleeping pattern
+15,free/sample-2,47,Severe,0.61,13,Past failure; Loss of pleasure; Guilty feelings; Self-dislike

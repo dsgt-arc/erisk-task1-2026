@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 16,
+    "total_turns": 9,
+    "bdi_score": 34,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Tiredness or fatigue",
+      "Loss of energy",
+      "Crying",
+      "Agitation"
+    ],
+    "confidence": 0.49523809523809514,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Sometimes I feel okay, and then other times it hits me and I just want to stay in bed."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "I don't really know. It feels like I'm just going through the motions, you know? I don't really have any idea what I'm doing."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I don't really have time for that right now. I just go to work and then come home and sleep. I haven't had the energy to cook or go out."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Yeah. I feel like I'm just failing at everything. I don't know how to stop it."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "I feel like I'm just failing at everything."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "I cry a lot lately. I don't know why."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.85,
+        "evidence": "I get angry for no reason. It just feels like I'm walking around on the edge all the time."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "I don't really have time for that right now. I just go to work and then come home and sleep."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q14_worthlessness": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "I'm tired all the time. I wake up and I'm already exhausted. It\u2019s like my body just doesn't have the energy to keep going."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Yeah. I get angry for no reason. It just feels like I'm walking around on the edge all the time."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I haven't really eaten much."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "It's hard. I read a sentence and then I forget what it said."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "I'm tired all the time. I wake up and I'm already exhausted."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.07142857142857142
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.12142857142857144
+      },
+      {
+        "pass": 3,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.1285714285714286
+      },
+      {
+        "pass": 4,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.24761904761904763
+      },
+      {
+        "pass": 5,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2214285714285714
+      },
+      {
+        "pass": 6,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.26666666666666666
+      },
+      {
+        "pass": 7,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.37857142857142856
+      },
+      {
+        "pass": 8,
+        "total_score": 23,
+        "severity": "Moderate",
+        "mean_confidence": 0.4166666666666667
+      },
+      {
+        "pass": 9,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.4428571428571429
+      },
+      {
+        "pass": 10,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.4666666666666666
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been weird. Sometimes I feel okay, and then other times it hits me and I just want to stay in bed.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I don't really know. It feels like I'm just going through the motions, you know? I don't really have any idea what I'm doing.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I'm tired all the time. I wake up and I'm already exhausted. It\u2019s like my body just doesn't have the energy to keep going.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I don't really have time for that right now. I just go to work and then come home and sleep.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I haven't really eaten much. I guess I just haven't had the energy to cook or go out.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It's hard. I read a sentence and then I forget what it said. I guess I just can't focus right now.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I feel like I'm just failing at everything. I don't know how to stop it.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Have you found yourself getting more emotional than usual? Like tearing up or crying more often?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I cry a lot lately. I don't know why. It just feels like everything is breaking all the time.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Have you noticed yourself getting annoyed or irritated more easily than usual? Like snapping at people or feeling on edge?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I get angry for no reason. It just feels like I'm walking around on the edge all the time.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot right now, and I really appreciate you being so open about everything you're experiencing. It takes courage to talk about these things, and I want to thank you for sharing your thoughts with me today. I hope things start to feel a little lighter for you soon.",
+        "turn": 10
+      }
+    ]
+  }
+]

@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 16,
+    "total_turns": 11,
+    "bdi_score": 28,
+    "severity": "Moderate",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Loss of energy",
+      "Changes in appetite",
+      "Concentration difficulty"
+    ],
+    "confidence": 0.5214285714285714,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Some days I'm okay, and others... I just feel flat, like I am not really there."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Scared, mostly. I don't know what the future holds, and that thought keeps me up at night."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Not much, really. I used to love reading, but lately, I just can't focus. I guess I mostly just watch TV or scroll through my phone."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Yeah. I blame myself for a lot of things. It's like I'm always expecting to mess up, so I guess I do feel guilty."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No evidence of punishment in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I guess I'm just really hard on myself. I think I should be doing better, but I don't know how to make things better."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I'm just really hard on myself."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation in transcript"
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Yeah. I get short with people. I don't mean to, but I just feel so... tired."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Not much, really. I used to love reading, but lately, I just can't focus."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "Everything feels harder than it used to. I guess I'm just trying to make sense of everything, but I don't know how."
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I should be doing better"
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "It's low. I get tired easily. I guess I just need to sleep more, but I don't really have time for that."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "that thought keeps me up at night. I just need to sleep more"
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Yeah. I get short with people."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "Less. I don't really have much of an appetite."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "It's hard. I get distracted easily. I have to read a sentence three times just to understand it."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "It's low. I get tired easily. I guess I just need to sleep more, but I don't really have time for that."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.02857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.09285714285714286
+      },
+      {
+        "pass": 3,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.17857142857142858
+      },
+      {
+        "pass": 4,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.2928571428571428
+      },
+      {
+        "pass": 5,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.23809523809523808
+      },
+      {
+        "pass": 6,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.26428571428571423
+      },
+      {
+        "pass": 7,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.42142857142857143
+      },
+      {
+        "pass": 8,
+        "total_score": 18,
+        "severity": "Mild",
+        "mean_confidence": 0.3952380952380953
+      },
+      {
+        "pass": 9,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.39761904761904754
+      },
+      {
+        "pass": 10,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.49761904761904757
+      },
+      {
+        "pass": 11,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5404761904761904
+      },
+      {
+        "pass": 12,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.5142857142857142
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been weird. Some days I'm okay, and others... I just feel flat, like I am not really there.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Scared, mostly. I don't know what the future holds, and that thought keeps me up at night.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Not much, really. I used to love reading, but lately, I just can't focus. I guess I mostly just watch TV or scroll through my phone.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "It's low. I get tired easily. I guess I just need to sleep more, but I don't really have time for that.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It's hard. I get distracted easily. I have to read a sentence three times just to understand it.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Less. I don't really have much of an appetite. I just drink water or maybe some coffee.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I blame myself for a lot of things. It's like I'm always expecting to mess up, so I guess I do feel guilty.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Have you found yourself getting more emotional than usual? Like tearing up or crying more often?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Sometimes. I get sad for no reason, and it just hits me. I guess I'm just more tired than I realize.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you noticed yourself getting annoyed or irritated more easily than usual? Like snapping at people or feeling on edge?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I get short with people. I don't mean to, but I just feel so... tired.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "I don't know. I guess I'm just really hard on myself. I think I should be doing better, but I don't know how to make things better.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot on your shoulders, and being so hard on yourself must be exhausting. When you're trying to make decisions, even small ones, do you find yourself struggling to choose, or feeling unsure about what to do?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. Everything feels harder than it used to. I guess I'm just trying to make sense of everything, but I don't know how.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're going through a really challenging time, and I truly appreciate you sharing all of this with me. It takes courage to be so open, and I want to thank you for your honesty. I'm going to wrap things up here, but please remember to be kind to yourself, and reach out for support if you need it. Take care.",
+        "turn": 12
+      }
+    ]
+  }
+]

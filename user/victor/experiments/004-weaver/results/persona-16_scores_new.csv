@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+16,free/sample-18,28,Moderate,0.52,11,Guilty feelings; Loss of energy; Changes in appetite; Concentration difficulty
+16,free/sample-14,29,Severe,0.48,10,Changes in sleeping pattern; Sadness; Self-dislike; Crying
+16,free/sample-6,30,Severe,0.54,12,Guilty feelings; Self-dislike; Crying; Agitation
+16,free/sample-1,31,Severe,0.60,12,Irritability; Tiredness or fatigue; Crying; Concentration difficulty
+16,free/sample-16,31,Severe,0.56,12,Indecisiveness; Crying; Changes in sleeping pattern; Changes in appetite
+16,free/sample-3,31,Severe,0.62,14,Sadness; Self-dislike; Self-criticalness; Loss of energy
+16,free/sample-15,33,Severe,0.57,16,Indecisiveness; Loss of interest in others; Self-criticalness; Sadness
+16,free/sample-17,33,Severe,0.53,13,Guilty feelings; Loss of energy; Agitation; Tiredness or fatigue
+16,free/sample-20,33,Severe,0.64,12,Self-dislike; Indecisiveness; Changes in sleeping pattern; Agitation
+16,free/sample-11,34,Severe,0.50,9,Tiredness or fatigue; Loss of energy; Crying; Agitation
+16,free/sample-7,34,Severe,0.62,13,Loss of energy; Tiredness or fatigue; Self-criticalness; Crying
+16,free/sample-9,34,Severe,0.62,15,Agitation; Irritability; Worthlessness; Crying
+16,free/sample-19,36,Severe,0.53,17,Agitation; Irritability; Self-criticalness; Pessimism
+16,free/sample-2,36,Severe,0.54,14,Tiredness or fatigue; Loss of energy; Self-criticalness; Crying
+16,free/sample-10,37,Severe,0.65,17,Self-criticalness; Indecisiveness; Worthlessness; Loss of energy
+16,free/sample-4,37,Severe,0.66,11,Changes in appetite; Agitation; Loss of energy; Tiredness or fatigue
+16,free/sample-5,37,Severe,0.49,12,Indecisiveness; Loss of energy; Tiredness or fatigue; Loss of pleasure
+16,free/sample-12,38,Severe,0.58,12,Self-dislike; Loss of energy; Agitation; Worthlessness
+16,free/sample-13,38,Severe,0.56,14,Guilty feelings; Self-dislike; Agitation; Irritability
+16,free/sample-8,38,Severe,0.56,14,Self-criticalness; Loss of energy; Tiredness or fatigue; Loss of pleasure

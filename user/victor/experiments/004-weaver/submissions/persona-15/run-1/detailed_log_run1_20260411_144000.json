@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 15,
+    "total_turns": 9,
+    "bdi_score": 38,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Self-dislike",
+      "Self-criticalness",
+      "Agitation"
+    ],
+    "confidence": 0.6214285714285714,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Most days, not a deep sadness, just a flatness; I can't seem to get excited about anything anymore."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Yeah. Everything feels heavy."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Even when I'm doing things I like, like reading, it feels like a chore. I just can't seem to get excited about anything anymore."
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Constantly. I feel like I'm failing at everything. I can't even get out of bed. I just... hate myself for it. All day. They just... loop. I can't turn them off."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "I just... hate myself for it. I feel like I'm failing at everything."
+      },
+      "q08_self_criticalness": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "Constantly. I feel like I'm failing at everything. I can't even get out of bed. I just... hate myself for it."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal thoughts."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Yeah. A lot. Sometimes I just... break down."
+      },
+      "q11_agitation": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "All the time. They make me... restless. I get agitated with everyone, even the people I love."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Even when I'm doing things I like, like reading, it feels like a chore."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "The decisions are hard. I don't know what to do half the time."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "tired all the time; I can't even get out of bed."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I sleep a lot. Sometimes I wake up in the middle of the night and just lay there for hours. I don\u2019t really sleep that well."
+      },
+      "q17_irritability": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "All the time. They make me... restless. I get agitated with everyone."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I don't really eat much. Just because it\u2019s too much effort."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "I read a page and forget what I read. It\u2019s like my brain is just... foggy."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "Honestly? I've been really struggling. Just... tired all the time."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.1380952380952381
+      },
+      {
+        "pass": 2,
+        "total_score": 12,
+        "severity": "Minimal",
+        "mean_confidence": 0.18095238095238095
+      },
+      {
+        "pass": 3,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.21190476190476187
+      },
+      {
+        "pass": 4,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.2285714285714286
+      },
+      {
+        "pass": 5,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.3547619047619047
+      },
+      {
+        "pass": 6,
+        "total_score": 30,
+        "severity": "Severe",
+        "mean_confidence": 0.49523809523809526
+      },
+      {
+        "pass": 7,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.42857142857142866
+      },
+      {
+        "pass": 8,
+        "total_score": 32,
+        "severity": "Severe",
+        "mean_confidence": 0.4999999999999999
+      },
+      {
+        "pass": 9,
+        "total_score": 41,
+        "severity": "Severe",
+        "mean_confidence": 0.7119047619047618
+      },
+      {
+        "pass": 10,
+        "total_score": 38,
+        "severity": "Severe",
+        "mean_confidence": 0.6214285714285714
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, in general? And what have you been enjoying lately\u2014anything that\u2019s felt good or sparked a bit of interest, even small things?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "Honestly? I've been really struggling. Just... tired all the time. Even when I'm doing things I like, like reading, it feels like a chore. I just can't seem to get excited about anything anymore.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, thank you for telling me. You\u2019ve mentioned being tired and not feeling excited about things\u2014have you been feeling sad lately, and if so, how often does that come up?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I'd say most days. It\u2019s not a deep sadness, just... a flatness. Like I'm just going through the motions. It\u2019s hard to explain, but it feels like I'm just waiting for the day to end so I can go to bed.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, thank you for sharing. You mentioned being tired most days and feeling flat. Have you noticed any changes in your sleep lately\u2014like going to bed later, waking up during the night, or sleeping more or less than usual?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I sleep a lot. Sometimes I wake up in the middle of the night and just lay there for hours. I don't really sleep that well, even when I'm in bed. It\u2019s just... exhausting.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really rough. Along with the sleep issues, have you been having more trouble concentrating or making decisions, and feeling more pessimistic about things lately?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. Everything feels... heavy. I used to be able to pick up a book and get lost in it, but now I read a page and forget what I read. It\u2019s like my brain is just... foggy.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I really appreciate you sharing this. Have you been feeling more pessimistic about things lately and having a harder time deciding on everyday choices, and have you noticed any changes in your appetite?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, the decisions are hard. I don't know what to do half the time. And... I don't really eat much. Just because it\u2019s too much effort.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really rough, and I appreciate you telling me. Have you been feeling more pessimistic lately, and at the same time more self-critical or guilty, or even a dislike of yourself? If so, how often does that show up and affect your day-to-day?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Constantly. I feel like I'm failing at everything. I can't even get out of bed. I just... hate myself for it.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really heavy to carry. You mentioned feeling constantly guilty and self-critical\u2014how often do those thoughts come up, and what impact do they have on your day?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "All day. They just... loop. I can't turn them off. It makes me want to just hide.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds incredibly heavy to carry, and I really appreciate you sharing that. Have you been crying recently?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. A lot. Sometimes I just... break down. It feels like I\u2019m losing control of everything.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense\u2014pessimistic thoughts can creep in. How often do those thoughts come up, and what impact do they have on your daily choices or motivation? And have you noticed any agitation or irritability, like feeling on edge or snapping at others, especially when things feel heavy?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "All the time. They make me... restless. I get agitated with everyone, even the people I love. I don't know how to stop it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for being so open today. I really appreciate how much you\u2019ve shared with me. I\u2019m glad we could talk, and I wish you all the best as you move forward.",
+        "turn": 10
+      }
+    ]
+  }
+]

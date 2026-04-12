@@ -1,0 +1,329 @@
+[
+  {
+    "persona_id": 15,
+    "total_turns": 12,
+    "bdi_score": 41,
+    "severity": "Severe",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Changes in sleeping pattern",
+      "Worthlessness",
+      "Loss of pleasure"
+    ],
+    "confidence": 0.5952380952380951,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "It's all over the place. One minute I'm fine, the next I'm really down."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "It scares me, but at the same time... I don't know what else to do. It feels like I'm just waiting for something to happen, and I don't know if I can handle it."
+      },
+      "q03_past_failure": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I feel like I've failed at everything."
+      },
+      "q04_anhedonia": {
+        "score": 3,
+        "confidence": 0.7,
+        "evidence": "Nothing, really. I used to love hiking, but I haven't gone in months. I just feel like I'm walking through the motions. Everything feels grey."
+      },
+      "q05_guilt": {
+        "score": 3,
+        "confidence": 0.9,
+        "evidence": "Yeah. I feel guilty about everything. I think about the past and I just wish I could go back and do it differently."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "How do you feel about yourself overall? I'm not okay with it. I look at myself and I just... I don't know how I ended up here."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I look at myself and I just... I don't know how I ended up here."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 2,
+        "confidence": 0.9,
+        "evidence": "Yeah. I cry a lot. I don't know why."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Have you noticed yourself getting annoyed or irritated more easily than usual? ... I get so annoyed... I get frustrated with everything."
+      },
+      "q12_loss_of_interest": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "Nothing, really. I used to love hiking... I just feel like I'm walking through the motions."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I get stuck. I just... I don't know what the right choice is. I second-guess everything."
+      },
+      "q14_worthlessness": {
+        "score": 3,
+        "confidence": 0.8,
+        "evidence": "I feel like I've failed at everything."
+      },
+      "q15_energy": {
+        "score": 3,
+        "confidence": 0.6,
+        "evidence": "I drag. A lot. I wake up in the morning and I just want to go back to bed."
+      },
+      "q16_sleep": {
+        "score": 3,
+        "confidence": 0.85,
+        "evidence": "I don't sleep well. I just lie there and think about everything. I wake up exhausted, but I didn't even sleep."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I get annoyed... I get frustrated with everything."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "Less. I don't really have an appetite anymore. I eat because I have to, but it doesn't taste good."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "It's hard. I try to read a book, but I get a paragraph in and I forget what I'm reading. I have to re-read it three times just to understand what's happening."
+      },
+      "q20_fatigue": {
+        "score": 3,
+        "confidence": 0.65,
+        "evidence": "I drag. A lot. I wake up in the morning and I just want to go back to bed."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of sex in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.06666666666666667
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.09047619047619047
+      },
+      {
+        "pass": 3,
+        "total_score": 11,
+        "severity": "Minimal",
+        "mean_confidence": 0.1880952380952381
+      },
+      {
+        "pass": 4,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.21428571428571427
+      },
+      {
+        "pass": 5,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.29047619047619044
+      },
+      {
+        "pass": 6,
+        "total_score": 21,
+        "severity": "Moderate",
+        "mean_confidence": 0.2928571428571428
+      },
+      {
+        "pass": 7,
+        "total_score": 19,
+        "severity": "Mild",
+        "mean_confidence": 0.3380952380952381
+      },
+      {
+        "pass": 8,
+        "total_score": 24,
+        "severity": "Moderate",
+        "mean_confidence": 0.37619047619047613
+      },
+      {
+        "pass": 9,
+        "total_score": 33,
+        "severity": "Severe",
+        "mean_confidence": 0.5095238095238095
+      },
+      {
+        "pass": 10,
+        "total_score": 27,
+        "severity": "Moderate",
+        "mean_confidence": 0.4857142857142856
+      },
+      {
+        "pass": 11,
+        "total_score": 35,
+        "severity": "Severe",
+        "mean_confidence": 0.5476190476190478
+      },
+      {
+        "pass": 12,
+        "total_score": 41,
+        "severity": "Severe",
+        "mean_confidence": 0.6452380952380953
+      },
+      {
+        "pass": 13,
+        "total_score": 41,
+        "severity": "Severe",
+        "mean_confidence": 0.5952380952380951
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's all over the place. One minute I'm fine, the next I'm really down. I don't know how to explain it. I just feel... restless.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I don't know. It scares me, but at the same time... I don't know what else to do. It feels like I'm just waiting for something to happen, and I don't know if I can handle it.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Nothing, really. I used to love hiking, but I haven't gone in months. I just feel like I'm walking through the motions. Everything feels grey.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I drag. A lot. I wake up in the morning and I just want to go back to bed. I feel like I'm just going through the motions, you know?",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "It's hard. I try to read a book, but I get a paragraph in and I forget what I'm reading. I have to re-read it three times just to understand what's happening. It's frustrating.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Less. I don't really have an appetite anymore. I eat because I have to, but it doesn't taste good. I just go through the motions.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I feel guilty about everything. I think about the past and I just wish I could go back and do it differently. But I can't.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I don't sleep well. I just lie there and think about everything. I wake up exhausted, but I didn't even sleep.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I'm not okay with it. I look at myself and I just... I don't know how I ended up here. I'm 35 and I feel like I've failed at everything.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Have you found yourself getting more emotional than usual? Like tearing up or crying more often?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I cry a lot. I don't know why. It just feels like... everything is too much, and I can't handle it anymore.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Have you noticed yourself getting annoyed or irritated more easily than usual? Like snapping at people or feeling on edge?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "Yeah. I get so annoyed. Just little things, like traffic or the mailman being late. I used to be patient, but now I just... I don't know. I get frustrated with everything.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you've been carrying a lot on your shoulders lately. When you're facing decisions, big or small, how easy or difficult is it for you to make up your mind these days? Do you find yourself second-guessing a lot, or feeling stuck about what to do?",
+        "turn": 12
+      },
+      {
+        "role": "persona",
+        "content": "I get stuck. I just... I don't know what the right choice is. I second-guess everything. I wish I could just make a decision and know it\u2019s the right one.",
+        "turn": 12
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing all of this with me today. It takes a lot of courage to talk about these things, and I really appreciate your openness. I hope you're able to find some moments of peace and kindness for yourself. Take care.",
+        "turn": 13
+      }
+    ]
+  }
+]

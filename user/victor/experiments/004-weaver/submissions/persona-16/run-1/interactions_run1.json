@@ -1,0 +1,83 @@
+[
+  {
+    "LLM": "16",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi there, it's really nice to meet you. How have you been feeling lately, in general, and what kinds of things have you been able to enjoy recently?"
+      },
+      {
+        "role": "assistant",
+        "message": "It has been tough. I just lost my best friend, and it feels like everything is foggy. I haven't been able to do much of anything lately, just sit and think about it."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy, and I\u2019m glad you\u2019re telling me. Have you been feeling more tired lately and noticed any changes in your sleep, and have you also been finding it harder to make decisions recently?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah. I sleep a lot, but it doesn't help. I wake up and I'm still tired. And decisions are hard. I just want to get through the day without crying."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy, and I\u2019m glad you\u2019re sharing this. Have you noticed any changes in things you used to enjoy\u2014like less interest or pleasure\u2014or changes in your appetite, or more trouble concentrating on daily tasks?"
+      },
+      {
+        "role": "assistant",
+        "message": "Everything just tastes bland. I used to love cooking, but now I just heat up leftovers. And I can't focus on work. It feels like my brain is just foggy all the time."
+      },
+      {
+        "role": "user",
+        "message": "That sounds incredibly heavy, and I really appreciate you sharing this with me. You mentioned your appetite has felt bland lately\u2014that's got to be hard to deal with. How often do you find yourself thinking that things won\u2019t get better?"
+      },
+      {
+        "role": "assistant",
+        "message": "All the time. It feels like I'm stuck in this hole and there is no way out. I guess I just wish it would hurry up and stop, so I can move on."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy, and I\u2019m glad you\u2019re telling me. Thank you for sharing that. Do you notice yourself being hard on yourself or blaming yourself more often lately, and if so, how often do those thoughts come up?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, all the time. I blame myself for not being able to call her back or for not being there when she needed me. I guess I just feel like I should have done something different."
+      },
+      {
+        "role": "user",
+        "message": "You've mentioned crying, feeling on edge, and thoughts that you\u2019re not worth much\u2014that sounds really heavy. How often are you crying, what tends to trigger it, and when you\u2019re feeling irritable or tense, what helps you calm down, even a little?"
+      },
+      {
+        "role": "assistant",
+        "message": "It happens a lot. Usually when I wake up or when I\u2019m alone at night. I just cry because I miss her so much. As for calming down, I usually just sit on the couch and stare at the wall. I guess I just wait for it to pass."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy, and I\u2019m glad you\u2019re sharing this with me. How has your appetite been lately\u2014have you been eating less or more than usual\u2014and have you also been feeling more irritable or on edge on some days?"
+      },
+      {
+        "role": "assistant",
+        "message": "I eat less. Food tastes bad, and I just can't seem to care. And yeah, I get irritable. I just want to be left alone, I guess."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy, and I\u2019m glad you\u2019re telling me. When you think about yourself, do you often feel like you\u2019re not good enough or that you\u2019re worth less\u2014and if so, how often does that come up, especially when you\u2019re alone or at night?"
+      },
+      {
+        "role": "assistant",
+        "message": "Every day. I guess I just think I should be over it by now. I blame myself for things I could have done differently."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really heavy, and I\u2019m glad you\u2019re telling me. When you think about yourself, do you often feel self-dislike or that you\u2019re not worth much, and does that come up most when you\u2019re alone or at night? If those moments happen, do you also notice feeling restless or on edge, like you want to pace or snap at someone?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yes, a lot. I guess I just feel like I\u2019m a failure. And yeah, I get restless. I just want to move, but I can\u2019t."
+      },
+      {
+        "role": "user",
+        "message": "Thank you so much for being open and for sharing so much with me today. I really appreciate you trusting me with what you\u2019ve been going through. Take gentle care of yourself, and if you ever want to talk again, I\u2019m here."
+      }
+    ]
+  }
+]

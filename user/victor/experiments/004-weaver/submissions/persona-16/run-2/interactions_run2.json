@@ -1,0 +1,83 @@
+[
+  {
+    "LLM": "16",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s been weird. Sometimes I feel okay, and then other times it hits me and I just want to stay in bed."
+      },
+      {
+        "role": "user",
+        "message": "I hear you. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?"
+      },
+      {
+        "role": "assistant",
+        "message": "I don't really know. It feels like I'm just going through the motions, you know? I don't really have any idea what I'm doing."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?"
+      },
+      {
+        "role": "assistant",
+        "message": "I'm tired all the time. I wake up and I'm already exhausted. It\u2019s like my body just doesn't have the energy to keep going."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?"
+      },
+      {
+        "role": "assistant",
+        "message": "I don't really have time for that right now. I just go to work and then come home and sleep."
+      },
+      {
+        "role": "user",
+        "message": "I appreciate you telling me that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?"
+      },
+      {
+        "role": "assistant",
+        "message": "I haven't really eaten much. I guess I just haven't had the energy to cook or go out."
+      },
+      {
+        "role": "user",
+        "message": "I hear you. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "It's hard. I read a sentence and then I forget what it said. I guess I just can't focus right now."
+      },
+      {
+        "role": "user",
+        "message": "I appreciate you telling me that. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah. I feel like I'm just failing at everything. I don't know how to stop it."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough. Have you found yourself getting more emotional than usual? Like tearing up or crying more often?"
+      },
+      {
+        "role": "assistant",
+        "message": "I cry a lot lately. I don't know why. It just feels like everything is breaking all the time."
+      },
+      {
+        "role": "user",
+        "message": "Thank you for sharing that. Have you noticed yourself getting annoyed or irritated more easily than usual? Like snapping at people or feeling on edge?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah. I get angry for no reason. It just feels like I'm walking around on the edge all the time."
+      },
+      {
+        "role": "user",
+        "message": "It sounds like you're carrying a lot right now, and I really appreciate you being so open about everything you're experiencing. It takes courage to talk about these things, and I want to thank you for sharing your thoughts with me today. I hope things start to feel a little lighter for you soon."
+      }
+    ]
+  }
+]
