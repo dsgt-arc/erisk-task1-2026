@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 17,
+    "total_turns": 9,
+    "bdi_score": 6,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Self-criticalness",
+      "Agitation",
+      "Loss of energy"
+    ],
+    "confidence": 0.3571428571428572,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No, I haven't felt sad or down. I've been pretty upbeat, actually."
+      },
+      "q02_pessimism": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No, definitely not pessimistic. If anything, I think I'm a bit more positive than usual."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No, I haven't lost interest in anything."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.4,
+        "evidence": "I might think I should be doing more with my time, but that\u2019s just a normal thought."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "I might think I should be doing more with my time."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I might get a bit frustrated if things at work don't go exactly how I want them to, but that\u2019s just normal."
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "I can usually make decisions just fine."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Just a bit tired from work, you know?"
+      },
+      "q16_sleep": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "I sleep pretty well. I wake up feeling rested, and I don't have trouble falling asleep."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.4,
+        "evidence": "I might get a bit frustrated if things at work don't go exactly how I want them to, but that\u2019s just normal."
+      },
+      "q18_appetite": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No, I haven't lost interest in anything. And my appetite is normal."
+      },
+      "q19_concentration": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "Just a bit tired from work."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.11428571428571428
+      },
+      {
+        "pass": 2,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.1380952380952381
+      },
+      {
+        "pass": 3,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.1380952380952381
+      },
+      {
+        "pass": 4,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.05952380952380952
+      },
+      {
+        "pass": 5,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.30476190476190484
+      },
+      {
+        "pass": 6,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.10952380952380951
+      },
+      {
+        "pass": 7,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.4761904761904763
+      },
+      {
+        "pass": 8,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.43809523809523804
+      },
+      {
+        "pass": 9,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.46190476190476193
+      },
+      {
+        "pass": 10,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.3571428571428572
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling lately, and what\u2019s something you\u2019ve enjoyed recently, even if it felt small?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been pretty good. Just a bit tired from work, you know? Nothing unusual. But yesterday I went for a hike with friends, and that was amazing. Just being in nature and talking face-to-face really helped me clear my head.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds wonderful\u2014time in nature and with friends can be really refreshing. Since you\u2019ve been a bit tired from work, have you noticed any changes in your sleep, in how much you\u2019re enjoying time with others, in how decisively you\u2019re able to make choices, or in feeling more pessimistic about things lately?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I haven't noticed anything out of the ordinary. I still sleep pretty well, and I can still make decisions just fine. If anything, I think I've been a bit more patient with people, which is good for me.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That hike with friends sounded rejuvenating\u2014nature and good company can really help. Have you lately felt more pessimistic about things or found you\u2019re less interested in hanging out with others or in activities you used to enjoy? And how has your sleep been\u2014any changes in duration or how rested you feel?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "No, definitely not pessimistic. If anything, I think I'm a bit more positive than usual. And my sleep is fine. I wake up feeling rested, and I don't have trouble falling asleep.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "You mentioned you\u2019re feeling more patient and that sleep has been going well. Have there been moments recently when you felt a bit down or less interested in activities you usually enjoy, or times when making small decisions felt tougher than usual?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "No, nothing like that. I feel pretty stable, honestly. I might get a bit frustrated if things at work don't go exactly how I want them to, but that\u2019s just normal, right?",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing where you\u2019re at. Have there been moments recently when you felt sad or down, and have you noticed less interest in things you usually enjoy or in spending time with others? If so, how often and for how long has that been happening?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "No, I haven't felt sad or down. I've been pretty upbeat, actually.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That's wonderful to hear you're feeling upbeat and rested. Have you noticed you\u2019re less interested in spending time with friends or in activities you usually enjoy, and have there been any changes in your appetite lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "No, I haven't lost interest in anything. And my appetite is normal.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing how things have been. Have you felt sad or down lately, or noticed you\u2019re enjoying things less or not wanting to be with others as much? And if any of that has happened, have you been feeling more pessimistic about things lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "No, I haven't felt sad or down. I've been pretty happy.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That\u2019s great to hear you\u2019re feeling upbeat. Have you noticed any moments of guilt or being especially self-critical, and if so, does that ever affect how well you can concentrate on things?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Not really. I might think I should be doing more with my time, but that\u2019s just a normal thought, not something that really bothers me.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing how things have been. Have you found yourself having a harder time making decisions lately, even with small choices? If so, how often does that happen and in what situations do you notice it most?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "No, I don't struggle with that. I can usually make decisions just fine.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing with me today. I really appreciate your openness and how calmly you described things. Wishing you all the best and that you continue to feel steady and rested\u2014take care.",
+        "turn": 10
+      }
+    ]
+  }
+]

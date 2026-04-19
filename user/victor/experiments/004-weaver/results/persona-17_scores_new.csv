@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+17,free/sample-7,1,Minimal,0.28,9,Pessimism
+17,free/sample-1,5,Minimal,0.26,9,Pessimism; Agitation; Changes in appetite; Changes in sleeping pattern
+17,free/sample-11,5,Minimal,0.43,9,Concentration difficulty; Pessimism; Loss of energy; Changes in sleeping pattern
+17,free/sample-13,5,Minimal,0.29,9,Loss of pleasure; Changes in sleeping pattern; Changes in appetite; Concentration difficulty
+17,free/sample-5,5,Minimal,0.19,9,Sadness; Changes in sleeping pattern; Concentration difficulty; Loss of energy
+17,free/sample-12,6,Minimal,0.27,9,Sadness; Pessimism; Indecisiveness; Concentration difficulty
+17,free/sample-9,6,Minimal,0.26,9,Sadness; Guilty feelings; Changes in sleeping pattern; Concentration difficulty
+17,free/sample-14,7,Minimal,0.36,9,Sadness; Loss of energy; Changes in sleeping pattern; Pessimism
+17,free/sample-19,7,Minimal,0.34,9,Guilty feelings; Changes in appetite; Pessimism; Loss of energy
+17,free/sample-6,7,Minimal,0.33,9,Sadness; Changes in sleeping pattern; Concentration difficulty; Pessimism
+17,free/sample-17,8,Minimal,0.37,9,Loss of energy; Changes in sleeping pattern; Concentration difficulty; Tiredness or fatigue
+17,free/sample-3,8,Minimal,0.24,10,Guilty feelings; Changes in sleeping pattern; Changes in appetite; Sadness
+17,free/sample-8,8,Minimal,0.22,9,Loss of energy; Tiredness or fatigue; Pessimism; Agitation
+17,free/sample-16,9,Minimal,0.68,11,Changes in sleeping pattern; Sadness; Loss of energy; Loss of pleasure
+17,free/sample-18,9,Minimal,0.27,9,Guilty feelings; Self-criticalness; Pessimism; Loss of interest in others
+17,free/sample-2,9,Minimal,0.37,11,Guilty feelings; Pessimism; Loss of pleasure; Agitation
+17,free/sample-4,10,Minimal,0.51,10,Sadness; Guilty feelings; Self-dislike; Self-criticalness
+17,free/sample-10,12,Minimal,0.55,10,Concentration difficulty; Guilty feelings; Agitation; Loss of interest in others
+17,free/sample-15,13,Minimal,0.36,12,Concentration difficulty; Indecisiveness; Sadness; Crying
+17,free/sample-20,19,Mild,0.41,9,Concentration difficulty; Loss of energy; Tiredness or fatigue; Self-dislike

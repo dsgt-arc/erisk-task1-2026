@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 17,
+    "total_turns": 9,
+    "bdi_score": 7,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Changes in appetite",
+      "Pessimism",
+      "Loss of energy"
+    ],
+    "confidence": 0.34047619047619043,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 0,
+        "confidence": 0.6,
+        "evidence": "It\u2019s been pretty stable. I mean, I get the usual ups and downs, but nothing that\u2019s really worried me."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I worry about the future sometimes, yeah. I worry about getting the job I want and being able to support myself."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Painting is my go-to. It helps me clear my head and relax. I love getting out into nature too, just for a walk."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.9,
+        "evidence": "I get a little guilty sometimes when I waste time, like if I spend the whole day playing video games."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I get tired sometimes, especially after a long day."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I sleep pretty well. Sometimes I wake up a little early, but I can usually just get up and get moving."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "I eat pretty normally. I might have a bigger appetite on weekends, but nothing out of the ordinary."
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I can focus pretty well. I mean, I get distracted sometimes, but I don\u2019t have trouble following a conversation or staying on track with my work."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I get tired sometimes, especially after a long day."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 3,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.07142857142857142
+      },
+      {
+        "pass": 4,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.10238095238095238
+      },
+      {
+        "pass": 5,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.19285714285714284
+      },
+      {
+        "pass": 6,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.12857142857142856
+      },
+      {
+        "pass": 7,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.1952380952380952
+      },
+      {
+        "pass": 8,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.25476190476190474
+      },
+      {
+        "pass": 9,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.3
+      },
+      {
+        "pass": 10,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.34047619047619043
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been pretty stable. I mean, I get the usual ups and downs, but nothing that\u2019s really worried me. I just try to focus on the things I can control, like my work and hobbies.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Painting is my go-to. It helps me clear my head and relax. I love getting out into nature too, just for a walk. It\u2019s good to get out of the city for a bit.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I worry about the future sometimes, yeah. I worry about getting the job I want and being able to support myself. But I don't dwell on it too much. I just try to take things one step at a time.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I've been seeing my friends pretty regularly, actually. We usually go out for drinks or see a movie. It\u2019s nice to have that connection.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I get tired sometimes, especially after a long day. But I don\u2019t feel like I\u2019m constantly running on empty or anything.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I sleep pretty well. Sometimes I wake up a little early, but I can usually just get up and get moving.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I can focus pretty well. I mean, I get distracted sometimes, but I don\u2019t have trouble following a conversation or staying on track with my work.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I eat pretty normally. I might have a bigger appetite on weekends, but nothing out of the ordinary.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I get a little guilty sometimes when I waste time, like if I spend the whole day playing video games. But I don\u2019t dwell on it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Well, it sounds like you have a good balance of things going on \u2013 hobbies, friends, and work you\u2019re focused on. Thank you so much for sharing your thoughts with me today; I really appreciate your openness and honesty. I wish you all the best going forward.",
+        "turn": 10
+      }
+    ]
+  }
+]

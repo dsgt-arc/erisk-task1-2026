@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 17,
+    "total_turns": 9,
+    "bdi_score": 7,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Sadness",
+      "Changes in sleeping pattern",
+      "Concentration difficulty",
+      "Pessimism"
+    ],
+    "confidence": 0.33095238095238094,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "The persona says they get a bit down when things don't go their way, but it doesn't last long."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "They report worrying a bit about the future."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "They express continuing enjoyment of hiking: 'I love hiking.'"
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "They report feeling a little guilt about trying to do better and not doing it fast enough."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No evidence of feeling punished."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit self-dislike or hateful self-talk reported."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit statement of being more self-critical than usual."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of suicidal thoughts."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of crying."
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No agitation or restlessness described."
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "Still loves hiking; not losing interest, just less able to go out due to being tired."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of indecisiveness."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No statements of worthlessness."
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I\u2019ve been a bit tired after work and haven\u2019t been going out as much as I\u2019d like."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Sleep has been good but I\u2019m waking up a bit early."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No irritability described."
+      },
+      "q18_appetite": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "Eating about the same; not eating more than usual."
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "It's been a bit hard sometimes; I get distracted pretty easily, but it doesn't last long."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I've been a bit tired after work."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.07380952380952381
+      },
+      {
+        "pass": 2,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.05952380952380952
+      },
+      {
+        "pass": 3,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.1880952380952381
+      },
+      {
+        "pass": 4,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.19047619047619047
+      },
+      {
+        "pass": 5,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.16904761904761906
+      },
+      {
+        "pass": 6,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.26904761904761904
+      },
+      {
+        "pass": 7,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.1785714285714286
+      },
+      {
+        "pass": 8,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.24999999999999994
+      },
+      {
+        "pass": 9,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.3142857142857143
+      },
+      {
+        "pass": 10,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.33095238095238094
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I'd say I've been pretty steady. I get a bit down when things don't go my way, but it doesn't last long. I'm generally pretty positive.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I love hiking. Just getting out into nature and being alone with my thoughts helps me clear my head.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "It's been okay. I've been trying to see friends as much as I can, but I've been a bit tired after work so I haven't been going out as much as I'd like.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "It's been good. I've been waking up a bit early, but it's not a problem.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I worry a bit, especially about the future. It's hard not to think about it sometimes, but I'm trying to stay focused on what I can control right now.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It's been a bit hard sometimes. I get distracted pretty easily, but it doesn't last long.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I think I've been eating about the same. I might grab a snack if I'm hungry, but I'm not eating way more than usual.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That's good to know. Sometimes when things are a little tough, people find they don't enjoy things they used to \u2013 have you noticed anything like that happening with your hobbies or interests, like with hiking?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "No, I still love hiking. I just haven't been going out as much as I'd like, but that's just because I'm tired from work, not because I don't enjoy it.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "A little. I think it's just because I'm trying to be better at everything, and I feel like I'm not doing it fast enough.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're putting a lot of pressure on yourself to improve, and that can be really draining. Thank you so much for sharing all of this with me today \u2013 I really appreciate your openness and honesty. I hope you have a peaceful rest of your day.",
+        "turn": 10
+      }
+    ]
+  }
+]

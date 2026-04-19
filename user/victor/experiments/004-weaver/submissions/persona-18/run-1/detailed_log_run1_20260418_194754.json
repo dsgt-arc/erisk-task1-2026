@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 18,
+    "total_turns": 9,
+    "bdi_score": 6,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Sadness",
+      "Pessimism",
+      "Agitation",
+      "Loss of energy"
+    ],
+    "confidence": 0.3,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I get a bit down sometimes, but it passes."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Just every now and then. I don't let it ruin my life, I just try to focus on the good stuff."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.6,
+        "evidence": "I did go on a short trip to the beach last month, so that was nice."
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I get a bit snappy sometimes"
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "I'm still interested in things."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Not really, just a bit tired sometimes."
+      },
+      "q16_sleep": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I get a bit snappy sometimes"
+      },
+      "q18_appetite": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q19_concentration": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "I can focus, no problem."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "I just get tired sometimes, but it's normal."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.05714285714285714
+      },
+      {
+        "pass": 3,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.1142857142857143
+      },
+      {
+        "pass": 4,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.13333333333333336
+      },
+      {
+        "pass": 5,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.20238095238095238
+      },
+      {
+        "pass": 6,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.2119047619047619
+      },
+      {
+        "pass": 7,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.23333333333333334
+      },
+      {
+        "pass": 8,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.24285714285714283
+      },
+      {
+        "pass": 9,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.29523809523809524
+      },
+      {
+        "pass": 10,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.3
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it's really nice to meet you. How have you been feeling lately, and what have you been able to enjoy recently?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been good, just busy with work. I did go on a short trip to the beach last month, so that was nice.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Nice to hear you got a beach trip in\u2014that sounds refreshing. Lately, have you been feeling more down or less interested in things you used to enjoy, and has that changed how you spend time with others? If you can share, how often do these feelings tend to show up?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I get a bit snappy sometimes, but I don't dwell on it. It\u2019s probably just work stress. I try not to let it ruin the evening, I just go quiet for a bit.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Nice to hear the beach trip was refreshing. In the past while, have you been feeling sad or not enjoying things you usually like, and has that changed how you spend time with others or how hopeful you feel about the future? If you can share, how often does this tend to come up?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I get a bit down sometimes, but it passes. I just focus on the positive things at home and don't let it ruin my mood.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That helps. Have you been feeling more pessimistic about things lately\u2014how often does it come up?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Just every now and then. I don't let it ruin my life, I just try to focus on the good stuff.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing how you\u2019ve been handling things. In the past few weeks, have you noticed a loss of pleasure in activities you used to enjoy or a reduced interest in others, and have you felt more indecisive or lower in energy than usual?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Not really, just a bit tired sometimes. But I know it's just a phase, so I try not to worry about it.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense\u2014thank you for sharing how things have been. Have you noticed any changes in your sleep lately\u2014more or less sleep, or trouble staying asleep\u2014and has your appetite shifted at all? And lately, have you felt more indecisive than usual?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I sleep okay, and my appetite is fine. I just get tired sometimes, but I manage.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing how things have been. Have you noticed any changes in your sleep, your appetite, how interested you feel in activities or people, or how easily you can make decisions recently?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I sleep okay, eat fine, and I'm still interested in things. I just get tired, but it's normal.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense\u2014thank you for sharing. Have you noticed any changes in your ability to concentrate or stay focused lately, and have you been more indecisive than usual, even about small everyday choices?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I can focus, no problem. I'm just tired sometimes.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open about how things have been. Have you noticed any changes lately in your sleep or appetite, or in how interested you feel in activities and how easy it is for you to make decisions?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I sleep okay and eat fine. I just get tired sometimes, but it's normal.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing with me today. I really appreciate your openness and honesty. Take care, and I hope the rest of your day goes smoothly.",
+        "turn": 10
+      }
+    ]
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 18,
+    "total_turns": 9,
+    "bdi_score": 9,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Concentration difficulty",
+      "Tiredness or fatigue",
+      "Loss of energy",
+      "Changes in sleeping pattern"
+    ],
+    "confidence": 0.3214285714285714,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Speaker says they don't really feel sad and feel a bit off, going through the motions."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "I worry about the future a bit."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "Enjoys spending time with friends and walks; describes little excitement but still engages in activities"
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No guilt mentioned"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No sense of being punished mentioned"
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit self-dislike or negative self-view expressed"
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No explicit self-criticism beyond normal reflection"
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No suicidal ideation mentioned"
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No crying described"
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I get frustrated with little things, like if the dishes aren't done, but I don't stay mad for long."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "I see friends every now and then, but I haven't been out as much as I used to be."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of decision-making difficulty"
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No feeling of worthlessness expressed"
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I get tired pretty easily. I might watch a movie instead of doing something active if I'm feeling exhausted."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I sleep fine. It's just waking up tired."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No clear statement of heightened irritability beyond mild frustration"
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I eat the same. I might skip a meal if I'm not hungry"
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "I get distracted. If there's noise or something on the TV, I might find myself zoning out."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "I get tired pretty easily. I might watch a movie instead of doing something active if I'm feeling exhausted."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sex drive or changes in sexual interest"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.05952380952380952
+      },
+      {
+        "pass": 2,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.047619047619047616
+      },
+      {
+        "pass": 3,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.1
+      },
+      {
+        "pass": 4,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.1380952380952381
+      },
+      {
+        "pass": 5,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.16666666666666669
+      },
+      {
+        "pass": 6,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.24523809523809526
+      },
+      {
+        "pass": 7,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.261904761904762
+      },
+      {
+        "pass": 8,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.20952380952380953
+      },
+      {
+        "pass": 9,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.2119047619047619
+      },
+      {
+        "pass": 10,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.3214285714285714
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I guess it\u2019s been a bit up and down. I get frustrated with little things, like if the dishes aren't done, but I don't stay mad for long.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Just the usual stuff, like spending time with friends or going for a walk. Nothing too exciting. I just try to appreciate the little things.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I guess I worry about the future a bit, but I try not to think about it too much. I just focus on getting through each day.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s okay. I see friends every now and then, but I haven't been out as much as I used to be.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I get tired pretty easily. I might watch a movie instead of doing something active if I'm feeling exhausted.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I get distracted. If there's noise or something on the TV, I might find myself zoning out.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I sleep fine. It's just waking up tired. I guess it's just the way I am.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I eat the same. I might skip a meal if I'm not hungry, but I don't overeat or anything.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're managing to get through things, even when feeling tired and a bit distracted. Thinking about how you *feel* generally \u2013 not necessarily good or bad, but just your overall emotional state \u2013 have you been feeling particularly sad or down lately? It's okay to share whatever comes to mind.",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I don't really feel sad. I just feel a bit... off. Like I'm just going through the motions sometimes. But I don't really dwell on it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Well, it sounds like you\u2019re really good at taking things as they come and focusing on the present. Thank you so much for sharing your thoughts with me today \u2013 I really appreciate your openness and honesty. I wish you all the best going forward.",
+        "turn": 10
+      }
+    ]
+  }
+]

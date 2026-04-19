@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 18,
+    "total_turns": 9,
+    "bdi_score": 10,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Changes in sleeping pattern",
+      "Sadness",
+      "Changes in appetite",
+      "Loss of energy"
+    ],
+    "confidence": 0.3857142857142857,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "Mentions mood as up and down and that some days feel tired while others are fine."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Expresses anxiety about upcoming events but tries to stay positive and focus on what can be controlled."
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Notes guilt about not accomplishing things."
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.75,
+        "evidence": "States enjoyment in spending time with partner and activities; describes positive experiences."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Mentions guilt about not accomplishing things and trying not to be harsh on themselves."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "No relevant discussion about feeling punished."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion indicating self-dislike."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion indicating increased self-criticism."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of suicidal thoughts or self-harm."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of crying."
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of restlessness or agitation."
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No clear loss of interest in activities or people described."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No description of indecisiveness affecting daily decisions."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No statements indicating worthlessness."
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Mentions waking up feeling really tired on some days."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Reports trouble falling asleep sometimes and lying there for hours thinking."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of irritability."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Says eating a bit more, trying to fill time with food, but also planning to cut back."
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "It's been a bit harder to focus and I get distracted easily."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Some days I wake up feeling really tired."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.07142857142857142
+      },
+      {
+        "pass": 2,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.12380952380952381
+      },
+      {
+        "pass": 3,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.0857142857142857
+      },
+      {
+        "pass": 4,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.1619047619047619
+      },
+      {
+        "pass": 5,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.15
+      },
+      {
+        "pass": 6,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.20476190476190476
+      },
+      {
+        "pass": 7,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.19047619047619047
+      },
+      {
+        "pass": 8,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.2333333333333333
+      },
+      {
+        "pass": 9,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.8166666666666667
+      },
+      {
+        "pass": 10,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.3857142857142857
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It's been a bit up and down, to be honest. Some days I wake up feeling really tired, and others I'm fine. I think it's just stress and work stuff.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I get a bit anxious about it, to be honest. It feels like there's a lot on my plate, but I'm trying to stay positive and focus on what I can control.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I love spending time with my partner. We like to go out for dinner or watch movies together. It's nice to have some quiet time at home, too.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "It's been pretty quiet, actually. I haven't been to as many social events as I used to, but I'm okay with that. I just need some downtime, you know?",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I've been having some trouble falling asleep sometimes. I'll lie there for hours just thinking about stuff, but I'm trying to relax more before bed.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It's been a bit harder to focus. I get distracted pretty easily, but I'm working on it.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I've been eating a bit more, actually. I think I'm just trying to fill the time with food, but I'm trying to cut back.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Sometimes I feel guilty about things I didn't accomplish, but I'm trying not to be too hard on myself.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "It's understandable to feel guilty when you haven't reached goals, and it's great that you're trying to be kind to yourself. Thinking about how you *feel* generally \u2013 beyond the guilt \u2013 would you say you've been feeling particularly sad lately? Or has your mood been more just\u2026flat?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I wouldn't say I'm sad, really. Just a bit down sometimes. I think it's just stress and feeling overwhelmed.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're carrying a lot on your shoulders, and it's really good that you're aware of that and trying to manage things. I really appreciate you being so open with me today. It takes courage to talk about these things, and I want to thank you for sharing your experiences with me. I hope things start to feel a little lighter for you soon.",
+        "turn": 10
+      }
+    ]
+  }
+]

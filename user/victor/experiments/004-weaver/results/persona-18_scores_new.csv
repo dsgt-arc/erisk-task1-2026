@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+18,free/sample-9,6,Minimal,0.22,9,Loss of energy; Irritability; Tiredness or fatigue; Pessimism
+18,free/sample-16,8,Minimal,0.26,9,Tiredness or fatigue; Sadness; Loss of energy; Concentration difficulty
+18,free/sample-20,8,Minimal,0.24,9,Guilty feelings; Pessimism; Indecisiveness; Loss of energy
+18,free/sample-13,9,Minimal,0.26,11,Sadness; Pessimism; Guilty feelings; Indecisiveness
+18,free/sample-14,9,Minimal,0.37,10,Guilty feelings; Agitation; Pessimism; Loss of energy
+18,free/sample-19,9,Minimal,0.61,9,Concentration difficulty; Loss of pleasure; Pessimism; Agitation
+18,free/sample-7,9,Minimal,0.32,9,Concentration difficulty; Tiredness or fatigue; Loss of energy; Changes in sleeping pattern
+18,free/sample-8,9,Minimal,0.25,10,Changes in sleeping pattern; Sadness; Pessimism; Guilty feelings
+18,free/sample-2,10,Minimal,0.39,9,Changes in sleeping pattern; Sadness; Changes in appetite; Loss of energy
+18,free/sample-18,11,Minimal,0.23,9,Concentration difficulty; Loss of energy; Tiredness or fatigue; Pessimism
+18,free/sample-5,12,Minimal,0.31,11,Concentration difficulty; Pessimism; Loss of pleasure; Self-dislike
+18,free/sample-12,13,Minimal,0.34,10,Changes in appetite; Guilty feelings; Pessimism; Agitation
+18,free/sample-15,13,Minimal,0.47,11,Pessimism; Guilty feelings; Self-dislike; Self-criticalness
+18,free/sample-17,13,Minimal,0.51,10,Concentration difficulty; Tiredness or fatigue; Pessimism; Guilty feelings
+18,free/sample-10,14,Mild,0.42,13,Pessimism; Loss of pleasure; Guilty feelings; Self-dislike
+18,free/sample-4,15,Mild,0.26,8,Loss of energy; Tiredness or fatigue; Agitation; Changes in sleeping pattern
+18,free/sample-6,16,Mild,0.32,9,Changes in sleeping pattern; Changes in appetite; Tiredness or fatigue; Loss of interest in others
+18,free/sample-11,17,Mild,0.46,10,Loss of energy; Tiredness or fatigue; Self-dislike; Indecisiveness
+18,free/sample-3,18,Mild,0.44,10,Changes in sleeping pattern; Concentration difficulty; Tiredness or fatigue; Loss of interest in others
+18,free/sample-1,22,Moderate,0.69,11,Changes in sleeping pattern; Concentration difficulty; Loss of pleasure; Agitation
