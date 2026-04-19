@@ -94,23 +94,25 @@ class WeaverAggregator:
         weights: Dict[int, float] = None,
     ) -> List[Tuple[int, float]]:
         """
-        Rank samples by L1 distance from consensus profile.
+        Rank samples by BDI total distance from consensus total.
 
-        Returns [(sample_index, distance)] sorted ascending (closest first).
-        Ties broken by sample weight (higher weight preferred).
+        Primary: |sample_total - consensus_total| (submission consistency)
+        Secondary: L1 symptom profile distance (profile similarity)
+        Tertiary: sample weight descending
         """
         ranked = []
+        consensus_total = consensus.total_score
         for i, s in enumerate(samples):
-            dist = sum(
+            bdi_dist = abs(s.total_score - consensus_total)
+            profile_dist = sum(
                 abs(s.symptoms[sid].score - consensus.symptoms[sid].score)
                 for sid in self.symptom_ids
             )
-            # Negate weight for tiebreaking (higher weight = lower sort key)
             w = weights.get(i, 0.0) if weights else 0.0
-            ranked.append((i, dist, -w))
+            ranked.append((i, bdi_dist, profile_dist, -w))
 
-        ranked.sort(key=lambda x: (x[1], x[2]))
-        return [(idx, dist) for idx, dist, _ in ranked]
+        ranked.sort(key=lambda x: (x[1], x[2], x[3]))
+        return [(idx, bdi_dist) for idx, bdi_dist, _, _ in ranked]
 
     def _raw_agreement_rate(self, s1: ScorerOutput, s2: ScorerOutput) -> float:
         """Score-level agreement: 1.0 = identical, 0.0 = max apart on all symptoms."""
@@ -119,10 +121,6 @@ class WeaverAggregator:
             for sid in self.symptom_ids
         )
         return total / len(self.symptom_ids)
-
-    def _binarize(self, output: ScorerOutput) -> List[int]:
-        """Convert 21 symptom scores to binary vector (score > 0 → 1)."""
-        return [1 if output.symptoms[sid].score > 0 else 0 for sid in self.symptom_ids]
 
     @staticmethod
     def _weighted_median(values: List[int], weights: List[float]) -> int:

@@ -49,10 +49,10 @@ def collect_samples(samples_dir: Path, tier_label: str = ""):
         entry = {"dir": sample_dir, "score": data[0]["bdi-score"], "name": label, "tier": tier_label}
         entry["key_symptoms"] = data[0].get("key-symptoms", [])
 
-        # Pull per-symptom scores from detailed log
-        detailed = list(sample_dir.glob("detailed_log_run1_*.json"))
+        # Pull per-symptom scores from detailed log (pick most recent if multiple)
+        detailed = sorted(sample_dir.glob("detailed_log_run1_*.json"))
         if detailed:
-            with open(detailed[0]) as f:
+            with open(detailed[-1]) as f:
                 detail_data = json.load(f)
             if detail_data:
                 entry["confidence"] = detail_data[0].get("confidence", 0.0)
@@ -296,7 +296,7 @@ def main():
             weight = s.get("weaver_weight", 0.0)
             syms = ", ".join(s.get("key_symptoms", [])[:4]) or "-"
             tier_tag = f" [{s['tier']}]" if s.get("tier") else ""
-            print(f"  Run {i+1}: {s['name']} → BDI={s['score']} (dist={dist}, w={weight:.3f}){tier_tag}")
+            print(f"  Run {i+1}: {s['name']} → BDI={s['score']} (bdi_dist={dist}, w={weight:.3f}){tier_tag}")
             print(f"         {syms}")
 
     # Copy to submissions directory
