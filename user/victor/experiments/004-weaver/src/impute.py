@@ -50,6 +50,11 @@ _NEVER_IMPUTE = {"q03_past_failure", "q06_punishment", "q09_suicidal_thoughts", 
 _DONOR_WEIGHTS = [0.5, 0.3, 0.2]
 
 
+# Only impute when donor signal is strong enough to justify it
+_DONOR_MIN_CONFIDENCE = 0.7
+_DONOR_MIN_SCORE = 2
+
+
 def impute_unassessed(scores: ScorerOutput) -> ScorerOutput:
     """
     Return a new ScorerOutput with unassessed symptoms imputed from
@@ -58,9 +63,11 @@ def impute_unassessed(scores: ScorerOutput) -> ScorerOutput:
     Rules:
     - Only imputes symptoms with confidence=0.0 (truly unassessed)
     - Never imputes DO_NOT_PROBE symptoms (suicidal, sex, past failure, punishment)
+    - Donors must have confidence >= 0.7 AND score >= 2 to count
+      (prevents imputation from inflating mild/borderline cases)
     - Imputed scores are capped at 2 (never impute "severe")
     - Imputed confidence is set to 0.15 (clearly lower than any real assessment)
-    - If no donors are assessed, leaves the symptom at 0
+    - If no qualifying donors, leaves the symptom at 0
     """
     new_symptoms: Dict[str, SymptomScore] = {}
 
@@ -72,7 +79,7 @@ def impute_unassessed(scores: ScorerOutput) -> ScorerOutput:
             new_symptoms[sid] = original
             continue
 
-        # Try to impute from donors
+        # Try to impute from donors (only strong-signal ones count)
         donors = _IMPUTATION_DONORS.get(sid, [])
         if not donors:
             new_symptoms[sid] = original
@@ -82,12 +89,14 @@ def impute_unassessed(scores: ScorerOutput) -> ScorerOutput:
         weight_total = 0.0
         for donor_sid, weight in zip(donors, _DONOR_WEIGHTS):
             donor = scores.symptoms.get(donor_sid)
-            if donor and donor.confidence > 0.0:
+            if (donor
+                and donor.confidence >= _DONOR_MIN_CONFIDENCE
+                and donor.score >= _DONOR_MIN_SCORE):
                 weighted_sum += donor.score * weight
                 weight_total += weight
 
         if weight_total == 0.0:
-            # No assessed donors — leave at 0
+            # No strong-signal donors — leave at 0
             new_symptoms[sid] = original
             continue
 
