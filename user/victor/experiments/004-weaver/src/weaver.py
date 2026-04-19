@@ -34,16 +34,11 @@ class WeaverAggregator:
         if n <= 1:
             return {0: 1.0} if n == 1 else {}
 
-        # Binarize: score > 0 → 1, else → 0
-        binary = [self._binarize(s) for s in samples]
-        k = len(self.symptom_ids)
-
-        # Pairwise agreement matrix
+        # Pairwise agreement matrix (raw score similarity, not binarized)
         agreement = [[0.0] * n for _ in range(n)]
         for i in range(n):
             for j in range(i + 1, n):
-                matches = sum(1 for a, b in zip(binary[i], binary[j]) if a == b)
-                rate = matches / k
+                rate = self._raw_agreement_rate(samples[i], samples[j])
                 agreement[i][j] = rate
                 agreement[j][i] = rate
 
@@ -116,6 +111,14 @@ class WeaverAggregator:
 
         ranked.sort(key=lambda x: (x[1], x[2]))
         return [(idx, dist) for idx, dist, _ in ranked]
+
+    def _raw_agreement_rate(self, s1: ScorerOutput, s2: ScorerOutput) -> float:
+        """Score-level agreement: 1.0 = identical, 0.0 = max apart on all symptoms."""
+        total = sum(
+            1.0 - abs(s1.symptoms[sid].score - s2.symptoms[sid].score) / 3.0
+            for sid in self.symptom_ids
+        )
+        return total / len(self.symptom_ids)
 
     def _binarize(self, output: ScorerOutput) -> List[int]:
         """Convert 21 symptom scores to binary vector (score > 0 → 1)."""
