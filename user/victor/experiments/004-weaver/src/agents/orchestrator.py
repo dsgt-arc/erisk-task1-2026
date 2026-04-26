@@ -51,11 +51,13 @@ class Orchestrator:
         max_turns: int = 18,
         stability_window: int = 3,
         max_focus_symptoms: int = 4,
+        min_coverage: float = 0.70,
     ):
         self.confidence_threshold = confidence_threshold
         self.max_turns = max_turns
         self.stability_window = stability_window
         self.max_focus_symptoms = max_focus_symptoms
+        self.min_coverage = min_coverage
 
     def generate_guidance(
         self, state: InterviewState, lf_signals: list = None,
@@ -127,13 +129,18 @@ class Orchestrator:
         if turn >= self.max_turns:
             return True, "max_turns_reached"
 
+        probeable = {sid: s for sid, s in latest.symptoms.items() if sid not in DO_NOT_PROBE}
+        assessed_count = sum(1 for s in probeable.values() if s.assessed)
+        min_assessed = int(len(probeable) * self.min_coverage)
+        coverage_met = assessed_count >= min_assessed
+
+        # Don't allow early termination until minimum symptom coverage is reached
+        if not coverage_met:
+            return False, ""
+
         # All probeable symptoms above confidence threshold
-        probeable = [
-            s for sid, s in latest.symptoms.items()
-            if sid not in DO_NOT_PROBE
-        ]
         all_confident = all(
-            s.confidence >= self.confidence_threshold for s in probeable
+            s.confidence >= self.confidence_threshold for s in probeable.values()
         )
         if all_confident and turn >= 8:
             return True, "all_symptoms_confident"
@@ -250,6 +257,16 @@ class Orchestrator:
                 for s in sorted(well_assessed, key=lambda x: -x.confidence)[:6]
             )
             lines.append(f"Well-assessed (do NOT revisit): {names}\n")
+
+        # Coverage warning
+        probeable = {sid: s for sid, s in scores.symptoms.items() if sid not in DO_NOT_PROBE}
+        assessed_count = sum(1 for s in probeable.values() if s.assessed)
+        min_assessed = int(len(probeable) * self.min_coverage)
+        if assessed_count < min_assessed:
+            lines.append(
+                f"**Coverage: {assessed_count}/{len(probeable)} symptoms assessed "
+                f"(need {min_assessed}). Do NOT wrap up yet — keep probing unassessed symptoms.**\n"
+            )
 
         # Turn budget awareness
         remaining = self.max_turns - turn
