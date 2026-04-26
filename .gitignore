@@ -221,3 +221,6 @@ service-account.json
 *.sublime-workspace
 
 slides
+# Local-only docs
+CLAUDE.md
+PAPER_NOTES.md

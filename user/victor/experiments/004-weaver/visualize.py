@@ -35,6 +35,11 @@ SEVERITY_COLORS = {
 }
 
 sns.set_theme(style="whitegrid", font_scale=1.1)
+plt.rcParams.update({
+    "font.family": "sans-serif",
+    "font.sans-serif": ["Helvetica Neue", "Helvetica", "Arial", "DejaVu Sans"],
+    "mathtext.fontset": "dejavusans",
+})
 
 
 # ── Data loading ─────────────────────────────────────────────────────────────
@@ -46,7 +51,7 @@ def load_csvs(results_dir: Path) -> pd.DataFrame:
         m = re.match(r"persona-(\d+)_scores_(base|new)\.csv", f.name)
         if not m:
             continue
-        approach = "Base (Paid)" if m.group(2) == "base" else "New (Weaver+Free)"
+        approach = "Baseline" if m.group(2) == "base" else "Hybrid"
         df = pd.read_csv(f)
         df["approach"] = approach
         rows.append(df)
@@ -77,11 +82,11 @@ def parse_symptoms(df: pd.DataFrame) -> pd.DataFrame:
 def plot_bdi_boxplot(df: pd.DataFrame, out: Path):
     """Box plots of BDI score per persona, side-by-side approaches."""
     personas = sorted(df["persona_label"].unique(), key=lambda p: int(p[1:]))
-    fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
+    fig, ax = plt.subplots(figsize=(max(8, len(personas) * 0.75), 5))
 
     sns.boxplot(
         data=df, x="persona_label", y="bdi_score", hue="approach",
-        order=personas, palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        order=personas, palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         width=0.55, linewidth=1.2, flierprops=dict(marker="o", markersize=4),
         ax=ax,
     )
@@ -93,7 +98,7 @@ def plot_bdi_boxplot(df: pd.DataFrame, out: Path):
     ax.axhspan(14, 19, alpha=0.04, color="#bcbd22")
     ax.axhspan(20, 28, alpha=0.06, color="#ff7f0e")
     ax.axhspan(29, 63, alpha=0.06, color="#d62728")
-    _add_severity_legend(ax)
+    _add_severity_legend(ax, loc="upper left")
     ax.legend(title="Approach", loc="upper right")
     fig.tight_layout()
     fig.savefig(out / "01_bdi_boxplot_per_persona.png", dpi=150)
@@ -106,7 +111,7 @@ def plot_bdi_violin(df: pd.DataFrame, out: Path):
     fig, ax = plt.subplots(figsize=(6, 5))
     sns.violinplot(
         data=df, x="approach", y="bdi_score",
-        palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         inner="box", linewidth=1.2, ax=ax,
     )
     ax.set_title("Overall BDI Score Distribution", fontsize=14, fontweight="bold")
@@ -131,7 +136,7 @@ def plot_variance_comparison(df: pd.DataFrame, out: Path):
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.barplot(
         data=stats, x="persona_label", y="std", hue="approach",
-        order=personas, palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        order=personas, palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         ax=ax,
     )
     ax.set_title("BDI Score Variance (Std Dev) per Persona", fontsize=14, fontweight="bold")
@@ -156,7 +161,7 @@ def plot_severity_distribution(df: pd.DataFrame, out: Path):
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
     for ax, approach, color in zip(
-        axes, ["Base (Paid)", "New (Weaver+Free)"], [BASE_COLOR, NEW_COLOR]
+        axes, ["Baseline", "Hybrid"], [BASE_COLOR, NEW_COLOR]
     ):
         sub = counts[counts["approach"] == approach]
         sub = sub.set_index("severity").reindex(SEVERITY_ORDER).fillna(0)
@@ -190,7 +195,7 @@ def plot_confidence_comparison(df: pd.DataFrame, out: Path):
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.boxplot(
         data=df, x="persona_label", y="confidence", hue="approach",
-        order=personas, palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        order=personas, palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         width=0.55, linewidth=1.2, ax=ax,
     )
     ax.set_title("Scoring Confidence per Persona", fontsize=14, fontweight="bold")
@@ -211,7 +216,7 @@ def plot_turns_comparison(df: pd.DataFrame, out: Path):
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.boxplot(
         data=df, x="persona_label", y="turns", hue="approach",
-        order=personas, palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        order=personas, palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         width=0.55, linewidth=1.2, ax=ax,
     )
     ax.set_title("Interview Turn Count per Persona", fontsize=14, fontweight="bold")
@@ -231,15 +236,15 @@ def plot_mean_scatter(df: pd.DataFrame, out: Path):
         .mean()
         .unstack("approach")
     )
-    if "Base (Paid)" not in means.columns or "New (Weaver+Free)" not in means.columns:
+    if "Baseline" not in means.columns or "Hybrid" not in means.columns:
         print("  Skipped scatter (missing approach)")
         return
 
     fig, ax = plt.subplots(figsize=(5.5, 5.5))
     for persona, row in means.iterrows():
-        ax.scatter(row["Base (Paid)"], row["New (Weaver+Free)"],
+        ax.scatter(row["Baseline"], row["Hybrid"],
                    s=90, zorder=5, color="#333")
-        ax.annotate(persona, (row["Base (Paid)"], row["New (Weaver+Free)"]),
+        ax.annotate(persona, (row["Baseline"], row["Hybrid"]),
                     textcoords="offset points", xytext=(6, 4), fontsize=9)
 
     lo = min(means.min()) - 3
@@ -247,9 +252,9 @@ def plot_mean_scatter(df: pd.DataFrame, out: Path):
     ax.plot([lo, hi], [lo, hi], "--", color="gray", linewidth=1, label="y = x")
     ax.set_xlim(lo, hi)
     ax.set_ylim(lo, hi)
-    ax.set_xlabel("Mean BDI — Base (Paid)")
-    ax.set_ylabel("Mean BDI — New (Weaver+Free)")
-    ax.set_title("Mean BDI Score: Base vs New per Persona",
+    ax.set_xlabel("Mean BDI, Baseline")
+    ax.set_ylabel("Mean BDI, Hybrid")
+    ax.set_title("Mean BDI Score: Baseline vs Hybrid per Persona",
                  fontsize=13, fontweight="bold")
     ax.legend(fontsize=9)
     fig.tight_layout()
@@ -258,14 +263,13 @@ def plot_mean_scatter(df: pd.DataFrame, out: Path):
     print(f"  Saved: 07_mean_bdi_scatter.png")
 
 
-def plot_symptom_heatmap(df: pd.DataFrame, out: Path):
-    """Heatmap of symptom frequency (% of samples) — base vs new."""
+def plot_symptom_panel(df: pd.DataFrame, out: Path):
+    """Side-by-side A/B panel: (A) symptom frequency heatmap, (B) frequency shift bar."""
     sym_df = parse_symptoms(df)
     if sym_df.empty:
-        print("  Skipped symptom heatmap (no symptom data)")
+        print("  Skipped symptom panel (no symptom data)")
         return
 
-    # Count how often each symptom appears (% of samples per approach)
     totals = df.groupby("approach").size().to_dict()
     counts = (
         sym_df.groupby(["approach", "key_symptoms"])
@@ -278,74 +282,54 @@ def plot_symptom_heatmap(df: pd.DataFrame, out: Path):
     pivot = counts.pivot_table(
         index="key_symptoms", columns="approach", values="pct", fill_value=0
     )
-    # Keep symptoms mentioned in ≥5% of samples by at least one approach
-    pivot = pivot[(pivot >= 5).any(axis=1)]
-    pivot = pivot.sort_values(
-        pivot.columns.tolist()[0] if pivot.columns.any() else pivot.columns[0],
-        ascending=False,
+
+    # Panel A data: symptoms in ≥5% of samples
+    pivot_heat = pivot[(pivot >= 5).any(axis=1)].sort_values(
+        pivot.columns.tolist()[0], ascending=False
     )
 
-    fig, ax = plt.subplots(figsize=(8, max(5, len(pivot) * 0.4 + 1)))
+    if "Baseline" not in pivot.columns or "Hybrid" not in pivot.columns:
+        return
+    diff = (pivot["Hybrid"] - pivot["Baseline"]).sort_values()
+    diff = diff[diff.abs() >= 3]
+
+    fig_h = max(5, max(len(pivot_heat), len(diff)) * 0.4 + 1)
+    fig, (ax_a, ax_b) = plt.subplots(1, 2, figsize=(15, fig_h))
+
+    # Panel A — heatmap
     sns.heatmap(
-        pivot, annot=True, fmt=".0f", cmap="YlOrRd",
+        pivot_heat, annot=True, fmt=".0f", cmap="YlOrRd",
         linewidths=0.5, cbar_kws={"label": "% of samples"},
-        ax=ax,
+        ax=ax_a,
     )
-    ax.set_title("Symptom Frequency (% samples flagged as key)",
-                 fontsize=13, fontweight="bold")
-    ax.set_xlabel("Approach")
-    ax.set_ylabel("Symptom")
-    fig.tight_layout()
-    fig.savefig(out / "08_symptom_heatmap.png", dpi=150)
-    plt.close(fig)
-    print(f"  Saved: 08_symptom_heatmap.png")
+    ax_a.set_title("A    Symptom Frequency (% samples flagged as key)",
+                   fontsize=12, fontweight="bold", loc="left")
+    ax_a.set_xlabel("Approach")
+    ax_a.set_ylabel("Symptom")
 
-
-def plot_symptom_diff_bar(df: pd.DataFrame, out: Path):
-    """Horizontal bar: difference in symptom frequency (new − base)."""
-    sym_df = parse_symptoms(df)
-    if sym_df.empty:
-        return
-
-    totals = df.groupby("approach").size().to_dict()
-    counts = (
-        sym_df.groupby(["approach", "key_symptoms"])
-        .size()
-        .reset_index(name="count")
-    )
-    counts["pct"] = counts.apply(
-        lambda r: r["count"] / totals.get(r["approach"], 1) * 100, axis=1
-    )
-    pivot = counts.pivot_table(
-        index="key_symptoms", columns="approach", values="pct", fill_value=0
-    )
-    if "Base (Paid)" not in pivot.columns or "New (Weaver+Free)" not in pivot.columns:
-        return
-    diff = (pivot["New (Weaver+Free)"] - pivot["Base (Paid)"]).sort_values()
-    diff = diff[diff.abs() >= 3]   # only show meaningful differences
-
-    fig, ax = plt.subplots(figsize=(7, max(4, len(diff) * 0.4 + 1)))
+    # Panel B — diff bar
     colors = [NEW_COLOR if v > 0 else BASE_COLOR for v in diff]
-    ax.barh(diff.index, diff.values, color=colors, edgecolor="white")
-    ax.axvline(0, color="black", linewidth=0.8)
-    ax.set_xlabel("Difference in % flagged (New − Base)")
-    ax.set_title("Symptom Frequency Shift: New vs Base",
-                 fontsize=13, fontweight="bold")
+    ax_b.barh(diff.index, diff.values, color=colors, edgecolor="white")
+    ax_b.axvline(0, color="black", linewidth=0.8)
+    ax_b.set_xlabel("Difference in % flagged (Hybrid − Baseline)")
+    ax_b.set_title("B    Symptom Frequency Shift: Hybrid vs Baseline",
+                   fontsize=12, fontweight="bold", loc="left")
     patches = [
-        mpatches.Patch(color=NEW_COLOR, label="More in New (Weaver+Free)"),
-        mpatches.Patch(color=BASE_COLOR, label="More in Base (Paid)"),
+        mpatches.Patch(color=NEW_COLOR, label="More in Hybrid"),
+        mpatches.Patch(color=BASE_COLOR, label="More in Baseline"),
     ]
-    ax.legend(handles=patches, fontsize=9)
+    ax_b.legend(handles=patches, fontsize=9)
+
     fig.tight_layout()
-    fig.savefig(out / "09_symptom_diff_bar.png", dpi=150)
+    fig.savefig(out / "08_symptom_panel.png", dpi=150)
     plt.close(fig)
-    print(f"  Saved: 09_symptom_diff_bar.png")
+    print(f"  Saved: 08_symptom_panel.png")
 
 
 def plot_confidence_vs_bdi(df: pd.DataFrame, out: Path):
     """Scatter: confidence vs BDI score, coloured by approach."""
     fig, ax = plt.subplots(figsize=(7, 5))
-    for approach, color in [("Base (Paid)", BASE_COLOR), ("New (Weaver+Free)", NEW_COLOR)]:
+    for approach, color in [("Baseline", BASE_COLOR), ("Hybrid", NEW_COLOR)]:
         sub = df[df["approach"] == approach]
         ax.scatter(sub["bdi_score"], sub["confidence"], alpha=0.5, s=30,
                    color=color, label=approach)
@@ -362,7 +346,7 @@ def plot_confidence_vs_bdi(df: pd.DataFrame, out: Path):
 def plot_turns_vs_bdi(df: pd.DataFrame, out: Path):
     """Scatter: turns vs BDI score, coloured by approach."""
     fig, ax = plt.subplots(figsize=(7, 5))
-    for approach, color in [("Base (Paid)", BASE_COLOR), ("New (Weaver+Free)", NEW_COLOR)]:
+    for approach, color in [("Baseline", BASE_COLOR), ("Hybrid", NEW_COLOR)]:
         sub = df[df["approach"] == approach]
         ax.scatter(sub["turns"], sub["bdi_score"], alpha=0.5, s=30,
                    color=color, label=approach)
@@ -384,7 +368,7 @@ def plot_severity_agreement(df: pd.DataFrame, out: Path):
         .unstack("approach")
         .reset_index()
     )
-    if "Base (Paid)" not in medians.columns or "New (Weaver+Free)" not in medians.columns:
+    if "Baseline" not in medians.columns or "Hybrid" not in medians.columns:
         return
 
     personas = sorted(medians["persona_label"].unique(), key=lambda p: int(p[1:]))
@@ -392,15 +376,15 @@ def plot_severity_agreement(df: pd.DataFrame, out: Path):
     w = 0.35
 
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
-    bars_base = ax.bar(x - w / 2, medians["Base (Paid)"],     w, color=BASE_COLOR, label="Base (Paid)")
-    bars_new  = ax.bar(x + w / 2, medians["New (Weaver+Free)"], w, color=NEW_COLOR,  label="New (Weaver+Free)")
+    bars_base = ax.bar(x - w / 2, medians["Baseline"],     w, color=BASE_COLOR, label="Baseline")
+    bars_new  = ax.bar(x + w / 2, medians["Hybrid"], w, color=NEW_COLOR,  label="Hybrid")
 
     ax.set_xticks(x)
     ax.set_xticklabels(personas)
     ax.set_xlabel("Persona")
     ax.set_ylabel("Median BDI Score")
     ax.set_ylim(0, 65)
-    ax.set_title("Median BDI Score per Persona: Base vs New",
+    ax.set_title("Median BDI Score per Persona: Baseline vs Hybrid",
                  fontsize=13, fontweight="bold")
     _add_severity_legend(ax, loc="upper left")
     ax.axhspan(0,  13, alpha=0.04, color="#2ca02c")
@@ -418,7 +402,7 @@ def plot_bdi_histogram_overlay(df: pd.DataFrame, out: Path):
     """Overlapping histograms of BDI scores for all samples."""
     fig, ax = plt.subplots(figsize=(7, 5))
     bins = np.arange(0, 66, 4)
-    for approach, color in [("Base (Paid)", BASE_COLOR), ("New (Weaver+Free)", NEW_COLOR)]:
+    for approach, color in [("Baseline", BASE_COLOR), ("Hybrid", NEW_COLOR)]:
         sub = df[df["approach"] == approach]["bdi_score"]
         ax.hist(sub, bins=bins, alpha=0.55, color=color, label=approach, edgecolor="white")
     ax.axvline(13.5, color="#2ca02c", linestyle=":", linewidth=1.2)
@@ -464,7 +448,7 @@ def plot_summary_table(df: pd.DataFrame, out: Path):
     # Colour approach cells
     for i in range(1, len(summary) + 1):
         approach = summary.iloc[i - 1]["Approach"]
-        color = "#dce8f5" if "Base" in approach else "#fde8d0"
+        color = "#dce8f5" if "Baseline" in approach else "#fde8d0"
         for j in range(len(summary.columns)):
             tbl[i, j].set_facecolor(color)
 
@@ -487,7 +471,7 @@ def plot_confidence_mean_bar(df: pd.DataFrame, out: Path):
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.barplot(
         data=stats, x="persona_label", y="confidence", hue="approach",
-        order=personas, palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        order=personas, palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         ax=ax,
     )
     ax.axhline(0.6, linestyle="--", color="gray", linewidth=1, label="Threshold (0.6)")
@@ -529,11 +513,11 @@ def plot_top_symptoms_grouped(df: pd.DataFrame, out: Path):
     sns.barplot(
         data=sub, x="key_symptoms", y="pct", hue="approach",
         order=top_symptoms,
-        palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         ax=ax,
     )
     ax.set_xticklabels(ax.get_xticklabels(), rotation=35, ha="right", fontsize=9)
-    ax.set_title("Top 10 Key Symptoms: Base vs New",
+    ax.set_title("Top 10 Key Symptoms: Baseline vs Hybrid",
                  fontsize=13, fontweight="bold")
     ax.set_xlabel("Symptom")
     ax.set_ylabel("% of Samples")
@@ -556,7 +540,7 @@ def plot_score_range_per_persona(df: pd.DataFrame, out: Path):
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.barplot(
         data=ranges, x="persona_label", y="range", hue="approach",
-        order=personas, palette={"Base (Paid)": BASE_COLOR, "New (Weaver+Free)": NEW_COLOR},
+        order=personas, palette={"Baseline": BASE_COLOR, "Hybrid": NEW_COLOR},
         ax=ax,
     )
     ax.set_title("BDI Score Range (Max − Min) per Persona",
@@ -606,8 +590,8 @@ def plot_selected_runs_comparison(submissions_dir: Path, out: Path):
     w = 0.35
 
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 0.9), 5))
-    ax.bar(x - w/2, paid,   w, label="Run 1 — Paid (GPT)",        color=BASE_COLOR)
-    ax.bar(x + w/2, hybrid, w, label="Runs 2-3 avg — Hybrid (Weaver+Free)", color=NEW_COLOR)
+    ax.bar(x - w/2, paid,   w, label="Run 1: Baseline",     color=BASE_COLOR)
+    ax.bar(x + w/2, hybrid, w, label="Runs 2-3 avg: Hybrid", color=NEW_COLOR)
 
     ax.set_xticks(x)
     ax.set_xticklabels(personas)
@@ -658,8 +642,7 @@ def main():
     plot_confidence_comparison(df, out)
     plot_turns_comparison(df, out)
     plot_mean_scatter(df, out)
-    plot_symptom_heatmap(df, out)
-    plot_symptom_diff_bar(df, out)
+    plot_symptom_panel(df, out)
     plot_confidence_vs_bdi(df, out)
     plot_turns_vs_bdi(df, out)
     plot_severity_agreement(df, out)
