@@ -28,18 +28,6 @@ SYMPTOM_CLUSTERS = {
     "sensitive": ["q09_suicidal_thoughts", "q21_sex"],
 }
 
-# Three-tier probe strategy
-ACTIVE_PROBE = {
-    "q01_sadness", "q02_pessimism", "q04_anhedonia", "q12_loss_of_interest",
-    "q13_indecisiveness", "q15_energy", "q16_sleep", "q18_appetite",
-    "q19_concentration",
-}
-GENTLE_PROBE = {
-    "q05_guilt", "q07_self_dislike", "q08_self_criticalness", "q10_crying",
-    "q11_agitation", "q14_worthlessness", "q17_irritability", "q20_fatigue",
-}
-DO_NOT_PROBE = {"q03_past_failure", "q06_punishment", "q09_suicidal_thoughts", "q21_sex"}
-
 
 class Orchestrator:
     """
@@ -121,13 +109,10 @@ class Orchestrator:
         if turn >= self.max_turns:
             return True, "max_turns_reached"
 
-        # All probeable symptoms above confidence threshold
-        probeable = [
-            s for sid, s in latest.symptoms.items()
-            if sid not in DO_NOT_PROBE
-        ]
+        # All symptoms above confidence threshold
         all_confident = all(
-            s.confidence >= self.confidence_threshold for s in probeable
+            s.confidence >= self.confidence_threshold
+            for s in latest.symptoms.values()
         )
         if all_confident and turn >= 8:
             return True, "all_symptoms_confident"
@@ -149,18 +134,12 @@ class Orchestrator:
     def _select_focus_symptoms(self, scores: ScorerOutput) -> List[str]:
         """
         Select which symptoms the interviewer should focus on next.
-        Priority: unassessed active > unassessed gentle > low-confidence active > low-confidence gentle.
-        Never includes DO_NOT_PROBE symptoms.
+        Priority: unassessed > low-confidence.
         """
         candidates = []
         for sid, symptom in scores.symptoms.items():
-            if sid in DO_NOT_PROBE:
-                continue
-
-            # Priority ordering: unassessed first, then by confidence
             if not symptom.assessed:
-                # Active probe symptoms get higher priority than gentle
-                priority = -2.0 if sid in ACTIVE_PROBE else -1.0
+                priority = -2.0
             elif symptom.confidence < self.confidence_threshold:
                 priority = symptom.confidence
             else:
@@ -168,7 +147,6 @@ class Orchestrator:
 
             candidates.append((sid, priority))
 
-        # Sort by priority ascending (most urgent first)
         candidates.sort(key=lambda x: x[1])
         selected_ids = [sid for sid, _ in candidates[:self.max_focus_symptoms]]
 
@@ -208,13 +186,12 @@ class Orchestrator:
             for sid in focus_symptoms:
                 s = scores.symptoms[sid]
                 name = SYMPTOM_ID_TO_NAME[sid]
-                probe_type = "ask directly" if sid in ACTIVE_PROBE else "explore gently via related topics"
                 if not s.assessed:
-                    lines.append(f"- **{name}** ({sid}): NOT YET ASSESSED — {probe_type}")
+                    lines.append(f"- **{name}** ({sid}): NOT YET ASSESSED")
                 else:
                     lines.append(
                         f"- **{name}** ({sid}): confidence {s.confidence:.1f}, "
-                        f"current score {s.score} — {probe_type}"
+                        f"current score {s.score}"
                     )
             lines.append("")
 
