@@ -570,6 +570,58 @@ def plot_score_range_per_persona(df: pd.DataFrame, out: Path):
     print(f"  Saved: 17_score_range_per_persona.png")
 
 
+def plot_selected_runs_comparison(submissions_dir: Path, out: Path):
+    """Grouped bar chart: run-1 (paid) vs mean(run-2, run-3) (hybrid) per persona."""
+    import json, glob as _glob
+
+    records = []
+    for persona_dir in sorted(submissions_dir.glob("persona-*")):
+        m = re.match(r"persona-(\d+)$", persona_dir.name)
+        if not m:
+            continue
+        persona_id = int(m.group(1))
+        scores = {}
+        for run in ["run-1", "run-2", "run-3"]:
+            files = list(persona_dir.glob(f"{run}/results_{run.replace('-','')}.json"))
+            if files:
+                with open(files[0]) as f:
+                    scores[run] = json.load(f)[0]["bdi-score"]
+        if len(scores) == 3:
+            records.append({
+                "persona": f"P{persona_id}",
+                "paid": scores["run-1"],
+                "hybrid": (scores["run-2"] + scores["run-3"]) / 2,
+            })
+
+    if not records:
+        print("  Skipped selected_runs (no submissions found)")
+        return
+
+    records.sort(key=lambda r: int(r["persona"][1:]))
+    personas = [r["persona"] for r in records]
+    paid   = [r["paid"]   for r in records]
+    hybrid = [r["hybrid"] for r in records]
+
+    x = np.arange(len(personas))
+    w = 0.35
+
+    fig, ax = plt.subplots(figsize=(max(8, len(personas) * 0.9), 5))
+    ax.bar(x - w/2, paid,   w, label="Run 1 — Paid (GPT)",        color=BASE_COLOR)
+    ax.bar(x + w/2, hybrid, w, label="Runs 2-3 avg — Hybrid (Weaver+Free)", color=NEW_COLOR)
+
+    ax.set_xticks(x)
+    ax.set_xticklabels(personas)
+    ax.set_ylabel("BDI-II Score")
+    ax.set_title("Final Selected Runs: Paid vs Hybrid per Persona",
+                 fontsize=13, fontweight="bold")
+    ax.legend(fontsize=9)
+    ax.set_ylim(0, 65)
+    fig.tight_layout()
+    fig.savefig(out / "18_selected_runs_comparison.png", dpi=150)
+    plt.close(fig)
+    print("  Saved: 18_selected_runs_comparison.png")
+
+
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def _add_severity_legend(ax, loc="lower right"):
@@ -616,6 +668,7 @@ def main():
     plot_confidence_mean_bar(df, out)
     plot_top_symptoms_grouped(df, out)
     plot_score_range_per_persona(df, out)
+    plot_selected_runs_comparison(args.results_dir.parent / "submissions", out)
 
     print(f"\nDone. {len(list(out.glob('*.png')))} figures saved to {out}")
 

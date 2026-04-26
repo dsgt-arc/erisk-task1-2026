@@ -1,0 +1,99 @@
+[
+  {
+    "LLM": "20",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi there, it\u2019s really nice to meet you. How have you been feeling day to day, and what\u2019s something you\u2019ve enjoyed lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "I've been okay, just a bit tired all the time. I've been telling myself it's just the normal grind, but sometimes I wonder if I\u2019m just getting old. I did get a nice coffee cake yesterday, though, and that was a bright spot."
+      },
+      {
+        "role": "user",
+        "message": "That coffee cake moment sounds really nice\u2014it's good to have a small bright spot. You mentioned feeling tired and also some guilt and self-criticism cropping up at times. When those moments show up, how often do they come, and what helps you get through them, even if just a little?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s pretty frequent, honestly. I feel like I should be more productive or something. But usually, I just make a joke about being a slacker and move on. It\u2019s easier to laugh than to sit and worry about it."
+      },
+      {
+        "role": "user",
+        "message": "That sounds rough, I appreciate you sharing that. How often do you find yourself feeling more pessimistic about things, and notice you're less interested in people or activities you used to enjoy, or feeling down lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s been happening a bit more often. I saw a friend last week and I just felt like I was pretending. I thought, 'I should probably just go home and take a nap.' But I didn't, I just stayed and made a joke about it."
+      },
+      {
+        "role": "user",
+        "message": "Thanks for sharing that. Lately, have you been feeling sad more often, and have you noticed you don\u2019t enjoy the things you usually like as much?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I guess I have been feeling a bit down. I didn't realize it until I saw the photos from a birthday party last weekend and I just felt so... flat. It wasn't like me to sit there with a drink and just stare at my phone."
+      },
+      {
+        "role": "user",
+        "message": "Thanks for sharing that. In the past couple of weeks, have you noticed more pessimistic thoughts about the future, and less interest in people or activities you used to enjoy?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, definitely. I look at my friends who are doing their own things and I think, 'I should be doing that.' But then I think, 'I'm just too tired,' and I just sit there. It\u2019s not a good feeling."
+      },
+      {
+        "role": "user",
+        "message": "That makes sense given how you\u2019ve been handling things lately. Have you lately found it harder to make everyday decisions or to concentrate on tasks? And have there been changes in your sleep or appetite\u2014like sleeping more or less than usual, trouble waking up, or eating differently?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, it\u2019s been a struggle. I find myself staring at a page of work and just feeling so blank. And my sleep has been really weird. I wake up in the middle of the night and just lie there thinking about stuff."
+      },
+      {
+        "role": "user",
+        "message": "That makes sense given how you've been feeling lately. In the past little while, have you noticed crying spells or feeling noticeably unsettled or restless, and have you seen any changes in your appetite\u2014eating more or less than usual?"
+      },
+      {
+        "role": "assistant",
+        "message": "I did cry at a movie last weekend. I was laughing and then suddenly I just felt this lump in my throat and I had to get out of there. And yeah, my appetite is way off. I just can\u2019t seem to get excited about anything."
+      },
+      {
+        "role": "user",
+        "message": "You\u2019ve described feeling tired and a bit flat lately. Have you lately found it harder to make everyday decisions, even small ones, and have you noticed you\u2019re more irritable or restless than usual? If yes, about how often do these moments happen and how long do they tend to last?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, definitely. I get these little bursts of anger over nothing. Like, I saw a traffic jam and I just felt so angry at the world. But then I got home and I just sat there for a bit until I calmed down."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough, and I appreciate you sharing it. Have you ever felt worthless or like nothing you do matters, and if that happens, how often does it come up?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, I get those thoughts sometimes. I'll be doing something and I'll just think, 'What\u2019s the point?' But I usually shake it off pretty quickly. I don\u2019t like dwelling on it."
+      },
+      {
+        "role": "user",
+        "message": "That sounds really tough to carry around. When those thoughts of not being good at things or not seeing a point pop up, how often do they show up and what tends to trigger them?"
+      },
+      {
+        "role": "assistant",
+        "message": "They come up a lot, actually. I think it\u2019s just getting older and feeling like I should be doing more. It\u2019s hard to shake, but I try to just focus on getting through the day."
+      },
+      {
+        "role": "user",
+        "message": "Thanks for sharing that you\u2019ve been finding everyday decisions tougher lately. How often does indecision show up for you?"
+      },
+      {
+        "role": "assistant",
+        "message": "It\u2019s pretty frequent. I\u2019ll be standing in the kitchen and I\u2019ll just stare at the fridge, trying to decide what to make. It\u2019s annoying."
+      },
+      {
+        "role": "user",
+        "message": "Thank you so much for sharing so openly today. I really appreciate your honesty and the way you walked through what you've been feeling. Wishing you a calm, restful day ahead."
+      }
+    ]
+  }
+]

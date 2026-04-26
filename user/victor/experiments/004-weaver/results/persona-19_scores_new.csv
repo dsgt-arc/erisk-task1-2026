@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+19,free/sample-9,3,Minimal,0.29,9,Concentration difficulty; Tiredness or fatigue; Agitation
+19,free/sample-10,5,Minimal,0.30,7,Agitation; Loss of energy; Irritability; Concentration difficulty
+19,free/sample-20,5,Minimal,0.24,9,Sadness; Loss of energy; Changes in sleeping pattern; Concentration difficulty
+19,free/sample-5,5,Minimal,0.22,9,Concentration difficulty; Pessimism; Loss of energy; Changes in sleeping pattern
+19,free/sample-12,6,Minimal,0.20,9,Indecisiveness; Concentration difficulty; Pessimism; Loss of pleasure
+19,free/sample-14,6,Minimal,0.21,9,Concentration difficulty; Pessimism; Agitation; Loss of energy
+19,free/sample-15,7,Minimal,0.26,10,Sadness; Changes in sleeping pattern; Tiredness or fatigue; Pessimism
+19,free/sample-6,7,Minimal,0.29,11,Sadness; Guilty feelings; Loss of energy; Changes in sleeping pattern
+19,free/sample-1,8,Minimal,0.25,9,Sadness; Pessimism; Changes in sleeping pattern; Changes in appetite
+19,free/sample-13,8,Minimal,0.29,9,Changes in sleeping pattern; Loss of energy; Changes in appetite; Pessimism
+19,free/sample-17,8,Minimal,0.30,11,Tiredness or fatigue; Indecisiveness; Loss of interest in others; Changes in sleeping pattern
+19,free/sample-18,8,Minimal,0.31,10,Guilty feelings; Pessimism; Changes in sleeping pattern; Changes in appetite
+19,free/sample-3,8,Minimal,0.37,9,Tiredness or fatigue; Guilty feelings; Loss of energy; Changes in sleeping pattern
+19,free/sample-8,8,Minimal,0.35,10,Pessimism; Loss of energy; Changes in sleeping pattern; Guilty feelings
+19,free/sample-16,9,Minimal,0.30,10,Guilty feelings; Tiredness or fatigue; Sadness; Pessimism
+19,free/sample-2,10,Minimal,0.30,9,Pessimism; Guilty feelings; Agitation; Loss of energy
+19,free/sample-19,11,Minimal,0.33,9,Self-dislike; Self-criticalness; Sadness; Guilty feelings
+19,free/sample-4,11,Minimal,0.35,10,Sadness; Changes in sleeping pattern; Loss of energy; Concentration difficulty
+19,free/sample-7,13,Minimal,0.35,10,Self-dislike; Concentration difficulty; Pessimism; Guilty feelings
+19,free/sample-11,23,Moderate,0.46,11,Loss of pleasure; Loss of energy; Tiredness or fatigue; Sadness

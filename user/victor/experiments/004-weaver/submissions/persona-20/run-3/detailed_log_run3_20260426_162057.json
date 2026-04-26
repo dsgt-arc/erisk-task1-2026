@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 20,
+    "total_turns": 9,
+    "bdi_score": 20,
+    "severity": "Moderate",
+    "key_symptoms": [
+      "Concentration difficulty",
+      "Tiredness or fatigue",
+      "Loss of energy",
+      "Self-dislike"
+    ],
+    "confidence": 0.5976190476190478,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Describes mood as a bit up and down with moments of fatigue and not wanting to do anything."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "Does not like to think far ahead because it feels overwhelming."
+      },
+      "q03_past_failure": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "Had a big project fail last year and was hard on self for a while."
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Cooking is enjoyable; it\u2019s described as a stress-reliever."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Sometimes I feel guilty about leaving work early; I remind myself I\u2019m tired and it\u2019s okay to take a break."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "There are moments of thinking 'I should be doing more' and then I laugh it off."
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Says 'I should be doing more' and occasionally criticizes self, though generally tries to laugh it off."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicide."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "Not really; just mentions getting snappy."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Occasional snappiness toward sister; not on edge or explosive."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "Very quiet social life and saying no to things due to low energy."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "No explicit feeling of worthlessness."
+      },
+      "q15_energy": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Doesn\u2019t have the energy and indicates a need to recharge."
+      },
+      "q16_sleep": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "No discussion of sleep pattern changes."
+      },
+      "q17_irritability": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "Noting occasional snappiness; no persistent irritability."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.15,
+        "evidence": "Imputed from related symptoms (no direct discussion)"
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Hard to concentrate; distractible and needing to take a break."
+      },
+      "q20_fatigue": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Lack of energy, needing to recharge; social withdrawal due to fatigue."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No discussion of sexual interest."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.11428571428571428
+      },
+      {
+        "pass": 2,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.0880952380952381
+      },
+      {
+        "pass": 3,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.08095238095238096
+      },
+      {
+        "pass": 4,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.16666666666666666
+      },
+      {
+        "pass": 5,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.19047619047619047
+      },
+      {
+        "pass": 6,
+        "total_score": 10,
+        "severity": "Minimal",
+        "mean_confidence": 0.2857142857142857
+      },
+      {
+        "pass": 7,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.6309523809523808
+      },
+      {
+        "pass": 8,
+        "total_score": 14,
+        "severity": "Mild",
+        "mean_confidence": 0.4166666666666667
+      },
+      {
+        "pass": 9,
+        "total_score": 15,
+        "severity": "Mild",
+        "mean_confidence": 0.6761904761904763
+      },
+      {
+        "pass": 10,
+        "total_score": 16,
+        "severity": "Mild",
+        "mean_confidence": 0.5833333333333335
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been a bit up and down, to be honest. I have these moments where I\u2019m just tired and don't want to do anything, but then I snap out of it and get moving. It\u2019s not a constant thing, but it\u2019s been happening a lot lately.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I usually just try to focus on the immediate stuff, like getting these projects done. I don't really like to think too far ahead because it feels overwhelming.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "Cooking, mostly. I love trying new recipes and experimenting with flavors. It\u2019s a bit of a stress-reliever for me.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, sometimes. Like when I leave work at 5 and go home instead of staying late. I feel a bit lazy, but I remind myself that I\u2019m just tired, and it\u2019s okay to take a break.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. How do you feel about yourself overall? Are you generally okay with who you are, or do you find yourself being quite critical?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m mostly okay, but I do have those moments where I\u2019m like, \"I should be doing more.\" I usually just laugh it off and tell myself to stop being dramatic.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you\u2019re pretty good at recognizing when you\u2019re being hard on yourself, which is great. Sometimes we can be our own toughest critics, though. Thinking back over things, have there been times when you felt like you really fell short of expectations \u2013 maybe something from the past that still bothers you a little?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I had a big project fail last year and I was really hard on myself for a while. But I talked it out with a friend and we laughed about it, and it really helped put things into perspective.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you found yourself getting more emotional than usual? Like tearing up or crying more often?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "Not really. I just get a bit snappy sometimes. Like with my sister over the weekend. I said something snide, and she looked at me like I was crazy. I felt awful, but we talked it out and it\u2019s all good now.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been pretty quiet lately. I've been saying no to things because I just don't have the energy. I feel bad about it, but I just need to recharge.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been hard. I get distracted easily and can\u2019t stay focused. I just have to take a step back, grab a coffee, and try again.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you've been navigating a lot lately, balancing work, personal expectations, and needing some downtime to recharge. I really appreciate you sharing all of this with me \u2013 it takes courage to be so open. I\u2019m going to wrap things up here, but thank you again for your time and for talking with me today. I wish you all the best.",
+        "turn": 10
+      }
+    ]
+  }
+]

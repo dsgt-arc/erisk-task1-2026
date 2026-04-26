@@ -1,0 +1,297 @@
+[
+  {
+    "persona_id": 19,
+    "total_turns": 10,
+    "bdi_score": 8,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Guilty feelings",
+      "Pessimism",
+      "Changes in sleeping pattern",
+      "Changes in appetite"
+    ],
+    "confidence": 0.30714285714285716,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "No, not really. I get a bit emotional sometimes, but it\u2019s usually just about the wedding. I'm not feeling down about life in general."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "Is this really worth all the stress? I know I'll get through it."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.85,
+        "evidence": "I still enjoy trying out new recipes... And seeing my friends is always great."
+      },
+      "q05_guilt": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "A little, maybe. I'll think, 'Why didn't I just make a list?'"
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q08_self_criticalness": {
+        "score": 1,
+        "confidence": 0.3,
+        "evidence": "Why didn't I just make a list?"
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I'm managing okay, I think. I just need a nap after the wedding meetings."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "It's been a bit hit-or-miss, honestly. I usually get to sleep okay, but sometimes I\u2019m lying there thinking about the seating chart."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "I\u2019m eating the same, just maybe not as much. I\u2019m not starving or anything. I just prefer a smaller plate these days."
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "It\u2019s just... slower, I guess. I have to really focus on the task to stay on track."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I just need a nap after the wedding meetings."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript"
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.0
+      },
+      {
+        "pass": 2,
+        "total_score": 0,
+        "severity": "Minimal",
+        "mean_confidence": 0.13333333333333333
+      },
+      {
+        "pass": 3,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.05714285714285714
+      },
+      {
+        "pass": 4,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.11904761904761904
+      },
+      {
+        "pass": 5,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.13095238095238096
+      },
+      {
+        "pass": 6,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.2261904761904762
+      },
+      {
+        "pass": 7,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.2214285714285714
+      },
+      {
+        "pass": 8,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.30000000000000004
+      },
+      {
+        "pass": 9,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.25
+      },
+      {
+        "pass": 10,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.3071428571428571
+      },
+      {
+        "pass": 11,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.30714285714285716
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been a bit of a rollercoaster, to be honest. Some days I wake up feeling really positive, and then other days I\u2019m just...me. *laughs* But I don\u2019t think it\u2019s anything serious, just normal wedding stress.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I still enjoy trying out new recipes, actually. It\u2019s a nice break from the wedding planning to just focus on something simple. And seeing my friends is always great, even if we just grab coffee.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I hear you. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I'm managing okay, I think. I just need a nap after the wedding meetings, that\u2019s all. *smiles* I\u2019m not complaining, it\u2019s just a lot to take in.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I get excited, obviously! But sometimes I catch myself thinking, \"Is this really worth all the stress?\" *laughs* It\u2019s just a normal moment, though. I know I'll get through it.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I'm still going out, just not as much as usual. I don't want to be one of those brides who's always talking about the wedding, you know? *smiles* I like to keep things balanced.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been a bit hit-or-miss, honestly. I usually get to sleep okay, but sometimes I\u2019m lying there thinking about the seating chart *laughs*. It\u2019s nothing major, though.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I'm still getting things done, so that's good. It\u2019s just... slower, I guess. I have to really focus on the task to stay on track. *smiles* It\u2019s not a big deal.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you for sharing that. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m eating the same, just maybe not as much. I\u2019m not starving or anything. *laughs* I just prefer a smaller plate these days, I suppose.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Do you find yourself feeling guilty a lot? About things you've done, or sometimes just in general?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "A little, maybe. I'll think, \"Why didn't I just make a list?\" *laughs* But it\u2019s not a big deal. I know I'm just trying to balance everything.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're doing a great job of navigating a lot right now. Thinking about how you *feel* generally \u2013 not about the wedding stress specifically \u2013 have you been feeling particularly sad or down lately? It's okay if you have, lots of things can bring those feelings up.",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "No, not really. I get a bit emotional sometimes, but it\u2019s usually just about the wedding. I'm not feeling down about life in general. *smiles*",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "Well, it sounds like you\u2019re really handling everything with a lot of grace and a good sense of humor, which is wonderful. I really appreciate you taking the time to chat with me today and sharing what\u2019s been going on \u2013 it takes courage to be so open. I wish you all the best with the wedding planning and everything else life brings your way!",
+        "turn": 11
+      }
+    ]
+  }
+]

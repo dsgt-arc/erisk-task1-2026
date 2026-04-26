@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 19,
+    "total_turns": 9,
+    "bdi_score": 9,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Sadness",
+      "Pessimism",
+      "Loss of pleasure",
+      "Loss of interest in others"
+    ],
+    "confidence": 0.4166666666666667,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I had a moment last week where I just wanted to sit on the couch and stare at the wall. It was a bit of a low point."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I'll catch myself thinking, 'Ugh, I'm never going to get it all done.' But it's just a fleeting thought, and I remind myself I've got this."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 1,
+        "confidence": 0.85,
+        "evidence": "I\u2019m still doing them, just maybe not with the same level of enthusiasm. I used to look forward to trying out new recipes, but now it feels like just another thing on the list."
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.9,
+        "evidence": "no, I don't really beat myself up over it."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q12_loss_of_interest": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I\u2019m still doing them, just maybe not with the same level of enthusiasm."
+      },
+      "q13_indecisiveness": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "I\u2019m definitely a bit more picky about what I do."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I\u2019m okay, just a bit tired."
+      },
+      "q16_sleep": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I don't have trouble falling asleep, just maybe getting up. It's not a big deal."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q18_appetite": {
+        "score": 0,
+        "confidence": 0.85,
+        "evidence": "my appetite is the same, really\u2014just eating because I\u2019m hungry, not really enjoying it as much."
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I get a bit distracted sometimes, but it\u2019s just normal busy-ness, I think."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I\u2019m okay, just a bit tired."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.02857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.0642857142857143
+      },
+      {
+        "pass": 3,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.0857142857142857
+      },
+      {
+        "pass": 4,
+        "total_score": 6,
+        "severity": "Minimal",
+        "mean_confidence": 0.1880952380952381
+      },
+      {
+        "pass": 5,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.27142857142857146
+      },
+      {
+        "pass": 6,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.2404761904761905
+      },
+      {
+        "pass": 7,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.28095238095238095
+      },
+      {
+        "pass": 8,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.6285714285714287
+      },
+      {
+        "pass": 9,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.28904761904761905
+      },
+      {
+        "pass": 10,
+        "total_score": 9,
+        "severity": "Minimal",
+        "mean_confidence": 0.4166666666666667
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to talk with you. How have you been feeling lately, in general? And what have you been enjoying lately\u2014anything that still brings a bit of spark, or has that been hard to come by?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m okay, just a bit tired. The wedding planning is a lot, but it\u2019s mostly good stress, you know? I\u2019m just trying to keep up with the lists and make sure everyone has a good time.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a lot to manage, and wedding planning can be exhausting. Have you noticed any times recently when you felt sad, or when things you usually enjoy just didn\u2019t feel appealing, or when you felt less interested in spending time with others?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I had a moment last week where I just wanted to sit on the couch and stare at the wall. It was a bit of a low point. But I snapped out of it pretty quickly, so I don't worry about it too much.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That moment on the couch sounds rough, thanks for sharing that. Have you been feeling more pessimistic about things lately?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "A little, yeah. I'll catch myself thinking, 'Ugh, I'm never going to get it all done.' But it's just a fleeting thought, and I remind myself I've got this. It\u2019s not a big deal.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense with all the wedding planning\u2014thanks for sharing how you\u2019re feeling. Have you noticed any changes in how much you enjoy activities you usually like, or in how interested you are in spending time with others, and has indecision been a bit tougher for you lately?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m still doing them, just maybe not with the same level of enthusiasm. I used to look forward to trying out new recipes, but now it feels like just another thing on the list. And I\u2019m definitely a bit more picky about what I do.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense with everything you're juggling. Have you noticed any changes in how you concentrate or feel you can make decisions, or in your sleep patterns or appetite lately?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I get a bit distracted sometimes, but it\u2019s just normal busy-ness, I think. I'm sleeping okay, and my appetite is fine, just a bit less...excitable.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense with everything you\u2019re juggling. Could you tell me a bit more about your sleep lately\u2014whether you\u2019re waking rested or feeling more tired\u2014and about your appetite\u2014have there been any changes in how much you\u2019re eating or when you feel hungry?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "I wake up feeling okay, just a bit slow to get going. It's not a big deal, I just get on with it. And my appetite is the same, really\u2014just eating because I'm hungry, not really enjoying it as much.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense given everything you\u2019re juggling. Could you tell me more about your sleep lately\u2014do you wake rested or still feel slow to get going\u2014and has your appetite changed at all, like how much you\u2019re eating or when you feel hungry?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I wake up feeling fine, just a bit slow to start. It\u2019s not a big deal, I just get on with it. And my appetite is the same, really\u2014just eating because I\u2019m hungry, not really enjoying it as much.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. About sleep, you wake up feeling fine but start the day a bit slow\u2014has that shift been happening more lately with all the planning, or do you sometimes have trouble falling asleep or staying asleep? And when those slow mornings pop up, do you notice guilt or self-criticism creeping in\u2014like judging yourself for what you didn\u2019t get done?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I don't have trouble falling asleep, just maybe getting up. It's not a big deal. And no, I don't really beat myself up over it. I just get on with it.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds like a lot to juggle, and I appreciate you sharing how things feel. When those moments come up where you feel like you're not doing things well, how often do they happen, and do they affect how you start or finish tasks?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "It happens maybe once a week, just a passing thought. It doesn't really hold me back, I just...push through.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing your experiences today. I really appreciate your openness and how you\u2019re navigating everything you\u2019ve got on your plate. Wishing you all the best with the wedding planning and the days ahead\u2014take care.",
+        "turn": 10
+      }
+    ]
+  }
+]

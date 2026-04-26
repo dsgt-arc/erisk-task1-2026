@@ -1,0 +1,21 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+20,free/sample-18,0,Minimal,0.00,13,
+20,free/sample-2,8,Minimal,0.26,8,Crying; Guilty feelings; Pessimism; Agitation
+20,free/sample-5,13,Minimal,0.69,10,Concentration difficulty; Agitation; Crying; Irritability
+20,free/sample-13,15,Mild,0.40,10,Agitation; Irritability; Loss of energy; Guilty feelings
+20,free/sample-10,16,Mild,0.77,12,Loss of energy; Concentration difficulty; Tiredness or fatigue; Loss of interest in others
+20,free/sample-3,16,Mild,0.69,17,Loss of energy; Self-dislike; Irritability; Concentration difficulty
+20,free/sample-1,17,Mild,0.50,11,Concentration difficulty; Loss of energy; Tiredness or fatigue; Past failure
+20,free/sample-12,20,Moderate,0.71,12,Concentration difficulty; Agitation; Loss of energy; Irritability
+20,free/sample-15,20,Moderate,0.43,11,Crying; Agitation; Changes in sleeping pattern; Irritability
+20,free/sample-16,20,Moderate,0.60,9,Concentration difficulty; Tiredness or fatigue; Loss of energy; Self-dislike
+20,free/sample-14,21,Moderate,0.57,14,Past failure; Loss of energy; Tiredness or fatigue; Indecisiveness
+20,free/sample-19,21,Moderate,0.43,17,Tiredness or fatigue; Self-criticalness; Worthlessness; Loss of energy
+20,free/sample-20,25,Moderate,0.47,12,Changes in appetite; Agitation; Concentration difficulty; Self-criticalness
+20,free/sample-7,26,Moderate,0.60,14,Loss of energy; Changes in sleeping pattern; Tiredness or fatigue; Agitation
+20,free/sample-4,27,Moderate,0.59,15,Crying; Agitation; Changes in sleeping pattern; Irritability
+20,free/sample-17,28,Moderate,0.50,13,Loss of pleasure; Loss of interest in others; Loss of energy; Irritability
+20,free/sample-9,28,Moderate,0.50,14,Loss of energy; Tiredness or fatigue; Crying; Self-criticalness
+20,free/sample-8,29,Severe,0.54,13,Concentration difficulty; Tiredness or fatigue; Past failure; Punishment feelings
+20,free/sample-6,32,Severe,0.56,16,Self-dislike; Loss of energy; Changes in sleeping pattern; Tiredness or fatigue
+20,free/sample-11,37,Severe,0.57,16,Loss of energy; Tiredness or fatigue; Sadness; Concentration difficulty

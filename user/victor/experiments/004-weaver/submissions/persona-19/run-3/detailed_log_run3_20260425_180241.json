@@ -1,0 +1,281 @@
+[
+  {
+    "persona_id": 19,
+    "total_turns": 9,
+    "bdi_score": 8,
+    "severity": "Minimal",
+    "key_symptoms": [
+      "Changes in sleeping pattern",
+      "Loss of energy",
+      "Changes in appetite",
+      "Pessimism"
+    ],
+    "confidence": 0.28809523809523807,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 0,
+        "confidence": 0.8,
+        "evidence": "I don\u2019t really feel sad or down, which is nice. I just...feel a bit flat, I suppose. It\u2019s not a bad feeling, just a bit...meh."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.65,
+        "evidence": "I think I\u2019m a bit anxious about the logistics, but I know it\u2019ll all come together. I just need to focus on the planning, and I'll be fine."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 0,
+        "confidence": 0.7,
+        "evidence": "I\u2019ve been keeping up with my yoga, which is great. And I love catching up with my friends, even if it\u2019s just a quick call."
+      },
+      "q05_guilt": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q08_self_criticalness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q10_crying": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q11_agitation": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I\u2019ll be sitting there and suddenly I'll just feel this heavy, nervous energy."
+      },
+      "q12_loss_of_interest": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q13_indecisiveness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q14_worthlessness": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.75,
+        "evidence": "I don\u2019t have the same spring in my step as usual"
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.65,
+        "evidence": "It\u2019s just a bit...restless, I guess. I wake up a lot, but I usually fall back asleep pretty quickly."
+      },
+      "q17_irritability": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q18_appetite": {
+        "score": 1,
+        "confidence": 0.7,
+        "evidence": "I\u2019m eating, so that\u2019s good. I might not be as hungry as I used to be, but I\u2019m not going hungry or anything."
+      },
+      "q19_concentration": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "It\u2019s a bit of a struggle. I have to make myself sit down and focus. But once I\u2019m in it, I\u2019m fine."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "I don\u2019t have the same spring in my step as usual."
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.02857142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 1,
+        "severity": "Minimal",
+        "mean_confidence": 0.1
+      },
+      {
+        "pass": 3,
+        "total_score": 2,
+        "severity": "Minimal",
+        "mean_confidence": 0.14047619047619048
+      },
+      {
+        "pass": 4,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.0857142857142857
+      },
+      {
+        "pass": 5,
+        "total_score": 4,
+        "severity": "Minimal",
+        "mean_confidence": 0.11428571428571428
+      },
+      {
+        "pass": 6,
+        "total_score": 5,
+        "severity": "Minimal",
+        "mean_confidence": 0.16428571428571428
+      },
+      {
+        "pass": 7,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.18333333333333335
+      },
+      {
+        "pass": 8,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.25476190476190474
+      },
+      {
+        "pass": 9,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.30714285714285716
+      },
+      {
+        "pass": 10,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.28809523809523807
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "How have you been feeling in general lately? Has your mood been pretty steady, or has it been kind of all over the place?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I'd say it\u2019s mostly steady, but I do have moments where I just feel a bit...off. Like, I'll be sitting there and suddenly I'll just feel this heavy, nervous energy. It\u2019s weird, but I think it\u2019s just normal stuff.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. What kinds of things do you find yourself enjoying these days? Hobbies, time with people, specific activities \u2014 what brings you a sense of satisfaction?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019ve been keeping up with my yoga, which is great. It helps me clear my head. And I love catching up with my friends, even if it\u2019s just a quick call. It\u2019s nice to have a distraction.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "I appreciate you telling me that. When you think about what's coming up \u2014 whether it's next week, next month, or further ahead \u2014 how do you generally feel about it?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "I think I\u2019m a bit anxious about the logistics, but I know it\u2019ll all come together. I just need to focus on the planning, and I'll be fine.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. How's your energy level been? Are you able to tackle tasks and activities, or do you find yourself dragging?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "I'm getting through it. I don't have the same spring in my step as usual, but I'm managing. I just need to make sure I get enough sleep, and I'm fine.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. Have you been spending time with people, or has that kind of taken a back seat? How's your social life feeling?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "I'm still going out, just a bit less often. I don't want to be that person who is always talking about my stress, you know? I'd rather just enjoy the time I have.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense. Do you find it easy to focus on things \u2014 work, reading, conversations? Or has it been harder to concentrate lately?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s a bit of a struggle. I have to make myself sit down and focus. But once I\u2019m in it, I\u2019m fine. It\u2019s just the starting that takes a bit of effort.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough. How has your sleep been? Are you sleeping okay, having trouble falling asleep, or waking up too early?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m sleeping, so that\u2019s a good thing. It\u2019s just a bit...restless, I guess. I wake up a lot, but I usually fall back asleep pretty quickly.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "It sounds like you're doing a good job of managing things, even with the restless sleep and the effort it takes to focus. Thinking about how you *feel* inside \u2013 beyond just managing \u2013 have you noticed yourself feeling particularly sad or down lately? It's okay if you haven't, I'm just checking in about how things are for you overall.",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "I don't really feel sad or down, which is nice. I just...feel a bit flat, I suppose. It\u2019s not a bad feeling, just a bit...meh. I know I'll get back to normal eventually.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for being so open. Have you noticed any changes in your appetite or eating habits lately? More, less, or about the same?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "I\u2019m eating, so that\u2019s good. I might not be as hungry as I used to be, but I\u2019m not going hungry or anything. I just eat when I feel like it, which is...fine, I guess.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "Well, it sounds like you\u2019re navigating a lot, and I really appreciate you sharing all of this with me. It takes courage to talk about these things, and you\u2019ve been very thoughtful in your responses. I\u2019m glad to hear you\u2019re still engaging in activities you enjoy, and that you\u2019re able to connect with friends. Thank you for your time today \u2013 I wish you all the best.",
+        "turn": 10
+      }
+    ]
+  }
+]

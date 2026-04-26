@@ -1,0 +1,83 @@
+[
+  {
+    "LLM": "19",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi there, it\u2019s really nice to talk with you. How have you been feeling lately, in general? And what have you been enjoying lately\u2014anything that still brings a bit of spark, or has that been hard to come by?"
+      },
+      {
+        "role": "assistant",
+        "message": "I\u2019m okay, just a bit tired. The wedding planning is a lot, but it\u2019s mostly good stress, you know? I\u2019m just trying to keep up with the lists and make sure everyone has a good time."
+      },
+      {
+        "role": "user",
+        "message": "That sounds like a lot to manage, and wedding planning can be exhausting. Have you noticed any times recently when you felt sad, or when things you usually enjoy just didn\u2019t feel appealing, or when you felt less interested in spending time with others?"
+      },
+      {
+        "role": "assistant",
+        "message": "Yeah, definitely. I had a moment last week where I just wanted to sit on the couch and stare at the wall. It was a bit of a low point. But I snapped out of it pretty quickly, so I don't worry about it too much."
+      },
+      {
+        "role": "user",
+        "message": "That moment on the couch sounds rough, thanks for sharing that. Have you been feeling more pessimistic about things lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "A little, yeah. I'll catch myself thinking, 'Ugh, I'm never going to get it all done.' But it's just a fleeting thought, and I remind myself I've got this. It\u2019s not a big deal."
+      },
+      {
+        "role": "user",
+        "message": "That makes sense with all the wedding planning\u2014thanks for sharing how you\u2019re feeling. Have you noticed any changes in how much you enjoy activities you usually like, or in how interested you are in spending time with others, and has indecision been a bit tougher for you lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "I\u2019m still doing them, just maybe not with the same level of enthusiasm. I used to look forward to trying out new recipes, but now it feels like just another thing on the list. And I\u2019m definitely a bit more picky about what I do."
+      },
+      {
+        "role": "user",
+        "message": "That makes sense with everything you're juggling. Have you noticed any changes in how you concentrate or feel you can make decisions, or in your sleep patterns or appetite lately?"
+      },
+      {
+        "role": "assistant",
+        "message": "I get a bit distracted sometimes, but it\u2019s just normal busy-ness, I think. I'm sleeping okay, and my appetite is fine, just a bit less...excitable."
+      },
+      {
+        "role": "user",
+        "message": "That makes sense with everything you\u2019re juggling. Could you tell me a bit more about your sleep lately\u2014whether you\u2019re waking rested or feeling more tired\u2014and about your appetite\u2014have there been any changes in how much you\u2019re eating or when you feel hungry?"
+      },
+      {
+        "role": "assistant",
+        "message": "I wake up feeling okay, just a bit slow to get going. It's not a big deal, I just get on with it. And my appetite is the same, really\u2014just eating because I'm hungry, not really enjoying it as much."
+      },
+      {
+        "role": "user",
+        "message": "That makes sense given everything you\u2019re juggling. Could you tell me more about your sleep lately\u2014do you wake rested or still feel slow to get going\u2014and has your appetite changed at all, like how much you\u2019re eating or when you feel hungry?"
+      },
+      {
+        "role": "assistant",
+        "message": "I wake up feeling fine, just a bit slow to start. It\u2019s not a big deal, I just get on with it. And my appetite is the same, really\u2014just eating because I\u2019m hungry, not really enjoying it as much."
+      },
+      {
+        "role": "user",
+        "message": "That makes sense. About sleep, you wake up feeling fine but start the day a bit slow\u2014has that shift been happening more lately with all the planning, or do you sometimes have trouble falling asleep or staying asleep? And when those slow mornings pop up, do you notice guilt or self-criticism creeping in\u2014like judging yourself for what you didn\u2019t get done?"
+      },
+      {
+        "role": "assistant",
+        "message": "I don't have trouble falling asleep, just maybe getting up. It's not a big deal. And no, I don't really beat myself up over it. I just get on with it."
+      },
+      {
+        "role": "user",
+        "message": "That sounds like a lot to juggle, and I appreciate you sharing how things feel. When those moments come up where you feel like you're not doing things well, how often do they happen, and do they affect how you start or finish tasks?"
+      },
+      {
+        "role": "assistant",
+        "message": "It happens maybe once a week, just a passing thought. It doesn't really hold me back, I just...push through."
+      },
+      {
+        "role": "user",
+        "message": "Thank you so much for sharing your experiences today. I really appreciate your openness and how you\u2019re navigating everything you\u2019ve got on your plate. Wishing you all the best with the wedding planning and the days ahead\u2014take care."
+      }
+    ]
+  }
+]

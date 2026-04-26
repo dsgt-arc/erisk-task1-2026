@@ -1,0 +1,313 @@
+[
+  {
+    "persona_id": 20,
+    "total_turns": 11,
+    "bdi_score": 28,
+    "severity": "Moderate",
+    "key_symptoms": [
+      "Sadness",
+      "Loss of pleasure",
+      "Guilty feelings",
+      "Self-criticalness"
+    ],
+    "confidence": 0.5404761904761903,
+    "final_assessment": {
+      "q01_sadness": {
+        "score": 2,
+        "confidence": 0.8,
+        "evidence": "Yeah, I guess I have been feeling a bit down. I didn't realize it until I saw the photos from a birthday party last weekend and I just felt so... flat."
+      },
+      "q02_pessimism": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "I feel like I should be more productive or something."
+      },
+      "q03_past_failure": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q04_anhedonia": {
+        "score": 2,
+        "confidence": 0.75,
+        "evidence": "Yeah, I guess I have been feeling a bit down... I just can't seem to get excited about anything."
+      },
+      "q05_guilt": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "It's pretty frequent, honestly. I feel like I should be more productive or something."
+      },
+      "q06_punishment": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      },
+      "q07_self_dislike": {
+        "score": 1,
+        "confidence": 0.5,
+        "evidence": "But usually, I just make a joke about being a slacker."
+      },
+      "q08_self_criticalness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I should be doing more."
+      },
+      "q09_suicidal_thoughts": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No mention of self-harm or suicidal ideation."
+      },
+      "q10_crying": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I did cry at a movie last weekend. I was laughing and then suddenly I just felt this lump in my throat and I had to get out of there."
+      },
+      "q11_agitation": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I get these little bursts of anger over nothing. Like, I saw a traffic jam and I just felt so angry at the world."
+      },
+      "q12_loss_of_interest": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "I look at my friends who are doing their own things and I think, 'I should be doing that.' But then I think, 'I'm just too tired,' and I just sit there. It\u2019s not a good feeling."
+      },
+      "q13_indecisiveness": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "It\u2019s pretty frequent. I\u2019ll be standing in the kitchen and I\u2019ll just stare at the fridge, trying to decide what to make."
+      },
+      "q14_worthlessness": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "\"What\u2019s the point?\""
+      },
+      "q15_energy": {
+        "score": 1,
+        "confidence": 0.8,
+        "evidence": "I've been okay, just a bit tired all the time."
+      },
+      "q16_sleep": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "my sleep has been really weird. I wake up in the middle of the night and just lie there thinking about stuff."
+      },
+      "q17_irritability": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I get these little bursts of anger over nothing."
+      },
+      "q18_appetite": {
+        "score": 2,
+        "confidence": 0.6,
+        "evidence": "my appetite is way off. I just can\u2019t seem to get excited about anything."
+      },
+      "q19_concentration": {
+        "score": 2,
+        "confidence": 0.7,
+        "evidence": "I find myself staring at a page of work and just feeling so blank."
+      },
+      "q20_fatigue": {
+        "score": 1,
+        "confidence": 0.6,
+        "evidence": "\"bit tired all the time\""
+      },
+      "q21_sex": {
+        "score": 0,
+        "confidence": 0.0,
+        "evidence": "No relevant discussion in transcript."
+      }
+    },
+    "scorer_history": [
+      {
+        "pass": 1,
+        "total_score": 3,
+        "severity": "Minimal",
+        "mean_confidence": 0.557142857142857
+      },
+      {
+        "pass": 2,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.18095238095238095
+      },
+      {
+        "pass": 3,
+        "total_score": 8,
+        "severity": "Minimal",
+        "mean_confidence": 0.17857142857142858
+      },
+      {
+        "pass": 4,
+        "total_score": 7,
+        "severity": "Minimal",
+        "mean_confidence": 0.16428571428571428
+      },
+      {
+        "pass": 5,
+        "total_score": 13,
+        "severity": "Minimal",
+        "mean_confidence": 0.26428571428571423
+      },
+      {
+        "pass": 6,
+        "total_score": 17,
+        "severity": "Mild",
+        "mean_confidence": 0.3476190476190476
+      },
+      {
+        "pass": 7,
+        "total_score": 20,
+        "severity": "Moderate",
+        "mean_confidence": 0.37857142857142856
+      },
+      {
+        "pass": 8,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.5095238095238095
+      },
+      {
+        "pass": 9,
+        "total_score": 26,
+        "severity": "Moderate",
+        "mean_confidence": 0.4666666666666665
+      },
+      {
+        "pass": 10,
+        "total_score": 31,
+        "severity": "Severe",
+        "mean_confidence": 0.5095238095238095
+      },
+      {
+        "pass": 11,
+        "total_score": 29,
+        "severity": "Severe",
+        "mean_confidence": 0.5952380952380953
+      },
+      {
+        "pass": 12,
+        "total_score": 28,
+        "severity": "Moderate",
+        "mean_confidence": 0.5404761904761903
+      }
+    ],
+    "messages": [
+      {
+        "role": "interviewer",
+        "content": "Hi there, it\u2019s really nice to meet you. How have you been feeling day to day, and what\u2019s something you\u2019ve enjoyed lately?",
+        "turn": 1
+      },
+      {
+        "role": "persona",
+        "content": "I've been okay, just a bit tired all the time. I've been telling myself it's just the normal grind, but sometimes I wonder if I\u2019m just getting old. I did get a nice coffee cake yesterday, though, and that was a bright spot.",
+        "turn": 1
+      },
+      {
+        "role": "interviewer",
+        "content": "That coffee cake moment sounds really nice\u2014it's good to have a small bright spot. You mentioned feeling tired and also some guilt and self-criticism cropping up at times. When those moments show up, how often do they come, and what helps you get through them, even if just a little?",
+        "turn": 2
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s pretty frequent, honestly. I feel like I should be more productive or something. But usually, I just make a joke about being a slacker and move on. It\u2019s easier to laugh than to sit and worry about it.",
+        "turn": 2
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds rough, I appreciate you sharing that. How often do you find yourself feeling more pessimistic about things, and notice you're less interested in people or activities you used to enjoy, or feeling down lately?",
+        "turn": 3
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s been happening a bit more often. I saw a friend last week and I just felt like I was pretending. I thought, 'I should probably just go home and take a nap.' But I didn't, I just stayed and made a joke about it.",
+        "turn": 3
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing that. Lately, have you been feeling sad more often, and have you noticed you don\u2019t enjoy the things you usually like as much?",
+        "turn": 4
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I guess I have been feeling a bit down. I didn't realize it until I saw the photos from a birthday party last weekend and I just felt so... flat. It wasn't like me to sit there with a drink and just stare at my phone.",
+        "turn": 4
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing that. In the past couple of weeks, have you noticed more pessimistic thoughts about the future, and less interest in people or activities you used to enjoy?",
+        "turn": 5
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I look at my friends who are doing their own things and I think, 'I should be doing that.' But then I think, 'I'm just too tired,' and I just sit there. It\u2019s not a good feeling.",
+        "turn": 5
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense given how you\u2019ve been handling things lately. Have you lately found it harder to make everyday decisions or to concentrate on tasks? And have there been changes in your sleep or appetite\u2014like sleeping more or less than usual, trouble waking up, or eating differently?",
+        "turn": 6
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, it\u2019s been a struggle. I find myself staring at a page of work and just feeling so blank. And my sleep has been really weird. I wake up in the middle of the night and just lie there thinking about stuff.",
+        "turn": 6
+      },
+      {
+        "role": "interviewer",
+        "content": "That makes sense given how you've been feeling lately. In the past little while, have you noticed crying spells or feeling noticeably unsettled or restless, and have you seen any changes in your appetite\u2014eating more or less than usual?",
+        "turn": 7
+      },
+      {
+        "role": "persona",
+        "content": "I did cry at a movie last weekend. I was laughing and then suddenly I just felt this lump in my throat and I had to get out of there. And yeah, my appetite is way off. I just can\u2019t seem to get excited about anything.",
+        "turn": 7
+      },
+      {
+        "role": "interviewer",
+        "content": "You\u2019ve described feeling tired and a bit flat lately. Have you lately found it harder to make everyday decisions, even small ones, and have you noticed you\u2019re more irritable or restless than usual? If yes, about how often do these moments happen and how long do they tend to last?",
+        "turn": 8
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, definitely. I get these little bursts of anger over nothing. Like, I saw a traffic jam and I just felt so angry at the world. But then I got home and I just sat there for a bit until I calmed down.",
+        "turn": 8
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough, and I appreciate you sharing it. Have you ever felt worthless or like nothing you do matters, and if that happens, how often does it come up?",
+        "turn": 9
+      },
+      {
+        "role": "persona",
+        "content": "Yeah, I get those thoughts sometimes. I'll be doing something and I'll just think, 'What\u2019s the point?' But I usually shake it off pretty quickly. I don\u2019t like dwelling on it.",
+        "turn": 9
+      },
+      {
+        "role": "interviewer",
+        "content": "That sounds really tough to carry around. When those thoughts of not being good at things or not seeing a point pop up, how often do they show up and what tends to trigger them?",
+        "turn": 10
+      },
+      {
+        "role": "persona",
+        "content": "They come up a lot, actually. I think it\u2019s just getting older and feeling like I should be doing more. It\u2019s hard to shake, but I try to just focus on getting through the day.",
+        "turn": 10
+      },
+      {
+        "role": "interviewer",
+        "content": "Thanks for sharing that you\u2019ve been finding everyday decisions tougher lately. How often does indecision show up for you?",
+        "turn": 11
+      },
+      {
+        "role": "persona",
+        "content": "It\u2019s pretty frequent. I\u2019ll be standing in the kitchen and I\u2019ll just stare at the fridge, trying to decide what to make. It\u2019s annoying.",
+        "turn": 11
+      },
+      {
+        "role": "interviewer",
+        "content": "Thank you so much for sharing so openly today. I really appreciate your honesty and the way you walked through what you've been feeling. Wishing you a calm, restful day ahead.",
+        "turn": 12
+      }
+    ]
+  }
+]

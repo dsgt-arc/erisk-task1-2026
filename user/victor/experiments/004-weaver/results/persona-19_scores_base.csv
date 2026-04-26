@@ -1,0 +1,11 @@
+persona_id,sample,bdi_score,severity,confidence,turns,key_symptoms
+19,paid/sample-6,3,Minimal,0.76,9,Loss of energy; Irritability; Tiredness or fatigue
+19,paid/sample-10,5,Minimal,0.31,8,Sadness; Agitation; Loss of energy; Irritability
+19,paid/sample-7,5,Minimal,0.32,9,Sadness; Pessimism; Loss of energy; Changes in sleeping pattern
+19,paid/sample-1,7,Minimal,0.18,9,Changes in sleeping pattern; Pessimism; Loss of pleasure; Loss of interest in others
+19,paid/sample-8,8,Minimal,0.73,8,Pessimism; Guilty feelings; Agitation; Loss of energy
+19,paid/sample-2,9,Minimal,0.42,9,Sadness; Pessimism; Loss of pleasure; Loss of interest in others
+19,paid/sample-5,9,Minimal,0.44,9,Loss of pleasure; Guilty feelings; Self-criticalness; Loss of interest in others
+19,paid/sample-9,10,Minimal,0.30,9,Loss of pleasure; Guilty feelings; Self-criticalness; Agitation
+19,paid/sample-3,11,Minimal,0.36,9,Loss of pleasure; Self-dislike; Self-criticalness; Crying
+19,paid/sample-4,13,Minimal,0.75,9,Sadness; Pessimism; Loss of pleasure; Guilty feelings
