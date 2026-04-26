@@ -76,7 +76,7 @@ def parse_symptoms(df: pd.DataFrame) -> pd.DataFrame:
 
 def plot_bdi_boxplot(df: pd.DataFrame, out: Path):
     """Box plots of BDI score per persona, side-by-side approaches."""
-    personas = sorted(df["persona_label"].unique())
+    personas = sorted(df["persona_label"].unique(), key=lambda p: int(p[1:]))
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
 
     sns.boxplot(
@@ -127,7 +127,7 @@ def plot_variance_comparison(df: pd.DataFrame, out: Path):
         .reset_index()
         .rename(columns={"bdi_score": "std"})
     )
-    personas = sorted(df["persona_label"].unique())
+    personas = sorted(df["persona_label"].unique(), key=lambda p: int(p[1:]))
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.barplot(
         data=stats, x="persona_label", y="std", hue="approach",
@@ -186,7 +186,7 @@ def plot_severity_distribution(df: pd.DataFrame, out: Path):
 
 def plot_confidence_comparison(df: pd.DataFrame, out: Path):
     """Box plots of confidence per persona for each approach."""
-    personas = sorted(df["persona_label"].unique())
+    personas = sorted(df["persona_label"].unique(), key=lambda p: int(p[1:]))
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.boxplot(
         data=df, x="persona_label", y="confidence", hue="approach",
@@ -207,7 +207,7 @@ def plot_confidence_comparison(df: pd.DataFrame, out: Path):
 
 def plot_turns_comparison(df: pd.DataFrame, out: Path):
     """Box plots of interview turn count per persona."""
-    personas = sorted(df["persona_label"].unique())
+    personas = sorted(df["persona_label"].unique(), key=lambda p: int(p[1:]))
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.boxplot(
         data=df, x="persona_label", y="turns", hue="approach",
@@ -387,7 +387,7 @@ def plot_severity_agreement(df: pd.DataFrame, out: Path):
     if "Base (Paid)" not in medians.columns or "New (Weaver+Free)" not in medians.columns:
         return
 
-    personas = sorted(medians["persona_label"].unique())
+    personas = sorted(medians["persona_label"].unique(), key=lambda p: int(p[1:]))
     x = np.arange(len(personas))
     w = 0.35
 
@@ -478,7 +478,7 @@ def plot_summary_table(df: pd.DataFrame, out: Path):
 
 def plot_confidence_mean_bar(df: pd.DataFrame, out: Path):
     """Mean confidence bar chart per persona, grouped by approach."""
-    personas = sorted(df["persona_label"].unique())
+    personas = sorted(df["persona_label"].unique(), key=lambda p: int(p[1:]))
     stats = (
         df.groupby(["persona_label", "approach"])["confidence"]
         .mean()
@@ -552,7 +552,7 @@ def plot_score_range_per_persona(df: pd.DataFrame, out: Path):
         .reset_index()
         .rename(columns={"bdi_score": "range"})
     )
-    personas = sorted(df["persona_label"].unique())
+    personas = sorted(df["persona_label"].unique(), key=lambda p: int(p[1:]))
     fig, ax = plt.subplots(figsize=(max(8, len(personas) * 1.8), 5))
     sns.barplot(
         data=ranges, x="persona_label", y="range", hue="approach",
