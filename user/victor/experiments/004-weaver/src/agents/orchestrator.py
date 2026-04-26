@@ -26,18 +26,6 @@ SYMPTOM_CLUSTERS = {
     "sensitive": ["q09_suicidal_thoughts", "q21_sex"],
 }
 
-# Three-tier probe strategy
-ACTIVE_PROBE = {
-    "q01_sadness", "q02_pessimism", "q04_anhedonia", "q12_loss_of_interest",
-    "q13_indecisiveness", "q15_energy", "q16_sleep", "q18_appetite",
-    "q19_concentration",
-}
-GENTLE_PROBE = {
-    "q05_guilt", "q07_self_dislike", "q08_self_criticalness", "q10_crying",
-    "q11_agitation", "q14_worthlessness", "q17_irritability", "q20_fatigue",
-}
-DO_NOT_PROBE = {"q03_past_failure", "q06_punishment", "q09_suicidal_thoughts", "q21_sex"}
-
 
 class Orchestrator:
     """
@@ -129,18 +117,18 @@ class Orchestrator:
         if turn >= self.max_turns:
             return True, "max_turns_reached"
 
-        probeable = {sid: s for sid, s in latest.symptoms.items() if sid not in DO_NOT_PROBE}
-        assessed_count = sum(1 for s in probeable.values() if s.assessed)
-        min_assessed = int(len(probeable) * self.min_coverage)
+        all_symptoms = latest.symptoms
+        assessed_count = sum(1 for s in all_symptoms.values() if s.assessed)
+        min_assessed = int(len(all_symptoms) * self.min_coverage)
         coverage_met = assessed_count >= min_assessed
 
         # Don't allow early termination until minimum symptom coverage is reached
         if not coverage_met:
             return False, ""
 
-        # All probeable symptoms above confidence threshold
+        # All symptoms above confidence threshold
         all_confident = all(
-            s.confidence >= self.confidence_threshold for s in probeable.values()
+            s.confidence >= self.confidence_threshold for s in all_symptoms.values()
         )
         if all_confident and turn >= 8:
             return True, "all_symptoms_confident"
@@ -164,27 +152,19 @@ class Orchestrator:
     ) -> List[str]:
         """
         Select which symptoms the interviewer should focus on next.
-        Priority: unassessed active > unassessed gentle > low-confidence active > low-confidence gentle.
-        Never includes DO_NOT_PROBE symptoms.
-
-        LF signals boost priority of detected symptoms (lower priority = more urgent).
+        Priority: unassessed > low-confidence, with LF signal boost.
         """
-        # Symptoms detected by labeling functions get a priority boost
         lf_boost = set()
         if lf_signals:
             for sig in lf_signals:
                 sid = sig.get("symptom_id", "")
-                if sid and sid not in DO_NOT_PROBE:
+                if sid:
                     lf_boost.add(sid)
 
         candidates = []
         for sid, symptom in scores.symptoms.items():
-            if sid in DO_NOT_PROBE:
-                continue
-
-            # Priority ordering: unassessed first, then by confidence
             if not symptom.assessed:
-                priority = -2.0 if sid in ACTIVE_PROBE else -1.0
+                priority = -2.0
             elif symptom.confidence < self.confidence_threshold:
                 priority = symptom.confidence
             else:
@@ -236,13 +216,12 @@ class Orchestrator:
             for sid in focus_symptoms:
                 s = scores.symptoms[sid]
                 name = SYMPTOM_ID_TO_NAME[sid]
-                probe_type = "ask directly" if sid in ACTIVE_PROBE else "explore gently via related topics"
                 if not s.assessed:
-                    lines.append(f"- **{name}** ({sid}): NOT YET ASSESSED — {probe_type}")
+                    lines.append(f"- **{name}** ({sid}): NOT YET ASSESSED")
                 else:
                     lines.append(
                         f"- **{name}** ({sid}): confidence {s.confidence:.1f}, "
-                        f"current score {s.score} — {probe_type}"
+                        f"current score {s.score}"
                     )
             lines.append("")
 
@@ -259,12 +238,12 @@ class Orchestrator:
             lines.append(f"Well-assessed (do NOT revisit): {names}\n")
 
         # Coverage warning
-        probeable = {sid: s for sid, s in scores.symptoms.items() if sid not in DO_NOT_PROBE}
-        assessed_count = sum(1 for s in probeable.values() if s.assessed)
-        min_assessed = int(len(probeable) * self.min_coverage)
+        all_symptoms = scores.symptoms
+        assessed_count = sum(1 for s in all_symptoms.values() if s.assessed)
+        min_assessed = int(len(all_symptoms) * self.min_coverage)
         if assessed_count < min_assessed:
             lines.append(
-                f"**Coverage: {assessed_count}/{len(probeable)} symptoms assessed "
+                f"**Coverage: {assessed_count}/{len(all_symptoms)} symptoms assessed "
                 f"(need {min_assessed}). Do NOT wrap up yet — keep probing unassessed symptoms.**\n"
             )
 
