@@ -11,23 +11,35 @@ Multi-agent interview system (interviewer + scorer + orchestrator) that conducts
 - `003-open-source` — **Baseline** OpenAI for both conversation & scoring agents, no programmatic supervision.
 - `004-weaver` — **Active.** Weaver run selection, BM25 dialogue tree, labeling functions, cluster imputation. Free Gemma 27B interviewer + paid GPT scorer.
 
-**Task 2: Contextualised Early Detection of Depression**
-
-**Task 3: Sentence Ranking for ADHD Symptoms**
-
 ## Repository Structure
 ```
-├── docs/                   # Research documentation
-│   ├── references/         # External sources (papers, proposals)
-│   ├── concepts/           # Ideas and hypotheses
-│   └── vendor/             # External tool docs
-├── openspec/               # Spec-driven development (code changes)
-│   ├── specs/              # What IS built
-│   └── changes/            # What should change
-├── skills/                 # Custom Claude Code skills
-│   ├── experiment/         # Experiment management
-│   └── research-docs/      # Documentation tools
-└── user/                   # Individual workspaces
-    └── <username>/
-        └── experiments/    # Numbered experiments
+user/victor/experiments/
+├── 001-baseline-mvp/       # Single-LLM interview + scoring (archived)
+│   ├── src/                # Pipeline code
+│   ├── results/            # Raw interview outputs
+│   ├── submissions/        # Formatted FTP submissions
+│   ├── prompts/            # System prompts
+│   └── notebooks/          # Analysis notebooks
+├── 002-multi-agent/        # Three-agent GPT architecture (archived)
+│   ├── src/
+│   │   └── agents/         # Interviewer, scorer, orchestrator
+│   ├── results/
+│   ├── submissions/
+│   └── tests/
+├── 003-open-source/        # OpenAI baseline, no programmatic supervision
+│   ├── src/
+│   │   └── agents/
+│   ├── results/
+│   └── submissions/
+│       ├── samples-free/
+│       ├── samples-paid/
+│       └── samples-mix/
+└── 004-weaver/             # Active — Weaver + BM25 tree + labeling fns
+    ├── src/
+    │   └── agents/         # interviewer.py, scorer.py, orchestrator.py
+    ├── results/
+    │   └── figures/        # Visualization outputs
+    ├── submissions/        # persona-{N}/ dirs with top-3 runs
+    ├── prompts/
+    └── notebooks/
 ```
